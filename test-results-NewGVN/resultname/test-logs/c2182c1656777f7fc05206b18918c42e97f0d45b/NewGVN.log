@@ -1,0 +1,39 @@
+#####
+NewGVN - Run 1
+2025-01-17 12:49:52
+#####
+Encoder options:
+  Compression level = 10
+  Positions: Quantization = 16 bits
+
+Encoded mesh saved to out.drc (12803 ms to encode).
+
+Encoded size = 6069998 bytes
+
+
+#####
+NewGVN - Run 2
+2025-01-17 12:50:12
+#####
+Encoder options:
+  Compression level = 10
+  Positions: Quantization = 16 bits
+
+Encoded mesh saved to out.drc (13002 ms to encode).
+
+Encoded size = 6069998 bytes
+
+
+#####
+NewGVN - Run 3
+2025-01-17 12:50:29
+#####
+Encoder options:
+  Compression level = 10
+  Positions: Quantization = 16 bits
+
+Encoded mesh saved to out.drc (12781 ms to encode).
+
+Encoded size = 6069998 bytes
+
+

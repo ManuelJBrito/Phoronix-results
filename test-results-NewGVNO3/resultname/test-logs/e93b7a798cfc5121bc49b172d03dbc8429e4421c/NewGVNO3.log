@@ -1,0 +1,18 @@
+#####
+NewGVNO3 - Run 1
+2025-01-17 18:26:46
+#####
+Problem: ibc512, setup: 1.19 s, time: 1.49 us, ``mflops'': 15506
+
+#####
+NewGVNO3 - Run 2
+2025-01-17 18:26:54
+#####
+Problem: ibc512, setup: 1.20 s, time: 1.55 us, ``mflops'': 14891
+
+#####
+NewGVNO3 - Run 3
+2025-01-17 18:26:59
+#####
+Problem: ibc512, setup: 1.19 s, time: 1.48 us, ``mflops'': 15532
+

@@ -1,0 +1,90 @@
+#####
+GVNO3 - Run 1
+2025-01-15 22:41:10
+#####
+Problem: ibc128x128, setup: 818.64 ms, time: 91.49 us, ``mflops'': 12535
+
+#####
+GVNO3 - Run 2
+2025-01-15 22:41:18
+#####
+Problem: ibc128x128, setup: 823.64 ms, time: 101.21 us, ``mflops'': 11332
+
+#####
+GVNO3 - Run 3
+2025-01-15 22:41:25
+#####
+Problem: ibc128x128, setup: 823.44 ms, time: 98.35 us, ``mflops'': 11661
+
+#####
+GVNO3 - Run 4
+2025-01-15 22:41:33
+#####
+Problem: ibc128x128, setup: 826.66 ms, time: 98.70 us, ``mflops'': 11619
+
+#####
+GVNO3 - Run 5
+2025-01-15 22:41:40
+#####
+Problem: ibc128x128, setup: 817.76 ms, time: 98.92 us, ``mflops'': 11594
+
+#####
+GVNO3 - Run 6
+2025-01-15 22:41:47
+#####
+Problem: ibc128x128, setup: 819.75 ms, time: 91.35 us, ``mflops'': 12555
+
+#####
+GVNO3 - Run 7
+2025-01-15 22:41:55
+#####
+Problem: ibc128x128, setup: 816.60 ms, time: 92.70 us, ``mflops'': 12372
+
+#####
+GVNO3 - Run 8
+2025-01-15 22:42:02
+#####
+Problem: ibc128x128, setup: 825.73 ms, time: 92.01 us, ``mflops'': 12465
+
+#####
+GVNO3 - Run 9
+2025-01-15 22:42:09
+#####
+Problem: ibc128x128, setup: 819.88 ms, time: 98.20 us, ``mflops'': 11680
+
+#####
+GVNO3 - Run 10
+2025-01-15 22:42:17
+#####
+Problem: ibc128x128, setup: 822.06 ms, time: 99.35 us, ``mflops'': 11544
+
+#####
+GVNO3 - Run 11
+2025-01-15 22:42:24
+#####
+Problem: ibc128x128, setup: 818.53 ms, time: 100.16 us, ``mflops'': 11450
+
+#####
+GVNO3 - Run 12
+2025-01-15 22:42:31
+#####
+Problem: ibc128x128, setup: 820.37 ms, time: 99.62 us, ``mflops'': 11513
+
+#####
+GVNO3 - Run 13
+2025-01-15 22:42:39
+#####
+Problem: ibc128x128, setup: 817.06 ms, time: 98.31 us, ``mflops'': 11666
+
+#####
+GVNO3 - Run 14
+2025-01-15 22:42:46
+#####
+Problem: ibc128x128, setup: 818.97 ms, time: 98.38 us, ``mflops'': 11657
+
+#####
+GVNO3 - Run 15
+2025-01-15 22:42:52
+#####
+Problem: ibc128x128, setup: 819.33 ms, time: 99.47 us, ``mflops'': 11530
+

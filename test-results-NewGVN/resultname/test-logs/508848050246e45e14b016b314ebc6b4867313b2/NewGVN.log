@@ -1,0 +1,18 @@
+#####
+NewGVN - Run 1
+2025-01-17 09:30:39
+#####
+Problem: ibc128, setup: 311.71 ms, time: 338.78 ns, ``mflops'': 13224
+
+#####
+NewGVN - Run 2
+2025-01-17 09:30:46
+#####
+Problem: ibc128, setup: 310.44 ms, time: 342.71 ns, ``mflops'': 13072
+
+#####
+NewGVN - Run 3
+2025-01-17 09:30:51
+#####
+Problem: ibc128, setup: 310.91 ms, time: 345.67 ns, ``mflops'': 12960
+

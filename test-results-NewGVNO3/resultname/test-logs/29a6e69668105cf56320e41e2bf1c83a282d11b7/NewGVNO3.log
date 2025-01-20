@@ -1,0 +1,468 @@
+#####
+NewGVNO3 - Run 1
+2025-01-17 20:09:41
+#####
+Forked child 0
+Forked child 1
+Forked child 2
+Forked child 3
+Forked child 4
+Forked child 5
+Forked child 6
+Forked child 7
+Forked child 8
+Forked child 9
+Forked child 10
+Forked child 11
+Forked child 12
+Forked child 13
+Forked child 14
+Forked child 15
+Forked child 16
+Forked child 17
+Forked child 18
+Forked child 19
+Forked child 20
+Forked child 21
+Forked child 22
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++R1:1536:4096:30.00
++DTP:4096:public:rsa:30
++R1:1537:4096:30.00
++DTP:4096:public:rsa:30
++R1:1519:4096:30.00
++R1:1536:4096:30.00
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1537:4096:30.01
++DTP:4096:public:rsa:30
++R1:1521:4096:30.00
++DTP:4096:public:rsa:30
++R1:1520:4096:30.00
++DTP:4096:public:rsa:30
++R1:1536:4096:30.00
++DTP:4096:public:rsa:30
++R1:1520:4096:30.00
++R1:1537:4096:30.00
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1535:4096:30.00
++DTP:4096:public:rsa:30
++R1:1537:4096:30.01
++DTP:4096:public:rsa:30
++R1:1536:4096:30.02
++DTP:4096:public:rsa:30
++R1:1537:4096:30.02
++DTP:4096:public:rsa:30
++R1:1522:4096:30.01
++R1:1521:4096:30.02
++DTP:4096:public:rsa:30
++R1:1521:4096:30.02
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1536:4096:30.02
++DTP:4096:public:rsa:30
++R1:1538:4096:30.02
++R1:1520:4096:30.02
++R1:1521:4096:30.01
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1522:4096:30.01
++DTP:4096:public:rsa:30
++R1:1521:4096:30.01
++DTP:4096:public:rsa:30
++R1:1522:4096:30.02
++DTP:4096:public:rsa:30
++R2:101883:4096:30.00
++R2:101905:4096:30.00
++R2:100419:4096:30.00
++R2:101770:4096:30.00
++R2:101762:4096:30.00
++R2:100621:4096:30.00
++R2:100716:4096:30.00
++R2:101799:4096:30.00
++R2:100581:4096:30.00
++R2:101781:4096:30.00
++R2:101728:4096:30.00
++R2:101914:4096:30.00
++R2:101908:4096:30.00
++R2:101695:4096:30.00
++R2:100490:4096:30.00
++R2:100463:4096:30.00
++R2:100427:4096:30.00
++R2:101655:4096:30.00
++R2:100385:4096:30.00
++R2:100681:4096:30.00
++R2:101860:4096:30.00
++R2:100541:4096:30.00
++R2:100606:4096:30.00
++R2:100680:4096:30.00
+Forked child 23
+Got: +F2:4:4096:51.165889:3396.933333 from 0
+Got: +F2:4:4096:51.216261:3397.133333 from 1
+Got: +F2:4:4096:51.199201:3389.833333 from 2
+Got: +F2:4:4096:50.666223:3348.766667 from 3
+Got: +F2:4:4096:50.633333:3347.300000 from 4
+Got: +F2:4:4096:51.232512:3395.333333 from 5
+Got: +F2:4:4096:51.200000:3392.333333 from 6
+Got: +F2:4:4096:51.233333:3396.833333 from 7
+Got: +F2:4:4096:51.200000:3396.100000 from 8
+Got: +F2:4:4096:51.216261:3392.066667 from 9
+Got: +F2:4:4096:51.165889:3388.500000 from 10
+Got: +F2:4:4096:50.699534:3356.000000 from 11
+Got: +F2:4:4096:50.666223:3347.566667 from 12
+Got: +F2:4:4096:50.666667:3352.700000 from 13
+Got: +F2:4:4096:50.632911:3346.166667 from 14
+Got: +F2:4:4096:51.233333:3392.700000 from 15
+Got: +F2:4:4096:50.683106:3356.033333 from 16
+Got: +F2:4:4096:50.700000:3354.033333 from 17
+Got: +F2:4:4096:51.200000:3393.300000 from 18
+Got: +F2:4:4096:50.716428:3351.366667 from 19
+Got: +F2:4:4096:50.683106:3353.533333 from 20
+Got: +F2:4:4096:50.716428:3349.666667 from 21
+Got: +F2:4:4096:50.666667:3357.200000 from 22
+Got: +F2:4:4096:51.166667:3390.933333 from 23
+version: 3.1.0
+built on: Fri Jan 17 19:07:24 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+                  sign    verify    sign/s verify/s
+rsa 4096 bits 0.000818s 0.000012s   1222.6  80942.3
+
+#####
+NewGVNO3 - Run 2
+2025-01-17 20:10:45
+#####
+Forked child 0
+Forked child 1
+Forked child 2
+Forked child 3
+Forked child 4
+Forked child 5
+Forked child 6
+Forked child 7
+Forked child 8
+Forked child 9
+Forked child 10
+Forked child 11
+Forked child 12
+Forked child 13
+Forked child 14
+Forked child 15
+Forked child 16
+Forked child 17
+Forked child 18
+Forked child 19
+Forked child 20
+Forked child 21
+Forked child 22
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++R1:1538:4096:30.00
++DTP:4096:public:rsa:30
++R1:1538:4096:30.00
++DTP:4096:public:rsa:30
++R1:1538:4096:30.00
++DTP:4096:public:rsa:30
++R1:1538:4096:30.00
++R1:1522:4096:30.00
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1539:4096:30.01
++R1:1523:4096:30.01
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1522:4096:30.01
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1523:4096:30.02
++R1:1539:4096:30.02
++R1:1539:4096:30.02
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1523:4096:30.02
++DTP:4096:public:rsa:30
++R1:1538:4096:30.02
++DTP:4096:public:rsa:30
++R2:101751:4096:30.00
++R2:101703:4096:30.00
++R2:101762:4096:30.00
++R2:101609:4096:30.00
++R2:100467:4096:30.00
++R2:100539:4096:30.00
++R2:101851:4096:30.00
++R2:101903:4096:30.00
++R2:100580:4096:30.00
++R2:101751:4096:30.00
++R2:101739:4096:30.00
++R2:100622:4096:30.00
++R2:101755:4096:30.00
++R2:100548:4096:30.00
++R2:100404:4096:30.00
++R2:100629:4096:30.00
++R2:100564:4096:30.00
++R2:100404:4096:30.00
++R2:100498:4096:30.00
++R2:101734:4096:30.00
++R2:100674:4096:30.00
++R2:101831:4096:30.00
++R2:100491:4096:30.00
++R2:101832:4096:30.00
+Forked child 23
+Got: +F2:4:4096:50.749750:3354.066667 from 0
+Got: +F2:4:4096:51.282906:3391.833333 from 1
+Got: +F2:4:4096:51.266667:3391.700000 from 2
+Got: +F2:4:4096:51.282906:3396.766667 from 3
+Got: +F2:4:4096:51.266667:3390.100000 from 4
+Got: +F2:4:4096:50.733333:3348.900000 from 5
+Got: +F2:4:4096:50.749750:3351.600000 from 6
+Got: +F2:4:4096:50.749750:3351.300000 from 7
+Got: +F2:4:4096:50.716428:3346.800000 from 8
+Got: +F2:4:4096:51.282906:3391.700000 from 9
+Got: +F2:4:4096:50.749750:3346.800000 from 10
+Got: +F2:4:4096:50.732845:3355.800000 from 11
+Got: +F2:4:4096:51.266667:3392.066667 from 12
+Got: +F2:4:4096:51.282906:3391.300000 from 13
+Got: +F2:4:4096:51.265823:3391.133333 from 14
+Got: +F2:4:4096:51.282906:3395.033333 from 15
+Got: +F2:4:4096:50.749750:3349.933333 from 16
+Got: +F2:4:4096:50.749750:3352.666667 from 17
+Got: +F2:4:4096:51.266667:3386.966667 from 18
+Got: +F2:4:4096:50.749750:3354.300000 from 19
+Got: +F2:4:4096:50.732845:3349.700000 from 20
+Got: +F2:4:4096:50.749750:3352.133333 from 21
+Got: +F2:4:4096:51.265823:3394.366667 from 22
+Got: +F2:4:4096:51.232512:3394.400000 from 23
+version: 3.1.0
+built on: Fri Jan 17 19:07:24 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+                  sign    verify    sign/s verify/s
+rsa 4096 bits 0.000817s 0.000012s   1224.2  80921.4
+
+#####
+NewGVNO3 - Run 3
+2025-01-17 20:11:47
+#####
+Forked child 0
+Forked child 1
+Forked child 2
+Forked child 3
+Forked child 4
+Forked child 5
+Forked child 6
+Forked child 7
+Forked child 8
+Forked child 9
+Forked child 10
+Forked child 11
+Forked child 12
+Forked child 13
+Forked child 14
+Forked child 15
+Forked child 16
+Forked child 17
+Forked child 18
+Forked child 19
+Forked child 20
+Forked child 21
+Forked child 22
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++DTP:4096:private:rsa:30
++R1:1538:4096:30.01
++DTP:4096:public:rsa:30
++R1:1538:4096:30.00
++DTP:4096:public:rsa:30
++R1:1522:4096:30.00
++DTP:4096:public:rsa:30
++R1:1523:4096:30.00
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1523:4096:30.00
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1539:4096:30.00
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1522:4096:30.01
++R1:1539:4096:30.02
++DTP:4096:public:rsa:30
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++R1:1539:4096:30.02
++R1:1523:4096:30.01
++DTP:4096:public:rsa:30
++DTP:4096:public:rsa:30
++R1:1539:4096:30.01
++DTP:4096:public:rsa:30
++R1:1538:4096:30.01
++DTP:4096:public:rsa:30
++R2:101442:4096:30.00
++R2:101926:4096:30.00
++R2:100655:4096:30.00
++R2:100731:4096:30.00
++R2:100744:4096:30.00
++R2:100724:4096:30.00
++R2:101902:4096:30.00
++R2:101971:4096:30.00
++R2:100698:4096:30.00
++R2:100641:4096:30.00
++R2:100603:4096:30.00
++R2:101978:4096:30.00
++R2:101966:4096:30.00
++R2:100624:4096:30.00
++R2:100649:4096:30.00
++R2:101839:4096:30.00
++R2:101959:4096:30.00
++R2:101990:4096:30.00
++R2:100751:4096:30.00
++R2:101120:4096:30.00
++R2:101973:4096:30.00
++R2:100748:4096:30.00
++R2:101867:4096:30.00
++R2:101919:4096:30.00
+Forked child 23
+Got: +F2:4:4096:51.265823:3399.100000 from 0
+Got: +F2:4:4096:50.749750:3358.133333 from 1
+Got: +F2:4:4096:51.249583:3381.400000 from 2
+Got: +F2:4:4096:51.282906:3396.733333 from 3
+Got: +F2:4:4096:51.265823:3394.633333 from 4
+Got: +F2:4:4096:50.733333:3355.166667 from 5
+Got: +F2:4:4096:51.282906:3395.566667 from 6
+Got: +F2:4:4096:50.766667:3357.700000 from 7
+Got: +F2:4:4096:50.749750:3356.600000 from 8
+Got: +F2:4:4096:51.300000:3399.033333 from 9
+Got: +F2:4:4096:51.282906:3398.633333 from 10
+Got: +F2:4:4096:50.749750:3358.266667 from 11
+Got: +F2:4:4096:50.716428:3354.966667 from 12
+Got: +F2:4:4096:50.766667:3357.466667 from 13
+Got: +F2:4:4096:51.266667:3397.533333 from 14
+Got: +F2:4:4096:50.749750:3354.700000 from 15
+Got: +F2:4:4096:50.749750:3353.433333 from 16
+Got: +F2:4:4096:51.282906:3398.866667 from 17
+Got: +F2:4:4096:50.749750:3370.666667 from 18
+Got: +F2:4:4096:51.282906:3399.266667 from 19
+Got: +F2:4:4096:50.749750:3354.133333 from 20
+Got: +F2:4:4096:51.282906:3399.666667 from 21
+Got: +F2:4:4096:50.749750:3358.366667 from 22
+Got: +F2:4:4096:51.249583:3397.300000 from 23
+version: 3.1.0
+built on: Fri Jan 17 19:07:24 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+                  sign    verify    sign/s verify/s
+rsa 4096 bits 0.000817s 0.000012s   1224.3  81047.3
+

@@ -1,0 +1,18 @@
+#####
+GVNO2 - Run 1
+2025-01-15 17:14:18
+#####
+Results: 1 threads 9 iter 64.89s user 65.096994s total 0.138 iter/s 0.139 iter/cpu
+
+#####
+GVNO2 - Run 2
+2025-01-15 17:15:27
+#####
+Results: 1 threads 9 iter 64.97s user 65.207751s total 0.138 iter/s 0.139 iter/cpu
+
+#####
+GVNO2 - Run 3
+2025-01-15 17:16:36
+#####
+Results: 1 threads 9 iter 66.38s user 66.586394s total 0.135 iter/s 0.136 iter/cpu
+

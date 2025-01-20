@@ -1,0 +1,18 @@
+#####
+NewGVN - Run 1
+2025-01-17 09:36:56
+#####
+Problem: ibc1024x1024, setup: 21.92 s, time: 8.52 ms, ``mflops'': 12311
+
+#####
+NewGVN - Run 2
+2025-01-17 09:37:24
+#####
+Problem: ibc1024x1024, setup: 22.06 s, time: 8.57 ms, ``mflops'': 12238
+
+#####
+NewGVN - Run 3
+2025-01-17 09:37:51
+#####
+Problem: ibc1024x1024, setup: 22.05 s, time: 8.80 ms, ``mflops'': 11918
+

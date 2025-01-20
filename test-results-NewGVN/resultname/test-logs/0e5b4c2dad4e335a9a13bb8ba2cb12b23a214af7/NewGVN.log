@@ -1,0 +1,90 @@
+#####
+NewGVN - Run 1
+2025-01-17 10:42:27
+#####
+Results: 1 threads 20 iter 60.22s user 60.491551s total 0.331 iter/s 0.332 iter/cpu
+
+#####
+NewGVN - Run 2
+2025-01-17 10:43:31
+#####
+Results: 1 threads 22 iter 60.23s user 60.514768s total 0.364 iter/s 0.365 iter/cpu
+
+#####
+NewGVN - Run 3
+2025-01-17 10:44:37
+#####
+Results: 1 threads 22 iter 60.73s user 61.002568s total 0.361 iter/s 0.362 iter/cpu
+
+#####
+NewGVN - Run 4
+2025-01-17 10:45:42
+#####
+Results: 1 threads 22 iter 60.77s user 61.035384s total 0.360 iter/s 0.362 iter/cpu
+
+#####
+NewGVN - Run 5
+2025-01-17 10:46:46
+#####
+Results: 1 threads 22 iter 60.17s user 60.442592s total 0.364 iter/s 0.366 iter/cpu
+
+#####
+NewGVN - Run 6
+2025-01-17 10:47:51
+#####
+Results: 1 threads 22 iter 60.65s user 60.930064s total 0.361 iter/s 0.363 iter/cpu
+
+#####
+NewGVN - Run 7
+2025-01-17 10:48:57
+#####
+Results: 1 threads 22 iter 61.38s user 61.631019s total 0.357 iter/s 0.358 iter/cpu
+
+#####
+NewGVN - Run 8
+2025-01-17 10:50:01
+#####
+Results: 1 threads 22 iter 60.25s user 60.518974s total 0.364 iter/s 0.365 iter/cpu
+
+#####
+NewGVN - Run 9
+2025-01-17 10:51:07
+#####
+Results: 1 threads 21 iter 61.83s user 62.108585s total 0.338 iter/s 0.340 iter/cpu
+
+#####
+NewGVN - Run 10
+2025-01-17 10:52:12
+#####
+Results: 1 threads 22 iter 60.84s user 61.119048s total 0.360 iter/s 0.362 iter/cpu
+
+#####
+NewGVN - Run 11
+2025-01-17 10:53:19
+#####
+Results: 1 threads 21 iter 62.33s user 62.613017s total 0.335 iter/s 0.337 iter/cpu
+
+#####
+NewGVN - Run 12
+2025-01-17 10:54:24
+#####
+Results: 1 threads 22 iter 60.57s user 60.825908s total 0.362 iter/s 0.363 iter/cpu
+
+#####
+NewGVN - Run 13
+2025-01-17 10:55:29
+#####
+Results: 1 threads 22 iter 60.35s user 60.602740s total 0.363 iter/s 0.365 iter/cpu
+
+#####
+NewGVN - Run 14
+2025-01-17 10:56:34
+#####
+Results: 1 threads 22 iter 60.63s user 60.907397s total 0.361 iter/s 0.363 iter/cpu
+
+#####
+NewGVN - Run 15
+2025-01-17 10:57:37
+#####
+Results: 1 threads 22 iter 60.78s user 61.034301s total 0.360 iter/s 0.362 iter/cpu
+

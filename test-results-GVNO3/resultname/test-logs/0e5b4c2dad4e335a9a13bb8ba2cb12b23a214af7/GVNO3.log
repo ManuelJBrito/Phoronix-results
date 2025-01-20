@@ -1,0 +1,84 @@
+#####
+GVNO3 - Run 1
+2025-01-15 23:49:43
+#####
+Results: 1 threads 20 iter 62.19s user 62.458804s total 0.320 iter/s 0.322 iter/cpu
+
+#####
+GVNO3 - Run 2
+2025-01-15 23:50:48
+#####
+Results: 1 threads 22 iter 60.46s user 60.768076s total 0.362 iter/s 0.364 iter/cpu
+
+#####
+GVNO3 - Run 3
+2025-01-15 23:51:54
+#####
+Results: 1 threads 22 iter 62.18s user 62.439923s total 0.352 iter/s 0.354 iter/cpu
+
+#####
+GVNO3 - Run 4
+2025-01-15 23:52:59
+#####
+Results: 1 threads 22 iter 60.45s user 60.738941s total 0.362 iter/s 0.364 iter/cpu
+
+#####
+GVNO3 - Run 5
+2025-01-15 23:54:05
+#####
+Results: 1 threads 22 iter 62.34s user 62.628327s total 0.351 iter/s 0.353 iter/cpu
+
+#####
+GVNO3 - Run 6
+2025-01-15 23:55:12
+#####
+Results: 1 threads 22 iter 62.37s user 62.637360s total 0.351 iter/s 0.353 iter/cpu
+
+#####
+GVNO3 - Run 7
+2025-01-15 23:56:18
+#####
+Results: 1 threads 22 iter 62.03s user 62.338282s total 0.353 iter/s 0.355 iter/cpu
+
+#####
+GVNO3 - Run 8
+2025-01-15 23:57:23
+#####
+Results: 1 threads 21 iter 59.86s user 60.119331s total 0.349 iter/s 0.351 iter/cpu
+
+#####
+GVNO3 - Run 9
+2025-01-15 23:58:29
+#####
+Results: 1 threads 22 iter 62.48s user 62.751425s total 0.351 iter/s 0.352 iter/cpu
+
+#####
+GVNO3 - Run 10
+2025-01-15 23:59:34
+#####
+Results: 1 threads 22 iter 60.43s user 60.729823s total 0.362 iter/s 0.364 iter/cpu
+
+#####
+GVNO3 - Run 11
+2025-01-16 00:00:41
+#####
+Results: 1 threads 22 iter 62.33s user 62.597871s total 0.351 iter/s 0.353 iter/cpu
+
+#####
+GVNO3 - Run 12
+2025-01-16 00:01:47
+#####
+Results: 1 threads 22 iter 62.44s user 62.707726s total 0.351 iter/s 0.352 iter/cpu
+
+#####
+GVNO3 - Run 13
+2025-01-16 00:02:52
+#####
+Results: 1 threads 22 iter 60.58s user 60.885046s total 0.361 iter/s 0.363 iter/cpu
+
+#####
+GVNO3 - Run 14
+2025-01-16 00:03:57
+#####
+Results: 1 threads 22 iter 62.40s user 62.668106s total 0.351 iter/s 0.353 iter/cpu
+

@@ -1,0 +1,18 @@
+#####
+NewGVN - Run 1
+2025-01-17 10:35:32
+#####
+Results: 1 threads 488 iter 59.76s user 60.094038s total 8.121 iter/s 8.166 iter/cpu
+
+#####
+NewGVN - Run 2
+2025-01-17 10:36:36
+#####
+Results: 1 threads 487 iter 59.66s user 60.022203s total 8.114 iter/s 8.163 iter/cpu
+
+#####
+NewGVN - Run 3
+2025-01-17 10:37:38
+#####
+Results: 1 threads 488 iter 59.75s user 60.067628s total 8.124 iter/s 8.167 iter/cpu
+

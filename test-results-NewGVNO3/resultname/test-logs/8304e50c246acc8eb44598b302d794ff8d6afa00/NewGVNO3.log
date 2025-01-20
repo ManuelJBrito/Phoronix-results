@@ -1,0 +1,90 @@
+#####
+NewGVNO3 - Run 1
+2025-01-17 19:07:30
+#####
+Results: 1 threads 14 iter 64.20s user 64.434377s total 0.217 iter/s 0.218 iter/cpu
+
+#####
+NewGVNO3 - Run 2
+2025-01-17 19:08:35
+#####
+Results: 1 threads 13 iter 60.82s user 60.984532s total 0.213 iter/s 0.214 iter/cpu
+
+#####
+NewGVNO3 - Run 3
+2025-01-17 19:09:39
+#####
+Results: 1 threads 13 iter 59.79s user 60.006834s total 0.217 iter/s 0.217 iter/cpu
+
+#####
+NewGVNO3 - Run 4
+2025-01-17 19:10:45
+#####
+Results: 1 threads 13 iter 62.61s user 62.776427s total 0.207 iter/s 0.208 iter/cpu
+
+#####
+NewGVNO3 - Run 5
+2025-01-17 19:11:50
+#####
+Results: 1 threads 13 iter 60.62s user 60.782755s total 0.214 iter/s 0.214 iter/cpu
+
+#####
+NewGVNO3 - Run 6
+2025-01-17 19:12:59
+#####
+Results: 1 threads 14 iter 64.27s user 64.444032s total 0.217 iter/s 0.218 iter/cpu
+
+#####
+NewGVNO3 - Run 7
+2025-01-17 19:14:07
+#####
+Results: 1 threads 14 iter 64.36s user 64.528906s total 0.217 iter/s 0.218 iter/cpu
+
+#####
+NewGVNO3 - Run 8
+2025-01-17 19:15:13
+#####
+Results: 1 threads 13 iter 61.67s user 61.842431s total 0.210 iter/s 0.211 iter/cpu
+
+#####
+NewGVNO3 - Run 9
+2025-01-17 19:16:19
+#####
+Results: 1 threads 13 iter 61.46s user 61.633408s total 0.211 iter/s 0.212 iter/cpu
+
+#####
+NewGVNO3 - Run 10
+2025-01-17 19:17:24
+#####
+Results: 1 threads 13 iter 61.29s user 61.460470s total 0.212 iter/s 0.212 iter/cpu
+
+#####
+NewGVNO3 - Run 11
+2025-01-17 19:18:31
+#####
+Results: 1 threads 13 iter 62.64s user 62.810488s total 0.207 iter/s 0.208 iter/cpu
+
+#####
+NewGVNO3 - Run 12
+2025-01-17 19:19:39
+#####
+Results: 1 threads 13 iter 63.55s user 63.733800s total 0.204 iter/s 0.205 iter/cpu
+
+#####
+NewGVNO3 - Run 13
+2025-01-17 19:20:43
+#####
+Results: 1 threads 13 iter 60.26s user 60.439509s total 0.215 iter/s 0.216 iter/cpu
+
+#####
+NewGVNO3 - Run 14
+2025-01-17 19:21:51
+#####
+Results: 1 threads 13 iter 63.31s user 63.476825s total 0.205 iter/s 0.205 iter/cpu
+
+#####
+NewGVNO3 - Run 15
+2025-01-17 19:22:54
+#####
+Results: 1 threads 12 iter 61.10s user 61.274189s total 0.196 iter/s 0.196 iter/cpu
+

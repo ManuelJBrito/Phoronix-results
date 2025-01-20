@@ -1,0 +1,18 @@
+#####
+GVNO2 - Run 1
+2025-01-15 16:27:30
+#####
+Problem: ibc64, setup: 121.75 ms, time: 187.62 ns, ``mflops'': 10233
+
+#####
+GVNO2 - Run 2
+2025-01-15 16:27:37
+#####
+Problem: ibc64, setup: 121.24 ms, time: 182.36 ns, ``mflops'': 10529
+
+#####
+GVNO2 - Run 3
+2025-01-15 16:27:42
+#####
+Problem: ibc64, setup: 120.57 ms, time: 187.79 ns, ``mflops'': 10224
+

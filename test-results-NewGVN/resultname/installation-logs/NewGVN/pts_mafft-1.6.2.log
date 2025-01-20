@@ -1,0 +1,256 @@
+mafft-7.471-without-extensions/
+mafft-7.471-without-extensions/MPI/
+mafft-7.471-without-extensions/MPI/nodepair_mpi.c
+mafft-7.471-without-extensions/MPI/pairlocalalign_mpi.c
+mafft-7.471-without-extensions/MPI/mpiscript.tmpl
+mafft-7.471-without-extensions/MPI/mltaln9_mpi.c
+mafft-7.471-without-extensions/MPI/Makefile
+mafft-7.471-without-extensions/license
+mafft-7.471-without-extensions/test/
+mafft-7.471-without-extensions/test/sample.ginsi.allowshift
+mafft-7.471-without-extensions/test/sample.fftnsi
+mafft-7.471-without-extensions/test/samplerna
+mafft-7.471-without-extensions/test/sample.lins1
+mafft-7.471-without-extensions/test/sample.parttree
+mafft-7.471-without-extensions/test/sample.linsi
+mafft-7.471-without-extensions/test/samplerna.qinsi
+mafft-7.471-without-extensions/test/sample.fftns2
+mafft-7.471-without-extensions/test/sample.gins1
+mafft-7.471-without-extensions/test/samplerna.xinsi
+mafft-7.471-without-extensions/test/sample
+mafft-7.471-without-extensions/test/sample.dpparttree
+mafft-7.471-without-extensions/test/script
+mafft-7.471-without-extensions/test/sample.ginsi
+mafft-7.471-without-extensions/binaries/
+mafft-7.471-without-extensions/binaries/.gitkeep
+mafft-7.471-without-extensions/scripts/
+mafft-7.471-without-extensions/scripts/.gitkeep
+mafft-7.471-without-extensions/core/
+mafft-7.471-without-extensions/core/setcore.c
+mafft-7.471-without-extensions/core/mafft-profile.c
+mafft-7.471-without-extensions/core/mafft-homologs.1
+mafft-7.471-without-extensions/core/pairash.c
+mafft-7.471-without-extensions/core/setdirection.c
+mafft-7.471-without-extensions/core/fft.h
+mafft-7.471-without-extensions/core/Falign_localhom.c
+mafft-7.471-without-extensions/core/nj.c
+mafft-7.471-without-extensions/core/dndfast7.c
+mafft-7.471-without-extensions/core/constants.c
+mafft-7.471-without-extensions/core/sextet5.c
+mafft-7.471-without-extensions/core/dndblast.c
+mafft-7.471-without-extensions/core/MSalign11.c
+mafft-7.471-without-extensions/core/regtable2seq.c
+mafft-7.471-without-extensions/core/dndpre.c
+mafft-7.471-without-extensions/core/mafft-distance.c
+mafft-7.471-without-extensions/core/serial.c
+mafft-7.471-without-extensions/core/interface.c
+mafft-7.471-without-extensions/core/JTT.c
+mafft-7.471-without-extensions/core/mtxutl.h
+mafft-7.471-without-extensions/core/rna.c
+mafft-7.471-without-extensions/core/miyata5.h
+mafft-7.471-without-extensions/core/pairlocalalignmain.c
+mafft-7.471-without-extensions/core/blosum.c
+mafft-7.471-without-extensions/core/mafft.bat.win10
+mafft-7.471-without-extensions/core/rnatest.c
+mafft-7.471-without-extensions/core/Lalignmm.c
+mafft-7.471-without-extensions/core/makemergetable.rb
+mafft-7.471-without-extensions/core/dndfast4.c
+mafft-7.471-without-extensions/core/multi2hat3s.c
+mafft-7.471-without-extensions/core/seekquencer_premafft.tmpl
+mafft-7.471-without-extensions/core/countlen.c
+mafft-7.471-without-extensions/core/univscript.tmpl
+mafft-7.471-without-extensions/core/Salignmm.c
+mafft-7.471-without-extensions/core/dp.h
+mafft-7.471-without-extensions/core/miyata.h
+mafft-7.471-without-extensions/core/compileoncygwin
+mafft-7.471-without-extensions/core/regionalrealignment.rb
+mafft-7.471-without-extensions/core/Makefile.sos
+mafft-7.471-without-extensions/core/Lalign11.c
+mafft-7.471-without-extensions/core/mafftash_premafft.tmpl
+mafft-7.471-without-extensions/core/Galign11.c
+mafft-7.471-without-extensions/core/fft.c
+mafft-7.471-without-extensions/core/maffttext2hex.c
+mafft-7.471-without-extensions/core/restoreu.c
+mafft-7.471-without-extensions/core/share.h
+mafft-7.471-without-extensions/core/compileonmsys
+mafft-7.471-without-extensions/core/score.c
+mafft-7.471-without-extensions/core/dndpre_score.c
+mafft-7.471-without-extensions/core/contrafoldwrap.c
+mafft-7.471-without-extensions/core/mtxutl.c
+mafft-7.471-without-extensions/core/tddis.c
+mafft-7.471-without-extensions/core/getlag.c
+mafft-7.471-without-extensions/core/iteration.c
+mafft-7.471-without-extensions/core/nodepair.c
+mafft-7.471-without-extensions/core/mafft.1
+mafft-7.471-without-extensions/core/treeOperation.c
+mafft-7.471-without-extensions/core/SAalignmm.c
+mafft-7.471-without-extensions/core/replaceu.c
+mafft-7.471-without-extensions/core/version.c
+mafft-7.471-without-extensions/core/mafft.h
+mafft-7.471-without-extensions/core/MSalignmm.c
+mafft-7.471-without-extensions/core/fftFunctions.c
+mafft-7.471-without-extensions/core/tditeration.c
+mafft-7.471-without-extensions/core/pairlocalalign.c
+mafft-7.471-without-extensions/core/dvtditr.c
+mafft-7.471-without-extensions/core/newick2mafft.rb
+mafft-7.471-without-extensions/core/hex2maffttext.c
+mafft-7.471-without-extensions/core/blosum.h
+mafft-7.471-without-extensions/core/suboptalign11.c
+mafft-7.471-without-extensions/core/genalign11.c
+mafft-7.471-without-extensions/core/mccaskillwrap.c
+mafft-7.471-without-extensions/core/mafft-sparsecore.tmpl
+mafft-7.471-without-extensions/core/seq2regtable.c
+mafft-7.471-without-extensions/core/DNA.h
+mafft-7.471-without-extensions/core/partSalignmm.c
+mafft-7.471-without-extensions/core/Dalignmm.c
+mafft-7.471-without-extensions/core/addfunctions.c
+mafft-7.471-without-extensions/core/mingw64mingw32dll
+mafft-7.471-without-extensions/core/splittbfast.c
+mafft-7.471-without-extensions/core/makedirectionlist.c
+mafft-7.471-without-extensions/core/mafft-homologs.tmpl
+mafft-7.471-without-extensions/core/io.c
+mafft-7.471-without-extensions/core/f2cl.c
+mafft-7.471-without-extensions/core/mafft.ps1
+mafft-7.471-without-extensions/core/mafft.bat
+mafft-7.471-without-extensions/core/functions.h
+mafft-7.471-without-extensions/core/dash_client.go
+mafft-7.471-without-extensions/core/Falign.c
+mafft-7.471-without-extensions/core/tbfast.c
+mafft-7.471-without-extensions/core/Makefile
+mafft-7.471-without-extensions/core/mltaln9.c
+mafft-7.471-without-extensions/core/mafft.tmpl
+mafft-7.471-without-extensions/core/mltaln.h
+mafft-7.471-without-extensions/core/defs.c
+mafft-7.471-without-extensions/core/disttbfast.c
+mafft-7.471-without-extensions/core/addsingle.c
+mafft-7.471-without-extensions/readme
+sed: -e expression #1, char 18: unknown option to `s'
+rm -f *.o *.a *.exe *~ mafftash_premafft.pl seekquencer_premafft.pl dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  mafft mafft-homologs.rb mafft-sparsecore.rb libdisttbfast.so libdisttbfast.dylib libdisttbfast.dll *.gcda *.gcno 
+cp mafftash_premafft.tmpl mafftash_premafft.pl
+cp seekquencer_premafft.tmpl seekquencer_premafft.pl
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c mtxutl.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c io.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c mltaln9.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c tddis.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c constants.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c nj.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c partSalignmm.c  
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c Lalignmm.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c rna.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c Salignmm.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c Dalignmm.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c Falign.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c Falign_localhom.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c Galign11.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c Lalign11.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c genalign11.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c MSalignmm.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c fftFunctions.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c fft.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c tditeration.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c dvtditr.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c defs.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c SAalignmm.c -o SAalignmm.o
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c treeOperation.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c addfunctions.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c dndfast7.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c dndblast.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c sextet5.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c mafft-distance.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c MSalign11.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c suboptalign11.c 
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c pairlocalalignmain.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c pairlocalalign.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c multi2hat3s.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c pairash.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c addsingle.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o maffttext2hex maffttext2hex.c  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o hex2maffttext hex2maffttext.c  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c splittbfast.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c disttbfast.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c tbfast.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c nodepair.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c mafft-profile.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c f2cl.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c mccaskillwrap.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c contrafoldwrap.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c countlen.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c seq2regtable.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c regtable2seq.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c score.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c getlag.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c dndpre.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c setcore.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c replaceu.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c restoreu.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c setdirection.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn -c makedirectionlist.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o version version.c  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread 
+sed "s:_LIBDIR:/bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/libexec/mafft:" mafft.tmpl  > mafft
+sed "s:_BINDIR:/bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/bin:" mafft-homologs.tmpl  > mafft-homologs.rb
+sed "s:_BINDIR:/bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/bin:" mafft-sparsecore.tmpl  > mafft-sparsecore.rb
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o f2cl mtxutl.o io.o f2cl.o constants.o defs.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o countlen mtxutl.o io.o countlen.o defs.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o seq2regtable mtxutl.o io.o seq2regtable.o defs.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o dvtditr mtxutl.o io.o mltaln9.o tddis.o constants.o nj.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o MSalignmm.o fftFunctions.o fft.o tditeration.o dvtditr.o defs.o SAalignmm.o treeOperation.o addfunctions.o   -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o dndfast7 dndfast7.o io.o constants.o mtxutl.o mltaln9.o tddis.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o dndblast dndblast.o io.o constants.o mtxutl.o mltaln9.o tddis.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o sextet5 io.o constants.o mtxutl.o mltaln9.o tddis.o sextet5.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o mafft-distance io.o constants.o mtxutl.o mltaln9.o tddis.o mafft-distance.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o pairlocalalign mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o MSalignmm.o Galign11.o Lalign11.o genalign11.o MSalign11.o suboptalign11.o SAalignmm.o pairlocalalignmain.o pairlocalalign.o defs.o fft.o fftFunctions.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o multi2hat3s mtxutl.o io.o mltaln9.o tddis.o constants.o multi2hat3s.o defs.o fft.o fftFunctions.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o pairash mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o MSalignmm.o Galign11.o Lalign11.o genalign11.o MSalign11.o suboptalign11.o SAalignmm.o pairash.o defs.o fft.o fftFunctions.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o addsingle mtxutl.o io.o mltaln9.o tddis.o constants.o MSalignmm.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o addsingle.o defs.o fft.o fftFunctions.o addfunctions.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o splittbfast mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o  Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o splittbfast.o defs.o fft.o fftFunctions.o   -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o disttbfast mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o disttbfast.o defs.o fft.o fftFunctions.o addfunctions.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o tbfast mtxutl.o io.o mltaln9.o tddis.o constants.o MSalignmm.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o tbfast.o defs.o fft.o fftFunctions.o addfunctions.o pairlocalalign.o MSalign11.o   -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o nodepair mtxutl.o io.o mltaln9.o tddis.o constants.o MSalignmm.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o nodepair.o defs.o fft.o fftFunctions.o addfunctions.o pairlocalalign.o MSalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o mafft-profile io.o mtxutl.o mltaln9.o tddis.o constants.o partSalignmm.o MSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o SAalignmm.o Galign11.o Lalign11.o genalign11.o Falign.o Falign_localhom.o fftFunctions.o fft.o mafft-profile.o defs.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o mccaskillwrap mtxutl.o io.o mccaskillwrap.o constants.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o contrafoldwrap mtxutl.o io.o contrafoldwrap.o constants.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o regtable2seq mtxutl.o io.o regtable2seq.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o score io.o mtxutl.o mltaln9.o score.o constants.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o getlag mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o Dalignmm.o getlag.o defs.o fft.o fftFunctions.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o dndpre dndpre.o io.o constants.o mtxutl.o mltaln9.o defs.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o setcore mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o setcore.o defs.o fft.o fftFunctions.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o replaceu mtxutl.o io.o replaceu.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o restoreu mtxutl.o io.o restoreu.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o setdirection mtxutl.o io.o setdirection.o defs.o mltaln9.o Galign11.o Lalign11.o genalign11.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -o makedirectionlist mtxutl.o io.o mltaln9.o tddis.o constants.o partSalignmm.o Lalignmm.o rna.o Salignmm.o  Dalignmm.o Falign.o Falign_localhom.o Galign11.o Lalign11.o genalign11.o SAalignmm.o MSalignmm.o makedirectionlist.o defs.o fft.o fftFunctions.o addfunctions.o  -Denablemultithread  -std=c99 -O2 -mllvm -enable-newgvn  -lm  -lpthread
+cp mafft mafft-homologs.rb mafft-sparsecore.rb ../scripts
+chmod 755 ../scripts/*
+cp mafftash_premafft.pl seekquencer_premafft.pl dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  ../binaries
+chmod 755 ../binaries/*
+cp mafft.1 mafft-homologs.1 ../binaries
+done.
+cp mafft mafft-homologs.rb mafft-sparsecore.rb ../scripts
+chmod 755 ../scripts/*
+cp mafftash_premafft.pl seekquencer_premafft.pl dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  ../binaries
+chmod 755 ../binaries/*
+cp mafft.1 mafft-homologs.1 ../binaries
+done.
+mkdir -p /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/libexec/mafft
+chmod 755 /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/libexec/mafft
+mkdir -p /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/bin
+chmod 755 /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/bin
+chmod 755 mafft mafft-homologs.rb mafft-sparsecore.rb
+install mafft mafft-homologs.rb mafft-sparsecore.rb  /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/bin
+chmod 755 dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  ||:     # in MinGW, it's ok if this fails
+strip dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  ||: # may fail for dash_client on mac.
+install dvtditr dndfast7 dndblast sextet5 mafft-distance pairlocalalign multi2hat3s pairash addsingle maffttext2hex hex2maffttext splittbfast disttbfast tbfast nodepair mafft-profile f2cl mccaskillwrap contrafoldwrap countlen seq2regtable regtable2seq score getlag dndpre setcore replaceu restoreu setdirection makedirectionlist version  /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/libexec/mafft
+install mafftash_premafft.pl seekquencer_premafft.pl /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/libexec/mafft
+install -m 644 mafft.1 mafft-homologs.1 /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/libexec/mafft
+( cd /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/bin; \
+rm -f linsi ginsi einsi fftns fftnsi nwns nwnsi xinsi qinsi; \
+rm -f mafft-linsi mafft-ginsi mafft-einsi mafft-fftns mafft-fftnsi mafft-nwns mafft-nwnsi mafft-xinsi mafft-qinsi mafft-randomcore.rb ; \
+ln -s mafft linsi; ln -s mafft ginsi; ln -s mafft fftns; \
+ln -s mafft fftnsi; ln -s mafft nwns; ln -s mafft nwnsi; \
+ln -s mafft einsi; \
+ln -s mafft mafft-linsi; ln -s mafft mafft-ginsi; ln -s mafft mafft-fftns; \
+ln -s mafft mafft-fftnsi; ln -s mafft mafft-nwns; ln -s mafft mafft-nwnsi; \
+ln -s mafft mafft-einsi; ln -s mafft mafft-xinsi; ln -s mafft mafft-qinsi;\
+rm -f mafft-profile mafft-profile.exe; ln -s /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/libexec/mafft/mafft-profile .; \
+rm -f mafft-distance mafft-distance.exe; ln -s /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/libexec/mafft/mafft-distance . )
+mkdir -p /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/share/man/man1
+chmod 755 /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/share/man/man1
+install -m 644 mafft.1 mafft-homologs.1 /bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVN/pts/mafft-1.6.2//mafft_/share/man/man1

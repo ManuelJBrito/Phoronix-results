@@ -1,0 +1,3271 @@
+z3-z3-4.12.1/
+z3-z3-4.12.1/.dockerignore
+z3-z3-4.12.1/.gitattributes
+z3-z3-4.12.1/.github/
+z3-z3-4.12.1/.github/dependabot.yml
+z3-z3-4.12.1/.github/workflows/
+z3-z3-4.12.1/.github/workflows/android-build.yml
+z3-z3-4.12.1/.github/workflows/coverage.yml
+z3-z3-4.12.1/.github/workflows/cross-build.yml
+z3-z3-4.12.1/.github/workflows/docker-image.yml
+z3-z3-4.12.1/.github/workflows/msvc-static-build.yml
+z3-z3-4.12.1/.github/workflows/wasm-release.yml
+z3-z3-4.12.1/.github/workflows/wasm.yml
+z3-z3-4.12.1/.github/workflows/wip.yml
+z3-z3-4.12.1/.gitignore
+z3-z3-4.12.1/CMakeLists.txt
+z3-z3-4.12.1/LICENSE.txt
+z3-z3-4.12.1/README-CMake.md
+z3-z3-4.12.1/README.md
+z3-z3-4.12.1/RELEASE_NOTES.md
+z3-z3-4.12.1/azure-pipelines.yml
+z3-z3-4.12.1/cmake/
+z3-z3-4.12.1/cmake/Z3Config.cmake.in
+z3-z3-4.12.1/cmake/check_link_atomic.cmake
+z3-z3-4.12.1/cmake/cmake_uninstall.cmake.in
+z3-z3-4.12.1/cmake/compiler_lto.cmake
+z3-z3-4.12.1/cmake/compiler_warnings.cmake
+z3-z3-4.12.1/cmake/cxx_compiler_flags_overrides.cmake
+z3-z3-4.12.1/cmake/git_utils.cmake
+z3-z3-4.12.1/cmake/modules/
+z3-z3-4.12.1/cmake/modules/DotnetImports.props.in
+z3-z3-4.12.1/cmake/modules/FindDotnet.cmake
+z3-z3-4.12.1/cmake/modules/FindGMP.cmake
+z3-z3-4.12.1/cmake/msvc_legacy_quirks.cmake
+z3-z3-4.12.1/cmake/target_arch_detect.cmake
+z3-z3-4.12.1/cmake/target_arch_detect.cpp
+z3-z3-4.12.1/cmake/z3_add_component.cmake
+z3-z3-4.12.1/cmake/z3_add_cxx_flag.cmake
+z3-z3-4.12.1/cmake/z3_append_linker_flag_list_to_target.cmake
+z3-z3-4.12.1/configure
+z3-z3-4.12.1/contrib/
+z3-z3-4.12.1/contrib/qprofdiff/
+z3-z3-4.12.1/contrib/qprofdiff/Makefile
+z3-z3-4.12.1/contrib/qprofdiff/main.cpp
+z3-z3-4.12.1/contrib/qprofdiff/maintainers.txt
+z3-z3-4.12.1/contrib/qprofdiff/qprofdiff.vcxproj
+z3-z3-4.12.1/contrib/qprofdiff/qprofdiff.vcxproj.filters
+z3-z3-4.12.1/contrib/suppressions/
+z3-z3-4.12.1/contrib/suppressions/README.md
+z3-z3-4.12.1/contrib/suppressions/maintainers.txt
+z3-z3-4.12.1/contrib/suppressions/sanitizers/
+z3-z3-4.12.1/contrib/suppressions/sanitizers/README.md
+z3-z3-4.12.1/contrib/suppressions/sanitizers/asan.txt
+z3-z3-4.12.1/contrib/suppressions/sanitizers/lsan.txt
+z3-z3-4.12.1/contrib/suppressions/sanitizers/ubsan.txt
+z3-z3-4.12.1/doc/
+z3-z3-4.12.1/doc/CMakeLists.txt
+z3-z3-4.12.1/doc/README
+z3-z3-4.12.1/doc/design_recfuns.md
+z3-z3-4.12.1/doc/mk_api_doc.py
+z3-z3-4.12.1/doc/mk_params_doc.py
+z3-z3-4.12.1/doc/mk_tactic_doc.py
+z3-z3-4.12.1/doc/website.dox.in
+z3-z3-4.12.1/doc/z3api.cfg.in
+z3-z3-4.12.1/doc/z3code.dox
+z3-z3-4.12.1/docker/
+z3-z3-4.12.1/docker/ubuntu-20-04.Dockerfile
+z3-z3-4.12.1/examples/
+z3-z3-4.12.1/examples/CMakeLists.txt
+z3-z3-4.12.1/examples/SMT-LIB2/
+z3-z3-4.12.1/examples/SMT-LIB2/bounded model checking/
+z3-z3-4.12.1/examples/SMT-LIB2/bounded model checking/bubble_sort.smt2
+z3-z3-4.12.1/examples/SMT-LIB2/bounded model checking/loop_unrolling.smt2
+z3-z3-4.12.1/examples/SMT-LIB2/bounded model checking/loop_unrolling_bitvec.smt2
+z3-z3-4.12.1/examples/c++/
+z3-z3-4.12.1/examples/c++/CMakeLists.txt
+z3-z3-4.12.1/examples/c++/README
+z3-z3-4.12.1/examples/c++/example.cpp
+z3-z3-4.12.1/examples/c/
+z3-z3-4.12.1/examples/c/CMakeLists.txt
+z3-z3-4.12.1/examples/c/README
+z3-z3-4.12.1/examples/c/test_capi.c
+z3-z3-4.12.1/examples/dotnet/
+z3-z3-4.12.1/examples/dotnet/CMakeLists.txt
+z3-z3-4.12.1/examples/dotnet/Program.cs
+z3-z3-4.12.1/examples/dotnet/README
+z3-z3-4.12.1/examples/dotnet/dotnet.csproj
+z3-z3-4.12.1/examples/java/
+z3-z3-4.12.1/examples/java/JavaExample.java
+z3-z3-4.12.1/examples/java/JavaGenericExample.java
+z3-z3-4.12.1/examples/java/README
+z3-z3-4.12.1/examples/maxsat/
+z3-z3-4.12.1/examples/maxsat/CMakeLists.txt
+z3-z3-4.12.1/examples/maxsat/README
+z3-z3-4.12.1/examples/maxsat/ex.smt
+z3-z3-4.12.1/examples/maxsat/maxsat.c
+z3-z3-4.12.1/examples/ml/
+z3-z3-4.12.1/examples/ml/README
+z3-z3-4.12.1/examples/ml/ml_example.ml
+z3-z3-4.12.1/examples/msf/
+z3-z3-4.12.1/examples/msf/README
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3.Tests/
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3.Tests/App.config
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3.Tests/Properties/
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3.Tests/Properties/AssemblyInfo.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3.Tests/ServiceTests.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3.Tests/SolverFoundation.Plugin.Z3.Tests.csproj
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3.Tests/SolverTests.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/AbortWorker.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/App.config
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Properties/
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Properties/AssemblyInfo.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/SolverFoundation.Plugin.Z3.csproj
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Utils.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Z3BaseDirective.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Z3BaseParams.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Z3BaseSolver.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Z3MILPDirective.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Z3MILPParams.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Z3MILPSolver.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Z3TermDirective.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Z3TermParams.cs
+z3-z3-4.12.1/examples/msf/SolverFoundation.Plugin.Z3/Z3TermSolver.cs
+z3-z3-4.12.1/examples/msf/Validator/
+z3-z3-4.12.1/examples/msf/Validator/App.config
+z3-z3-4.12.1/examples/msf/Validator/MicrosoftSolverFoundationForExcel.dll.config
+z3-z3-4.12.1/examples/msf/Validator/Program.cs
+z3-z3-4.12.1/examples/msf/Validator/Properties/
+z3-z3-4.12.1/examples/msf/Validator/Properties/AssemblyInfo.cs
+z3-z3-4.12.1/examples/msf/Validator/Validator.csproj
+z3-z3-4.12.1/examples/msf/Z3MSFPlugin.sln
+z3-z3-4.12.1/examples/python/
+z3-z3-4.12.1/examples/python/CMakeLists.txt
+z3-z3-4.12.1/examples/python/README
+z3-z3-4.12.1/examples/python/all_interval_series.py
+z3-z3-4.12.1/examples/python/bounded model checking/
+z3-z3-4.12.1/examples/python/bounded model checking/bubble_sort.py
+z3-z3-4.12.1/examples/python/complex/
+z3-z3-4.12.1/examples/python/complex/complex.py
+z3-z3-4.12.1/examples/python/data/
+z3-z3-4.12.1/examples/python/data/horn1.smt2
+z3-z3-4.12.1/examples/python/data/horn2.smt2
+z3-z3-4.12.1/examples/python/data/horn3.smt2
+z3-z3-4.12.1/examples/python/data/horn4.smt2
+z3-z3-4.12.1/examples/python/data/horn5.smt2
+z3-z3-4.12.1/examples/python/data/horn6.smt2
+z3-z3-4.12.1/examples/python/efsmt.py
+z3-z3-4.12.1/examples/python/example.py
+z3-z3-4.12.1/examples/python/hamiltonian/
+z3-z3-4.12.1/examples/python/hamiltonian/hamiltonian.py
+z3-z3-4.12.1/examples/python/hs.py
+z3-z3-4.12.1/examples/python/mini_ic3.py
+z3-z3-4.12.1/examples/python/mini_quip.py
+z3-z3-4.12.1/examples/python/mus/
+z3-z3-4.12.1/examples/python/mus/marco.py
+z3-z3-4.12.1/examples/python/mus/mss.py
+z3-z3-4.12.1/examples/python/parallel.py
+z3-z3-4.12.1/examples/python/prooflogs.py
+z3-z3-4.12.1/examples/python/proofreplay.py
+z3-z3-4.12.1/examples/python/rc2.py
+z3-z3-4.12.1/examples/python/simplify_formula.py
+z3-z3-4.12.1/examples/python/socrates.py
+z3-z3-4.12.1/examples/python/trafficjam.py
+z3-z3-4.12.1/examples/python/tutorial/
+z3-z3-4.12.1/examples/python/tutorial/html/
+z3-z3-4.12.1/examples/python/tutorial/html/advanced-examples.htm
+z3-z3-4.12.1/examples/python/tutorial/html/examples/
+z3-z3-4.12.1/examples/python/tutorial/html/examples/queens.png
+z3-z3-4.12.1/examples/python/tutorial/html/examples/sudoku.png
+z3-z3-4.12.1/examples/python/tutorial/html/fixpoint-examples.htm
+z3-z3-4.12.1/examples/python/tutorial/html/guide-examples.htm
+z3-z3-4.12.1/examples/python/tutorial/html/index.html
+z3-z3-4.12.1/examples/python/tutorial/html/strategies-examples.htm
+z3-z3-4.12.1/examples/python/tutorial/jupyter/
+z3-z3-4.12.1/examples/python/tutorial/jupyter/README.md
+z3-z3-4.12.1/examples/python/tutorial/jupyter/advanced.ipynb
+z3-z3-4.12.1/examples/python/tutorial/jupyter/guide.ipynb
+z3-z3-4.12.1/examples/python/tutorial/jupyter/strategies.ipynb
+z3-z3-4.12.1/examples/python/union_sort.py
+z3-z3-4.12.1/examples/python/visitor.py
+z3-z3-4.12.1/examples/tptp/
+z3-z3-4.12.1/examples/tptp/CMakeLists.txt
+z3-z3-4.12.1/examples/tptp/README
+z3-z3-4.12.1/examples/tptp/tptp5.cpp
+z3-z3-4.12.1/examples/tptp/tptp5.h
+z3-z3-4.12.1/examples/tptp/tptp5.lex.cpp
+z3-z3-4.12.1/examples/tptp/tptp5.tab.c
+z3-z3-4.12.1/examples/tptp/tptp5.tab.h
+z3-z3-4.12.1/examples/userPropagator/
+z3-z3-4.12.1/examples/userPropagator/CMakeLists.txt
+z3-z3-4.12.1/examples/userPropagator/README
+z3-z3-4.12.1/examples/userPropagator/common.h
+z3-z3-4.12.1/examples/userPropagator/example.cpp
+z3-z3-4.12.1/examples/userPropagator/example.pdf
+z3-z3-4.12.1/examples/userPropagator/user_propagator.h
+z3-z3-4.12.1/examples/userPropagator/user_propagator_created_maximisation.h
+z3-z3-4.12.1/examples/userPropagator/user_propagator_internal_maximisation.h
+z3-z3-4.12.1/examples/userPropagator/user_propagator_subquery_maximisation.h
+z3-z3-4.12.1/examples/userPropagator/user_propagator_with_theory.h
+z3-z3-4.12.1/noarch/
+z3-z3-4.12.1/noarch/repodata.json
+z3-z3-4.12.1/noarch/repodata.json.bz2
+z3-z3-4.12.1/package-lock.json
+z3-z3-4.12.1/resources/
+z3-z3-4.12.1/resources/icon.jpg
+z3-z3-4.12.1/resources/z3.snk
+z3-z3-4.12.1/scripts/
+z3-z3-4.12.1/scripts/README
+z3-z3-4.12.1/scripts/build-win-signed.yml
+z3-z3-4.12.1/scripts/build_libcxx_msan.sh
+z3-z3-4.12.1/scripts/coverage.yml
+z3-z3-4.12.1/scripts/generate-doc.yml
+z3-z3-4.12.1/scripts/jsdoctest.yml
+z3-z3-4.12.1/scripts/mk_consts_files.py
+z3-z3-4.12.1/scripts/mk_copyright.py
+z3-z3-4.12.1/scripts/mk_def_file.py
+z3-z3-4.12.1/scripts/mk_exception.py
+z3-z3-4.12.1/scripts/mk_genfile_common.py
+z3-z3-4.12.1/scripts/mk_gparams_register_modules_cpp.py
+z3-z3-4.12.1/scripts/mk_install_tactic_cpp.py
+z3-z3-4.12.1/scripts/mk_make.py
+z3-z3-4.12.1/scripts/mk_mem_initializer_cpp.py
+z3-z3-4.12.1/scripts/mk_nuget_task.py
+z3-z3-4.12.1/scripts/mk_pat_db.py
+z3-z3-4.12.1/scripts/mk_project.py
+z3-z3-4.12.1/scripts/mk_unix_dist.py
+z3-z3-4.12.1/scripts/mk_util.py
+z3-z3-4.12.1/scripts/mk_win_dist.py
+z3-z3-4.12.1/scripts/nightly.yaml
+z3-z3-4.12.1/scripts/policy.json
+z3-z3-4.12.1/scripts/pyg2hpp.py
+z3-z3-4.12.1/scripts/release.yml
+z3-z3-4.12.1/scripts/test-examples-cmake.yml
+z3-z3-4.12.1/scripts/test-java-cmake.yml
+z3-z3-4.12.1/scripts/test-jupyter.yml
+z3-z3-4.12.1/scripts/test-regressions-coverage.yml
+z3-z3-4.12.1/scripts/test-regressions.yml
+z3-z3-4.12.1/scripts/test-z3.yml
+z3-z3-4.12.1/scripts/trackall.sh
+z3-z3-4.12.1/scripts/update_api.py
+z3-z3-4.12.1/scripts/update_header_guards.py
+z3-z3-4.12.1/scripts/update_include.py
+z3-z3-4.12.1/scripts/vsts-mac.sh
+z3-z3-4.12.1/scripts/vsts-vs2013.cmd
+z3-z3-4.12.1/scripts/vsts-vs2017.cmd
+z3-z3-4.12.1/src/
+z3-z3-4.12.1/src/CMakeLists.txt
+z3-z3-4.12.1/src/ackermannization/
+z3-z3-4.12.1/src/ackermannization/CMakeLists.txt
+z3-z3-4.12.1/src/ackermannization/ackermannization_params.pyg
+z3-z3-4.12.1/src/ackermannization/ackermannize_bv_model_converter.cpp
+z3-z3-4.12.1/src/ackermannization/ackermannize_bv_model_converter.h
+z3-z3-4.12.1/src/ackermannization/ackermannize_bv_tactic.cpp
+z3-z3-4.12.1/src/ackermannization/ackermannize_bv_tactic.h
+z3-z3-4.12.1/src/ackermannization/ackermannize_bv_tactic_params.pyg
+z3-z3-4.12.1/src/ackermannization/ackr_bound_probe.cpp
+z3-z3-4.12.1/src/ackermannization/ackr_bound_probe.h
+z3-z3-4.12.1/src/ackermannization/ackr_helper.cpp
+z3-z3-4.12.1/src/ackermannization/ackr_helper.h
+z3-z3-4.12.1/src/ackermannization/ackr_info.h
+z3-z3-4.12.1/src/ackermannization/ackr_model_converter.cpp
+z3-z3-4.12.1/src/ackermannization/ackr_model_converter.h
+z3-z3-4.12.1/src/ackermannization/lackr.cpp
+z3-z3-4.12.1/src/ackermannization/lackr.h
+z3-z3-4.12.1/src/ackermannization/lackr_model_constructor.cpp
+z3-z3-4.12.1/src/ackermannization/lackr_model_constructor.h
+z3-z3-4.12.1/src/ackermannization/lackr_model_converter_lazy.cpp
+z3-z3-4.12.1/src/ackermannization/lackr_model_converter_lazy.h
+z3-z3-4.12.1/src/api/
+z3-z3-4.12.1/src/api/CMakeLists.txt
+z3-z3-4.12.1/src/api/api_algebraic.cpp
+z3-z3-4.12.1/src/api/api_arith.cpp
+z3-z3-4.12.1/src/api/api_array.cpp
+z3-z3-4.12.1/src/api/api_ast.cpp
+z3-z3-4.12.1/src/api/api_ast_map.cpp
+z3-z3-4.12.1/src/api/api_ast_map.h
+z3-z3-4.12.1/src/api/api_ast_vector.cpp
+z3-z3-4.12.1/src/api/api_ast_vector.h
+z3-z3-4.12.1/src/api/api_bv.cpp
+z3-z3-4.12.1/src/api/api_config_params.cpp
+z3-z3-4.12.1/src/api/api_context.cpp
+z3-z3-4.12.1/src/api/api_context.h
+z3-z3-4.12.1/src/api/api_datalog.cpp
+z3-z3-4.12.1/src/api/api_datalog.h
+z3-z3-4.12.1/src/api/api_datatype.cpp
+z3-z3-4.12.1/src/api/api_fpa.cpp
+z3-z3-4.12.1/src/api/api_goal.cpp
+z3-z3-4.12.1/src/api/api_goal.h
+z3-z3-4.12.1/src/api/api_log.cpp
+z3-z3-4.12.1/src/api/api_model.cpp
+z3-z3-4.12.1/src/api/api_model.h
+z3-z3-4.12.1/src/api/api_numeral.cpp
+z3-z3-4.12.1/src/api/api_opt.cpp
+z3-z3-4.12.1/src/api/api_params.cpp
+z3-z3-4.12.1/src/api/api_parsers.cpp
+z3-z3-4.12.1/src/api/api_pb.cpp
+z3-z3-4.12.1/src/api/api_polynomial.cpp
+z3-z3-4.12.1/src/api/api_polynomial.h
+z3-z3-4.12.1/src/api/api_qe.cpp
+z3-z3-4.12.1/src/api/api_quant.cpp
+z3-z3-4.12.1/src/api/api_rcf.cpp
+z3-z3-4.12.1/src/api/api_seq.cpp
+z3-z3-4.12.1/src/api/api_solver.cpp
+z3-z3-4.12.1/src/api/api_solver.h
+z3-z3-4.12.1/src/api/api_special_relations.cpp
+z3-z3-4.12.1/src/api/api_stats.cpp
+z3-z3-4.12.1/src/api/api_stats.h
+z3-z3-4.12.1/src/api/api_tactic.cpp
+z3-z3-4.12.1/src/api/api_tactic.h
+z3-z3-4.12.1/src/api/api_util.h
+z3-z3-4.12.1/src/api/c++/
+z3-z3-4.12.1/src/api/c++/z3++.h
+z3-z3-4.12.1/src/api/dll/
+z3-z3-4.12.1/src/api/dll/CMakeLists.txt
+z3-z3-4.12.1/src/api/dll/dll.cpp
+z3-z3-4.12.1/src/api/dotnet/
+z3-z3-4.12.1/src/api/dotnet/AST.cs
+z3-z3-4.12.1/src/api/dotnet/ASTMap.cs
+z3-z3-4.12.1/src/api/dotnet/ASTVector.cs
+z3-z3-4.12.1/src/api/dotnet/AlgebraicNum.cs
+z3-z3-4.12.1/src/api/dotnet/ApplyResult.cs
+z3-z3-4.12.1/src/api/dotnet/ArithExpr.cs
+z3-z3-4.12.1/src/api/dotnet/ArithSort.cs
+z3-z3-4.12.1/src/api/dotnet/ArrayExpr.cs
+z3-z3-4.12.1/src/api/dotnet/ArraySort.cs
+z3-z3-4.12.1/src/api/dotnet/BitVecExpr.cs
+z3-z3-4.12.1/src/api/dotnet/BitVecNum.cs
+z3-z3-4.12.1/src/api/dotnet/BitVecSort.cs
+z3-z3-4.12.1/src/api/dotnet/BoolExpr.cs
+z3-z3-4.12.1/src/api/dotnet/BoolSort.cs
+z3-z3-4.12.1/src/api/dotnet/CMakeLists.txt
+z3-z3-4.12.1/src/api/dotnet/CharSort.cs
+z3-z3-4.12.1/src/api/dotnet/Constructor.cs
+z3-z3-4.12.1/src/api/dotnet/ConstructorList.cs
+z3-z3-4.12.1/src/api/dotnet/Context.cs
+z3-z3-4.12.1/src/api/dotnet/DatatypeExpr.cs
+z3-z3-4.12.1/src/api/dotnet/DatatypeSort.cs
+z3-z3-4.12.1/src/api/dotnet/EnumSort.cs
+z3-z3-4.12.1/src/api/dotnet/Expr.cs
+z3-z3-4.12.1/src/api/dotnet/FPExpr.cs
+z3-z3-4.12.1/src/api/dotnet/FPNum.cs
+z3-z3-4.12.1/src/api/dotnet/FPRMExpr.cs
+z3-z3-4.12.1/src/api/dotnet/FPRMNum.cs
+z3-z3-4.12.1/src/api/dotnet/FPRMSort.cs
+z3-z3-4.12.1/src/api/dotnet/FPSort.cs
+z3-z3-4.12.1/src/api/dotnet/FiniteDomainExpr.cs
+z3-z3-4.12.1/src/api/dotnet/FiniteDomainNum.cs
+z3-z3-4.12.1/src/api/dotnet/FiniteDomainSort.cs
+z3-z3-4.12.1/src/api/dotnet/Fixedpoint.cs
+z3-z3-4.12.1/src/api/dotnet/FuncDecl.cs
+z3-z3-4.12.1/src/api/dotnet/FuncInterp.cs
+z3-z3-4.12.1/src/api/dotnet/Global.cs
+z3-z3-4.12.1/src/api/dotnet/Goal.cs
+z3-z3-4.12.1/src/api/dotnet/IntExpr.cs
+z3-z3-4.12.1/src/api/dotnet/IntNum.cs
+z3-z3-4.12.1/src/api/dotnet/IntSort.cs
+z3-z3-4.12.1/src/api/dotnet/IntSymbol.cs
+z3-z3-4.12.1/src/api/dotnet/Lambda.cs
+z3-z3-4.12.1/src/api/dotnet/ListSort.cs
+z3-z3-4.12.1/src/api/dotnet/Log.cs
+z3-z3-4.12.1/src/api/dotnet/Microsoft.Z3.Sharp.pc.in
+z3-z3-4.12.1/src/api/dotnet/Microsoft.Z3.csproj.in
+z3-z3-4.12.1/src/api/dotnet/Microsoft.Z3.props
+z3-z3-4.12.1/src/api/dotnet/Microsoft.Z3.snk
+z3-z3-4.12.1/src/api/dotnet/Microsoft.Z3.targets
+z3-z3-4.12.1/src/api/dotnet/Microsoft.Z3.targets.in
+z3-z3-4.12.1/src/api/dotnet/Model.cs
+z3-z3-4.12.1/src/api/dotnet/NativeContext.cs
+z3-z3-4.12.1/src/api/dotnet/NativeFuncInterp.cs
+z3-z3-4.12.1/src/api/dotnet/NativeModel.cs
+z3-z3-4.12.1/src/api/dotnet/NativeSolver.cs
+z3-z3-4.12.1/src/api/dotnet/OnClause.cs
+z3-z3-4.12.1/src/api/dotnet/Optimize.cs
+z3-z3-4.12.1/src/api/dotnet/ParamDescrs.cs
+z3-z3-4.12.1/src/api/dotnet/Params.cs
+z3-z3-4.12.1/src/api/dotnet/Pattern.cs
+z3-z3-4.12.1/src/api/dotnet/Probe.cs
+z3-z3-4.12.1/src/api/dotnet/Properties/
+z3-z3-4.12.1/src/api/dotnet/Properties/AssemblyInfo.cs.in
+z3-z3-4.12.1/src/api/dotnet/Quantifier.cs
+z3-z3-4.12.1/src/api/dotnet/RatNum.cs
+z3-z3-4.12.1/src/api/dotnet/ReExpr.cs
+z3-z3-4.12.1/src/api/dotnet/ReSort.cs
+z3-z3-4.12.1/src/api/dotnet/RealExpr.cs
+z3-z3-4.12.1/src/api/dotnet/RealSort.cs
+z3-z3-4.12.1/src/api/dotnet/RelationSort.cs
+z3-z3-4.12.1/src/api/dotnet/SeqExpr.cs
+z3-z3-4.12.1/src/api/dotnet/SeqSort.cs
+z3-z3-4.12.1/src/api/dotnet/SetSort.cs
+z3-z3-4.12.1/src/api/dotnet/Solver.cs
+z3-z3-4.12.1/src/api/dotnet/Sort.cs
+z3-z3-4.12.1/src/api/dotnet/Statistics.cs
+z3-z3-4.12.1/src/api/dotnet/Status.cs
+z3-z3-4.12.1/src/api/dotnet/StringSymbol.cs
+z3-z3-4.12.1/src/api/dotnet/Symbol.cs
+z3-z3-4.12.1/src/api/dotnet/Tactic.cs
+z3-z3-4.12.1/src/api/dotnet/TupleSort.cs
+z3-z3-4.12.1/src/api/dotnet/UninterpretedSort.cs
+z3-z3-4.12.1/src/api/dotnet/UserPropagator.cs
+z3-z3-4.12.1/src/api/dotnet/Version.cs
+z3-z3-4.12.1/src/api/dotnet/Z3Exception.cs
+z3-z3-4.12.1/src/api/dotnet/Z3Object.cs
+z3-z3-4.12.1/src/api/dotnet/cmake_install_gac.cmake.in
+z3-z3-4.12.1/src/api/dotnet/cmake_uninstall_gac.cmake.in
+z3-z3-4.12.1/src/api/java/
+z3-z3-4.12.1/src/api/java/AST.java
+z3-z3-4.12.1/src/api/java/ASTDecRefQueue.java
+z3-z3-4.12.1/src/api/java/ASTMap.java
+z3-z3-4.12.1/src/api/java/ASTVector.java
+z3-z3-4.12.1/src/api/java/AlgebraicNum.java
+z3-z3-4.12.1/src/api/java/ApplyResult.java
+z3-z3-4.12.1/src/api/java/ApplyResultDecRefQueue.java
+z3-z3-4.12.1/src/api/java/ArithExpr.java
+z3-z3-4.12.1/src/api/java/ArithSort.java
+z3-z3-4.12.1/src/api/java/ArrayExpr.java
+z3-z3-4.12.1/src/api/java/ArraySort.java
+z3-z3-4.12.1/src/api/java/AstMapDecRefQueue.java
+z3-z3-4.12.1/src/api/java/AstVectorDecRefQueue.java
+z3-z3-4.12.1/src/api/java/BitVecExpr.java
+z3-z3-4.12.1/src/api/java/BitVecNum.java
+z3-z3-4.12.1/src/api/java/BitVecSort.java
+z3-z3-4.12.1/src/api/java/BoolExpr.java
+z3-z3-4.12.1/src/api/java/BoolSort.java
+z3-z3-4.12.1/src/api/java/CMakeLists.txt
+z3-z3-4.12.1/src/api/java/CharSort.java
+z3-z3-4.12.1/src/api/java/Constructor.java
+z3-z3-4.12.1/src/api/java/ConstructorDecRefQueue.java
+z3-z3-4.12.1/src/api/java/ConstructorList.java
+z3-z3-4.12.1/src/api/java/ConstructorListDecRefQueue.java
+z3-z3-4.12.1/src/api/java/Context.java
+z3-z3-4.12.1/src/api/java/DatatypeExpr.java
+z3-z3-4.12.1/src/api/java/DatatypeSort.java
+z3-z3-4.12.1/src/api/java/EnumSort.java
+z3-z3-4.12.1/src/api/java/Expr.java
+z3-z3-4.12.1/src/api/java/FPExpr.java
+z3-z3-4.12.1/src/api/java/FPNum.java
+z3-z3-4.12.1/src/api/java/FPRMExpr.java
+z3-z3-4.12.1/src/api/java/FPRMNum.java
+z3-z3-4.12.1/src/api/java/FPRMSort.java
+z3-z3-4.12.1/src/api/java/FPSort.java
+z3-z3-4.12.1/src/api/java/FiniteDomainExpr.java
+z3-z3-4.12.1/src/api/java/FiniteDomainNum.java
+z3-z3-4.12.1/src/api/java/FiniteDomainSort.java
+z3-z3-4.12.1/src/api/java/Fixedpoint.java
+z3-z3-4.12.1/src/api/java/FixedpointDecRefQueue.java
+z3-z3-4.12.1/src/api/java/FuncDecl.java
+z3-z3-4.12.1/src/api/java/FuncInterp.java
+z3-z3-4.12.1/src/api/java/FuncInterpDecRefQueue.java
+z3-z3-4.12.1/src/api/java/FuncInterpEntryDecRefQueue.java
+z3-z3-4.12.1/src/api/java/Global.java
+z3-z3-4.12.1/src/api/java/Goal.java
+z3-z3-4.12.1/src/api/java/GoalDecRefQueue.java
+z3-z3-4.12.1/src/api/java/IDecRefQueue.java
+z3-z3-4.12.1/src/api/java/IntExpr.java
+z3-z3-4.12.1/src/api/java/IntNum.java
+z3-z3-4.12.1/src/api/java/IntSort.java
+z3-z3-4.12.1/src/api/java/IntSymbol.java
+z3-z3-4.12.1/src/api/java/Lambda.java
+z3-z3-4.12.1/src/api/java/ListSort.java
+z3-z3-4.12.1/src/api/java/Log.java
+z3-z3-4.12.1/src/api/java/Model.java
+z3-z3-4.12.1/src/api/java/ModelDecRefQueue.java
+z3-z3-4.12.1/src/api/java/NativeStatic.txt
+z3-z3-4.12.1/src/api/java/Optimize.java
+z3-z3-4.12.1/src/api/java/OptimizeDecRefQueue.java
+z3-z3-4.12.1/src/api/java/ParamDescrs.java
+z3-z3-4.12.1/src/api/java/ParamDescrsDecRefQueue.java
+z3-z3-4.12.1/src/api/java/Params.java
+z3-z3-4.12.1/src/api/java/ParamsDecRefQueue.java
+z3-z3-4.12.1/src/api/java/Pattern.java
+z3-z3-4.12.1/src/api/java/Probe.java
+z3-z3-4.12.1/src/api/java/ProbeDecRefQueue.java
+z3-z3-4.12.1/src/api/java/Quantifier.java
+z3-z3-4.12.1/src/api/java/README
+z3-z3-4.12.1/src/api/java/RatNum.java
+z3-z3-4.12.1/src/api/java/ReExpr.java
+z3-z3-4.12.1/src/api/java/ReSort.java
+z3-z3-4.12.1/src/api/java/RealExpr.java
+z3-z3-4.12.1/src/api/java/RealSort.java
+z3-z3-4.12.1/src/api/java/RelationSort.java
+z3-z3-4.12.1/src/api/java/SeqExpr.java
+z3-z3-4.12.1/src/api/java/SeqSort.java
+z3-z3-4.12.1/src/api/java/SetSort.java
+z3-z3-4.12.1/src/api/java/Solver.java
+z3-z3-4.12.1/src/api/java/SolverDecRefQueue.java
+z3-z3-4.12.1/src/api/java/Sort.java
+z3-z3-4.12.1/src/api/java/Statistics.java
+z3-z3-4.12.1/src/api/java/StatisticsDecRefQueue.java
+z3-z3-4.12.1/src/api/java/Status.java
+z3-z3-4.12.1/src/api/java/StringSymbol.java
+z3-z3-4.12.1/src/api/java/Symbol.java
+z3-z3-4.12.1/src/api/java/Tactic.java
+z3-z3-4.12.1/src/api/java/TacticDecRefQueue.java
+z3-z3-4.12.1/src/api/java/TupleSort.java
+z3-z3-4.12.1/src/api/java/UninterpretedSort.java
+z3-z3-4.12.1/src/api/java/Version.java
+z3-z3-4.12.1/src/api/java/Z3Exception.java
+z3-z3-4.12.1/src/api/java/Z3Object.java
+z3-z3-4.12.1/src/api/java/manifest
+z3-z3-4.12.1/src/api/js/
+z3-z3-4.12.1/src/api/js/.nvmrc
+z3-z3-4.12.1/src/api/js/.prettierrc.json
+z3-z3-4.12.1/src/api/js/PUBLISHED_README.md
+z3-z3-4.12.1/src/api/js/README.md
+z3-z3-4.12.1/src/api/js/examples/
+z3-z3-4.12.1/src/api/js/examples/high-level/
+z3-z3-4.12.1/src/api/js/examples/high-level/miracle-sudoku.ts
+z3-z3-4.12.1/src/api/js/examples/low-level/
+z3-z3-4.12.1/src/api/js/examples/low-level/example-raw.ts
+z3-z3-4.12.1/src/api/js/examples/low-level/test-ts-api.ts
+z3-z3-4.12.1/src/api/js/jest.config.js
+z3-z3-4.12.1/src/api/js/package-lock.json
+z3-z3-4.12.1/src/api/js/package.json
+z3-z3-4.12.1/src/api/js/scripts/
+z3-z3-4.12.1/src/api/js/scripts/async-fns.ts
+z3-z3-4.12.1/src/api/js/scripts/build-wasm.ts
+z3-z3-4.12.1/src/api/js/scripts/make-cc-wrapper.ts
+z3-z3-4.12.1/src/api/js/scripts/make-ts-wrapper.ts
+z3-z3-4.12.1/src/api/js/scripts/parse-api.ts
+z3-z3-4.12.1/src/api/js/src/
+z3-z3-4.12.1/src/api/js/src/browser.ts
+z3-z3-4.12.1/src/api/js/src/high-level/
+z3-z3-4.12.1/src/api/js/src/high-level/high-level.test.ts
+z3-z3-4.12.1/src/api/js/src/high-level/high-level.ts
+z3-z3-4.12.1/src/api/js/src/high-level/index.ts
+z3-z3-4.12.1/src/api/js/src/high-level/types.ts
+z3-z3-4.12.1/src/api/js/src/high-level/utils.test.ts
+z3-z3-4.12.1/src/api/js/src/high-level/utils.ts
+z3-z3-4.12.1/src/api/js/src/jest.ts
+z3-z3-4.12.1/src/api/js/src/low-level/
+z3-z3-4.12.1/src/api/js/src/low-level/async-wrapper.js
+z3-z3-4.12.1/src/api/js/src/low-level/index.ts
+z3-z3-4.12.1/src/api/js/src/node.ts
+z3-z3-4.12.1/src/api/js/tsconfig.build.json
+z3-z3-4.12.1/src/api/js/tsconfig.json
+z3-z3-4.12.1/src/api/js/typedoc.json
+z3-z3-4.12.1/src/api/julia/
+z3-z3-4.12.1/src/api/julia/CMakeLists.txt
+z3-z3-4.12.1/src/api/julia/README.md
+z3-z3-4.12.1/src/api/julia/z3jl.cpp
+z3-z3-4.12.1/src/api/ml/
+z3-z3-4.12.1/src/api/ml/META.in
+z3-z3-4.12.1/src/api/ml/README.md
+z3-z3-4.12.1/src/api/ml/z3.ml
+z3-z3-4.12.1/src/api/ml/z3.mli
+z3-z3-4.12.1/src/api/ml/z3native.ml.pre
+z3-z3-4.12.1/src/api/ml/z3native_stubs.c.pre
+z3-z3-4.12.1/src/api/ml/z3native_stubs.h
+z3-z3-4.12.1/src/api/python/
+z3-z3-4.12.1/src/api/python/.gitignore
+z3-z3-4.12.1/src/api/python/CMakeLists.txt
+z3-z3-4.12.1/src/api/python/MANIFEST.in
+z3-z3-4.12.1/src/api/python/README.txt
+z3-z3-4.12.1/src/api/python/pyproject.toml
+z3-z3-4.12.1/src/api/python/setup.py
+z3-z3-4.12.1/src/api/python/z3/
+z3-z3-4.12.1/src/api/python/z3/__init__.py
+z3-z3-4.12.1/src/api/python/z3/z3.py
+z3-z3-4.12.1/src/api/python/z3/z3num.py
+z3-z3-4.12.1/src/api/python/z3/z3poly.py
+z3-z3-4.12.1/src/api/python/z3/z3printer.py
+z3-z3-4.12.1/src/api/python/z3/z3rcf.py
+z3-z3-4.12.1/src/api/python/z3/z3types.py
+z3-z3-4.12.1/src/api/python/z3/z3util.py
+z3-z3-4.12.1/src/api/python/z3test.py
+z3-z3-4.12.1/src/api/z3.h
+z3-z3-4.12.1/src/api/z3_algebraic.h
+z3-z3-4.12.1/src/api/z3_api.h
+z3-z3-4.12.1/src/api/z3_ast_containers.h
+z3-z3-4.12.1/src/api/z3_fixedpoint.h
+z3-z3-4.12.1/src/api/z3_fpa.h
+z3-z3-4.12.1/src/api/z3_logger.h
+z3-z3-4.12.1/src/api/z3_macros.h
+z3-z3-4.12.1/src/api/z3_optimization.h
+z3-z3-4.12.1/src/api/z3_polynomial.h
+z3-z3-4.12.1/src/api/z3_private.h
+z3-z3-4.12.1/src/api/z3_rcf.h
+z3-z3-4.12.1/src/api/z3_replayer.cpp
+z3-z3-4.12.1/src/api/z3_replayer.h
+z3-z3-4.12.1/src/api/z3_spacer.h
+z3-z3-4.12.1/src/api/z3_v1.h
+z3-z3-4.12.1/src/ast/
+z3-z3-4.12.1/src/ast/CMakeLists.txt
+z3-z3-4.12.1/src/ast/act_cache.cpp
+z3-z3-4.12.1/src/ast/act_cache.h
+z3-z3-4.12.1/src/ast/arith_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/arith_decl_plugin.h
+z3-z3-4.12.1/src/ast/array_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/array_decl_plugin.h
+z3-z3-4.12.1/src/ast/ast.cpp
+z3-z3-4.12.1/src/ast/ast.h
+z3-z3-4.12.1/src/ast/ast_ll_pp.cpp
+z3-z3-4.12.1/src/ast/ast_ll_pp.h
+z3-z3-4.12.1/src/ast/ast_lt.cpp
+z3-z3-4.12.1/src/ast/ast_lt.h
+z3-z3-4.12.1/src/ast/ast_pp.h
+z3-z3-4.12.1/src/ast/ast_pp_dot.cpp
+z3-z3-4.12.1/src/ast/ast_pp_dot.h
+z3-z3-4.12.1/src/ast/ast_pp_util.cpp
+z3-z3-4.12.1/src/ast/ast_pp_util.h
+z3-z3-4.12.1/src/ast/ast_printer.cpp
+z3-z3-4.12.1/src/ast/ast_printer.h
+z3-z3-4.12.1/src/ast/ast_smt2_pp.cpp
+z3-z3-4.12.1/src/ast/ast_smt2_pp.h
+z3-z3-4.12.1/src/ast/ast_smt_pp.cpp
+z3-z3-4.12.1/src/ast/ast_smt_pp.h
+z3-z3-4.12.1/src/ast/ast_trail.h
+z3-z3-4.12.1/src/ast/ast_translation.cpp
+z3-z3-4.12.1/src/ast/ast_translation.h
+z3-z3-4.12.1/src/ast/ast_util.cpp
+z3-z3-4.12.1/src/ast/ast_util.h
+z3-z3-4.12.1/src/ast/bv_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/bv_decl_plugin.h
+z3-z3-4.12.1/src/ast/char_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/char_decl_plugin.h
+z3-z3-4.12.1/src/ast/converters/
+z3-z3-4.12.1/src/ast/converters/CMakeLists.txt
+z3-z3-4.12.1/src/ast/converters/converter.h
+z3-z3-4.12.1/src/ast/converters/equiv_proof_converter.cpp
+z3-z3-4.12.1/src/ast/converters/equiv_proof_converter.h
+z3-z3-4.12.1/src/ast/converters/expr_inverter.cpp
+z3-z3-4.12.1/src/ast/converters/expr_inverter.h
+z3-z3-4.12.1/src/ast/converters/generic_model_converter.cpp
+z3-z3-4.12.1/src/ast/converters/generic_model_converter.h
+z3-z3-4.12.1/src/ast/converters/horn_subsume_model_converter.cpp
+z3-z3-4.12.1/src/ast/converters/horn_subsume_model_converter.h
+z3-z3-4.12.1/src/ast/converters/model_converter.cpp
+z3-z3-4.12.1/src/ast/converters/model_converter.h
+z3-z3-4.12.1/src/ast/converters/proof_converter.cpp
+z3-z3-4.12.1/src/ast/converters/proof_converter.h
+z3-z3-4.12.1/src/ast/converters/replace_proof_converter.cpp
+z3-z3-4.12.1/src/ast/converters/replace_proof_converter.h
+z3-z3-4.12.1/src/ast/cost_evaluator.cpp
+z3-z3-4.12.1/src/ast/cost_evaluator.h
+z3-z3-4.12.1/src/ast/datatype_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/datatype_decl_plugin.h
+z3-z3-4.12.1/src/ast/decl_collector.cpp
+z3-z3-4.12.1/src/ast/decl_collector.h
+z3-z3-4.12.1/src/ast/display_dimacs.cpp
+z3-z3-4.12.1/src/ast/display_dimacs.h
+z3-z3-4.12.1/src/ast/dl_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/dl_decl_plugin.h
+z3-z3-4.12.1/src/ast/euf/
+z3-z3-4.12.1/src/ast/euf/CMakeLists.txt
+z3-z3-4.12.1/src/ast/euf/euf_egraph.cpp
+z3-z3-4.12.1/src/ast/euf/euf_egraph.h
+z3-z3-4.12.1/src/ast/euf/euf_enode.cpp
+z3-z3-4.12.1/src/ast/euf/euf_enode.h
+z3-z3-4.12.1/src/ast/euf/euf_etable.cpp
+z3-z3-4.12.1/src/ast/euf/euf_etable.h
+z3-z3-4.12.1/src/ast/euf/euf_justification.h
+z3-z3-4.12.1/src/ast/expr2polynomial.cpp
+z3-z3-4.12.1/src/ast/expr2polynomial.h
+z3-z3-4.12.1/src/ast/expr2var.cpp
+z3-z3-4.12.1/src/ast/expr2var.h
+z3-z3-4.12.1/src/ast/expr_abstract.cpp
+z3-z3-4.12.1/src/ast/expr_abstract.h
+z3-z3-4.12.1/src/ast/expr_delta_pair.h
+z3-z3-4.12.1/src/ast/expr_functors.cpp
+z3-z3-4.12.1/src/ast/expr_functors.h
+z3-z3-4.12.1/src/ast/expr_map.cpp
+z3-z3-4.12.1/src/ast/expr_map.h
+z3-z3-4.12.1/src/ast/expr_stat.cpp
+z3-z3-4.12.1/src/ast/expr_stat.h
+z3-z3-4.12.1/src/ast/expr_substitution.cpp
+z3-z3-4.12.1/src/ast/expr_substitution.h
+z3-z3-4.12.1/src/ast/for_each_ast.cpp
+z3-z3-4.12.1/src/ast/for_each_ast.h
+z3-z3-4.12.1/src/ast/for_each_expr.cpp
+z3-z3-4.12.1/src/ast/for_each_expr.h
+z3-z3-4.12.1/src/ast/format.cpp
+z3-z3-4.12.1/src/ast/format.h
+z3-z3-4.12.1/src/ast/fpa/
+z3-z3-4.12.1/src/ast/fpa/CMakeLists.txt
+z3-z3-4.12.1/src/ast/fpa/bv2fpa_converter.cpp
+z3-z3-4.12.1/src/ast/fpa/bv2fpa_converter.h
+z3-z3-4.12.1/src/ast/fpa/fpa2bv_converter.cpp
+z3-z3-4.12.1/src/ast/fpa/fpa2bv_converter.h
+z3-z3-4.12.1/src/ast/fpa/fpa2bv_rewriter.cpp
+z3-z3-4.12.1/src/ast/fpa/fpa2bv_rewriter.h
+z3-z3-4.12.1/src/ast/fpa_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/fpa_decl_plugin.h
+z3-z3-4.12.1/src/ast/func_decl_dependencies.cpp
+z3-z3-4.12.1/src/ast/func_decl_dependencies.h
+z3-z3-4.12.1/src/ast/has_free_vars.cpp
+z3-z3-4.12.1/src/ast/has_free_vars.h
+z3-z3-4.12.1/src/ast/is_variable_test.h
+z3-z3-4.12.1/src/ast/justified_expr.h
+z3-z3-4.12.1/src/ast/macro_substitution.cpp
+z3-z3-4.12.1/src/ast/macro_substitution.h
+z3-z3-4.12.1/src/ast/macros/
+z3-z3-4.12.1/src/ast/macros/CMakeLists.txt
+z3-z3-4.12.1/src/ast/macros/cond_macro.h
+z3-z3-4.12.1/src/ast/macros/macro_finder.cpp
+z3-z3-4.12.1/src/ast/macros/macro_finder.h
+z3-z3-4.12.1/src/ast/macros/macro_manager.cpp
+z3-z3-4.12.1/src/ast/macros/macro_manager.h
+z3-z3-4.12.1/src/ast/macros/macro_util.cpp
+z3-z3-4.12.1/src/ast/macros/macro_util.h
+z3-z3-4.12.1/src/ast/macros/quantifier_macro_info.cpp
+z3-z3-4.12.1/src/ast/macros/quantifier_macro_info.h
+z3-z3-4.12.1/src/ast/macros/quasi_macros.cpp
+z3-z3-4.12.1/src/ast/macros/quasi_macros.h
+z3-z3-4.12.1/src/ast/normal_forms/
+z3-z3-4.12.1/src/ast/normal_forms/CMakeLists.txt
+z3-z3-4.12.1/src/ast/normal_forms/defined_names.cpp
+z3-z3-4.12.1/src/ast/normal_forms/defined_names.h
+z3-z3-4.12.1/src/ast/normal_forms/elim_term_ite.cpp
+z3-z3-4.12.1/src/ast/normal_forms/elim_term_ite.h
+z3-z3-4.12.1/src/ast/normal_forms/name_exprs.cpp
+z3-z3-4.12.1/src/ast/normal_forms/name_exprs.h
+z3-z3-4.12.1/src/ast/normal_forms/nnf.cpp
+z3-z3-4.12.1/src/ast/normal_forms/nnf.h
+z3-z3-4.12.1/src/ast/normal_forms/nnf_params.pyg
+z3-z3-4.12.1/src/ast/normal_forms/pull_quant.cpp
+z3-z3-4.12.1/src/ast/normal_forms/pull_quant.h
+z3-z3-4.12.1/src/ast/num_occurs.cpp
+z3-z3-4.12.1/src/ast/num_occurs.h
+z3-z3-4.12.1/src/ast/occurs.cpp
+z3-z3-4.12.1/src/ast/occurs.h
+z3-z3-4.12.1/src/ast/pattern/
+z3-z3-4.12.1/src/ast/pattern/CMakeLists.txt
+z3-z3-4.12.1/src/ast/pattern/database.smt2
+z3-z3-4.12.1/src/ast/pattern/expr_pattern_match.cpp
+z3-z3-4.12.1/src/ast/pattern/expr_pattern_match.h
+z3-z3-4.12.1/src/ast/pattern/pattern_inference.cpp
+z3-z3-4.12.1/src/ast/pattern/pattern_inference.h
+z3-z3-4.12.1/src/ast/pb_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/pb_decl_plugin.h
+z3-z3-4.12.1/src/ast/pp.cpp
+z3-z3-4.12.1/src/ast/pp.h
+z3-z3-4.12.1/src/ast/pp_params.pyg
+z3-z3-4.12.1/src/ast/proofs/
+z3-z3-4.12.1/src/ast/proofs/CMakeLists.txt
+z3-z3-4.12.1/src/ast/proofs/proof_checker.cpp
+z3-z3-4.12.1/src/ast/proofs/proof_checker.h
+z3-z3-4.12.1/src/ast/proofs/proof_utils.cpp
+z3-z3-4.12.1/src/ast/proofs/proof_utils.h
+z3-z3-4.12.1/src/ast/quantifier_stat.cpp
+z3-z3-4.12.1/src/ast/quantifier_stat.h
+z3-z3-4.12.1/src/ast/recfun_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/recfun_decl_plugin.h
+z3-z3-4.12.1/src/ast/recurse_expr.h
+z3-z3-4.12.1/src/ast/recurse_expr_def.h
+z3-z3-4.12.1/src/ast/reg_decl_plugins.cpp
+z3-z3-4.12.1/src/ast/reg_decl_plugins.h
+z3-z3-4.12.1/src/ast/rewriter/
+z3-z3-4.12.1/src/ast/rewriter/CMakeLists.txt
+z3-z3-4.12.1/src/ast/rewriter/arith_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/arith_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/array_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/array_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/ast_counter.cpp
+z3-z3-4.12.1/src/ast/rewriter/ast_counter.h
+z3-z3-4.12.1/src/ast/rewriter/bit2int.cpp
+z3-z3-4.12.1/src/ast/rewriter/bit2int.h
+z3-z3-4.12.1/src/ast/rewriter/bit_blaster/
+z3-z3-4.12.1/src/ast/rewriter/bit_blaster/CMakeLists.txt
+z3-z3-4.12.1/src/ast/rewriter/bit_blaster/bit_blaster.cpp
+z3-z3-4.12.1/src/ast/rewriter/bit_blaster/bit_blaster.h
+z3-z3-4.12.1/src/ast/rewriter/bit_blaster/bit_blaster_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/bit_blaster/bit_blaster_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/bit_blaster/bit_blaster_tpl.h
+z3-z3-4.12.1/src/ast/rewriter/bit_blaster/bit_blaster_tpl_def.h
+z3-z3-4.12.1/src/ast/rewriter/bool_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/bool_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/bv_bounds.cpp
+z3-z3-4.12.1/src/ast/rewriter/bv_bounds.h
+z3-z3-4.12.1/src/ast/rewriter/bv_elim.cpp
+z3-z3-4.12.1/src/ast/rewriter/bv_elim.h
+z3-z3-4.12.1/src/ast/rewriter/bv_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/bv_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/cached_var_subst.cpp
+z3-z3-4.12.1/src/ast/rewriter/cached_var_subst.h
+z3-z3-4.12.1/src/ast/rewriter/char_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/char_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/datatype_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/datatype_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/der.cpp
+z3-z3-4.12.1/src/ast/rewriter/der.h
+z3-z3-4.12.1/src/ast/rewriter/distribute_forall.cpp
+z3-z3-4.12.1/src/ast/rewriter/distribute_forall.h
+z3-z3-4.12.1/src/ast/rewriter/dl_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/dl_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/elim_bounds.cpp
+z3-z3-4.12.1/src/ast/rewriter/elim_bounds.h
+z3-z3-4.12.1/src/ast/rewriter/enum2bv_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/enum2bv_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/expr_replacer.cpp
+z3-z3-4.12.1/src/ast/rewriter/expr_replacer.h
+z3-z3-4.12.1/src/ast/rewriter/expr_safe_replace.cpp
+z3-z3-4.12.1/src/ast/rewriter/expr_safe_replace.h
+z3-z3-4.12.1/src/ast/rewriter/factor_equivs.cpp
+z3-z3-4.12.1/src/ast/rewriter/factor_equivs.h
+z3-z3-4.12.1/src/ast/rewriter/factor_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/factor_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/fpa_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/fpa_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/func_decl_replace.cpp
+z3-z3-4.12.1/src/ast/rewriter/func_decl_replace.h
+z3-z3-4.12.1/src/ast/rewriter/hoist_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/hoist_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/inj_axiom.cpp
+z3-z3-4.12.1/src/ast/rewriter/inj_axiom.h
+z3-z3-4.12.1/src/ast/rewriter/label_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/label_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/macro_replacer.cpp
+z3-z3-4.12.1/src/ast/rewriter/macro_replacer.h
+z3-z3-4.12.1/src/ast/rewriter/maximize_ac_sharing.cpp
+z3-z3-4.12.1/src/ast/rewriter/maximize_ac_sharing.h
+z3-z3-4.12.1/src/ast/rewriter/mk_extract_proc.cpp
+z3-z3-4.12.1/src/ast/rewriter/mk_extract_proc.h
+z3-z3-4.12.1/src/ast/rewriter/mk_simplified_app.cpp
+z3-z3-4.12.1/src/ast/rewriter/mk_simplified_app.h
+z3-z3-4.12.1/src/ast/rewriter/pb2bv_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/pb2bv_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/pb_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/pb_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/pb_rewriter_def.h
+z3-z3-4.12.1/src/ast/rewriter/poly_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/poly_rewriter_def.h
+z3-z3-4.12.1/src/ast/rewriter/push_app_ite.cpp
+z3-z3-4.12.1/src/ast/rewriter/push_app_ite.h
+z3-z3-4.12.1/src/ast/rewriter/quant_hoist.cpp
+z3-z3-4.12.1/src/ast/rewriter/quant_hoist.h
+z3-z3-4.12.1/src/ast/rewriter/recfun_replace.h
+z3-z3-4.12.1/src/ast/rewriter/recfun_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/recfun_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/rewriter.txt
+z3-z3-4.12.1/src/ast/rewriter/rewriter_def.h
+z3-z3-4.12.1/src/ast/rewriter/rewriter_types.h
+z3-z3-4.12.1/src/ast/rewriter/seq_axioms.cpp
+z3-z3-4.12.1/src/ast/rewriter/seq_axioms.h
+z3-z3-4.12.1/src/ast/rewriter/seq_eq_solver.cpp
+z3-z3-4.12.1/src/ast/rewriter/seq_eq_solver.h
+z3-z3-4.12.1/src/ast/rewriter/seq_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/seq_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/seq_skolem.cpp
+z3-z3-4.12.1/src/ast/rewriter/seq_skolem.h
+z3-z3-4.12.1/src/ast/rewriter/th_rewriter.cpp
+z3-z3-4.12.1/src/ast/rewriter/th_rewriter.h
+z3-z3-4.12.1/src/ast/rewriter/value_sweep.cpp
+z3-z3-4.12.1/src/ast/rewriter/value_sweep.h
+z3-z3-4.12.1/src/ast/rewriter/var_subst.cpp
+z3-z3-4.12.1/src/ast/rewriter/var_subst.h
+z3-z3-4.12.1/src/ast/scoped_proof.h
+z3-z3-4.12.1/src/ast/seq_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/seq_decl_plugin.h
+z3-z3-4.12.1/src/ast/shared_occs.cpp
+z3-z3-4.12.1/src/ast/shared_occs.h
+z3-z3-4.12.1/src/ast/simplifiers/
+z3-z3-4.12.1/src/ast/simplifiers/CMakeLists.txt
+z3-z3-4.12.1/src/ast/simplifiers/bit2int.h
+z3-z3-4.12.1/src/ast/simplifiers/bit_blaster.cpp
+z3-z3-4.12.1/src/ast/simplifiers/bit_blaster.h
+z3-z3-4.12.1/src/ast/simplifiers/bound_manager.cpp
+z3-z3-4.12.1/src/ast/simplifiers/bound_manager.h
+z3-z3-4.12.1/src/ast/simplifiers/bv_elim.h
+z3-z3-4.12.1/src/ast/simplifiers/bv_slice.cpp
+z3-z3-4.12.1/src/ast/simplifiers/bv_slice.h
+z3-z3-4.12.1/src/ast/simplifiers/card2bv.cpp
+z3-z3-4.12.1/src/ast/simplifiers/card2bv.h
+z3-z3-4.12.1/src/ast/simplifiers/cnf_nnf.h
+z3-z3-4.12.1/src/ast/simplifiers/demodulator_simplifier.cpp
+z3-z3-4.12.1/src/ast/simplifiers/demodulator_simplifier.h
+z3-z3-4.12.1/src/ast/simplifiers/dependent_expr.h
+z3-z3-4.12.1/src/ast/simplifiers/dependent_expr_state.cpp
+z3-z3-4.12.1/src/ast/simplifiers/dependent_expr_state.h
+z3-z3-4.12.1/src/ast/simplifiers/distribute_forall.cpp
+z3-z3-4.12.1/src/ast/simplifiers/distribute_forall.h
+z3-z3-4.12.1/src/ast/simplifiers/elim_bounds.h
+z3-z3-4.12.1/src/ast/simplifiers/elim_term_ite.h
+z3-z3-4.12.1/src/ast/simplifiers/elim_unconstrained.cpp
+z3-z3-4.12.1/src/ast/simplifiers/elim_unconstrained.h
+z3-z3-4.12.1/src/ast/simplifiers/eliminate_predicates.cpp
+z3-z3-4.12.1/src/ast/simplifiers/eliminate_predicates.h
+z3-z3-4.12.1/src/ast/simplifiers/euf_completion.cpp
+z3-z3-4.12.1/src/ast/simplifiers/euf_completion.h
+z3-z3-4.12.1/src/ast/simplifiers/extract_eqs.cpp
+z3-z3-4.12.1/src/ast/simplifiers/extract_eqs.h
+z3-z3-4.12.1/src/ast/simplifiers/flatten_clauses.h
+z3-z3-4.12.1/src/ast/simplifiers/max_bv_sharing.cpp
+z3-z3-4.12.1/src/ast/simplifiers/max_bv_sharing.h
+z3-z3-4.12.1/src/ast/simplifiers/model_reconstruction_trail.cpp
+z3-z3-4.12.1/src/ast/simplifiers/model_reconstruction_trail.h
+z3-z3-4.12.1/src/ast/simplifiers/propagate_values.cpp
+z3-z3-4.12.1/src/ast/simplifiers/propagate_values.h
+z3-z3-4.12.1/src/ast/simplifiers/pull_nested_quantifiers.h
+z3-z3-4.12.1/src/ast/simplifiers/push_ite.h
+z3-z3-4.12.1/src/ast/simplifiers/refine_inj_axiom.h
+z3-z3-4.12.1/src/ast/simplifiers/rewriter_simplifier.h
+z3-z3-4.12.1/src/ast/simplifiers/seq_simplifier.h
+z3-z3-4.12.1/src/ast/simplifiers/solve_context_eqs.cpp
+z3-z3-4.12.1/src/ast/simplifiers/solve_context_eqs.h
+z3-z3-4.12.1/src/ast/simplifiers/solve_eqs.cpp
+z3-z3-4.12.1/src/ast/simplifiers/solve_eqs.h
+z3-z3-4.12.1/src/ast/special_relations_decl_plugin.cpp
+z3-z3-4.12.1/src/ast/special_relations_decl_plugin.h
+z3-z3-4.12.1/src/ast/static_features.cpp
+z3-z3-4.12.1/src/ast/static_features.h
+z3-z3-4.12.1/src/ast/substitution/
+z3-z3-4.12.1/src/ast/substitution/CMakeLists.txt
+z3-z3-4.12.1/src/ast/substitution/demodulator_rewriter.cpp
+z3-z3-4.12.1/src/ast/substitution/demodulator_rewriter.h
+z3-z3-4.12.1/src/ast/substitution/expr_offset.h
+z3-z3-4.12.1/src/ast/substitution/expr_offset_map.h
+z3-z3-4.12.1/src/ast/substitution/matcher.cpp
+z3-z3-4.12.1/src/ast/substitution/matcher.h
+z3-z3-4.12.1/src/ast/substitution/substitution.cpp
+z3-z3-4.12.1/src/ast/substitution/substitution.h
+z3-z3-4.12.1/src/ast/substitution/substitution_tree.cpp
+z3-z3-4.12.1/src/ast/substitution/substitution_tree.h
+z3-z3-4.12.1/src/ast/substitution/unifier.cpp
+z3-z3-4.12.1/src/ast/substitution/unifier.h
+z3-z3-4.12.1/src/ast/substitution/var_offset_map.h
+z3-z3-4.12.1/src/ast/used_symbols.h
+z3-z3-4.12.1/src/ast/used_vars.cpp
+z3-z3-4.12.1/src/ast/used_vars.h
+z3-z3-4.12.1/src/ast/value_generator.cpp
+z3-z3-4.12.1/src/ast/value_generator.h
+z3-z3-4.12.1/src/ast/well_sorted.cpp
+z3-z3-4.12.1/src/ast/well_sorted.h
+z3-z3-4.12.1/src/cmd_context/
+z3-z3-4.12.1/src/cmd_context/CMakeLists.txt
+z3-z3-4.12.1/src/cmd_context/README
+z3-z3-4.12.1/src/cmd_context/basic_cmds.cpp
+z3-z3-4.12.1/src/cmd_context/basic_cmds.h
+z3-z3-4.12.1/src/cmd_context/cmd_context.cpp
+z3-z3-4.12.1/src/cmd_context/cmd_context.h
+z3-z3-4.12.1/src/cmd_context/cmd_context_to_goal.cpp
+z3-z3-4.12.1/src/cmd_context/cmd_context_to_goal.h
+z3-z3-4.12.1/src/cmd_context/cmd_util.cpp
+z3-z3-4.12.1/src/cmd_context/cmd_util.h
+z3-z3-4.12.1/src/cmd_context/echo_tactic.cpp
+z3-z3-4.12.1/src/cmd_context/echo_tactic.h
+z3-z3-4.12.1/src/cmd_context/eval_cmd.cpp
+z3-z3-4.12.1/src/cmd_context/eval_cmd.h
+z3-z3-4.12.1/src/cmd_context/extra_cmds/
+z3-z3-4.12.1/src/cmd_context/extra_cmds/CMakeLists.txt
+z3-z3-4.12.1/src/cmd_context/extra_cmds/dbg_cmds.cpp
+z3-z3-4.12.1/src/cmd_context/extra_cmds/dbg_cmds.h
+z3-z3-4.12.1/src/cmd_context/extra_cmds/polynomial_cmds.cpp
+z3-z3-4.12.1/src/cmd_context/extra_cmds/polynomial_cmds.h
+z3-z3-4.12.1/src/cmd_context/extra_cmds/proof_cmds.cpp
+z3-z3-4.12.1/src/cmd_context/extra_cmds/proof_cmds.h
+z3-z3-4.12.1/src/cmd_context/extra_cmds/subpaving_cmds.cpp
+z3-z3-4.12.1/src/cmd_context/extra_cmds/subpaving_cmds.h
+z3-z3-4.12.1/src/cmd_context/parametric_cmd.cpp
+z3-z3-4.12.1/src/cmd_context/parametric_cmd.h
+z3-z3-4.12.1/src/cmd_context/pdecl.cpp
+z3-z3-4.12.1/src/cmd_context/pdecl.h
+z3-z3-4.12.1/src/cmd_context/simplify_cmd.cpp
+z3-z3-4.12.1/src/cmd_context/simplify_cmd.h
+z3-z3-4.12.1/src/cmd_context/tactic_cmds.cpp
+z3-z3-4.12.1/src/cmd_context/tactic_cmds.h
+z3-z3-4.12.1/src/cmd_context/tactic_manager.cpp
+z3-z3-4.12.1/src/cmd_context/tactic_manager.h
+z3-z3-4.12.1/src/math/
+z3-z3-4.12.1/src/math/automata/
+z3-z3-4.12.1/src/math/automata/CMakeLists.txt
+z3-z3-4.12.1/src/math/automata/automaton.cpp
+z3-z3-4.12.1/src/math/automata/automaton.h
+z3-z3-4.12.1/src/math/automata/boolean_algebra.h
+z3-z3-4.12.1/src/math/automata/symbolic_automata.h
+z3-z3-4.12.1/src/math/automata/symbolic_automata_def.h
+z3-z3-4.12.1/src/math/dd/
+z3-z3-4.12.1/src/math/dd/CMakeLists.txt
+z3-z3-4.12.1/src/math/dd/dd_bdd.cpp
+z3-z3-4.12.1/src/math/dd/dd_bdd.h
+z3-z3-4.12.1/src/math/dd/dd_fdd.cpp
+z3-z3-4.12.1/src/math/dd/dd_fdd.h
+z3-z3-4.12.1/src/math/dd/dd_pdd.cpp
+z3-z3-4.12.1/src/math/dd/dd_pdd.h
+z3-z3-4.12.1/src/math/dd/pdd_eval.h
+z3-z3-4.12.1/src/math/dd/pdd_interval.h
+z3-z3-4.12.1/src/math/grobner/
+z3-z3-4.12.1/src/math/grobner/CMakeLists.txt
+z3-z3-4.12.1/src/math/grobner/grobner.cpp
+z3-z3-4.12.1/src/math/grobner/grobner.h
+z3-z3-4.12.1/src/math/grobner/pdd_simplifier.cpp
+z3-z3-4.12.1/src/math/grobner/pdd_simplifier.h
+z3-z3-4.12.1/src/math/grobner/pdd_solver.cpp
+z3-z3-4.12.1/src/math/grobner/pdd_solver.h
+z3-z3-4.12.1/src/math/hilbert/
+z3-z3-4.12.1/src/math/hilbert/CMakeLists.txt
+z3-z3-4.12.1/src/math/hilbert/heap_trie.h
+z3-z3-4.12.1/src/math/hilbert/hilbert_basis.cpp
+z3-z3-4.12.1/src/math/hilbert/hilbert_basis.h
+z3-z3-4.12.1/src/math/interval/
+z3-z3-4.12.1/src/math/interval/CMakeLists.txt
+z3-z3-4.12.1/src/math/interval/README
+z3-z3-4.12.1/src/math/interval/dep_intervals.cpp
+z3-z3-4.12.1/src/math/interval/dep_intervals.h
+z3-z3-4.12.1/src/math/interval/interval.h
+z3-z3-4.12.1/src/math/interval/interval_def.h
+z3-z3-4.12.1/src/math/interval/interval_mpq.cpp
+z3-z3-4.12.1/src/math/lp/
+z3-z3-4.12.1/src/math/lp/CMakeLists.txt
+z3-z3-4.12.1/src/math/lp/binary_heap_priority_queue.cpp
+z3-z3-4.12.1/src/math/lp/binary_heap_priority_queue.h
+z3-z3-4.12.1/src/math/lp/binary_heap_priority_queue_def.h
+z3-z3-4.12.1/src/math/lp/binary_heap_upair_queue.cpp
+z3-z3-4.12.1/src/math/lp/binary_heap_upair_queue.h
+z3-z3-4.12.1/src/math/lp/binary_heap_upair_queue_def.h
+z3-z3-4.12.1/src/math/lp/bound_analyzer_on_row.h
+z3-z3-4.12.1/src/math/lp/breakpoint.h
+z3-z3-4.12.1/src/math/lp/column_info.h
+z3-z3-4.12.1/src/math/lp/column_namer.h
+z3-z3-4.12.1/src/math/lp/conversion_helper.h
+z3-z3-4.12.1/src/math/lp/core_solver_pretty_printer.cpp
+z3-z3-4.12.1/src/math/lp/core_solver_pretty_printer.h
+z3-z3-4.12.1/src/math/lp/core_solver_pretty_printer_def.h
+z3-z3-4.12.1/src/math/lp/cross_nested.h
+z3-z3-4.12.1/src/math/lp/dense_matrix.cpp
+z3-z3-4.12.1/src/math/lp/dense_matrix.h
+z3-z3-4.12.1/src/math/lp/dense_matrix_def.h
+z3-z3-4.12.1/src/math/lp/emonics.cpp
+z3-z3-4.12.1/src/math/lp/emonics.h
+z3-z3-4.12.1/src/math/lp/eta_matrix.cpp
+z3-z3-4.12.1/src/math/lp/eta_matrix.h
+z3-z3-4.12.1/src/math/lp/eta_matrix_def.h
+z3-z3-4.12.1/src/math/lp/explanation.h
+z3-z3-4.12.1/src/math/lp/factorization.cpp
+z3-z3-4.12.1/src/math/lp/factorization.h
+z3-z3-4.12.1/src/math/lp/factorization_factory_imp.cpp
+z3-z3-4.12.1/src/math/lp/factorization_factory_imp.h
+z3-z3-4.12.1/src/math/lp/general_matrix.h
+z3-z3-4.12.1/src/math/lp/gomory.cpp
+z3-z3-4.12.1/src/math/lp/gomory.h
+z3-z3-4.12.1/src/math/lp/hnf.h
+z3-z3-4.12.1/src/math/lp/hnf_cutter.cpp
+z3-z3-4.12.1/src/math/lp/hnf_cutter.h
+z3-z3-4.12.1/src/math/lp/horner.cpp
+z3-z3-4.12.1/src/math/lp/horner.h
+z3-z3-4.12.1/src/math/lp/implied_bound.h
+z3-z3-4.12.1/src/math/lp/incremental_vector.h
+z3-z3-4.12.1/src/math/lp/indexed_value.h
+z3-z3-4.12.1/src/math/lp/indexed_vector.cpp
+z3-z3-4.12.1/src/math/lp/indexed_vector.h
+z3-z3-4.12.1/src/math/lp/indexed_vector_def.h
+z3-z3-4.12.1/src/math/lp/indexer_of_constraints.h
+z3-z3-4.12.1/src/math/lp/int_branch.cpp
+z3-z3-4.12.1/src/math/lp/int_branch.h
+z3-z3-4.12.1/src/math/lp/int_cube.cpp
+z3-z3-4.12.1/src/math/lp/int_cube.h
+z3-z3-4.12.1/src/math/lp/int_gcd_test.cpp
+z3-z3-4.12.1/src/math/lp/int_gcd_test.h
+z3-z3-4.12.1/src/math/lp/int_solver.cpp
+z3-z3-4.12.1/src/math/lp/int_solver.h
+z3-z3-4.12.1/src/math/lp/lar_constraints.h
+z3-z3-4.12.1/src/math/lp/lar_core_solver.cpp
+z3-z3-4.12.1/src/math/lp/lar_core_solver.h
+z3-z3-4.12.1/src/math/lp/lar_core_solver_def.h
+z3-z3-4.12.1/src/math/lp/lar_solution_signature.h
+z3-z3-4.12.1/src/math/lp/lar_solver.cpp
+z3-z3-4.12.1/src/math/lp/lar_solver.h
+z3-z3-4.12.1/src/math/lp/lar_term.h
+z3-z3-4.12.1/src/math/lp/lia_move.h
+z3-z3-4.12.1/src/math/lp/lp_api.h
+z3-z3-4.12.1/src/math/lp/lp_bound_propagator.h
+z3-z3-4.12.1/src/math/lp/lp_core_solver_base.cpp
+z3-z3-4.12.1/src/math/lp/lp_core_solver_base.h
+z3-z3-4.12.1/src/math/lp/lp_core_solver_base_def.h
+z3-z3-4.12.1/src/math/lp/lp_dual_core_solver.cpp
+z3-z3-4.12.1/src/math/lp/lp_dual_core_solver.h
+z3-z3-4.12.1/src/math/lp/lp_dual_core_solver_def.h
+z3-z3-4.12.1/src/math/lp/lp_dual_simplex.cpp
+z3-z3-4.12.1/src/math/lp/lp_dual_simplex.h
+z3-z3-4.12.1/src/math/lp/lp_dual_simplex_def.h
+z3-z3-4.12.1/src/math/lp/lp_primal_core_solver.cpp
+z3-z3-4.12.1/src/math/lp/lp_primal_core_solver.h
+z3-z3-4.12.1/src/math/lp/lp_primal_core_solver_def.h
+z3-z3-4.12.1/src/math/lp/lp_primal_core_solver_tableau_def.h
+z3-z3-4.12.1/src/math/lp/lp_primal_simplex.cpp
+z3-z3-4.12.1/src/math/lp/lp_primal_simplex.h
+z3-z3-4.12.1/src/math/lp/lp_primal_simplex_def.h
+z3-z3-4.12.1/src/math/lp/lp_settings.cpp
+z3-z3-4.12.1/src/math/lp/lp_settings.h
+z3-z3-4.12.1/src/math/lp/lp_settings_def.h
+z3-z3-4.12.1/src/math/lp/lp_solver.cpp
+z3-z3-4.12.1/src/math/lp/lp_solver.h
+z3-z3-4.12.1/src/math/lp/lp_solver_def.h
+z3-z3-4.12.1/src/math/lp/lp_types.h
+z3-z3-4.12.1/src/math/lp/lp_utils.cpp
+z3-z3-4.12.1/src/math/lp/lp_utils.h
+z3-z3-4.12.1/src/math/lp/lu.cpp
+z3-z3-4.12.1/src/math/lp/lu.h
+z3-z3-4.12.1/src/math/lp/lu_def.h
+z3-z3-4.12.1/src/math/lp/matrix.cpp
+z3-z3-4.12.1/src/math/lp/matrix.h
+z3-z3-4.12.1/src/math/lp/matrix_def.h
+z3-z3-4.12.1/src/math/lp/mon_eq.cpp
+z3-z3-4.12.1/src/math/lp/monic.h
+z3-z3-4.12.1/src/math/lp/monomial_bounds.cpp
+z3-z3-4.12.1/src/math/lp/monomial_bounds.h
+z3-z3-4.12.1/src/math/lp/mps_reader.h
+z3-z3-4.12.1/src/math/lp/nex.h
+z3-z3-4.12.1/src/math/lp/nex_creator.cpp
+z3-z3-4.12.1/src/math/lp/nex_creator.h
+z3-z3-4.12.1/src/math/lp/nla_basics_lemmas.cpp
+z3-z3-4.12.1/src/math/lp/nla_basics_lemmas.h
+z3-z3-4.12.1/src/math/lp/nla_common.cpp
+z3-z3-4.12.1/src/math/lp/nla_common.h
+z3-z3-4.12.1/src/math/lp/nla_core.cpp
+z3-z3-4.12.1/src/math/lp/nla_core.h
+z3-z3-4.12.1/src/math/lp/nla_defs.h
+z3-z3-4.12.1/src/math/lp/nla_grobner.cpp
+z3-z3-4.12.1/src/math/lp/nla_grobner.h
+z3-z3-4.12.1/src/math/lp/nla_intervals.cpp
+z3-z3-4.12.1/src/math/lp/nla_intervals.h
+z3-z3-4.12.1/src/math/lp/nla_monotone_lemmas.cpp
+z3-z3-4.12.1/src/math/lp/nla_monotone_lemmas.h
+z3-z3-4.12.1/src/math/lp/nla_order_lemmas.cpp
+z3-z3-4.12.1/src/math/lp/nla_order_lemmas.h
+z3-z3-4.12.1/src/math/lp/nla_settings.h
+z3-z3-4.12.1/src/math/lp/nla_solver.cpp
+z3-z3-4.12.1/src/math/lp/nla_solver.h
+z3-z3-4.12.1/src/math/lp/nla_tangent_lemmas.cpp
+z3-z3-4.12.1/src/math/lp/nla_tangent_lemmas.h
+z3-z3-4.12.1/src/math/lp/nra_solver.cpp
+z3-z3-4.12.1/src/math/lp/nra_solver.h
+z3-z3-4.12.1/src/math/lp/numeric_pair.h
+z3-z3-4.12.1/src/math/lp/permutation_matrix.cpp
+z3-z3-4.12.1/src/math/lp/permutation_matrix.h
+z3-z3-4.12.1/src/math/lp/permutation_matrix_def.h
+z3-z3-4.12.1/src/math/lp/random_updater.cpp
+z3-z3-4.12.1/src/math/lp/random_updater.h
+z3-z3-4.12.1/src/math/lp/random_updater_def.h
+z3-z3-4.12.1/src/math/lp/row_eta_matrix.cpp
+z3-z3-4.12.1/src/math/lp/row_eta_matrix.h
+z3-z3-4.12.1/src/math/lp/row_eta_matrix_def.h
+z3-z3-4.12.1/src/math/lp/scaler.cpp
+z3-z3-4.12.1/src/math/lp/scaler.h
+z3-z3-4.12.1/src/math/lp/scaler_def.h
+z3-z3-4.12.1/src/math/lp/sparse_vector.h
+z3-z3-4.12.1/src/math/lp/square_dense_submatrix.cpp
+z3-z3-4.12.1/src/math/lp/square_dense_submatrix.h
+z3-z3-4.12.1/src/math/lp/square_dense_submatrix_def.h
+z3-z3-4.12.1/src/math/lp/square_sparse_matrix.cpp
+z3-z3-4.12.1/src/math/lp/square_sparse_matrix.h
+z3-z3-4.12.1/src/math/lp/square_sparse_matrix_def.h
+z3-z3-4.12.1/src/math/lp/stacked_vector.h
+z3-z3-4.12.1/src/math/lp/static_matrix.cpp
+z3-z3-4.12.1/src/math/lp/static_matrix.h
+z3-z3-4.12.1/src/math/lp/static_matrix_def.h
+z3-z3-4.12.1/src/math/lp/tail_matrix.h
+z3-z3-4.12.1/src/math/lp/test_bound_analyzer.h
+z3-z3-4.12.1/src/math/lp/u_set.h
+z3-z3-4.12.1/src/math/lp/ul_pair.h
+z3-z3-4.12.1/src/math/lp/var_eqs.h
+z3-z3-4.12.1/src/math/lp/var_register.h
+z3-z3-4.12.1/src/math/polynomial/
+z3-z3-4.12.1/src/math/polynomial/CMakeLists.txt
+z3-z3-4.12.1/src/math/polynomial/README
+z3-z3-4.12.1/src/math/polynomial/algebraic_numbers.cpp
+z3-z3-4.12.1/src/math/polynomial/algebraic_numbers.h
+z3-z3-4.12.1/src/math/polynomial/algebraic_params.pyg
+z3-z3-4.12.1/src/math/polynomial/linear_eq_solver.h
+z3-z3-4.12.1/src/math/polynomial/polynomial.cpp
+z3-z3-4.12.1/src/math/polynomial/polynomial.h
+z3-z3-4.12.1/src/math/polynomial/polynomial_cache.cpp
+z3-z3-4.12.1/src/math/polynomial/polynomial_cache.h
+z3-z3-4.12.1/src/math/polynomial/polynomial_primes.h
+z3-z3-4.12.1/src/math/polynomial/polynomial_var2value.h
+z3-z3-4.12.1/src/math/polynomial/rpolynomial.cpp
+z3-z3-4.12.1/src/math/polynomial/rpolynomial.h
+z3-z3-4.12.1/src/math/polynomial/sexpr2upolynomial.cpp
+z3-z3-4.12.1/src/math/polynomial/sexpr2upolynomial.h
+z3-z3-4.12.1/src/math/polynomial/upolynomial.cpp
+z3-z3-4.12.1/src/math/polynomial/upolynomial.h
+z3-z3-4.12.1/src/math/polynomial/upolynomial_factorization.cpp
+z3-z3-4.12.1/src/math/polynomial/upolynomial_factorization.h
+z3-z3-4.12.1/src/math/polynomial/upolynomial_factorization_int.h
+z3-z3-4.12.1/src/math/realclosure/
+z3-z3-4.12.1/src/math/realclosure/CMakeLists.txt
+z3-z3-4.12.1/src/math/realclosure/mpz_matrix.cpp
+z3-z3-4.12.1/src/math/realclosure/mpz_matrix.h
+z3-z3-4.12.1/src/math/realclosure/rcf_params.pyg
+z3-z3-4.12.1/src/math/realclosure/realclosure.cpp
+z3-z3-4.12.1/src/math/realclosure/realclosure.h
+z3-z3-4.12.1/src/math/simplex/
+z3-z3-4.12.1/src/math/simplex/CMakeLists.txt
+z3-z3-4.12.1/src/math/simplex/bit_matrix.cpp
+z3-z3-4.12.1/src/math/simplex/bit_matrix.h
+z3-z3-4.12.1/src/math/simplex/model_based_opt.cpp
+z3-z3-4.12.1/src/math/simplex/model_based_opt.h
+z3-z3-4.12.1/src/math/simplex/network_flow.h
+z3-z3-4.12.1/src/math/simplex/network_flow_def.h
+z3-z3-4.12.1/src/math/simplex/simplex.cpp
+z3-z3-4.12.1/src/math/simplex/simplex.h
+z3-z3-4.12.1/src/math/simplex/simplex_def.h
+z3-z3-4.12.1/src/math/simplex/sparse_matrix.h
+z3-z3-4.12.1/src/math/simplex/sparse_matrix_def.h
+z3-z3-4.12.1/src/math/simplex/sparse_matrix_ops.h
+z3-z3-4.12.1/src/math/subpaving/
+z3-z3-4.12.1/src/math/subpaving/CMakeLists.txt
+z3-z3-4.12.1/src/math/subpaving/subpaving.cpp
+z3-z3-4.12.1/src/math/subpaving/subpaving.h
+z3-z3-4.12.1/src/math/subpaving/subpaving_hwf.cpp
+z3-z3-4.12.1/src/math/subpaving/subpaving_hwf.h
+z3-z3-4.12.1/src/math/subpaving/subpaving_mpf.cpp
+z3-z3-4.12.1/src/math/subpaving/subpaving_mpf.h
+z3-z3-4.12.1/src/math/subpaving/subpaving_mpff.cpp
+z3-z3-4.12.1/src/math/subpaving/subpaving_mpff.h
+z3-z3-4.12.1/src/math/subpaving/subpaving_mpfx.cpp
+z3-z3-4.12.1/src/math/subpaving/subpaving_mpfx.h
+z3-z3-4.12.1/src/math/subpaving/subpaving_mpq.cpp
+z3-z3-4.12.1/src/math/subpaving/subpaving_mpq.h
+z3-z3-4.12.1/src/math/subpaving/subpaving_t.h
+z3-z3-4.12.1/src/math/subpaving/subpaving_t_def.h
+z3-z3-4.12.1/src/math/subpaving/subpaving_types.h
+z3-z3-4.12.1/src/math/subpaving/tactic/
+z3-z3-4.12.1/src/math/subpaving/tactic/CMakeLists.txt
+z3-z3-4.12.1/src/math/subpaving/tactic/expr2subpaving.cpp
+z3-z3-4.12.1/src/math/subpaving/tactic/expr2subpaving.h
+z3-z3-4.12.1/src/math/subpaving/tactic/subpaving_tactic.cpp
+z3-z3-4.12.1/src/math/subpaving/tactic/subpaving_tactic.h
+z3-z3-4.12.1/src/model/
+z3-z3-4.12.1/src/model/CMakeLists.txt
+z3-z3-4.12.1/src/model/array_factory.cpp
+z3-z3-4.12.1/src/model/array_factory.h
+z3-z3-4.12.1/src/model/char_factory.h
+z3-z3-4.12.1/src/model/datatype_factory.cpp
+z3-z3-4.12.1/src/model/datatype_factory.h
+z3-z3-4.12.1/src/model/fpa_factory.h
+z3-z3-4.12.1/src/model/func_interp.cpp
+z3-z3-4.12.1/src/model/func_interp.h
+z3-z3-4.12.1/src/model/model.cpp
+z3-z3-4.12.1/src/model/model.h
+z3-z3-4.12.1/src/model/model2expr.cpp
+z3-z3-4.12.1/src/model/model2expr.h
+z3-z3-4.12.1/src/model/model_core.cpp
+z3-z3-4.12.1/src/model/model_core.h
+z3-z3-4.12.1/src/model/model_evaluator.cpp
+z3-z3-4.12.1/src/model/model_evaluator.h
+z3-z3-4.12.1/src/model/model_evaluator_params.pyg
+z3-z3-4.12.1/src/model/model_implicant.cpp
+z3-z3-4.12.1/src/model/model_implicant.h
+z3-z3-4.12.1/src/model/model_macro_solver.cpp
+z3-z3-4.12.1/src/model/model_macro_solver.h
+z3-z3-4.12.1/src/model/model_params.pyg
+z3-z3-4.12.1/src/model/model_pp.cpp
+z3-z3-4.12.1/src/model/model_pp.h
+z3-z3-4.12.1/src/model/model_smt2_pp.cpp
+z3-z3-4.12.1/src/model/model_smt2_pp.h
+z3-z3-4.12.1/src/model/model_v2_pp.cpp
+z3-z3-4.12.1/src/model/model_v2_pp.h
+z3-z3-4.12.1/src/model/numeral_factory.cpp
+z3-z3-4.12.1/src/model/numeral_factory.h
+z3-z3-4.12.1/src/model/seq_factory.h
+z3-z3-4.12.1/src/model/struct_factory.cpp
+z3-z3-4.12.1/src/model/struct_factory.h
+z3-z3-4.12.1/src/model/value_factory.cpp
+z3-z3-4.12.1/src/model/value_factory.h
+z3-z3-4.12.1/src/muz/
+z3-z3-4.12.1/src/muz/README
+z3-z3-4.12.1/src/muz/base/
+z3-z3-4.12.1/src/muz/base/CMakeLists.txt
+z3-z3-4.12.1/src/muz/base/bind_variables.cpp
+z3-z3-4.12.1/src/muz/base/bind_variables.h
+z3-z3-4.12.1/src/muz/base/dl_boogie_proof.cpp
+z3-z3-4.12.1/src/muz/base/dl_boogie_proof.h
+z3-z3-4.12.1/src/muz/base/dl_context.cpp
+z3-z3-4.12.1/src/muz/base/dl_context.h
+z3-z3-4.12.1/src/muz/base/dl_costs.cpp
+z3-z3-4.12.1/src/muz/base/dl_costs.h
+z3-z3-4.12.1/src/muz/base/dl_engine_base.h
+z3-z3-4.12.1/src/muz/base/dl_rule.cpp
+z3-z3-4.12.1/src/muz/base/dl_rule.h
+z3-z3-4.12.1/src/muz/base/dl_rule_set.cpp
+z3-z3-4.12.1/src/muz/base/dl_rule_set.h
+z3-z3-4.12.1/src/muz/base/dl_rule_subsumption_index.cpp
+z3-z3-4.12.1/src/muz/base/dl_rule_subsumption_index.h
+z3-z3-4.12.1/src/muz/base/dl_rule_transformer.cpp
+z3-z3-4.12.1/src/muz/base/dl_rule_transformer.h
+z3-z3-4.12.1/src/muz/base/dl_util.cpp
+z3-z3-4.12.1/src/muz/base/dl_util.h
+z3-z3-4.12.1/src/muz/base/fp_params.pyg
+z3-z3-4.12.1/src/muz/base/hnf.cpp
+z3-z3-4.12.1/src/muz/base/hnf.h
+z3-z3-4.12.1/src/muz/base/rule_properties.cpp
+z3-z3-4.12.1/src/muz/base/rule_properties.h
+z3-z3-4.12.1/src/muz/bmc/
+z3-z3-4.12.1/src/muz/bmc/CMakeLists.txt
+z3-z3-4.12.1/src/muz/bmc/dl_bmc_engine.cpp
+z3-z3-4.12.1/src/muz/bmc/dl_bmc_engine.h
+z3-z3-4.12.1/src/muz/clp/
+z3-z3-4.12.1/src/muz/clp/CMakeLists.txt
+z3-z3-4.12.1/src/muz/clp/clp_context.cpp
+z3-z3-4.12.1/src/muz/clp/clp_context.h
+z3-z3-4.12.1/src/muz/dataflow/
+z3-z3-4.12.1/src/muz/dataflow/CMakeLists.txt
+z3-z3-4.12.1/src/muz/dataflow/dataflow.cpp
+z3-z3-4.12.1/src/muz/dataflow/dataflow.h
+z3-z3-4.12.1/src/muz/dataflow/reachability.h
+z3-z3-4.12.1/src/muz/ddnf/
+z3-z3-4.12.1/src/muz/ddnf/CMakeLists.txt
+z3-z3-4.12.1/src/muz/ddnf/ddnf.cpp
+z3-z3-4.12.1/src/muz/ddnf/ddnf.h
+z3-z3-4.12.1/src/muz/fp/
+z3-z3-4.12.1/src/muz/fp/CMakeLists.txt
+z3-z3-4.12.1/src/muz/fp/datalog_parser.cpp
+z3-z3-4.12.1/src/muz/fp/datalog_parser.h
+z3-z3-4.12.1/src/muz/fp/dl_cmds.cpp
+z3-z3-4.12.1/src/muz/fp/dl_cmds.h
+z3-z3-4.12.1/src/muz/fp/dl_register_engine.cpp
+z3-z3-4.12.1/src/muz/fp/dl_register_engine.h
+z3-z3-4.12.1/src/muz/fp/horn_tactic.cpp
+z3-z3-4.12.1/src/muz/fp/horn_tactic.h
+z3-z3-4.12.1/src/muz/rel/
+z3-z3-4.12.1/src/muz/rel/CMakeLists.txt
+z3-z3-4.12.1/src/muz/rel/aig_exporter.cpp
+z3-z3-4.12.1/src/muz/rel/aig_exporter.h
+z3-z3-4.12.1/src/muz/rel/check_relation.cpp
+z3-z3-4.12.1/src/muz/rel/check_relation.h
+z3-z3-4.12.1/src/muz/rel/dl_base.cpp
+z3-z3-4.12.1/src/muz/rel/dl_base.h
+z3-z3-4.12.1/src/muz/rel/dl_bound_relation.cpp
+z3-z3-4.12.1/src/muz/rel/dl_bound_relation.h
+z3-z3-4.12.1/src/muz/rel/dl_check_table.cpp
+z3-z3-4.12.1/src/muz/rel/dl_check_table.h
+z3-z3-4.12.1/src/muz/rel/dl_compiler.cpp
+z3-z3-4.12.1/src/muz/rel/dl_compiler.h
+z3-z3-4.12.1/src/muz/rel/dl_external_relation.cpp
+z3-z3-4.12.1/src/muz/rel/dl_external_relation.h
+z3-z3-4.12.1/src/muz/rel/dl_finite_product_relation.cpp
+z3-z3-4.12.1/src/muz/rel/dl_finite_product_relation.h
+z3-z3-4.12.1/src/muz/rel/dl_instruction.cpp
+z3-z3-4.12.1/src/muz/rel/dl_instruction.h
+z3-z3-4.12.1/src/muz/rel/dl_interval_relation.cpp
+z3-z3-4.12.1/src/muz/rel/dl_interval_relation.h
+z3-z3-4.12.1/src/muz/rel/dl_lazy_table.cpp
+z3-z3-4.12.1/src/muz/rel/dl_lazy_table.h
+z3-z3-4.12.1/src/muz/rel/dl_mk_explanations.cpp
+z3-z3-4.12.1/src/muz/rel/dl_mk_explanations.h
+z3-z3-4.12.1/src/muz/rel/dl_mk_similarity_compressor.cpp
+z3-z3-4.12.1/src/muz/rel/dl_mk_similarity_compressor.h
+z3-z3-4.12.1/src/muz/rel/dl_mk_simple_joins.cpp
+z3-z3-4.12.1/src/muz/rel/dl_mk_simple_joins.h
+z3-z3-4.12.1/src/muz/rel/dl_product_relation.cpp
+z3-z3-4.12.1/src/muz/rel/dl_product_relation.h
+z3-z3-4.12.1/src/muz/rel/dl_relation_manager.cpp
+z3-z3-4.12.1/src/muz/rel/dl_relation_manager.h
+z3-z3-4.12.1/src/muz/rel/dl_sieve_relation.cpp
+z3-z3-4.12.1/src/muz/rel/dl_sieve_relation.h
+z3-z3-4.12.1/src/muz/rel/dl_sparse_table.cpp
+z3-z3-4.12.1/src/muz/rel/dl_sparse_table.h
+z3-z3-4.12.1/src/muz/rel/dl_table.cpp
+z3-z3-4.12.1/src/muz/rel/dl_table.h
+z3-z3-4.12.1/src/muz/rel/dl_table_plugin.h
+z3-z3-4.12.1/src/muz/rel/dl_table_relation.cpp
+z3-z3-4.12.1/src/muz/rel/dl_table_relation.h
+z3-z3-4.12.1/src/muz/rel/dl_vector_relation.h
+z3-z3-4.12.1/src/muz/rel/doc.cpp
+z3-z3-4.12.1/src/muz/rel/doc.h
+z3-z3-4.12.1/src/muz/rel/karr_relation.cpp
+z3-z3-4.12.1/src/muz/rel/karr_relation.h
+z3-z3-4.12.1/src/muz/rel/rel_context.cpp
+z3-z3-4.12.1/src/muz/rel/rel_context.h
+z3-z3-4.12.1/src/muz/rel/udoc_relation.cpp
+z3-z3-4.12.1/src/muz/rel/udoc_relation.h
+z3-z3-4.12.1/src/muz/spacer/
+z3-z3-4.12.1/src/muz/spacer/.clang-format
+z3-z3-4.12.1/src/muz/spacer/CMakeLists.txt
+z3-z3-4.12.1/src/muz/spacer/spacer_antiunify.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_antiunify.h
+z3-z3-4.12.1/src/muz/spacer/spacer_arith_generalizers.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_arith_kernel.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_arith_kernel.h
+z3-z3-4.12.1/src/muz/spacer/spacer_callback.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_callback.h
+z3-z3-4.12.1/src/muz/spacer/spacer_cluster.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_cluster.h
+z3-z3-4.12.1/src/muz/spacer/spacer_cluster_util.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_concretize.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_concretize.h
+z3-z3-4.12.1/src/muz/spacer/spacer_conjecture.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_context.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_context.h
+z3-z3-4.12.1/src/muz/spacer/spacer_convex_closure.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_convex_closure.h
+z3-z3-4.12.1/src/muz/spacer/spacer_dl_interface.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_dl_interface.h
+z3-z3-4.12.1/src/muz/spacer/spacer_expand_bnd_generalizer.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_expand_bnd_generalizer.h
+z3-z3-4.12.1/src/muz/spacer/spacer_farkas_learner.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_farkas_learner.h
+z3-z3-4.12.1/src/muz/spacer/spacer_generalizers.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_generalizers.h
+z3-z3-4.12.1/src/muz/spacer/spacer_global_generalizer.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_global_generalizer.h
+z3-z3-4.12.1/src/muz/spacer/spacer_ind_lemma_generalizer.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_iuc_proof.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_iuc_proof.h
+z3-z3-4.12.1/src/muz/spacer/spacer_iuc_solver.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_iuc_solver.h
+z3-z3-4.12.1/src/muz/spacer/spacer_legacy_frames.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_legacy_frames.h
+z3-z3-4.12.1/src/muz/spacer/spacer_legacy_mbp.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_legacy_mev.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_legacy_mev.h
+z3-z3-4.12.1/src/muz/spacer/spacer_manager.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_manager.h
+z3-z3-4.12.1/src/muz/spacer/spacer_matrix.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_matrix.h
+z3-z3-4.12.1/src/muz/spacer/spacer_mbc.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_mbc.h
+z3-z3-4.12.1/src/muz/spacer/spacer_mev_array.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_mev_array.h
+z3-z3-4.12.1/src/muz/spacer/spacer_notes.txt
+z3-z3-4.12.1/src/muz/spacer/spacer_pdr.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_pdr.h
+z3-z3-4.12.1/src/muz/spacer/spacer_proof_utils.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_proof_utils.h
+z3-z3-4.12.1/src/muz/spacer/spacer_prop_solver.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_prop_solver.h
+z3-z3-4.12.1/src/muz/spacer/spacer_qe_project.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_qe_project.h
+z3-z3-4.12.1/src/muz/spacer/spacer_quant_generalizer.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_sat_answer.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_sat_answer.h
+z3-z3-4.12.1/src/muz/spacer/spacer_sem_matcher.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_sem_matcher.h
+z3-z3-4.12.1/src/muz/spacer/spacer_sym_mux.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_sym_mux.h
+z3-z3-4.12.1/src/muz/spacer/spacer_unsat_core_learner.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_unsat_core_learner.h
+z3-z3-4.12.1/src/muz/spacer/spacer_unsat_core_plugin.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_unsat_core_plugin.h
+z3-z3-4.12.1/src/muz/spacer/spacer_util.cpp
+z3-z3-4.12.1/src/muz/spacer/spacer_util.h
+z3-z3-4.12.1/src/muz/tab/
+z3-z3-4.12.1/src/muz/tab/CMakeLists.txt
+z3-z3-4.12.1/src/muz/tab/tab_context.cpp
+z3-z3-4.12.1/src/muz/tab/tab_context.h
+z3-z3-4.12.1/src/muz/transforms/
+z3-z3-4.12.1/src/muz/transforms/CMakeLists.txt
+z3-z3-4.12.1/src/muz/transforms/dl_mk_array_blast.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_array_blast.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_array_eq_rewrite.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_array_eq_rewrite.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_array_instantiation.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_array_instantiation.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_backwards.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_backwards.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_bit_blast.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_bit_blast.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_coalesce.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_coalesce.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_coi_filter.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_coi_filter.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_different.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_elim_term_ite.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_elim_term_ite.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_filter_rules.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_filter_rules.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_interp_tail_simplifier.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_interp_tail_simplifier.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_karr_invariants.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_karr_invariants.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_loop_counter.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_loop_counter.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_magic_sets.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_magic_sets.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_magic_symbolic.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_magic_symbolic.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_quantifier_abstraction.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_quantifier_abstraction.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_quantifier_instantiation.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_quantifier_instantiation.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_rule_inliner.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_rule_inliner.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_scale.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_scale.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_separate_negated_tails.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_separate_negated_tails.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_slice.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_slice.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_subsumption_checker.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_subsumption_checker.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_synchronize.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_synchronize.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_unbound_compressor.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_unbound_compressor.h
+z3-z3-4.12.1/src/muz/transforms/dl_mk_unfold.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_mk_unfold.h
+z3-z3-4.12.1/src/muz/transforms/dl_transforms.cpp
+z3-z3-4.12.1/src/muz/transforms/dl_transforms.h
+z3-z3-4.12.1/src/nlsat/
+z3-z3-4.12.1/src/nlsat/CMakeLists.txt
+z3-z3-4.12.1/src/nlsat/nlsat_assignment.h
+z3-z3-4.12.1/src/nlsat/nlsat_clause.cpp
+z3-z3-4.12.1/src/nlsat/nlsat_clause.h
+z3-z3-4.12.1/src/nlsat/nlsat_evaluator.cpp
+z3-z3-4.12.1/src/nlsat/nlsat_evaluator.h
+z3-z3-4.12.1/src/nlsat/nlsat_explain.cpp
+z3-z3-4.12.1/src/nlsat/nlsat_explain.h
+z3-z3-4.12.1/src/nlsat/nlsat_interval_set.cpp
+z3-z3-4.12.1/src/nlsat/nlsat_interval_set.h
+z3-z3-4.12.1/src/nlsat/nlsat_justification.h
+z3-z3-4.12.1/src/nlsat/nlsat_params.pyg
+z3-z3-4.12.1/src/nlsat/nlsat_scoped_literal_vector.h
+z3-z3-4.12.1/src/nlsat/nlsat_solver.cpp
+z3-z3-4.12.1/src/nlsat/nlsat_solver.h
+z3-z3-4.12.1/src/nlsat/nlsat_types.cpp
+z3-z3-4.12.1/src/nlsat/nlsat_types.h
+z3-z3-4.12.1/src/nlsat/tactic/
+z3-z3-4.12.1/src/nlsat/tactic/CMakeLists.txt
+z3-z3-4.12.1/src/nlsat/tactic/goal2nlsat.cpp
+z3-z3-4.12.1/src/nlsat/tactic/goal2nlsat.h
+z3-z3-4.12.1/src/nlsat/tactic/nlsat_tactic.cpp
+z3-z3-4.12.1/src/nlsat/tactic/nlsat_tactic.h
+z3-z3-4.12.1/src/nlsat/tactic/qfnra_nlsat_tactic.cpp
+z3-z3-4.12.1/src/nlsat/tactic/qfnra_nlsat_tactic.h
+z3-z3-4.12.1/src/opt/
+z3-z3-4.12.1/src/opt/CMakeLists.txt
+z3-z3-4.12.1/src/opt/maxcore.cpp
+z3-z3-4.12.1/src/opt/maxcore.h
+z3-z3-4.12.1/src/opt/maxlex.cpp
+z3-z3-4.12.1/src/opt/maxlex.h
+z3-z3-4.12.1/src/opt/maxsmt.cpp
+z3-z3-4.12.1/src/opt/maxsmt.h
+z3-z3-4.12.1/src/opt/opt_cmds.cpp
+z3-z3-4.12.1/src/opt/opt_cmds.h
+z3-z3-4.12.1/src/opt/opt_context.cpp
+z3-z3-4.12.1/src/opt/opt_context.h
+z3-z3-4.12.1/src/opt/opt_cores.cpp
+z3-z3-4.12.1/src/opt/opt_cores.h
+z3-z3-4.12.1/src/opt/opt_lns.cpp
+z3-z3-4.12.1/src/opt/opt_lns.h
+z3-z3-4.12.1/src/opt/opt_mux.h
+z3-z3-4.12.1/src/opt/opt_params.pyg
+z3-z3-4.12.1/src/opt/opt_pareto.cpp
+z3-z3-4.12.1/src/opt/opt_pareto.h
+z3-z3-4.12.1/src/opt/opt_parse.cpp
+z3-z3-4.12.1/src/opt/opt_parse.h
+z3-z3-4.12.1/src/opt/opt_preprocess.cpp
+z3-z3-4.12.1/src/opt/opt_preprocess.h
+z3-z3-4.12.1/src/opt/opt_sls_solver.h
+z3-z3-4.12.1/src/opt/opt_solver.cpp
+z3-z3-4.12.1/src/opt/opt_solver.h
+z3-z3-4.12.1/src/opt/optsmt.cpp
+z3-z3-4.12.1/src/opt/optsmt.h
+z3-z3-4.12.1/src/opt/pb_sls.cpp
+z3-z3-4.12.1/src/opt/pb_sls.h
+z3-z3-4.12.1/src/opt/sortmax.cpp
+z3-z3-4.12.1/src/opt/totalizer.cpp
+z3-z3-4.12.1/src/opt/totalizer.h
+z3-z3-4.12.1/src/opt/wmax.cpp
+z3-z3-4.12.1/src/opt/wmax.h
+z3-z3-4.12.1/src/params/
+z3-z3-4.12.1/src/params/CMakeLists.txt
+z3-z3-4.12.1/src/params/arith_rewriter_params.pyg
+z3-z3-4.12.1/src/params/array_rewriter_params.pyg
+z3-z3-4.12.1/src/params/bit_blaster_params.h
+z3-z3-4.12.1/src/params/bool_rewriter_params.pyg
+z3-z3-4.12.1/src/params/bv_rewriter_params.pyg
+z3-z3-4.12.1/src/params/context_params.cpp
+z3-z3-4.12.1/src/params/context_params.h
+z3-z3-4.12.1/src/params/fpa2bv_rewriter_params.pyg
+z3-z3-4.12.1/src/params/fpa_rewriter_params.pyg
+z3-z3-4.12.1/src/params/pattern_inference_params.cpp
+z3-z3-4.12.1/src/params/pattern_inference_params.h
+z3-z3-4.12.1/src/params/pattern_inference_params_helper.pyg
+z3-z3-4.12.1/src/params/poly_rewriter_params.pyg
+z3-z3-4.12.1/src/params/rewriter_params.pyg
+z3-z3-4.12.1/src/params/seq_rewriter_params.pyg
+z3-z3-4.12.1/src/params/solver_params.pyg
+z3-z3-4.12.1/src/params/tactic_params.pyg
+z3-z3-4.12.1/src/parsers/
+z3-z3-4.12.1/src/parsers/smt2/
+z3-z3-4.12.1/src/parsers/smt2/CMakeLists.txt
+z3-z3-4.12.1/src/parsers/smt2/marshal.cpp
+z3-z3-4.12.1/src/parsers/smt2/marshal.h
+z3-z3-4.12.1/src/parsers/smt2/smt2parser.cpp
+z3-z3-4.12.1/src/parsers/smt2/smt2parser.h
+z3-z3-4.12.1/src/parsers/smt2/smt2scanner.cpp
+z3-z3-4.12.1/src/parsers/smt2/smt2scanner.h
+z3-z3-4.12.1/src/parsers/util/
+z3-z3-4.12.1/src/parsers/util/CMakeLists.txt
+z3-z3-4.12.1/src/parsers/util/cost_parser.cpp
+z3-z3-4.12.1/src/parsers/util/cost_parser.h
+z3-z3-4.12.1/src/parsers/util/parser_params.pyg
+z3-z3-4.12.1/src/parsers/util/pattern_validation.cpp
+z3-z3-4.12.1/src/parsers/util/pattern_validation.h
+z3-z3-4.12.1/src/parsers/util/scanner.cpp
+z3-z3-4.12.1/src/parsers/util/scanner.h
+z3-z3-4.12.1/src/parsers/util/simple_parser.cpp
+z3-z3-4.12.1/src/parsers/util/simple_parser.h
+z3-z3-4.12.1/src/qe/
+z3-z3-4.12.1/src/qe/CMakeLists.txt
+z3-z3-4.12.1/src/qe/lite/
+z3-z3-4.12.1/src/qe/lite/CMakeLists.txt
+z3-z3-4.12.1/src/qe/lite/qe_lite.cpp
+z3-z3-4.12.1/src/qe/lite/qe_lite.h
+z3-z3-4.12.1/src/qe/mbp/
+z3-z3-4.12.1/src/qe/mbp/CMakeLists.txt
+z3-z3-4.12.1/src/qe/mbp/mbp_arith.cpp
+z3-z3-4.12.1/src/qe/mbp/mbp_arith.h
+z3-z3-4.12.1/src/qe/mbp/mbp_arrays.cpp
+z3-z3-4.12.1/src/qe/mbp/mbp_arrays.h
+z3-z3-4.12.1/src/qe/mbp/mbp_datatypes.cpp
+z3-z3-4.12.1/src/qe/mbp/mbp_datatypes.h
+z3-z3-4.12.1/src/qe/mbp/mbp_plugin.cpp
+z3-z3-4.12.1/src/qe/mbp/mbp_plugin.h
+z3-z3-4.12.1/src/qe/mbp/mbp_solve_plugin.cpp
+z3-z3-4.12.1/src/qe/mbp/mbp_solve_plugin.h
+z3-z3-4.12.1/src/qe/mbp/mbp_term_graph.cpp
+z3-z3-4.12.1/src/qe/mbp/mbp_term_graph.h
+z3-z3-4.12.1/src/qe/nlarith_util.cpp
+z3-z3-4.12.1/src/qe/nlarith_util.h
+z3-z3-4.12.1/src/qe/nlqsat.cpp
+z3-z3-4.12.1/src/qe/nlqsat.h
+z3-z3-4.12.1/src/qe/qe.cpp
+z3-z3-4.12.1/src/qe/qe.h
+z3-z3-4.12.1/src/qe/qe_arith_plugin.cpp
+z3-z3-4.12.1/src/qe/qe_array_plugin.cpp
+z3-z3-4.12.1/src/qe/qe_bool_plugin.cpp
+z3-z3-4.12.1/src/qe/qe_bv_plugin.cpp
+z3-z3-4.12.1/src/qe/qe_cmd.cpp
+z3-z3-4.12.1/src/qe/qe_cmd.h
+z3-z3-4.12.1/src/qe/qe_datatype_plugin.cpp
+z3-z3-4.12.1/src/qe/qe_dl_plugin.cpp
+z3-z3-4.12.1/src/qe/qe_mbi.cpp
+z3-z3-4.12.1/src/qe/qe_mbi.h
+z3-z3-4.12.1/src/qe/qe_mbp.cpp
+z3-z3-4.12.1/src/qe/qe_mbp.h
+z3-z3-4.12.1/src/qe/qe_tactic.cpp
+z3-z3-4.12.1/src/qe/qe_tactic.h
+z3-z3-4.12.1/src/qe/qsat.cpp
+z3-z3-4.12.1/src/qe/qsat.h
+z3-z3-4.12.1/src/sat/
+z3-z3-4.12.1/src/sat/CMakeLists.txt
+z3-z3-4.12.1/src/sat/dimacs.cpp
+z3-z3-4.12.1/src/sat/dimacs.h
+z3-z3-4.12.1/src/sat/sat_aig_cuts.cpp
+z3-z3-4.12.1/src/sat/sat_aig_cuts.h
+z3-z3-4.12.1/src/sat/sat_aig_finder.cpp
+z3-z3-4.12.1/src/sat/sat_aig_finder.h
+z3-z3-4.12.1/src/sat/sat_allocator.h
+z3-z3-4.12.1/src/sat/sat_anf_simplifier.cpp
+z3-z3-4.12.1/src/sat/sat_anf_simplifier.h
+z3-z3-4.12.1/src/sat/sat_asymm_branch.cpp
+z3-z3-4.12.1/src/sat/sat_asymm_branch.h
+z3-z3-4.12.1/src/sat/sat_asymm_branch_params.pyg
+z3-z3-4.12.1/src/sat/sat_bcd.cpp
+z3-z3-4.12.1/src/sat/sat_bcd.h
+z3-z3-4.12.1/src/sat/sat_big.cpp
+z3-z3-4.12.1/src/sat/sat_big.h
+z3-z3-4.12.1/src/sat/sat_binspr.cpp
+z3-z3-4.12.1/src/sat/sat_binspr.h
+z3-z3-4.12.1/src/sat/sat_clause.cpp
+z3-z3-4.12.1/src/sat/sat_clause.h
+z3-z3-4.12.1/src/sat/sat_clause_set.cpp
+z3-z3-4.12.1/src/sat/sat_clause_set.h
+z3-z3-4.12.1/src/sat/sat_clause_use_list.cpp
+z3-z3-4.12.1/src/sat/sat_clause_use_list.h
+z3-z3-4.12.1/src/sat/sat_cleaner.cpp
+z3-z3-4.12.1/src/sat/sat_cleaner.h
+z3-z3-4.12.1/src/sat/sat_config.cpp
+z3-z3-4.12.1/src/sat/sat_config.h
+z3-z3-4.12.1/src/sat/sat_cut_simplifier.cpp
+z3-z3-4.12.1/src/sat/sat_cut_simplifier.h
+z3-z3-4.12.1/src/sat/sat_cutset.cpp
+z3-z3-4.12.1/src/sat/sat_cutset.h
+z3-z3-4.12.1/src/sat/sat_cutset_compute_shift.h
+z3-z3-4.12.1/src/sat/sat_ddfw.cpp
+z3-z3-4.12.1/src/sat/sat_ddfw.h
+z3-z3-4.12.1/src/sat/sat_drat.cpp
+z3-z3-4.12.1/src/sat/sat_drat.h
+z3-z3-4.12.1/src/sat/sat_elim_eqs.cpp
+z3-z3-4.12.1/src/sat/sat_elim_eqs.h
+z3-z3-4.12.1/src/sat/sat_elim_vars.cpp
+z3-z3-4.12.1/src/sat/sat_elim_vars.h
+z3-z3-4.12.1/src/sat/sat_extension.h
+z3-z3-4.12.1/src/sat/sat_gc.cpp
+z3-z3-4.12.1/src/sat/sat_integrity_checker.cpp
+z3-z3-4.12.1/src/sat/sat_integrity_checker.h
+z3-z3-4.12.1/src/sat/sat_justification.h
+z3-z3-4.12.1/src/sat/sat_local_search.cpp
+z3-z3-4.12.1/src/sat/sat_local_search.h
+z3-z3-4.12.1/src/sat/sat_lookahead.cpp
+z3-z3-4.12.1/src/sat/sat_lookahead.h
+z3-z3-4.12.1/src/sat/sat_lut_finder.cpp
+z3-z3-4.12.1/src/sat/sat_lut_finder.h
+z3-z3-4.12.1/src/sat/sat_model_converter.cpp
+z3-z3-4.12.1/src/sat/sat_model_converter.h
+z3-z3-4.12.1/src/sat/sat_mus.cpp
+z3-z3-4.12.1/src/sat/sat_mus.h
+z3-z3-4.12.1/src/sat/sat_npn3_finder.cpp
+z3-z3-4.12.1/src/sat/sat_npn3_finder.h
+z3-z3-4.12.1/src/sat/sat_parallel.cpp
+z3-z3-4.12.1/src/sat/sat_parallel.h
+z3-z3-4.12.1/src/sat/sat_params.pyg
+z3-z3-4.12.1/src/sat/sat_prob.cpp
+z3-z3-4.12.1/src/sat/sat_prob.h
+z3-z3-4.12.1/src/sat/sat_probing.cpp
+z3-z3-4.12.1/src/sat/sat_probing.h
+z3-z3-4.12.1/src/sat/sat_proof_trim.cpp
+z3-z3-4.12.1/src/sat/sat_proof_trim.h
+z3-z3-4.12.1/src/sat/sat_scc.cpp
+z3-z3-4.12.1/src/sat/sat_scc.h
+z3-z3-4.12.1/src/sat/sat_scc_params.pyg
+z3-z3-4.12.1/src/sat/sat_simplifier.cpp
+z3-z3-4.12.1/src/sat/sat_simplifier.h
+z3-z3-4.12.1/src/sat/sat_simplifier_params.pyg
+z3-z3-4.12.1/src/sat/sat_solver.cpp
+z3-z3-4.12.1/src/sat/sat_solver.h
+z3-z3-4.12.1/src/sat/sat_solver/
+z3-z3-4.12.1/src/sat/sat_solver/CMakeLists.txt
+z3-z3-4.12.1/src/sat/sat_solver/inc_sat_solver.cpp
+z3-z3-4.12.1/src/sat/sat_solver/inc_sat_solver.h
+z3-z3-4.12.1/src/sat/sat_solver/sat_smt_preprocess.cpp
+z3-z3-4.12.1/src/sat/sat_solver/sat_smt_preprocess.h
+z3-z3-4.12.1/src/sat/sat_solver/sat_smt_solver.cpp
+z3-z3-4.12.1/src/sat/sat_solver/sat_smt_solver.h
+z3-z3-4.12.1/src/sat/sat_solver_core.h
+z3-z3-4.12.1/src/sat/sat_types.h
+z3-z3-4.12.1/src/sat/sat_watched.cpp
+z3-z3-4.12.1/src/sat/sat_watched.h
+z3-z3-4.12.1/src/sat/sat_xor_finder.cpp
+z3-z3-4.12.1/src/sat/sat_xor_finder.h
+z3-z3-4.12.1/src/sat/smt/
+z3-z3-4.12.1/src/sat/smt/CMakeLists.txt
+z3-z3-4.12.1/src/sat/smt/arith_axioms.cpp
+z3-z3-4.12.1/src/sat/smt/arith_diagnostics.cpp
+z3-z3-4.12.1/src/sat/smt/arith_internalize.cpp
+z3-z3-4.12.1/src/sat/smt/arith_solver.cpp
+z3-z3-4.12.1/src/sat/smt/arith_solver.h
+z3-z3-4.12.1/src/sat/smt/arith_theory_checker.h
+z3-z3-4.12.1/src/sat/smt/array_axioms.cpp
+z3-z3-4.12.1/src/sat/smt/array_diagnostics.cpp
+z3-z3-4.12.1/src/sat/smt/array_internalize.cpp
+z3-z3-4.12.1/src/sat/smt/array_model.cpp
+z3-z3-4.12.1/src/sat/smt/array_solver.cpp
+z3-z3-4.12.1/src/sat/smt/array_solver.h
+z3-z3-4.12.1/src/sat/smt/atom2bool_var.cpp
+z3-z3-4.12.1/src/sat/smt/atom2bool_var.h
+z3-z3-4.12.1/src/sat/smt/ba_xor.h
+z3-z3-4.12.1/src/sat/smt/bv_ackerman.cpp
+z3-z3-4.12.1/src/sat/smt/bv_ackerman.h
+z3-z3-4.12.1/src/sat/smt/bv_delay_internalize.cpp
+z3-z3-4.12.1/src/sat/smt/bv_internalize.cpp
+z3-z3-4.12.1/src/sat/smt/bv_invariant.cpp
+z3-z3-4.12.1/src/sat/smt/bv_solver.cpp
+z3-z3-4.12.1/src/sat/smt/bv_solver.h
+z3-z3-4.12.1/src/sat/smt/bv_theory_checker.cpp
+z3-z3-4.12.1/src/sat/smt/bv_theory_checker.h
+z3-z3-4.12.1/src/sat/smt/distinct_theory_checker.h
+z3-z3-4.12.1/src/sat/smt/dt_solver.cpp
+z3-z3-4.12.1/src/sat/smt/dt_solver.h
+z3-z3-4.12.1/src/sat/smt/euf_ackerman.cpp
+z3-z3-4.12.1/src/sat/smt/euf_ackerman.h
+z3-z3-4.12.1/src/sat/smt/euf_internalize.cpp
+z3-z3-4.12.1/src/sat/smt/euf_invariant.cpp
+z3-z3-4.12.1/src/sat/smt/euf_model.cpp
+z3-z3-4.12.1/src/sat/smt/euf_proof.cpp
+z3-z3-4.12.1/src/sat/smt/euf_proof_checker.cpp
+z3-z3-4.12.1/src/sat/smt/euf_proof_checker.h
+z3-z3-4.12.1/src/sat/smt/euf_relevancy.cpp
+z3-z3-4.12.1/src/sat/smt/euf_relevancy.h
+z3-z3-4.12.1/src/sat/smt/euf_solver.cpp
+z3-z3-4.12.1/src/sat/smt/euf_solver.h
+z3-z3-4.12.1/src/sat/smt/fpa_solver.cpp
+z3-z3-4.12.1/src/sat/smt/fpa_solver.h
+z3-z3-4.12.1/src/sat/smt/pb_card.cpp
+z3-z3-4.12.1/src/sat/smt/pb_card.h
+z3-z3-4.12.1/src/sat/smt/pb_constraint.cpp
+z3-z3-4.12.1/src/sat/smt/pb_constraint.h
+z3-z3-4.12.1/src/sat/smt/pb_internalize.cpp
+z3-z3-4.12.1/src/sat/smt/pb_pb.cpp
+z3-z3-4.12.1/src/sat/smt/pb_pb.h
+z3-z3-4.12.1/src/sat/smt/pb_solver.cpp
+z3-z3-4.12.1/src/sat/smt/pb_solver.h
+z3-z3-4.12.1/src/sat/smt/pb_solver_interface.h
+z3-z3-4.12.1/src/sat/smt/q_clause.cpp
+z3-z3-4.12.1/src/sat/smt/q_clause.h
+z3-z3-4.12.1/src/sat/smt/q_ematch.cpp
+z3-z3-4.12.1/src/sat/smt/q_ematch.h
+z3-z3-4.12.1/src/sat/smt/q_eval.cpp
+z3-z3-4.12.1/src/sat/smt/q_eval.h
+z3-z3-4.12.1/src/sat/smt/q_mam.cpp
+z3-z3-4.12.1/src/sat/smt/q_mam.h
+z3-z3-4.12.1/src/sat/smt/q_mbi.cpp
+z3-z3-4.12.1/src/sat/smt/q_mbi.h
+z3-z3-4.12.1/src/sat/smt/q_model_fixer.cpp
+z3-z3-4.12.1/src/sat/smt/q_model_fixer.h
+z3-z3-4.12.1/src/sat/smt/q_queue.cpp
+z3-z3-4.12.1/src/sat/smt/q_queue.h
+z3-z3-4.12.1/src/sat/smt/q_solver.cpp
+z3-z3-4.12.1/src/sat/smt/q_solver.h
+z3-z3-4.12.1/src/sat/smt/q_theory_checker.cpp
+z3-z3-4.12.1/src/sat/smt/q_theory_checker.h
+z3-z3-4.12.1/src/sat/smt/recfun_solver.cpp
+z3-z3-4.12.1/src/sat/smt/recfun_solver.h
+z3-z3-4.12.1/src/sat/smt/sat_internalizer.h
+z3-z3-4.12.1/src/sat/smt/sat_smt.h
+z3-z3-4.12.1/src/sat/smt/sat_th.cpp
+z3-z3-4.12.1/src/sat/smt/sat_th.h
+z3-z3-4.12.1/src/sat/smt/tseitin_theory_checker.cpp
+z3-z3-4.12.1/src/sat/smt/tseitin_theory_checker.h
+z3-z3-4.12.1/src/sat/smt/user_solver.cpp
+z3-z3-4.12.1/src/sat/smt/user_solver.h
+z3-z3-4.12.1/src/sat/smt/xor_solver.cpp
+z3-z3-4.12.1/src/sat/smt/xor_solver.d
+z3-z3-4.12.1/src/sat/smt/xor_solver.h
+z3-z3-4.12.1/src/sat/tactic/
+z3-z3-4.12.1/src/sat/tactic/CMakeLists.txt
+z3-z3-4.12.1/src/sat/tactic/goal2sat.cpp
+z3-z3-4.12.1/src/sat/tactic/goal2sat.h
+z3-z3-4.12.1/src/sat/tactic/sat2goal.cpp
+z3-z3-4.12.1/src/sat/tactic/sat2goal.h
+z3-z3-4.12.1/src/sat/tactic/sat_tactic.cpp
+z3-z3-4.12.1/src/sat/tactic/sat_tactic.h
+z3-z3-4.12.1/src/shell/
+z3-z3-4.12.1/src/shell/CMakeLists.txt
+z3-z3-4.12.1/src/shell/datalog_frontend.cpp
+z3-z3-4.12.1/src/shell/datalog_frontend.h
+z3-z3-4.12.1/src/shell/dimacs_frontend.cpp
+z3-z3-4.12.1/src/shell/dimacs_frontend.h
+z3-z3-4.12.1/src/shell/drat_frontend.cpp
+z3-z3-4.12.1/src/shell/drat_frontend.h
+z3-z3-4.12.1/src/shell/lp_frontend.cpp
+z3-z3-4.12.1/src/shell/lp_frontend.h
+z3-z3-4.12.1/src/shell/main.cpp
+z3-z3-4.12.1/src/shell/opt_frontend.cpp
+z3-z3-4.12.1/src/shell/opt_frontend.h
+z3-z3-4.12.1/src/shell/options.h
+z3-z3-4.12.1/src/shell/smtlib_frontend.cpp
+z3-z3-4.12.1/src/shell/smtlib_frontend.h
+z3-z3-4.12.1/src/shell/z3_log_frontend.cpp
+z3-z3-4.12.1/src/shell/z3_log_frontend.h
+z3-z3-4.12.1/src/smt/
+z3-z3-4.12.1/src/smt/CMakeLists.txt
+z3-z3-4.12.1/src/smt/arith_eq_adapter.cpp
+z3-z3-4.12.1/src/smt/arith_eq_adapter.h
+z3-z3-4.12.1/src/smt/arith_eq_solver.cpp
+z3-z3-4.12.1/src/smt/arith_eq_solver.h
+z3-z3-4.12.1/src/smt/database.h
+z3-z3-4.12.1/src/smt/database.smt
+z3-z3-4.12.1/src/smt/diff_logic.h
+z3-z3-4.12.1/src/smt/dyn_ack.cpp
+z3-z3-4.12.1/src/smt/dyn_ack.h
+z3-z3-4.12.1/src/smt/expr_context_simplifier.cpp
+z3-z3-4.12.1/src/smt/expr_context_simplifier.h
+z3-z3-4.12.1/src/smt/fingerprints.cpp
+z3-z3-4.12.1/src/smt/fingerprints.h
+z3-z3-4.12.1/src/smt/mam.cpp
+z3-z3-4.12.1/src/smt/mam.h
+z3-z3-4.12.1/src/smt/old_interval.cpp
+z3-z3-4.12.1/src/smt/old_interval.h
+z3-z3-4.12.1/src/smt/params/
+z3-z3-4.12.1/src/smt/params/CMakeLists.txt
+z3-z3-4.12.1/src/smt/params/dyn_ack_params.cpp
+z3-z3-4.12.1/src/smt/params/dyn_ack_params.h
+z3-z3-4.12.1/src/smt/params/preprocessor_params.cpp
+z3-z3-4.12.1/src/smt/params/preprocessor_params.h
+z3-z3-4.12.1/src/smt/params/qi_params.cpp
+z3-z3-4.12.1/src/smt/params/qi_params.h
+z3-z3-4.12.1/src/smt/params/smt_params.cpp
+z3-z3-4.12.1/src/smt/params/smt_params.h
+z3-z3-4.12.1/src/smt/params/smt_params_helper.pyg
+z3-z3-4.12.1/src/smt/params/theory_arith_params.cpp
+z3-z3-4.12.1/src/smt/params/theory_arith_params.h
+z3-z3-4.12.1/src/smt/params/theory_array_params.cpp
+z3-z3-4.12.1/src/smt/params/theory_array_params.h
+z3-z3-4.12.1/src/smt/params/theory_bv_params.cpp
+z3-z3-4.12.1/src/smt/params/theory_bv_params.h
+z3-z3-4.12.1/src/smt/params/theory_datatype_params.h
+z3-z3-4.12.1/src/smt/params/theory_pb_params.cpp
+z3-z3-4.12.1/src/smt/params/theory_pb_params.h
+z3-z3-4.12.1/src/smt/params/theory_seq_params.cpp
+z3-z3-4.12.1/src/smt/params/theory_seq_params.h
+z3-z3-4.12.1/src/smt/params/theory_str_params.cpp
+z3-z3-4.12.1/src/smt/params/theory_str_params.h
+z3-z3-4.12.1/src/smt/proto_model/
+z3-z3-4.12.1/src/smt/proto_model/CMakeLists.txt
+z3-z3-4.12.1/src/smt/proto_model/proto_model.cpp
+z3-z3-4.12.1/src/smt/proto_model/proto_model.h
+z3-z3-4.12.1/src/smt/qi_queue.cpp
+z3-z3-4.12.1/src/smt/qi_queue.h
+z3-z3-4.12.1/src/smt/seq_axioms.cpp
+z3-z3-4.12.1/src/smt/seq_axioms.h
+z3-z3-4.12.1/src/smt/seq_eq_solver.cpp
+z3-z3-4.12.1/src/smt/seq_ne_solver.cpp
+z3-z3-4.12.1/src/smt/seq_offset_eq.cpp
+z3-z3-4.12.1/src/smt/seq_offset_eq.h
+z3-z3-4.12.1/src/smt/seq_regex.cpp
+z3-z3-4.12.1/src/smt/seq_regex.h
+z3-z3-4.12.1/src/smt/smt2_extra_cmds.cpp
+z3-z3-4.12.1/src/smt/smt2_extra_cmds.h
+z3-z3-4.12.1/src/smt/smt_almost_cg_table.cpp
+z3-z3-4.12.1/src/smt/smt_almost_cg_table.h
+z3-z3-4.12.1/src/smt/smt_arith_value.cpp
+z3-z3-4.12.1/src/smt/smt_arith_value.h
+z3-z3-4.12.1/src/smt/smt_b_justification.h
+z3-z3-4.12.1/src/smt/smt_bool_var_data.h
+z3-z3-4.12.1/src/smt/smt_case_split_queue.cpp
+z3-z3-4.12.1/src/smt/smt_case_split_queue.h
+z3-z3-4.12.1/src/smt/smt_cg_table.cpp
+z3-z3-4.12.1/src/smt/smt_cg_table.h
+z3-z3-4.12.1/src/smt/smt_checker.cpp
+z3-z3-4.12.1/src/smt/smt_checker.h
+z3-z3-4.12.1/src/smt/smt_clause.cpp
+z3-z3-4.12.1/src/smt/smt_clause.h
+z3-z3-4.12.1/src/smt/smt_clause_proof.cpp
+z3-z3-4.12.1/src/smt/smt_clause_proof.h
+z3-z3-4.12.1/src/smt/smt_conflict_resolution.cpp
+z3-z3-4.12.1/src/smt/smt_conflict_resolution.h
+z3-z3-4.12.1/src/smt/smt_consequences.cpp
+z3-z3-4.12.1/src/smt/smt_context.cpp
+z3-z3-4.12.1/src/smt/smt_context.h
+z3-z3-4.12.1/src/smt/smt_context_inv.cpp
+z3-z3-4.12.1/src/smt/smt_context_pp.cpp
+z3-z3-4.12.1/src/smt/smt_context_stat.cpp
+z3-z3-4.12.1/src/smt/smt_enode.cpp
+z3-z3-4.12.1/src/smt/smt_enode.h
+z3-z3-4.12.1/src/smt/smt_eq_justification.h
+z3-z3-4.12.1/src/smt/smt_failure.h
+z3-z3-4.12.1/src/smt/smt_farkas_util.cpp
+z3-z3-4.12.1/src/smt/smt_farkas_util.h
+z3-z3-4.12.1/src/smt/smt_for_each_relevant_expr.cpp
+z3-z3-4.12.1/src/smt/smt_for_each_relevant_expr.h
+z3-z3-4.12.1/src/smt/smt_implied_equalities.cpp
+z3-z3-4.12.1/src/smt/smt_implied_equalities.h
+z3-z3-4.12.1/src/smt/smt_induction.cpp.disabled
+z3-z3-4.12.1/src/smt/smt_induction.h.disabled
+z3-z3-4.12.1/src/smt/smt_internalizer.cpp
+z3-z3-4.12.1/src/smt/smt_justification.cpp
+z3-z3-4.12.1/src/smt/smt_justification.h
+z3-z3-4.12.1/src/smt/smt_kernel.cpp
+z3-z3-4.12.1/src/smt/smt_kernel.h
+z3-z3-4.12.1/src/smt/smt_literal.cpp
+z3-z3-4.12.1/src/smt/smt_literal.h
+z3-z3-4.12.1/src/smt/smt_lookahead.cpp
+z3-z3-4.12.1/src/smt/smt_lookahead.h
+z3-z3-4.12.1/src/smt/smt_model_checker.cpp
+z3-z3-4.12.1/src/smt/smt_model_checker.h
+z3-z3-4.12.1/src/smt/smt_model_finder.cpp
+z3-z3-4.12.1/src/smt/smt_model_finder.h
+z3-z3-4.12.1/src/smt/smt_model_generator.cpp
+z3-z3-4.12.1/src/smt/smt_model_generator.h
+z3-z3-4.12.1/src/smt/smt_parallel.cpp
+z3-z3-4.12.1/src/smt/smt_parallel.h
+z3-z3-4.12.1/src/smt/smt_quantifier.cpp
+z3-z3-4.12.1/src/smt/smt_quantifier.h
+z3-z3-4.12.1/src/smt/smt_quantifier_instances.h
+z3-z3-4.12.1/src/smt/smt_quick_checker.cpp
+z3-z3-4.12.1/src/smt/smt_quick_checker.h
+z3-z3-4.12.1/src/smt/smt_relevancy.cpp
+z3-z3-4.12.1/src/smt/smt_relevancy.h
+z3-z3-4.12.1/src/smt/smt_setup.cpp
+z3-z3-4.12.1/src/smt/smt_setup.h
+z3-z3-4.12.1/src/smt/smt_solver.cpp
+z3-z3-4.12.1/src/smt/smt_solver.h
+z3-z3-4.12.1/src/smt/smt_statistics.cpp
+z3-z3-4.12.1/src/smt/smt_statistics.h
+z3-z3-4.12.1/src/smt/smt_theory.cpp
+z3-z3-4.12.1/src/smt/smt_theory.h
+z3-z3-4.12.1/src/smt/smt_types.h
+z3-z3-4.12.1/src/smt/smt_value_sort.cpp
+z3-z3-4.12.1/src/smt/smt_value_sort.h
+z3-z3-4.12.1/src/smt/spanning_tree.h
+z3-z3-4.12.1/src/smt/spanning_tree_base.h
+z3-z3-4.12.1/src/smt/spanning_tree_def.h
+z3-z3-4.12.1/src/smt/tactic/
+z3-z3-4.12.1/src/smt/tactic/CMakeLists.txt
+z3-z3-4.12.1/src/smt/tactic/ctx_solver_simplify_tactic.cpp
+z3-z3-4.12.1/src/smt/tactic/ctx_solver_simplify_tactic.h
+z3-z3-4.12.1/src/smt/tactic/smt_tactic_core.cpp
+z3-z3-4.12.1/src/smt/tactic/smt_tactic_core.h
+z3-z3-4.12.1/src/smt/tactic/unit_subsumption_tactic.cpp
+z3-z3-4.12.1/src/smt/tactic/unit_subsumption_tactic.h
+z3-z3-4.12.1/src/smt/theory_arith.cpp
+z3-z3-4.12.1/src/smt/theory_arith.h
+z3-z3-4.12.1/src/smt/theory_arith_aux.h
+z3-z3-4.12.1/src/smt/theory_arith_core.h
+z3-z3-4.12.1/src/smt/theory_arith_def.h
+z3-z3-4.12.1/src/smt/theory_arith_eq.h
+z3-z3-4.12.1/src/smt/theory_arith_int.h
+z3-z3-4.12.1/src/smt/theory_arith_inv.h
+z3-z3-4.12.1/src/smt/theory_arith_nl.h
+z3-z3-4.12.1/src/smt/theory_arith_pp.h
+z3-z3-4.12.1/src/smt/theory_array.cpp
+z3-z3-4.12.1/src/smt/theory_array.h
+z3-z3-4.12.1/src/smt/theory_array_bapa.cpp
+z3-z3-4.12.1/src/smt/theory_array_bapa.h
+z3-z3-4.12.1/src/smt/theory_array_base.cpp
+z3-z3-4.12.1/src/smt/theory_array_base.h
+z3-z3-4.12.1/src/smt/theory_array_full.cpp
+z3-z3-4.12.1/src/smt/theory_array_full.h
+z3-z3-4.12.1/src/smt/theory_bv.cpp
+z3-z3-4.12.1/src/smt/theory_bv.h
+z3-z3-4.12.1/src/smt/theory_char.cpp
+z3-z3-4.12.1/src/smt/theory_char.h
+z3-z3-4.12.1/src/smt/theory_datatype.cpp
+z3-z3-4.12.1/src/smt/theory_datatype.h
+z3-z3-4.12.1/src/smt/theory_dense_diff_logic.cpp
+z3-z3-4.12.1/src/smt/theory_dense_diff_logic.h
+z3-z3-4.12.1/src/smt/theory_dense_diff_logic_def.h
+z3-z3-4.12.1/src/smt/theory_diff_logic.cpp
+z3-z3-4.12.1/src/smt/theory_diff_logic.h
+z3-z3-4.12.1/src/smt/theory_diff_logic_def.h
+z3-z3-4.12.1/src/smt/theory_dl.cpp
+z3-z3-4.12.1/src/smt/theory_dl.h
+z3-z3-4.12.1/src/smt/theory_dummy.cpp
+z3-z3-4.12.1/src/smt/theory_dummy.h
+z3-z3-4.12.1/src/smt/theory_fpa.cpp
+z3-z3-4.12.1/src/smt/theory_fpa.h
+z3-z3-4.12.1/src/smt/theory_lra.cpp
+z3-z3-4.12.1/src/smt/theory_lra.h
+z3-z3-4.12.1/src/smt/theory_opt.cpp
+z3-z3-4.12.1/src/smt/theory_opt.h
+z3-z3-4.12.1/src/smt/theory_pb.cpp
+z3-z3-4.12.1/src/smt/theory_pb.h
+z3-z3-4.12.1/src/smt/theory_recfun.cpp
+z3-z3-4.12.1/src/smt/theory_recfun.h
+z3-z3-4.12.1/src/smt/theory_seq.cpp
+z3-z3-4.12.1/src/smt/theory_seq.h
+z3-z3-4.12.1/src/smt/theory_seq_empty.h
+z3-z3-4.12.1/src/smt/theory_special_relations.cpp
+z3-z3-4.12.1/src/smt/theory_special_relations.h
+z3-z3-4.12.1/src/smt/theory_str.cpp
+z3-z3-4.12.1/src/smt/theory_str.h
+z3-z3-4.12.1/src/smt/theory_str_mc.cpp
+z3-z3-4.12.1/src/smt/theory_str_regex.cpp
+z3-z3-4.12.1/src/smt/theory_user_propagator.cpp
+z3-z3-4.12.1/src/smt/theory_user_propagator.h
+z3-z3-4.12.1/src/smt/theory_utvpi.cpp
+z3-z3-4.12.1/src/smt/theory_utvpi.h
+z3-z3-4.12.1/src/smt/theory_utvpi_def.h
+z3-z3-4.12.1/src/smt/theory_wmaxsat.cpp
+z3-z3-4.12.1/src/smt/theory_wmaxsat.h
+z3-z3-4.12.1/src/smt/uses_theory.cpp
+z3-z3-4.12.1/src/smt/uses_theory.h
+z3-z3-4.12.1/src/smt/watch_list.cpp
+z3-z3-4.12.1/src/smt/watch_list.h
+z3-z3-4.12.1/src/solver/
+z3-z3-4.12.1/src/solver/CMakeLists.txt
+z3-z3-4.12.1/src/solver/assertions/
+z3-z3-4.12.1/src/solver/assertions/CMakeLists.txt
+z3-z3-4.12.1/src/solver/assertions/asserted_formulas.cpp
+z3-z3-4.12.1/src/solver/assertions/asserted_formulas.h
+z3-z3-4.12.1/src/solver/check_logic.cpp
+z3-z3-4.12.1/src/solver/check_logic.h
+z3-z3-4.12.1/src/solver/check_sat_result.cpp
+z3-z3-4.12.1/src/solver/check_sat_result.h
+z3-z3-4.12.1/src/solver/combined_solver.cpp
+z3-z3-4.12.1/src/solver/combined_solver.h
+z3-z3-4.12.1/src/solver/combined_solver_params.pyg
+z3-z3-4.12.1/src/solver/mus.cpp
+z3-z3-4.12.1/src/solver/mus.h
+z3-z3-4.12.1/src/solver/parallel_params.pyg
+z3-z3-4.12.1/src/solver/parallel_tactical.cpp
+z3-z3-4.12.1/src/solver/parallel_tactical.h
+z3-z3-4.12.1/src/solver/progress_callback.h
+z3-z3-4.12.1/src/solver/smt_logics.cpp
+z3-z3-4.12.1/src/solver/smt_logics.h
+z3-z3-4.12.1/src/solver/solver.cpp
+z3-z3-4.12.1/src/solver/solver.h
+z3-z3-4.12.1/src/solver/solver2tactic.cpp
+z3-z3-4.12.1/src/solver/solver2tactic.h
+z3-z3-4.12.1/src/solver/solver_na2as.cpp
+z3-z3-4.12.1/src/solver/solver_na2as.h
+z3-z3-4.12.1/src/solver/solver_pool.cpp
+z3-z3-4.12.1/src/solver/solver_pool.h
+z3-z3-4.12.1/src/solver/tactic2solver.cpp
+z3-z3-4.12.1/src/solver/tactic2solver.h
+z3-z3-4.12.1/src/tactic/
+z3-z3-4.12.1/src/tactic/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/aig/
+z3-z3-4.12.1/src/tactic/aig/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/aig/aig.cpp
+z3-z3-4.12.1/src/tactic/aig/aig.h
+z3-z3-4.12.1/src/tactic/aig/aig_tactic.cpp
+z3-z3-4.12.1/src/tactic/aig/aig_tactic.h
+z3-z3-4.12.1/src/tactic/arith/
+z3-z3-4.12.1/src/tactic/arith/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/arith/add_bounds_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/add_bounds_tactic.h
+z3-z3-4.12.1/src/tactic/arith/arith_bounds_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/arith_bounds_tactic.h
+z3-z3-4.12.1/src/tactic/arith/bound_propagator.cpp
+z3-z3-4.12.1/src/tactic/arith/bound_propagator.h
+z3-z3-4.12.1/src/tactic/arith/bv2int_rewriter.cpp
+z3-z3-4.12.1/src/tactic/arith/bv2int_rewriter.h
+z3-z3-4.12.1/src/tactic/arith/bv2real_rewriter.cpp
+z3-z3-4.12.1/src/tactic/arith/bv2real_rewriter.h
+z3-z3-4.12.1/src/tactic/arith/card2bv_tactic.h
+z3-z3-4.12.1/src/tactic/arith/degree_shift_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/degree_shift_tactic.h
+z3-z3-4.12.1/src/tactic/arith/diff_neq_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/diff_neq_tactic.h
+z3-z3-4.12.1/src/tactic/arith/eq2bv_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/eq2bv_tactic.h
+z3-z3-4.12.1/src/tactic/arith/factor_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/factor_tactic.h
+z3-z3-4.12.1/src/tactic/arith/fix_dl_var_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/fix_dl_var_tactic.h
+z3-z3-4.12.1/src/tactic/arith/fm_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/fm_tactic.h
+z3-z3-4.12.1/src/tactic/arith/lia2card_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/lia2card_tactic.h
+z3-z3-4.12.1/src/tactic/arith/lia2pb_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/lia2pb_tactic.h
+z3-z3-4.12.1/src/tactic/arith/linear_equation.cpp
+z3-z3-4.12.1/src/tactic/arith/linear_equation.h
+z3-z3-4.12.1/src/tactic/arith/nla2bv_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/nla2bv_tactic.h
+z3-z3-4.12.1/src/tactic/arith/normalize_bounds_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/normalize_bounds_tactic.h
+z3-z3-4.12.1/src/tactic/arith/pb2bv_model_converter.cpp
+z3-z3-4.12.1/src/tactic/arith/pb2bv_model_converter.h
+z3-z3-4.12.1/src/tactic/arith/pb2bv_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/pb2bv_tactic.h
+z3-z3-4.12.1/src/tactic/arith/probe_arith.cpp
+z3-z3-4.12.1/src/tactic/arith/probe_arith.h
+z3-z3-4.12.1/src/tactic/arith/propagate_ineqs_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/propagate_ineqs_tactic.h
+z3-z3-4.12.1/src/tactic/arith/purify_arith_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/purify_arith_tactic.h
+z3-z3-4.12.1/src/tactic/arith/recover_01_tactic.cpp
+z3-z3-4.12.1/src/tactic/arith/recover_01_tactic.h
+z3-z3-4.12.1/src/tactic/bv/
+z3-z3-4.12.1/src/tactic/bv/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/bv/bit_blaster_model_converter.cpp
+z3-z3-4.12.1/src/tactic/bv/bit_blaster_model_converter.h
+z3-z3-4.12.1/src/tactic/bv/bit_blaster_tactic.cpp
+z3-z3-4.12.1/src/tactic/bv/bit_blaster_tactic.h
+z3-z3-4.12.1/src/tactic/bv/bv1_blaster_tactic.cpp
+z3-z3-4.12.1/src/tactic/bv/bv1_blaster_tactic.h
+z3-z3-4.12.1/src/tactic/bv/bv_bound_chk_tactic.cpp
+z3-z3-4.12.1/src/tactic/bv/bv_bound_chk_tactic.h
+z3-z3-4.12.1/src/tactic/bv/bv_bounds_tactic.cpp
+z3-z3-4.12.1/src/tactic/bv/bv_bounds_tactic.h
+z3-z3-4.12.1/src/tactic/bv/bv_size_reduction_tactic.cpp
+z3-z3-4.12.1/src/tactic/bv/bv_size_reduction_tactic.h
+z3-z3-4.12.1/src/tactic/bv/bv_slice_tactic.cpp
+z3-z3-4.12.1/src/tactic/bv/bv_slice_tactic.h
+z3-z3-4.12.1/src/tactic/bv/bvarray2uf_rewriter.cpp
+z3-z3-4.12.1/src/tactic/bv/bvarray2uf_rewriter.h
+z3-z3-4.12.1/src/tactic/bv/bvarray2uf_tactic.cpp
+z3-z3-4.12.1/src/tactic/bv/bvarray2uf_tactic.h
+z3-z3-4.12.1/src/tactic/bv/dt2bv_tactic.cpp
+z3-z3-4.12.1/src/tactic/bv/dt2bv_tactic.h
+z3-z3-4.12.1/src/tactic/bv/elim_small_bv_tactic.cpp
+z3-z3-4.12.1/src/tactic/bv/elim_small_bv_tactic.h
+z3-z3-4.12.1/src/tactic/bv/max_bv_sharing_tactic.h
+z3-z3-4.12.1/src/tactic/core/
+z3-z3-4.12.1/src/tactic/core/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/core/blast_term_ite_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/blast_term_ite_tactic.h
+z3-z3-4.12.1/src/tactic/core/cofactor_elim_term_ite.cpp
+z3-z3-4.12.1/src/tactic/core/cofactor_elim_term_ite.h
+z3-z3-4.12.1/src/tactic/core/cofactor_term_ite_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/cofactor_term_ite_tactic.h
+z3-z3-4.12.1/src/tactic/core/collect_occs.cpp
+z3-z3-4.12.1/src/tactic/core/collect_occs.h
+z3-z3-4.12.1/src/tactic/core/collect_statistics_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/collect_statistics_tactic.h
+z3-z3-4.12.1/src/tactic/core/ctx_simplify_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/ctx_simplify_tactic.h
+z3-z3-4.12.1/src/tactic/core/demodulator_tactic.h
+z3-z3-4.12.1/src/tactic/core/der_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/der_tactic.h
+z3-z3-4.12.1/src/tactic/core/distribute_forall_tactic.h
+z3-z3-4.12.1/src/tactic/core/dom_simplify_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/dom_simplify_tactic.h
+z3-z3-4.12.1/src/tactic/core/elim_term_ite_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/elim_term_ite_tactic.h
+z3-z3-4.12.1/src/tactic/core/elim_uncnstr2_tactic.h
+z3-z3-4.12.1/src/tactic/core/elim_uncnstr_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/elim_uncnstr_tactic.h
+z3-z3-4.12.1/src/tactic/core/eliminate_predicates_tactic.h
+z3-z3-4.12.1/src/tactic/core/euf_completion_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/euf_completion_tactic.h
+z3-z3-4.12.1/src/tactic/core/injectivity_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/injectivity_tactic.h
+z3-z3-4.12.1/src/tactic/core/nnf_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/nnf_tactic.h
+z3-z3-4.12.1/src/tactic/core/occf_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/occf_tactic.h
+z3-z3-4.12.1/src/tactic/core/pb_preprocess_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/pb_preprocess_tactic.h
+z3-z3-4.12.1/src/tactic/core/propagate_values2_tactic.h
+z3-z3-4.12.1/src/tactic/core/propagate_values_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/propagate_values_tactic.h
+z3-z3-4.12.1/src/tactic/core/reduce_args_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/reduce_args_tactic.h
+z3-z3-4.12.1/src/tactic/core/simplify_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/simplify_tactic.h
+z3-z3-4.12.1/src/tactic/core/solve_eqs_tactic.h
+z3-z3-4.12.1/src/tactic/core/special_relations_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/special_relations_tactic.h
+z3-z3-4.12.1/src/tactic/core/split_clause_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/split_clause_tactic.h
+z3-z3-4.12.1/src/tactic/core/symmetry_reduce_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/symmetry_reduce_tactic.h
+z3-z3-4.12.1/src/tactic/core/tseitin_cnf_tactic.cpp
+z3-z3-4.12.1/src/tactic/core/tseitin_cnf_tactic.h
+z3-z3-4.12.1/src/tactic/dependency_converter.cpp
+z3-z3-4.12.1/src/tactic/dependency_converter.h
+z3-z3-4.12.1/src/tactic/dependent_expr_state_tactic.h
+z3-z3-4.12.1/src/tactic/fd_solver/
+z3-z3-4.12.1/src/tactic/fd_solver/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/fd_solver/bounded_int2bv_solver.cpp
+z3-z3-4.12.1/src/tactic/fd_solver/bounded_int2bv_solver.h
+z3-z3-4.12.1/src/tactic/fd_solver/enum2bv_solver.cpp
+z3-z3-4.12.1/src/tactic/fd_solver/enum2bv_solver.h
+z3-z3-4.12.1/src/tactic/fd_solver/fd_solver.cpp
+z3-z3-4.12.1/src/tactic/fd_solver/fd_solver.h
+z3-z3-4.12.1/src/tactic/fd_solver/pb2bv_solver.cpp
+z3-z3-4.12.1/src/tactic/fd_solver/pb2bv_solver.h
+z3-z3-4.12.1/src/tactic/fd_solver/smtfd_solver.cpp
+z3-z3-4.12.1/src/tactic/fd_solver/smtfd_solver.h
+z3-z3-4.12.1/src/tactic/fpa/
+z3-z3-4.12.1/src/tactic/fpa/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/fpa/fpa2bv_model_converter.cpp
+z3-z3-4.12.1/src/tactic/fpa/fpa2bv_model_converter.h
+z3-z3-4.12.1/src/tactic/fpa/fpa2bv_tactic.cpp
+z3-z3-4.12.1/src/tactic/fpa/fpa2bv_tactic.h
+z3-z3-4.12.1/src/tactic/fpa/qffp_tactic.cpp
+z3-z3-4.12.1/src/tactic/fpa/qffp_tactic.h
+z3-z3-4.12.1/src/tactic/fpa/qffplra_tactic.cpp
+z3-z3-4.12.1/src/tactic/fpa/qffplra_tactic.h
+z3-z3-4.12.1/src/tactic/goal.cpp
+z3-z3-4.12.1/src/tactic/goal.h
+z3-z3-4.12.1/src/tactic/goal_num_occurs.cpp
+z3-z3-4.12.1/src/tactic/goal_num_occurs.h
+z3-z3-4.12.1/src/tactic/goal_proof_converter.h
+z3-z3-4.12.1/src/tactic/goal_shared_occs.cpp
+z3-z3-4.12.1/src/tactic/goal_shared_occs.h
+z3-z3-4.12.1/src/tactic/goal_util.cpp
+z3-z3-4.12.1/src/tactic/goal_util.h
+z3-z3-4.12.1/src/tactic/portfolio/
+z3-z3-4.12.1/src/tactic/portfolio/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/portfolio/default_tactic.cpp
+z3-z3-4.12.1/src/tactic/portfolio/default_tactic.h
+z3-z3-4.12.1/src/tactic/portfolio/smt_strategic_solver.cpp
+z3-z3-4.12.1/src/tactic/portfolio/solver2lookahead.cpp
+z3-z3-4.12.1/src/tactic/portfolio/solver2lookahead.h
+z3-z3-4.12.1/src/tactic/portfolio/solver_subsumption_tactic.cpp
+z3-z3-4.12.1/src/tactic/portfolio/solver_subsumption_tactic.h
+z3-z3-4.12.1/src/tactic/probe.cpp
+z3-z3-4.12.1/src/tactic/probe.h
+z3-z3-4.12.1/src/tactic/sls/
+z3-z3-4.12.1/src/tactic/sls/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/sls/bvsls_opt_engine.cpp
+z3-z3-4.12.1/src/tactic/sls/bvsls_opt_engine.h
+z3-z3-4.12.1/src/tactic/sls/sls_engine.cpp
+z3-z3-4.12.1/src/tactic/sls/sls_engine.h
+z3-z3-4.12.1/src/tactic/sls/sls_evaluator.h
+z3-z3-4.12.1/src/tactic/sls/sls_params.pyg
+z3-z3-4.12.1/src/tactic/sls/sls_powers.h
+z3-z3-4.12.1/src/tactic/sls/sls_tactic.cpp
+z3-z3-4.12.1/src/tactic/sls/sls_tactic.h
+z3-z3-4.12.1/src/tactic/sls/sls_tracker.h
+z3-z3-4.12.1/src/tactic/smtlogics/
+z3-z3-4.12.1/src/tactic/smtlogics/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/smtlogics/nra_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/nra_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfaufbv_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qfaufbv_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfauflia_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qfauflia_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfbv_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qfbv_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfidl_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qfidl_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qflia_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qflia_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qflra_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qflra_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfnia_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qfnia_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfnra_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qfnra_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfuf_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qfuf_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfufbv_ackr_model_converter.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qfufbv_ackr_model_converter.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfufbv_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/qfufbv_tactic.h
+z3-z3-4.12.1/src/tactic/smtlogics/qfufbv_tactic_params.pyg
+z3-z3-4.12.1/src/tactic/smtlogics/quant_tactics.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/quant_tactics.h
+z3-z3-4.12.1/src/tactic/smtlogics/smt_tactic.cpp
+z3-z3-4.12.1/src/tactic/smtlogics/smt_tactic.h
+z3-z3-4.12.1/src/tactic/tactic.cpp
+z3-z3-4.12.1/src/tactic/tactic.h
+z3-z3-4.12.1/src/tactic/tactic_exception.h
+z3-z3-4.12.1/src/tactic/tactical.cpp
+z3-z3-4.12.1/src/tactic/tactical.h
+z3-z3-4.12.1/src/tactic/ufbv/
+z3-z3-4.12.1/src/tactic/ufbv/CMakeLists.txt
+z3-z3-4.12.1/src/tactic/ufbv/macro_finder_tactic.cpp
+z3-z3-4.12.1/src/tactic/ufbv/macro_finder_tactic.h
+z3-z3-4.12.1/src/tactic/ufbv/quasi_macros_tactic.cpp
+z3-z3-4.12.1/src/tactic/ufbv/quasi_macros_tactic.h
+z3-z3-4.12.1/src/tactic/ufbv/ufbv_rewriter_tactic.cpp
+z3-z3-4.12.1/src/tactic/ufbv/ufbv_rewriter_tactic.h
+z3-z3-4.12.1/src/tactic/ufbv/ufbv_tactic.cpp
+z3-z3-4.12.1/src/tactic/ufbv/ufbv_tactic.h
+z3-z3-4.12.1/src/tactic/user_propagator_base.h
+z3-z3-4.12.1/src/test/
+z3-z3-4.12.1/src/test/CMakeLists.txt
+z3-z3-4.12.1/src/test/algebraic.cpp
+z3-z3-4.12.1/src/test/api.cpp
+z3-z3-4.12.1/src/test/api_bug.cpp
+z3-z3-4.12.1/src/test/arith_rewriter.cpp
+z3-z3-4.12.1/src/test/arith_simplifier_plugin.cpp
+z3-z3-4.12.1/src/test/ast.cpp
+z3-z3-4.12.1/src/test/bdd.cpp
+z3-z3-4.12.1/src/test/bit_blaster.cpp
+z3-z3-4.12.1/src/test/bit_vector.cpp
+z3-z3-4.12.1/src/test/bits.cpp
+z3-z3-4.12.1/src/test/buffer.cpp
+z3-z3-4.12.1/src/test/chashtable.cpp
+z3-z3-4.12.1/src/test/check_assumptions.cpp
+z3-z3-4.12.1/src/test/cnf_backbones.cpp
+z3-z3-4.12.1/src/test/cube_clause.cpp
+z3-z3-4.12.1/src/test/datalog_parser.cpp
+z3-z3-4.12.1/src/test/ddnf.cpp
+z3-z3-4.12.1/src/test/diff_logic.cpp
+z3-z3-4.12.1/src/test/dl_context.cpp
+z3-z3-4.12.1/src/test/dl_product_relation.cpp
+z3-z3-4.12.1/src/test/dl_query.cpp
+z3-z3-4.12.1/src/test/dl_relation.cpp
+z3-z3-4.12.1/src/test/dl_table.cpp
+z3-z3-4.12.1/src/test/dl_util.cpp
+z3-z3-4.12.1/src/test/doc.cpp
+z3-z3-4.12.1/src/test/egraph.cpp
+z3-z3-4.12.1/src/test/escaped.cpp
+z3-z3-4.12.1/src/test/ex.cpp
+z3-z3-4.12.1/src/test/expr_rand.cpp
+z3-z3-4.12.1/src/test/expr_substitution.cpp
+z3-z3-4.12.1/src/test/ext_numeral.cpp
+z3-z3-4.12.1/src/test/f2n.cpp
+z3-z3-4.12.1/src/test/factor_rewriter.cpp
+z3-z3-4.12.1/src/test/finder.cpp
+z3-z3-4.12.1/src/test/fixed_bit_vector.cpp
+z3-z3-4.12.1/src/test/for_each_file.cpp
+z3-z3-4.12.1/src/test/for_each_file.h
+z3-z3-4.12.1/src/test/fuzzing/
+z3-z3-4.12.1/src/test/fuzzing/CMakeLists.txt
+z3-z3-4.12.1/src/test/fuzzing/expr_delta.cpp
+z3-z3-4.12.1/src/test/fuzzing/expr_delta.h
+z3-z3-4.12.1/src/test/fuzzing/expr_rand.cpp
+z3-z3-4.12.1/src/test/fuzzing/expr_rand.h
+z3-z3-4.12.1/src/test/get_consequences.cpp
+z3-z3-4.12.1/src/test/get_implied_equalities.cpp
+z3-z3-4.12.1/src/test/hashtable.cpp
+z3-z3-4.12.1/src/test/heap.cpp
+z3-z3-4.12.1/src/test/heap_trie.cpp
+z3-z3-4.12.1/src/test/hilbert_basis.cpp
+z3-z3-4.12.1/src/test/horn_subsume_model_converter.cpp
+z3-z3-4.12.1/src/test/hwf.cpp
+z3-z3-4.12.1/src/test/im_float_config.h
+z3-z3-4.12.1/src/test/inf_rational.cpp
+z3-z3-4.12.1/src/test/interval.cpp
+z3-z3-4.12.1/src/test/karr.cpp
+z3-z3-4.12.1/src/test/list.cpp
+z3-z3-4.12.1/src/test/lp/
+z3-z3-4.12.1/src/test/lp/CMakeLists.txt
+z3-z3-4.12.1/src/test/lp/argument_parser.h
+z3-z3-4.12.1/src/test/lp/gomory_test.h
+z3-z3-4.12.1/src/test/lp/lp.cpp
+z3-z3-4.12.1/src/test/lp/lp_main.cpp
+z3-z3-4.12.1/src/test/lp/nla_solver_test.cpp
+z3-z3-4.12.1/src/test/lp/smt_reader.h
+z3-z3-4.12.1/src/test/lp/test_file_reader.h
+z3-z3-4.12.1/src/test/main.cpp
+z3-z3-4.12.1/src/test/map.cpp
+z3-z3-4.12.1/src/test/matcher.cpp
+z3-z3-4.12.1/src/test/memory.cpp
+z3-z3-4.12.1/src/test/model2expr.cpp
+z3-z3-4.12.1/src/test/model_based_opt.cpp
+z3-z3-4.12.1/src/test/model_evaluator.cpp
+z3-z3-4.12.1/src/test/model_retrieval.cpp
+z3-z3-4.12.1/src/test/mpbq.cpp
+z3-z3-4.12.1/src/test/mpf.cpp
+z3-z3-4.12.1/src/test/mpff.cpp
+z3-z3-4.12.1/src/test/mpfx.cpp
+z3-z3-4.12.1/src/test/mpq.cpp
+z3-z3-4.12.1/src/test/mpz.cpp
+z3-z3-4.12.1/src/test/nlarith_util.cpp
+z3-z3-4.12.1/src/test/nlsat.cpp
+z3-z3-4.12.1/src/test/no_overflow.cpp
+z3-z3-4.12.1/src/test/object_allocator.cpp
+z3-z3-4.12.1/src/test/old_interval.cpp
+z3-z3-4.12.1/src/test/optional.cpp
+z3-z3-4.12.1/src/test/parray.cpp
+z3-z3-4.12.1/src/test/pb2bv.cpp
+z3-z3-4.12.1/src/test/pdd.cpp
+z3-z3-4.12.1/src/test/pdd_solver.cpp
+z3-z3-4.12.1/src/test/permutation.cpp
+z3-z3-4.12.1/src/test/polynomial.cpp
+z3-z3-4.12.1/src/test/polynorm.cpp
+z3-z3-4.12.1/src/test/prime_generator.cpp
+z3-z3-4.12.1/src/test/proof_checker.cpp
+z3-z3-4.12.1/src/test/qe_arith.cpp
+z3-z3-4.12.1/src/test/quant_elim.cpp
+z3-z3-4.12.1/src/test/quant_solve.cpp
+z3-z3-4.12.1/src/test/random.cpp
+z3-z3-4.12.1/src/test/rational.cpp
+z3-z3-4.12.1/src/test/rcf.cpp
+z3-z3-4.12.1/src/test/region.cpp
+z3-z3-4.12.1/src/test/sat_local_search.cpp
+z3-z3-4.12.1/src/test/sat_lookahead.cpp
+z3-z3-4.12.1/src/test/sat_user_scope.cpp
+z3-z3-4.12.1/src/test/scoped_timer.cpp
+z3-z3-4.12.1/src/test/simple_parser.cpp
+z3-z3-4.12.1/src/test/simplex.cpp
+z3-z3-4.12.1/src/test/simplifier.cpp
+z3-z3-4.12.1/src/test/small_object_allocator.cpp
+z3-z3-4.12.1/src/test/smt2print_parse.cpp
+z3-z3-4.12.1/src/test/smt_context.cpp
+z3-z3-4.12.1/src/test/solver_pool.cpp
+z3-z3-4.12.1/src/test/sorting_network.cpp
+z3-z3-4.12.1/src/test/stack.cpp
+z3-z3-4.12.1/src/test/string_buffer.cpp
+z3-z3-4.12.1/src/test/substitution.cpp
+z3-z3-4.12.1/src/test/symbol.cpp
+z3-z3-4.12.1/src/test/symbol_table.cpp
+z3-z3-4.12.1/src/test/tbv.cpp
+z3-z3-4.12.1/src/test/test_util.h
+z3-z3-4.12.1/src/test/theory_dl.cpp
+z3-z3-4.12.1/src/test/theory_pb.cpp
+z3-z3-4.12.1/src/test/timeout.cpp
+z3-z3-4.12.1/src/test/total_order.cpp
+z3-z3-4.12.1/src/test/totalizer.cpp
+z3-z3-4.12.1/src/test/trigo.cpp
+z3-z3-4.12.1/src/test/udoc_relation.cpp
+z3-z3-4.12.1/src/test/uint_set.cpp
+z3-z3-4.12.1/src/test/upolynomial.cpp
+z3-z3-4.12.1/src/test/value_generator.cpp
+z3-z3-4.12.1/src/test/value_sweep.cpp
+z3-z3-4.12.1/src/test/var_subst.cpp
+z3-z3-4.12.1/src/test/vector.cpp
+z3-z3-4.12.1/src/test/zstring.cpp
+z3-z3-4.12.1/src/util/
+z3-z3-4.12.1/src/util/CMakeLists.txt
+z3-z3-4.12.1/src/util/approx_nat.cpp
+z3-z3-4.12.1/src/util/approx_nat.h
+z3-z3-4.12.1/src/util/approx_set.cpp
+z3-z3-4.12.1/src/util/approx_set.h
+z3-z3-4.12.1/src/util/array.h
+z3-z3-4.12.1/src/util/array_map.h
+z3-z3-4.12.1/src/util/backtrackable_set.h
+z3-z3-4.12.1/src/util/basic_interval.h
+z3-z3-4.12.1/src/util/bit_util.cpp
+z3-z3-4.12.1/src/util/bit_util.h
+z3-z3-4.12.1/src/util/bit_vector.cpp
+z3-z3-4.12.1/src/util/bit_vector.h
+z3-z3-4.12.1/src/util/buffer.h
+z3-z3-4.12.1/src/util/cancel_eh.h
+z3-z3-4.12.1/src/util/chashtable.h
+z3-z3-4.12.1/src/util/checked_int64.h
+z3-z3-4.12.1/src/util/cmd_context_types.cpp
+z3-z3-4.12.1/src/util/cmd_context_types.h
+z3-z3-4.12.1/src/util/common_msgs.cpp
+z3-z3-4.12.1/src/util/common_msgs.h
+z3-z3-4.12.1/src/util/container_util.h
+z3-z3-4.12.1/src/util/debug.cpp
+z3-z3-4.12.1/src/util/debug.h
+z3-z3-4.12.1/src/util/dec_ref_util.h
+z3-z3-4.12.1/src/util/dependency.h
+z3-z3-4.12.1/src/util/dictionary.h
+z3-z3-4.12.1/src/util/dlist.h
+z3-z3-4.12.1/src/util/double_manager.h
+z3-z3-4.12.1/src/util/ema.h
+z3-z3-4.12.1/src/util/env_params.cpp
+z3-z3-4.12.1/src/util/env_params.h
+z3-z3-4.12.1/src/util/error_codes.h
+z3-z3-4.12.1/src/util/event_handler.h
+z3-z3-4.12.1/src/util/ext_gcd.h
+z3-z3-4.12.1/src/util/ext_numeral.h
+z3-z3-4.12.1/src/util/f2n.h
+z3-z3-4.12.1/src/util/file_path.h
+z3-z3-4.12.1/src/util/fixed_bit_vector.cpp
+z3-z3-4.12.1/src/util/fixed_bit_vector.h
+z3-z3-4.12.1/src/util/gparams.cpp
+z3-z3-4.12.1/src/util/gparams.h
+z3-z3-4.12.1/src/util/hash.cpp
+z3-z3-4.12.1/src/util/hash.h
+z3-z3-4.12.1/src/util/hashtable.h
+z3-z3-4.12.1/src/util/heap.h
+z3-z3-4.12.1/src/util/hwf.cpp
+z3-z3-4.12.1/src/util/hwf.h
+z3-z3-4.12.1/src/util/id_gen.h
+z3-z3-4.12.1/src/util/id_var_list.h
+z3-z3-4.12.1/src/util/inf_eps_rational.h
+z3-z3-4.12.1/src/util/inf_int_rational.cpp
+z3-z3-4.12.1/src/util/inf_int_rational.h
+z3-z3-4.12.1/src/util/inf_rational.cpp
+z3-z3-4.12.1/src/util/inf_rational.h
+z3-z3-4.12.1/src/util/inf_s_integer.cpp
+z3-z3-4.12.1/src/util/inf_s_integer.h
+z3-z3-4.12.1/src/util/lbool.cpp
+z3-z3-4.12.1/src/util/lbool.h
+z3-z3-4.12.1/src/util/lim_vector.h
+z3-z3-4.12.1/src/util/list.h
+z3-z3-4.12.1/src/util/luby.cpp
+z3-z3-4.12.1/src/util/luby.h
+z3-z3-4.12.1/src/util/machine.h
+z3-z3-4.12.1/src/util/map.h
+z3-z3-4.12.1/src/util/max_cliques.h
+z3-z3-4.12.1/src/util/memory_manager.cpp
+z3-z3-4.12.1/src/util/memory_manager.h
+z3-z3-4.12.1/src/util/min_cut.cpp
+z3-z3-4.12.1/src/util/min_cut.h
+z3-z3-4.12.1/src/util/mpbq.cpp
+z3-z3-4.12.1/src/util/mpbq.h
+z3-z3-4.12.1/src/util/mpbqi.h
+z3-z3-4.12.1/src/util/mpf.cpp
+z3-z3-4.12.1/src/util/mpf.h
+z3-z3-4.12.1/src/util/mpff.cpp
+z3-z3-4.12.1/src/util/mpff.h
+z3-z3-4.12.1/src/util/mpfx.cpp
+z3-z3-4.12.1/src/util/mpfx.h
+z3-z3-4.12.1/src/util/mpn.cpp
+z3-z3-4.12.1/src/util/mpn.h
+z3-z3-4.12.1/src/util/mpq.cpp
+z3-z3-4.12.1/src/util/mpq.h
+z3-z3-4.12.1/src/util/mpq_inf.cpp
+z3-z3-4.12.1/src/util/mpq_inf.h
+z3-z3-4.12.1/src/util/mpz.cpp
+z3-z3-4.12.1/src/util/mpz.h
+z3-z3-4.12.1/src/util/mpzzp.h
+z3-z3-4.12.1/src/util/mutex.h
+z3-z3-4.12.1/src/util/nat_set.h
+z3-z3-4.12.1/src/util/numeral_buffer.h
+z3-z3-4.12.1/src/util/obj_hashtable.h
+z3-z3-4.12.1/src/util/obj_mark.h
+z3-z3-4.12.1/src/util/obj_pair_hashtable.h
+z3-z3-4.12.1/src/util/obj_pair_set.h
+z3-z3-4.12.1/src/util/obj_ref.h
+z3-z3-4.12.1/src/util/obj_ref_hashtable.h
+z3-z3-4.12.1/src/util/obj_triple_hashtable.h
+z3-z3-4.12.1/src/util/object_allocator.h
+z3-z3-4.12.1/src/util/optional.h
+z3-z3-4.12.1/src/util/page.cpp
+z3-z3-4.12.1/src/util/page.h
+z3-z3-4.12.1/src/util/params.cpp
+z3-z3-4.12.1/src/util/params.h
+z3-z3-4.12.1/src/util/parray.h
+z3-z3-4.12.1/src/util/permutation.cpp
+z3-z3-4.12.1/src/util/permutation.h
+z3-z3-4.12.1/src/util/plugin_manager.h
+z3-z3-4.12.1/src/util/pool.h
+z3-z3-4.12.1/src/util/prime_generator.cpp
+z3-z3-4.12.1/src/util/prime_generator.h
+z3-z3-4.12.1/src/util/ptr_scoped_buffer.h
+z3-z3-4.12.1/src/util/queue.h
+z3-z3-4.12.1/src/util/rational.cpp
+z3-z3-4.12.1/src/util/rational.h
+z3-z3-4.12.1/src/util/ref.h
+z3-z3-4.12.1/src/util/ref_buffer.h
+z3-z3-4.12.1/src/util/ref_pair_vector.h
+z3-z3-4.12.1/src/util/ref_util.h
+z3-z3-4.12.1/src/util/ref_vector.h
+z3-z3-4.12.1/src/util/region.cpp
+z3-z3-4.12.1/src/util/region.h
+z3-z3-4.12.1/src/util/rlimit.cpp
+z3-z3-4.12.1/src/util/rlimit.h
+z3-z3-4.12.1/src/util/s_integer.cpp
+z3-z3-4.12.1/src/util/s_integer.h
+z3-z3-4.12.1/src/util/sat_literal.h
+z3-z3-4.12.1/src/util/scoped_ctrl_c.cpp
+z3-z3-4.12.1/src/util/scoped_ctrl_c.h
+z3-z3-4.12.1/src/util/scoped_limit_trail.h
+z3-z3-4.12.1/src/util/scoped_numeral.h
+z3-z3-4.12.1/src/util/scoped_numeral_buffer.h
+z3-z3-4.12.1/src/util/scoped_numeral_vector.h
+z3-z3-4.12.1/src/util/scoped_ptr_vector.h
+z3-z3-4.12.1/src/util/scoped_timer.cpp
+z3-z3-4.12.1/src/util/scoped_timer.h
+z3-z3-4.12.1/src/util/scoped_vector.h
+z3-z3-4.12.1/src/util/sexpr.cpp
+z3-z3-4.12.1/src/util/sexpr.h
+z3-z3-4.12.1/src/util/sign.h
+z3-z3-4.12.1/src/util/small_object_allocator.cpp
+z3-z3-4.12.1/src/util/small_object_allocator.h
+z3-z3-4.12.1/src/util/smt2_util.cpp
+z3-z3-4.12.1/src/util/smt2_util.h
+z3-z3-4.12.1/src/util/sorting_network.h
+z3-z3-4.12.1/src/util/sstream.h
+z3-z3-4.12.1/src/util/stack.cpp
+z3-z3-4.12.1/src/util/stack.h
+z3-z3-4.12.1/src/util/stacked_value.h
+z3-z3-4.12.1/src/util/state_graph.cpp
+z3-z3-4.12.1/src/util/state_graph.h
+z3-z3-4.12.1/src/util/statistics.cpp
+z3-z3-4.12.1/src/util/statistics.h
+z3-z3-4.12.1/src/util/stats.h
+z3-z3-4.12.1/src/util/stopwatch.h
+z3-z3-4.12.1/src/util/str_hashtable.h
+z3-z3-4.12.1/src/util/stream_buffer.h
+z3-z3-4.12.1/src/util/string_buffer.h
+z3-z3-4.12.1/src/util/symbol.cpp
+z3-z3-4.12.1/src/util/symbol.h
+z3-z3-4.12.1/src/util/symbol_table.h
+z3-z3-4.12.1/src/util/tbv.cpp
+z3-z3-4.12.1/src/util/tbv.h
+z3-z3-4.12.1/src/util/timeit.cpp
+z3-z3-4.12.1/src/util/timeit.h
+z3-z3-4.12.1/src/util/timeout.cpp
+z3-z3-4.12.1/src/util/timeout.h
+z3-z3-4.12.1/src/util/timer.h
+z3-z3-4.12.1/src/util/top_sort.h
+z3-z3-4.12.1/src/util/total_order.h
+z3-z3-4.12.1/src/util/tptr.h
+z3-z3-4.12.1/src/util/trace.cpp
+z3-z3-4.12.1/src/util/trace.h
+z3-z3-4.12.1/src/util/trail.h
+z3-z3-4.12.1/src/util/uint_map.h
+z3-z3-4.12.1/src/util/uint_set.h
+z3-z3-4.12.1/src/util/union_find.h
+z3-z3-4.12.1/src/util/util.cpp
+z3-z3-4.12.1/src/util/util.h
+z3-z3-4.12.1/src/util/var_queue.h
+z3-z3-4.12.1/src/util/vector.h
+z3-z3-4.12.1/src/util/visit_helper.h
+z3-z3-4.12.1/src/util/warning.cpp
+z3-z3-4.12.1/src/util/warning.h
+z3-z3-4.12.1/src/util/z3_exception.cpp
+z3-z3-4.12.1/src/util/z3_exception.h
+z3-z3-4.12.1/src/util/z3_version.h.cmake.in
+z3-z3-4.12.1/src/util/z3_version.h.in
+z3-z3-4.12.1/src/util/zstring.cpp
+z3-z3-4.12.1/src/util/zstring.h
+z3-z3-4.12.1/z3.pc.cmake.in
+Set Assembly Version (DEFAULT): 4 12 1 0
+New component: 'util'
+New component: 'polynomial'
+New component: 'interval'
+New component: 'dd'
+New component: 'simplex'
+New component: 'hilbert'
+New component: 'automata'
+New component: 'params'
+New component: 'realclosure'
+New component: 'subpaving'
+New component: 'ast'
+New component: 'smt_params'
+New component: 'parser_util'
+New component: 'euf'
+New component: 'grobner'
+New component: 'sat'
+New component: 'nlsat'
+New component: 'lp'
+New component: 'rewriter'
+New component: 'bit_blaster'
+New component: 'normal_forms'
+New component: 'substitution'
+New component: 'proofs'
+New component: 'macros'
+New component: 'model'
+New component: 'converters'
+New component: 'simplifiers'
+New component: 'tactic'
+New component: 'solver'
+New component: 'cmd_context'
+New component: 'smt2parser'
+New component: 'pattern'
+New component: 'aig_tactic'
+New component: 'ackermannization'
+New component: 'fpa'
+New component: 'core_tactics'
+New component: 'arith_tactics'
+New component: 'mbp'
+New component: 'qe_lite'
+New component: 'solver_assertions'
+New component: 'subpaving_tactic'
+New component: 'proto_model'
+New component: 'smt'
+New component: 'sat_smt'
+New component: 'sat_tactic'
+New component: 'nlsat_tactic'
+New component: 'bv_tactics'
+New component: 'fuzzing'
+New component: 'smt_tactic'
+New component: 'sls_tactic'
+New component: 'qe'
+New component: 'sat_solver'
+New component: 'fd_solver'
+New component: 'muz'
+New component: 'dataflow'
+New component: 'transforms'
+New component: 'rel'
+New component: 'spacer'
+New component: 'clp'
+New component: 'tab'
+New component: 'ddnf'
+New component: 'bmc'
+New component: 'fp'
+New component: 'smtlogic_tactics'
+New component: 'ufbv_tactic'
+New component: 'fpa_tactics'
+New component: 'portfolio'
+New component: 'opt'
+New component: 'extra_cmds'
+New component: 'api'
+New component: 'shell'
+New component: 'test'
+New component: 'api_dll'
+New component: 'dotnet'
+New component: 'java'
+New component: 'ml'
+New component: 'cpp'
+Python bindings directory was detected.
+New component: 'python'
+New component: 'python_install'
+New component: 'js'
+New component: 'cpp_example'
+New component: 'z3_tptp'
+New component: 'c_example'
+New component: 'maxsat'
+New component: 'dotnet_example'
+New component: 'java_example'
+New component: 'ml_example'
+New component: 'py_example'
+UpdateVersion: "Z3 4.12.1.0"
+Generating src/util/z3_version.h from src/util/z3_version.h.in
+Generated 'src/util/z3_version.h'
+Generated 'src/parsers/util/parser_params.hpp'
+Generated 'src/opt/opt_params.hpp'
+Generated 'src/solver/parallel_params.hpp'
+Generated 'src/solver/combined_solver_params.hpp'
+Generated 'src/params/poly_rewriter_params.hpp'
+Generated 'src/params/array_rewriter_params.hpp'
+Generated 'src/params/seq_rewriter_params.hpp'
+Generated 'src/params/bool_rewriter_params.hpp'
+Generated 'src/params/arith_rewriter_params.hpp'
+Generated 'src/params/solver_params.hpp'
+Generated 'src/params/bv_rewriter_params.hpp'
+Generated 'src/params/fpa_rewriter_params.hpp'
+Generated 'src/params/fpa2bv_rewriter_params.hpp'
+Generated 'src/params/rewriter_params.hpp'
+Generated 'src/params/pattern_inference_params_helper.hpp'
+Generated 'src/params/tactic_params.hpp'
+Generated 'src/muz/base/fp_params.hpp'
+Generated 'src/math/polynomial/algebraic_params.hpp'
+Generated 'src/math/realclosure/rcf_params.hpp'
+Generated 'src/ast/pp_params.hpp'
+Generated 'src/ast/normal_forms/nnf_params.hpp'
+Generated 'src/ackermannization/ackermannization_params.hpp'
+Generated 'src/ackermannization/ackermannize_bv_tactic_params.hpp'
+Generated 'src/nlsat/nlsat_params.hpp'
+Generated 'src/sat/sat_params.hpp'
+Generated 'src/sat/sat_scc_params.hpp'
+Generated 'src/sat/sat_simplifier_params.hpp'
+Generated 'src/sat/sat_asymm_branch_params.hpp'
+Generated 'src/tactic/sls/sls_params.hpp'
+Generated 'src/tactic/smtlogics/qfufbv_tactic_params.hpp'
+Generated 'src/smt/params/smt_params_helper.hpp'
+Generated 'src/model/model_params.hpp'
+Generated 'src/model/model_evaluator_params.hpp'
+Generated 'src/ast/pattern/database.h'
+Component api
+Component portfolio
+Component smtlogic_tactics
+Component ackermannization
+Component model
+Component macros
+Component rewriter
+Component ast
+Component util
+Component polynomial
+Component automata
+Component params
+Component solver
+Component tactic
+Component simplifiers
+Component euf
+Component normal_forms
+Component bit_blaster
+Component converters
+Component substitution
+Component proofs
+Component sat_solver
+Component core_tactics
+Component pattern
+Component smt2parser
+Component cmd_context
+Component parser_util
+Component aig_tactic
+Component bv_tactics
+Component arith_tactics
+Component sat
+Component dd
+Component interval
+Component grobner
+Component simplex
+Component sat_tactic
+Component sat_smt
+Component smt
+Component proto_model
+Component smt_params
+Component solver_assertions
+Component qe_lite
+Component mbp
+Component fpa
+Component lp
+Component nlsat
+Component nlsat_tactic
+Component smt_tactic
+Component fp
+Component muz
+Component qe
+Component clp
+Component transforms
+Component hilbert
+Component dataflow
+Component tab
+Component rel
+Component bmc
+Component fd_solver
+Component ddnf
+Component spacer
+Component ufbv_tactic
+Component fpa_tactics
+Component sls_tactic
+Component subpaving_tactic
+Component subpaving
+Component realclosure
+Component opt
+Component extra_cmds
+Component shell
+Generated 'src/shell/install_tactic.cpp'
+Component api
+Component portfolio
+Component smtlogic_tactics
+Component ackermannization
+Component model
+Component macros
+Component rewriter
+Component ast
+Component util
+Component polynomial
+Component automata
+Component params
+Component solver
+Component tactic
+Component simplifiers
+Component euf
+Component normal_forms
+Component bit_blaster
+Component converters
+Component substitution
+Component proofs
+Component sat_solver
+Component core_tactics
+Component pattern
+Component smt2parser
+Component cmd_context
+Component parser_util
+Component aig_tactic
+Component bv_tactics
+Component arith_tactics
+Component sat
+Component dd
+Component interval
+Component grobner
+Component simplex
+Component sat_tactic
+Component sat_smt
+Component smt
+Component proto_model
+Component smt_params
+Component solver_assertions
+Component qe_lite
+Component mbp
+Component fpa
+Component lp
+Component nlsat
+Component nlsat_tactic
+Component smt_tactic
+Component fp
+Component muz
+Component qe
+Component clp
+Component transforms
+Component hilbert
+Component dataflow
+Component tab
+Component rel
+Component bmc
+Component fd_solver
+Component ddnf
+Component spacer
+Component ufbv_tactic
+Component fpa_tactics
+Component sls_tactic
+Component subpaving_tactic
+Component subpaving
+Component realclosure
+Component opt
+Component extra_cmds
+Component fuzzing
+Component test
+Generated 'src/test/install_tactic.cpp'
+Component api
+Component portfolio
+Component smtlogic_tactics
+Component ackermannization
+Component model
+Component macros
+Component rewriter
+Component ast
+Component util
+Component polynomial
+Component automata
+Component params
+Component solver
+Component tactic
+Component simplifiers
+Component euf
+Component normal_forms
+Component bit_blaster
+Component converters
+Component substitution
+Component proofs
+Component sat_solver
+Component core_tactics
+Component pattern
+Component smt2parser
+Component cmd_context
+Component parser_util
+Component aig_tactic
+Component bv_tactics
+Component arith_tactics
+Component sat
+Component dd
+Component interval
+Component grobner
+Component simplex
+Component sat_tactic
+Component sat_smt
+Component smt
+Component proto_model
+Component smt_params
+Component solver_assertions
+Component qe_lite
+Component mbp
+Component fpa
+Component lp
+Component nlsat
+Component nlsat_tactic
+Component smt_tactic
+Component fp
+Component muz
+Component qe
+Component clp
+Component transforms
+Component hilbert
+Component dataflow
+Component tab
+Component rel
+Component bmc
+Component fd_solver
+Component ddnf
+Component spacer
+Component ufbv_tactic
+Component fpa_tactics
+Component sls_tactic
+Component subpaving_tactic
+Component subpaving
+Component realclosure
+Component opt
+Component extra_cmds
+Component api_dll
+Generated 'src/api/dll/install_tactic.cpp'
+Generated 'src/shell/mem_initializer.cpp'
+Generated 'src/test/mem_initializer.cpp'
+Generated 'src/api/dll/mem_initializer.cpp'
+Generated 'src/shell/gparams_register_modules.cpp'
+Generated 'src/test/gparams_register_modules.cpp'
+Generated 'src/api/dll/gparams_register_modules.cpp'
+Generated 'src/api/python/z3/z3consts.py
+Generated 'src/api/api_log_macros.h'
+Generated 'src/api/api_log_macros.cpp'
+Generated 'src/api/api_commands.cpp'
+Generated 'src/api/python/z3/z3core.py'
+Listing 'src/api/python/z3'...
+Compiling 'src/api/python/z3/__init__.py'...
+Compiling 'src/api/python/z3/z3.py'...
+Compiling 'src/api/python/z3/z3consts.py'...
+Compiling 'src/api/python/z3/z3core.py'...
+Compiling 'src/api/python/z3/z3num.py'...
+Compiling 'src/api/python/z3/z3poly.py'...
+Compiling 'src/api/python/z3/z3printer.py'...
+Compiling 'src/api/python/z3/z3rcf.py'...
+Compiling 'src/api/python/z3/z3types.py'...
+Compiling 'src/api/python/z3/z3util.py'...
+Generated python bytecode
+Copied 'z3rcf.py'
+Copied 'z3.py'
+Copied 'z3consts.py'
+Copied 'z3num.py'
+Copied 'z3poly.py'
+Copied '__init__.py'
+Copied 'z3types.py'
+Copied 'z3util.py'
+Copied 'z3printer.py'
+Copied 'z3core.py'
+Copied 'z3core.cpython-39.pyc'
+Copied 'z3rcf.cpython-39.pyc'
+Copied 'z3consts.cpython-39.pyc'
+Copied 'z3.cpython-39.pyc'
+Copied 'z3types.cpython-39.pyc'
+Copied 'z3num.cpython-39.pyc'
+Copied 'z3printer.cpython-39.pyc'
+Copied '__init__.cpython-39.pyc'
+Copied 'z3poly.cpython-39.pyc'
+Copied 'z3util.cpython-39.pyc'
+Testing ar...
+Testing /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++...
+Testing /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang...
+Testing floating point support...
+Host platform:  Linux
+C++ Compiler:   /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++
+C Compiler  :   /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang
+Archive Tool:   ar
+Arithmetic:     internal
+Prefix:         /usr
+64-bit:         True
+FP math:        SSE2-EMSCRIPTEN
+Python pkg dir: /usr/lib/python3.9/site-packages
+Python version: 3.9
+Writing build/Makefile
+Copied Z3Py example 'socrates.py' to 'build/python'
+Copied Z3Py example 'parallel.py' to 'build/python'
+Copied Z3Py example 'all_interval_series.py' to 'build/python'
+Copied Z3Py example 'efsmt.py' to 'build/python'
+Copied Z3Py example 'hs.py' to 'build/python'
+Copied Z3Py example 'trafficjam.py' to 'build/python'
+Copied Z3Py example 'visitor.py' to 'build/python'
+Copied Z3Py example 'rc2.py' to 'build/python'
+Copied Z3Py example 'mini_quip.py' to 'build/python'
+Copied Z3Py example 'example.py' to 'build/python'
+Copied Z3Py example 'mini_ic3.py' to 'build/python'
+Copied Z3Py example 'union_sort.py' to 'build/python'
+Copied Z3Py example 'prooflogs.py' to 'build/python'
+Copied Z3Py example 'simplify_formula.py' to 'build/python'
+Copied Z3Py example 'proofreplay.py' to 'build/python'
+Makefile was successfully generated.
+  compilation mode: Release
+Type 'cd build; make' to build Z3
+src/smt/smt_statistics.cpp
+src/util/luby.cpp
+src/util/common_msgs.cpp
+src/util/approx_nat.cpp
+src/util/approx_set.cpp
+src/util/timeit.cpp
+src/util/z3_exception.cpp
+src/util/memory_manager.cpp
+src/util/page.cpp
+src/util/util.cpp
+src/shell/z3_log_frontend.cpp
+src/api/api_commands.cpp
+src/util/bit_util.cpp
+src/util/timeout.cpp
+src/util/stack.cpp
+src/util/fixed_bit_vector.cpp
+src/util/mpn.cpp
+src/util/scoped_timer.cpp
+src/util/hash.cpp
+src/util/lbool.cpp
+src/util/scoped_ctrl_c.cpp
+src/api/z3_replayer.cpp
+src/solver/smt_logics.cpp
+src/sat/sat_cutset.cpp
+src/math/automata/automaton.cpp
+src/math/simplex/bit_matrix.cpp
+src/util/warning.cpp
+src/util/bit_vector.cpp
+src/util/trace.cpp
+src/util/debug.cpp
+src/util/cmd_context_types.cpp
+src/util/rlimit.cpp
+src/util/symbol.cpp
+src/util/prime_generator.cpp
+src/util/permutation.cpp
+src/util/region.cpp
+src/util/smt2_util.cpp
+src/util/small_object_allocator.cpp
+src/util/min_cut.cpp
+src/api/api_log.cpp
+src/api/api_log_macros.cpp
+src/util/statistics.cpp
+src/util/mpz.cpp
+src/smt/params/theory_str_params.cpp
+src/smt/params/theory_bv_params.cpp
+src/smt/params/theory_arith_params.cpp
+src/smt/params/preprocessor_params.cpp
+src/smt/params/dyn_ack_params.cpp
+src/smt/params/theory_seq_params.cpp
+src/smt/params/theory_array_params.cpp
+src/smt/params/qi_params.cpp
+src/smt/params/theory_pb_params.cpp
+src/math/realclosure/mpz_matrix.cpp
+src/params/pattern_inference_params.cpp
+src/math/interval/interval_mpq.cpp
+src/util/mpq_inf.cpp
+src/util/gparams.cpp
+src/util/mpfx.cpp
+src/util/mpq.cpp
+src/util/state_graph.cpp
+src/util/mpff.cpp
+src/util/env_params.cpp
+src/shell/mem_initializer.cpp
+src/muz/spacer/spacer_matrix.cpp
+src/smt/old_interval.cpp
+src/tactic/arith/linear_equation.cpp
+src/sat/sat_config.cpp
+src/math/realclosure/realclosure.cpp
+src/math/dd/dd_pdd.cpp
+src/math/dd/dd_bdd.cpp
+src/math/interval/dep_intervals.cpp
+src/util/s_integer.cpp
+src/util/tbv.cpp
+src/util/inf_rational.cpp
+src/util/mpf.cpp
+src/util/hwf.cpp
+src/util/rational.cpp
+src/util/params.cpp
+src/util/mpbq.cpp
+src/util/sexpr.cpp
+src/util/inf_int_rational.cpp
+src/tactic/arith/bound_propagator.cpp
+src/math/lp/lp_utils.cpp
+src/sat/sat_clause_use_list.cpp
+src/sat/sat_clause.cpp
+src/sat/sat_clause_set.cpp
+src/sat/sat_watched.cpp
+src/math/grobner/pdd_solver.cpp
+src/math/grobner/pdd_simplifier.cpp
+src/math/subpaving/subpaving_mpf.cpp
+src/math/subpaving/subpaving_hwf.cpp
+src/math/subpaving/subpaving_mpq.cpp
+src/math/subpaving/subpaving_mpff.cpp
+src/math/subpaving/subpaving.cpp
+src/math/subpaving/subpaving_mpfx.cpp
+src/params/context_params.cpp
+src/math/hilbert/hilbert_basis.cpp
+src/math/simplex/simplex.cpp
+src/math/dd/dd_fdd.cpp
+src/util/zstring.cpp
+src/util/inf_s_integer.cpp
+src/muz/spacer/spacer_arith_kernel.cpp
+src/muz/base/bind_variables.cpp
+src/ast/rewriter/func_decl_replace.cpp
+src/ast/special_relations_decl_plugin.cpp
+src/ast/has_free_vars.cpp
+src/ast/expr_functors.cpp
+src/ast/expr_map.cpp
+src/ast/ast_lt.cpp
+src/ast/used_vars.cpp
+src/ast/act_cache.cpp
+src/ast/quantifier_stat.cpp
+src/ast/for_each_ast.cpp
+src/ast/num_occurs.cpp
+src/ast/display_dimacs.cpp
+src/math/simplex/model_based_opt.cpp
+src/math/polynomial/polynomial_cache.cpp
+src/shell/gparams_register_modules.cpp
+src/smt/smt_value_sort.cpp
+src/smt/uses_theory.cpp
+src/ackermannization/ackr_helper.cpp
+src/cmd_context/tactic_manager.cpp
+src/ast/rewriter/mk_extract_proc.cpp
+src/ast/rewriter/dl_rewriter.cpp
+src/ast/rewriter/char_rewriter.cpp
+src/ast/rewriter/datatype_rewriter.cpp
+src/math/lp/lp_settings.cpp
+src/math/lp/binary_heap_priority_queue.cpp
+src/nlsat/nlsat_types.cpp
+src/nlsat/nlsat_clause.cpp
+src/nlsat/nlsat_interval_set.cpp
+src/parsers/util/cost_parser.cpp
+src/parsers/util/simple_parser.cpp
+src/parsers/util/scanner.cpp
+src/ast/func_decl_dependencies.cpp
+src/ast/for_each_expr.cpp
+src/ast/cost_evaluator.cpp
+src/ast/expr_stat.cpp
+src/ast/pp.cpp
+src/ast/ast_ll_pp.cpp
+src/ast/macro_substitution.cpp
+src/ast/occurs.cpp
+src/ast/format.cpp
+src/math/polynomial/rpolynomial.cpp
+src/math/polynomial/sexpr2upolynomial.cpp
+src/math/polynomial/upolynomial.cpp
+src/math/polynomial/polynomial.cpp
+src/shell/main.cpp
+src/smt/arith_eq_solver.cpp
+src/ast/rewriter/ast_counter.cpp
+src/math/lp/indexed_vector.cpp
+src/math/lp/binary_heap_upair_queue.cpp
+src/sat/sat_parallel.cpp
+src/sat/sat_xor_finder.cpp
+src/sat/sat_scc.cpp
+src/sat/sat_bcd.cpp
+src/sat/sat_proof_trim.cpp
+src/sat/dimacs.cpp
+src/sat/sat_prob.cpp
+src/sat/sat_simplifier.cpp
+src/sat/sat_big.cpp
+src/sat/sat_aig_cuts.cpp
+src/sat/sat_elim_eqs.cpp
+src/sat/sat_local_search.cpp
+src/sat/sat_probing.cpp
+src/sat/sat_cleaner.cpp
+src/sat/sat_integrity_checker.cpp
+src/sat/sat_lookahead.cpp
+src/sat/sat_mus.cpp
+src/sat/sat_model_converter.cpp
+src/sat/sat_npn3_finder.cpp
+src/sat/sat_aig_finder.cpp
+src/sat/sat_lut_finder.cpp
+src/sat/sat_solver.cpp
+src/sat/sat_elim_vars.cpp
+src/sat/sat_ddfw.cpp
+src/sat/sat_drat.cpp
+src/sat/sat_gc.cpp
+src/sat/sat_binspr.cpp
+src/sat/sat_asymm_branch.cpp
+src/ast/euf/euf_enode.cpp
+src/ast/value_generator.cpp
+src/math/polynomial/algebraic_numbers.cpp
+src/shell/drat_frontend.cpp
+src/qe/qe_bv_plugin.cpp
+src/smt/watch_list.cpp
+src/ast/converters/proof_converter.cpp
+src/model/model2expr.cpp
+src/model/struct_factory.cpp
+src/ast/normal_forms/elim_term_ite.cpp
+src/ast/normal_forms/nnf.cpp
+src/ast/rewriter/distribute_forall.cpp
+src/ast/rewriter/fpa_rewriter.cpp
+src/ast/rewriter/mk_simplified_app.cpp
+src/ast/rewriter/bv_bounds.cpp
+src/math/lp/dense_matrix.cpp
+src/math/lp/nex_creator.cpp
+src/nlsat/nlsat_solver.cpp
+src/nlsat/nlsat_evaluator.cpp
+src/nlsat/nlsat_explain.cpp
+src/sat/sat_cut_simplifier.cpp
+src/sat/sat_anf_simplifier.cpp
+src/smt/params/smt_params.cpp
+src/ast/arith_decl_plugin.cpp
+src/ast/expr2polynomial.cpp
+src/ast/ast_smt_pp.cpp
+src/ast/fpa_decl_plugin.cpp
+src/ast/shared_occs.cpp
+src/ast/expr2var.cpp
+src/math/polynomial/upolynomial_factorization.cpp
+src/opt/pb_sls.cpp
+src/opt/totalizer.cpp
+src/muz/spacer/spacer_mev_array.cpp
+src/muz/spacer/spacer_antiunify.cpp
+src/muz/spacer/spacer_mbc.cpp
+src/muz/base/dl_boogie_proof.cpp
+src/qe/qe_array_plugin.cpp
+make: *** [Makefile:1582: math/lp/nex_creator.o] Error 1
+make: *** Waiting for unfinished jobs....

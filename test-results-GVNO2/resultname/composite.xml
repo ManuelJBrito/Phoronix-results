@@ -1,0 +1,2292 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>$result_name</Title>
+    <LastModified>2025-01-15 22:16:17</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.4</TestClient>
+    <Description>2 x Intel Xeon E5-2620 v2 testing with a ASUS Z9PE-D8 WS (5503 BIOS) and ASPEED on CentOS Stream 9 via the Phoronix Test Suite.</Description>
+    <Notes></Notes>
+    <InternalTags></InternalTags>
+    <ReferenceID></ReferenceID>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>GVNO2</Identifier>
+    <Hardware>Processor: 2 x Intel Xeon E5-2620 v2 @ 2.60GHz (12 Cores / 24 Threads), Motherboard: ASUS Z9PE-D8 WS (5503 BIOS), Chipset: Intel Xeon E7 v2/Xeon, Memory: 32GB, Disk: 256GB Samsung SSD 850 + 2000GB Western Digital WD20EARX-00P, Graphics: ASPEED, Audio: Realtek ALC898, Network: 2 x Intel 82574L</Hardware>
+    <Software>OS: CentOS Stream 9, Kernel: 5.14.0-547.el9.x86_64 (x86_64), Display Server: X Server, Display Driver: NVIDIA, Compiler: GCC 11.5.0 20240719 + PGI Compiler 16.10-0 + LLVM 3.1 + CUDA 11.2, File-System: ext4, Screen Resolution: 1024x768</Software>
+    <User></User>
+    <TimeStamp>2025-01-15 16:20:37</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_cpufreq conservative","cpu-microcode":"0x42e","kernel-extra-details":"Transparent Huge Pages: always","environment-variables":"FLAGS=-O2 CXXFLAGS=-O2 CFLAGS=-O2","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT vulnerable + mds: Mitigation of Clear buffers; SMT vulnerable + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; STIBP: conditional; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc32</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.94:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>98504</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>98508</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>98512</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>98516</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc64</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc128</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc256</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc512</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc1024</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc2048</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc4096</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc32x32</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc64x64</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc128x128</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc256x256</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc512x512</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc1024x1024</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc2048x2048</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc4096x4096</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc32</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>7218.6</Value>
+        <RawString>7067.3:6884:7276.2:6875.9:7267.1:7283.8:7327.6:7008.7:7444.1:7428.8:7439.9:7291.9:7281.8:7057.3:7345</RawString>
+        <JSON>{"test-run-times":"3.14:3.26:3.04:3.24:3.12:3.06:3.03:3.16:2.99:3.01:3.02:3.08:3.07:3.16:3.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc64</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>10329</Value>
+        <RawString>10233:10529:10224</RawString>
+        <JSON>{"test-run-times":"2.72:2.60:2.66"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc128</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>13170</Value>
+        <RawString>13271:13315:12925</RawString>
+        <JSON>{"test-run-times":"2.60:2.59:2.65"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc256</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>14080</Value>
+        <RawString>13613:14401:14394:13449:14001:14456:14164:14317:14139:13867</RawString>
+        <JSON>{"test-run-times":"3.17:3.02:3.02:3.19:3.08:3.00:3.06:3.02:3.07:3.13"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc512</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>15428</Value>
+        <RawString>15761:15211:15313</RawString>
+        <JSON>{"test-run-times":"3.67:3.73:3.74"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc1024</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>15976</Value>
+        <RawString>15494:15931:16300:16179</RawString>
+        <JSON>{"test-run-times":"4.69:4.59:4.55:4.55"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc2048</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>15513</Value>
+        <RawString>15621:15403:15515</RawString>
+        <JSON>{"test-run-times":"6.07:6.09:6.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc4096</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>14383</Value>
+        <RawString>14553:14241:14354</RawString>
+        <JSON>{"test-run-times":"8.44:8.49:8.50"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc32x32</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>16774</Value>
+        <RawString>16740:16697:16884</RawString>
+        <JSON>{"test-run-times":"2.76:2.74:2.72"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc64x64</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>15778</Value>
+        <RawString>16195:15799:14979:15664:15919:15868:16022</RawString>
+        <JSON>{"test-run-times":"3.51:3.56:3.73:3.60:3.54:3.55:3.49"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc128x128</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>11633</Value>
+        <RawString>11323:11718:11858</RawString>
+        <JSON>{"test-run-times":"3.44:3.37:3.35"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc256x256</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>11354</Value>
+        <RawString>11384:11360:11317</RawString>
+        <JSON>{"test-run-times":"5.22:5.23:5.24"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc512x512</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>11649</Value>
+        <RawString>11539:11791:11617</RawString>
+        <JSON>{"test-run-times":"7.41:7.33:7.36"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc1024x1024</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>12117</Value>
+        <RawString>12138:12169:12045</RawString>
+        <JSON>{"test-run-times":"24.71:24.68:24.71"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc2048x2048</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>7012.1</Value>
+        <RawString>6988.8:7028.3:7019.1</RawString>
+        <JSON>{"test-run-times":"149.48:150.92:150.98"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc4096x4096</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>6682.7</Value>
+        <RawString>6702.9:6683.2:6662</RawString>
+        <JSON>{"test-run-times":"401.35:399.30:399.48"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>Operation: HWB Color Space</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>93</Value>
+        <RawString>93:94:93</RawString>
+        <JSON>{"test-run-times":"62.15:60.40:60.03"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>127380</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-operator all Noise-Gaussian 30%</Arguments>
+    <Description>Operation: Noise-Gaussian</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>13</Value>
+        <RawString>13:13:13</RawString>
+        <JSON>{"test-run-times":"61.74:61.73:60.50"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-enhance</Arguments>
+    <Description>Operation: Enhanced</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>9</Value>
+        <RawString>9:9:9</RawString>
+        <JSON>{"test-run-times":"65.12:65.23:66.61"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Operation: Resizing</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>64</Value>
+        <RawString>64:65:64</RawString>
+        <JSON>{"test-run-times":"60.37:60.79:60.03"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-rotate 90</Arguments>
+    <Description>Operation: Rotate</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>480</Value>
+        <RawString>464:490:491:464:477:464:464:489:489:489:475:490:490</RawString>
+        <JSON>{"test-run-times":"60.07:60.14:60.12:60.06:60.03:60.09:60.03:60.08:60.05:60.09:60.14:60.05:60.05"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-sharpen 0x2.0</Arguments>
+    <Description>Operation: Sharpen</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>10</Value>
+        <RawString>10:10:10</RawString>
+        <JSON>{"test-run-times":"65.91:65.99:65.12"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-swirl 90</Arguments>
+    <Description>Operation: Swirl</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>22</Value>
+        <RawString>21:22:21:22:22:21:22</RawString>
+        <JSON>{"test-run-times":"60.47:62.50:61.24:62.90:62.65:60.33:62.67"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_COMPOSITE</Arguments>
+    <Description>Test: Composite</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>789.53</Value>
+        <RawString>787.12:788.38:793.08</RawString>
+        <JSON>{"test-run-times":"33.83:31.80:31.66"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>11120</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>11132</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_FFT</Arguments>
+    <Description>Test: Fast Fourier Transform</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>227.97</Value>
+        <RawString>228.53:226.09:229.28</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_SOR</Arguments>
+    <Description>Test: Jacobi Successive Over-Relaxation</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1099.58</Value>
+        <RawString>1100.03:1099.85:1098.85</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_MONTE</Arguments>
+    <Description>Test: Monte Carlo</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>300.54</Value>
+        <RawString>302.61:298.57:300.43</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_SPARSE</Arguments>
+    <Description>Test: Sparse Matrix Multiply</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>778.26</Value>
+        <RawString>776.46:773.44:784.87</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_DENSE</Arguments>
+    <Description>Test: Dense LU Matrix Factorization</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1541.30</Value>
+        <RawString>1527.98:1543.95:1551.97</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/tjbench-1.2.0</Identifier>
+    <Title>libjpeg-turbo tjbench</Title>
+    <AppVersion>2.1.0</AppVersion>
+    <Arguments>decompression-throughput</Arguments>
+    <Description>Test: Decompression Throughput</Description>
+    <Scale>Megapixels/sec</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>97.277392</Value>
+        <RawString>97.656945:97.320653:96.854577</RawString>
+        <JSON>{"test-run-times":"27.26:25.11:25.19"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>libjpeg-turbo tjbench</Title>
+    <AppVersion>2.1.0</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>50020</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>partial_tweets</Arguments>
+    <Description>Throughput Test: PartialTweets</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1.37</Value>
+        <RawString>1.37:1.37:1.37</RawString>
+        <JSON>{"test-run-times":"56.53:54.96:54.51"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>166316</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>large_random</Arguments>
+    <Description>Throughput Test: LargeRandom</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>0.46</Value>
+        <RawString>0.46:0.46:0.46</RawString>
+        <JSON>{"test-run-times":"64.97:64.68:64.45"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>kostya</Arguments>
+    <Description>Throughput Test: Kostya</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1.12</Value>
+        <RawString>1.12:1.12:1.12</RawString>
+        <JSON>{"test-run-times":"78.64:79.41:79.33"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>distinct_user_id</Arguments>
+    <Description>Throughput Test: DistinctUserID</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1.56</Value>
+        <RawString>1.57:1.56:1.56</RawString>
+        <JSON>{"test-run-times":"55.25:55.03:55.19"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>top_tweet</Arguments>
+    <Description>Throughput Test: TopTweet</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1.51</Value>
+        <RawString>1.52:1.51:1.51</RawString>
+        <JSON>{"test-run-times":"55.10:54.78:55.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/aircrack-ng-1.3.0</Identifier>
+    <Title>Aircrack-ng</Title>
+    <AppVersion>1.7</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>k/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>12380.052</Value>
+        <RawString>12373.01:12379.72:12387.426</RawString>
+        <JSON>{"test-run-times":"32.09:30.16:30.17"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Aircrack-ng</Title>
+    <AppVersion>1.7</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>40080</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>rsa4096</Arguments>
+    <Description>Algorithm: RSA4096</Description>
+    <Scale>sign/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1223.4</Value>
+        <RawString>1222.7:1223.6:1224</RawString>
+        <JSON>{"test-run-times":"62.01:60.07:60.07"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>rsa4096</Arguments>
+    <Description>Algorithm: RSA4096</Description>
+    <Scale>verify/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>80963.1</Value>
+        <RawString>80900.7:80999.5:80989.2</RawString>
+        <JSON>{"test-run-times":"62.01:60.07:60.07"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>458644</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>sha256</Arguments>
+    <Description>Algorithm: SHA256</Description>
+    <Scale>byte/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1949299590</Value>
+        <RawString>1957550610:1934506460:1955841700</RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>sha512</Arguments>
+    <Description>Algorithm: SHA512</Description>
+    <Scale>byte/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1892873373</Value>
+        <RawString>1893077210:1892877910:1892665000</RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>-evp aes-128-gcm</Arguments>
+    <Description>Algorithm: AES-128-GCM</Description>
+    <Scale>byte/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>13343401483</Value>
+        <RawString>13339086300:13346414590:13344703560</RawString>
+        <JSON>{"test-run-times":"180.03:180.02:180.03"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>-evp aes-256-gcm</Arguments>
+    <Description>Algorithm: AES-256-GCM</Description>
+    <Scale>byte/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>11709122240</Value>
+        <RawString>11716716950:11698312810:11712336960</RawString>
+        <JSON>{"test-run-times":"180.03:180.03:180.02"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>-evp chacha20</Arguments>
+    <Description>Algorithm: ChaCha20</Description>
+    <Scale>byte/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>13862413110</Value>
+        <RawString>13885071090:13817318880:13884849360</RawString>
+        <JSON>{"test-run-times":"180.02:180.03:180.02"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>-evp chacha20-poly1305</Arguments>
+    <Description>Algorithm: ChaCha20-Poly1305</Description>
+    <Scale>byte/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>9381171017</Value>
+        <RawString>9384201690:9383614330:9375697030</RawString>
+        <JSON>{"test-run-times":"180.03:180.02:180.03"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>AES-256</Arguments>
+    <Description>Test: AES-256</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1244.109</Value>
+        <RawString>1235.529:1248.004:1248.793</RawString>
+        <JSON>{"test-run-times":"33.47:31.55:31.55"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>AES-256</Arguments>
+    <Description>Test: AES-256 - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1259.062</Value>
+        <RawString>1261.886:1260.023:1255.278</RawString>
+        <JSON>{"test-run-times":"33.47:31.55:31.55"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>100844</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Blowfish</Arguments>
+    <Description>Test: Blowfish</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>189.834</Value>
+        <RawString>189.738:190.056:189.708</RawString>
+        <JSON>{"test-run-times":"30.26:30.25:30.25"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Blowfish</Arguments>
+    <Description>Test: Blowfish - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>190.442</Value>
+        <RawString>190.34:190.401:190.585</RawString>
+        <JSON>{"test-run-times":"30.26:30.25:30.25"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>CAST-256</Arguments>
+    <Description>Test: CAST-256</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>72.072</Value>
+        <RawString>71.942:72.252:72.022</RawString>
+        <JSON>{"test-run-times":"30.12:30.11:30.11"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>CAST-256</Arguments>
+    <Description>Test: CAST-256 - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>73.159</Value>
+        <RawString>73.08:73.237:73.16</RawString>
+        <JSON>{"test-run-times":"30.12:30.11:30.11"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>KASUMI</Arguments>
+    <Description>Test: KASUMI</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>55.042</Value>
+        <RawString>54.852:55.097:55.176</RawString>
+        <JSON>{"test-run-times":"30.09:30.09:30.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>KASUMI</Arguments>
+    <Description>Test: KASUMI - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>53.039</Value>
+        <RawString>53.156:52.937:53.025</RawString>
+        <JSON>{"test-run-times":"30.09:30.09:30.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Twofish</Arguments>
+    <Description>Test: Twofish</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>180.900</Value>
+        <RawString>180.674:180.466:181.559</RawString>
+        <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Twofish</Arguments>
+    <Description>Test: Twofish - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>187.352</Value>
+        <RawString>187.58:186.547:187.929</RawString>
+        <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>ChaCha20Poly1305</Arguments>
+    <Description>Test: ChaCha20Poly1305</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>327.667</Value>
+        <RawString>328.356:327.196:327.45</RawString>
+        <JSON>{"test-run-times":"30.35:30.35:30.48"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>ChaCha20Poly1305</Arguments>
+    <Description>Test: ChaCha20Poly1305 - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>325.607</Value>
+        <RawString>325.669:324.628:326.523</RawString>
+        <JSON>{"test-run-times":"30.35:30.35:30.48"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sqlite-speedtest-1.0.1</Identifier>
+    <Title>SQLite Speedtest</Title>
+    <AppVersion>3.30</AppVersion>
+    <Arguments></Arguments>
+    <Description>Timed Time - Size 1,000</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>148.030</Value>
+        <RawString>149.697:147.345:147.049</RawString>
+        <JSON>{"test-run-times":"151.67:147.40:147.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>SQLite Speedtest</Title>
+    <AppVersion>3.30</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>136152</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/encode-flac-1.8.1</Identifier>
+    <Title>FLAC Audio Encoding</Title>
+    <AppVersion>1.4</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.97:0.01:0.01:0.01:0.01","error":"The test run did not produce a result."}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>FLAC Audio Encoding</Title>
+    <AppVersion>1.4</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>2440</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/draco-1.6.1</Identifier>
+    <Title>Google Draco</Title>
+    <AppVersion>1.5.6</AppVersion>
+    <Arguments>-i church.ply</Arguments>
+    <Description>Model: Church Facade</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>12688</Value>
+        <RawString>12727:12630:12706</RawString>
+        <JSON>{"test-run-times":"17.51:15.52:15.49"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Google Draco</Title>
+    <AppVersion>1.5.6</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>469364</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>468724</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/draco-1.6.1</Identifier>
+    <Title>Google Draco</Title>
+    <AppVersion>1.5.6</AppVersion>
+    <Arguments>-i lion.ply</Arguments>
+    <Description>Model: Lion</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>9518</Value>
+        <RawString>9556:9532:9466</RawString>
+        <JSON>{"test-run-times":"12.35:12.32:12.27"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3</Arguments>
+    <Description>Compression Level: 3 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>91.1</Value>
+        <RawString>91.3:91.1:91</RawString>
+        <JSON>{"test-run-times":"65.76:63.64:63.73"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3</Arguments>
+    <Description>Compression Level: 3 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>513.6</Value>
+        <RawString>514.6:513.8:512.5</RawString>
+        <JSON>{"test-run-times":"65.76:63.64:63.73"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>228504</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3 --long</Arguments>
+    <Description>Compression Level: 3, Long Mode - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>85.5</Value>
+        <RawString>87:86.4:82.5:86</RawString>
+        <JSON>{"test-run-times":"64.49:64.50:64.99:64.80"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3 --long</Arguments>
+    <Description>Compression Level: 3, Long Mode - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>536.6</Value>
+        <RawString>536.1:536.7:536.5:536.9</RawString>
+        <JSON>{"test-run-times":"64.49:64.50:64.99:64.80"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8</Arguments>
+    <Description>Compression Level: 8 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>29.9</Value>
+        <RawString>29.9:29.9:29.8</RawString>
+        <JSON>{"test-run-times":"68.72:68.71:68.80"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8</Arguments>
+    <Description>Compression Level: 8 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>530.5</Value>
+        <RawString>531.8:529.9:529.9</RawString>
+        <JSON>{"test-run-times":"68.72:68.71:68.80"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8 --long</Arguments>
+    <Description>Compression Level: 8, Long Mode - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>28.7</Value>
+        <RawString>28.7:28.7:28.7</RawString>
+        <JSON>{"test-run-times":"69.59:69.60:69.63"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8 --long</Arguments>
+    <Description>Compression Level: 8, Long Mode - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>538</Value>
+        <RawString>538:538:539</RawString>
+        <JSON>{"test-run-times":"69.59:69.60:69.63"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b12</Arguments>
+    <Description>Compression Level: 12 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>11.4</Value>
+        <RawString>11.4:11.4:11.4</RawString>
+        <JSON>{"test-run-times":"70.56:70.43:70.54"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b12</Arguments>
+    <Description>Compression Level: 12 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>507.6</Value>
+        <RawString>507.3:507.6:508</RawString>
+        <JSON>{"test-run-times":"70.56:70.43:70.54"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19</Arguments>
+    <Description>Compression Level: 19 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1.47</Value>
+        <RawString>1.47:1.47:1.47</RawString>
+        <JSON>{"test-run-times":"177.04:176.91:176.67"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19</Arguments>
+    <Description>Compression Level: 19 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>467.5</Value>
+        <RawString>467.6:466.9:467.9</RawString>
+        <JSON>{"test-run-times":"177.04:176.91:176.67"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19 --long</Arguments>
+    <Description>Compression Level: 19, Long Mode - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1.53</Value>
+        <RawString>1.53:1.53:1.53</RawString>
+        <JSON>{"test-run-times":"171.19:171.19:171.15"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19 --long</Arguments>
+    <Description>Compression Level: 19, Long Mode - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>462.6</Value>
+        <RawString>462.2:462.8:462.7</RawString>
+        <JSON>{"test-run-times":"171.19:171.19:171.15"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-pbzip2-1.6.1</Identifier>
+    <Title>Parallel BZIP2 Compression</Title>
+    <AppVersion>1.1.13</AppVersion>
+    <Arguments></Arguments>
+    <Description>FreeBSD-13.0-RELEASE-amd64-memstick.img Compression</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>267.682787</Value>
+        <RawString>266.982237:267.697568:268.368555</RawString>
+        <JSON>{"test-run-times":"268.87:267.71:268.39"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Parallel BZIP2 Compression</Title>
+    <AppVersion>1.1.13</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1071720</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/espeak-1.7.0</Identifier>
+    <Title>eSpeak-NG Speech Engine</Title>
+    <AppVersion>1.51</AppVersion>
+    <Arguments></Arguments>
+    <Description>Text-To-Speech Synthesis</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>66.587</Value>
+        <RawString>64.007:63.057:69.948:66.202:69.733:65.502:69.862:66.808:63.293:72.109:67.012:65.123:64.623:69.033:66.796:64.396:63.237:68.108:65.953:66.932</RawString>
+        <JSON>{"test-run-times":"64.01:63.06:69.95:66.20:69.73:65.50:69.86:66.81:63.29:72.11:67.01:65.12:64.62:69.03:66.80:64.40:63.24:68.11:65.95:66.93"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>eSpeak-NG Speech Engine</Title>
+    <AppVersion>1.51</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1616532</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/rnnoise-1.0.2</Identifier>
+    <Title>RNNoise</Title>
+    <AppVersion>2020-06-28</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>38.723</Value>
+        <RawString>39.476:38.147:38.545</RawString>
+        <JSON>{"test-run-times":"39.48:38.15:38.54"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>RNNoise</Title>
+    <AppVersion>2020-06-28</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>248620</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ngspice-1.0.0</Identifier>
+    <Title>Ngspice</Title>
+    <AppVersion>34</AppVersion>
+    <Arguments>~/iscas85Circuits/85/c2670/c2670_ann.net</Arguments>
+    <Description>Circuit: C2670</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>218.430</Value>
+        <RawString>221.593:218.315:215.383</RawString>
+        <JSON>{"test-run-times":"225.84:220.47:217.56"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Ngspice</Title>
+    <AppVersion>34</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>158068</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ngspice-1.0.0</Identifier>
+    <Title>Ngspice</Title>
+    <AppVersion>34</AppVersion>
+    <Arguments>~/iscas85Circuits/85/c7552p/c7552_ann.net</Arguments>
+    <Description>Circuit: C7552</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>171.380</Value>
+        <RawString>161.902:172.362:172.655:172.893:173.013:173.336:173.5</RawString>
+        <JSON>{"test-run-times":"166.58:177.02:177.30:177.55:177.65:178.00:178.14"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/z3-1.0.1</Identifier>
+    <Title>Z3 Theorem Prover</Title>
+    <AppVersion>4.12.1</AppVersion>
+    <Arguments>1.smt2</Arguments>
+    <Description>SMT File: 1.smt2</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.95:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/z3-z3-4.12.1\/build\/z3: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Z3 Theorem Prover</Title>
+    <AppVersion>4.12.1</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>65056</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/z3-1.0.1</Identifier>
+    <Title>Z3 Theorem Prover</Title>
+    <AppVersion>4.12.1</AppVersion>
+    <Arguments>2.smt2</Arguments>
+    <Description>SMT File: 2.smt2</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/z3-z3-4.12.1\/build\/z3: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/primesieve-1.9.0</Identifier>
+    <Title>Primesieve</Title>
+    <AppVersion>8.0</AppVersion>
+    <Arguments>1e12</Arguments>
+    <Description>Length: 1e12</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>44.147</Value>
+        <RawString>44.306:44.172:43.964</RawString>
+        <JSON>{"test-run-times":"46.31:44.19:43.98"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Primesieve</Title>
+    <AppVersion>8.0</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>3240</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/primesieve-1.9.0</Identifier>
+    <Title>Primesieve</Title>
+    <AppVersion>8.0</AppVersion>
+    <Arguments>1e13</Arguments>
+    <Description>Length: 1e13</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>503.077</Value>
+        <RawString>503.773:501.035:504.423</RawString>
+        <JSON>{"test-run-times":"503.79:501.05:504.44"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/mafft-1.6.2</Identifier>
+    <Title>Timed MAFFT Alignment</Title>
+    <AppVersion>7.471</AppVersion>
+    <Arguments></Arguments>
+    <Description>Multiple Sequence Alignment - LSU RNA</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>68.667</Value>
+        <RawString>70.575:67.642:67.783</RawString>
+        <JSON>{"test-run-times":"70.57:67.64:67.78"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Timed MAFFT Alignment</Title>
+    <AppVersion>7.471</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>14304</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_COMPOSITE</Arguments>
+    <Description>Computational Test: Composite</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1310.48</Value>
+        <RawString>1302.3:1314.61:1314.54</RawString>
+        <JSON>{"test-run-times":"31.22:29.08:29.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>236</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>248</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_FFT</Arguments>
+    <Description>Computational Test: Fast Fourier Transform</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>263.86</Value>
+        <RawString>263.72:263.8:264.07</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_SOR</Arguments>
+    <Description>Computational Test: Jacobi Successive Over-Relaxation</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1103.60</Value>
+        <RawString>1102.64:1097.72:1110.44</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_MONTE</Arguments>
+    <Description>Computational Test: Monte Carlo</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>370.98</Value>
+        <RawString>371.89:372.47:368.57</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_SPARSE</Arguments>
+    <Description>Computational Test: Sparse Matrix Multiply</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>1792.20</Value>
+        <RawString>1784.14:1793.56:1798.89</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_DENSE</Arguments>
+    <Description>Computational Test: Dense LU Matrix Factorization</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO2</Identifier>
+        <Value>3021.77</Value>
+        <RawString>2989.08:3045.51:3030.72</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

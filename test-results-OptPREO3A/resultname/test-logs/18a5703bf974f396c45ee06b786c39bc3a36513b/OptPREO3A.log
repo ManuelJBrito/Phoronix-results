@@ -1,0 +1,51 @@
+#####
+OptPREO3A - Run 1
+2025-01-16 15:16:18
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+AES-256 encrypt buffer size 1024 bytes: 1243.106 MiB/sec 1.52 cycles/byte (18646.59 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1260.023 MiB/sec 1.50 cycles/byte (18900.35 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+AES-256                            decrypt               1321230.27
+AES-256                            encrypt               1303490.89
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+OptPREO3A - Run 2
+2025-01-16 15:16:54
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+AES-256 encrypt buffer size 1024 bytes: 1250.566 MiB/sec 1.51 cycles/byte (18758.48 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1258.537 MiB/sec 1.50 cycles/byte (18878.06 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+AES-256                            decrypt               1319671.94
+AES-256                            encrypt               1311313.03
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+OptPREO3A - Run 3
+2025-01-16 15:17:27
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+AES-256 encrypt buffer size 1024 bytes: 1263.144 MiB/sec 1.50 cycles/byte (18947.16 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1267.866 MiB/sec 1.49 cycles/byte (19017.99 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+AES-256                            decrypt               1329453.93
+AES-256                            encrypt               1324502.71
+
+[results are the number of 1000s bytes processed per second]
+
+

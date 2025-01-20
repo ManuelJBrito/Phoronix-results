@@ -1,0 +1,54 @@
+#####
+NewGVNO3 - Run 1
+2025-01-17 16:44:18
+#####
+taskset: failed to execute ./z3-z3-4.12.1/build/z3: No such file or directory
+
+#####
+NewGVNO3 - Run 2
+2025-01-17 16:44:22
+#####
+taskset: failed to execute ./z3-z3-4.12.1/build/z3: No such file or directory
+
+#####
+NewGVNO3 - Run 3
+2025-01-17 16:44:24
+#####
+taskset: failed to execute ./z3-z3-4.12.1/build/z3: No such file or directory
+
+#####
+NewGVNO3 - Run 1
+2025-01-17 16:51:24
+#####
+/bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVNO3/pts/z3-1.0.0/z3: line 2: ./z3-z3-4.12.1/build/z3: No such file or directory
+
+#####
+NewGVNO3 - Run 2
+2025-01-17 16:51:28
+#####
+/bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVNO3/pts/z3-1.0.0/z3: line 2: ./z3-z3-4.12.1/build/z3: No such file or directory
+
+#####
+NewGVNO3 - Run 3
+2025-01-17 16:51:30
+#####
+/bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVNO3/pts/z3-1.0.0/z3: line 2: ./z3-z3-4.12.1/build/z3: No such file or directory
+
+#####
+NewGVNO3 - Run 1
+2025-01-17 23:12:07
+#####
+/bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVNO3/pts/z3-1.0.0/z3: line 2: ./z3-z3-4.12.1/build/z3: No such file or directory
+
+#####
+NewGVNO3 - Run 2
+2025-01-17 23:12:11
+#####
+/bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVNO3/pts/z3-1.0.0/z3: line 2: ./z3-z3-4.12.1/build/z3: No such file or directory
+
+#####
+NewGVNO3 - Run 3
+2025-01-17 23:12:13
+#####
+/bitbucket/manuel/benchmarks/workdir/installed-tests-NewGVNO3/pts/z3-1.0.0/z3: line 2: ./z3-z3-4.12.1/build/z3: No such file or directory
+

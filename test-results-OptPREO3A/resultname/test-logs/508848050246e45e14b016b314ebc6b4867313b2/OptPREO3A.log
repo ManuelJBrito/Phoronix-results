@@ -1,0 +1,18 @@
+#####
+OptPREO3A - Run 1
+2025-01-16 12:18:11
+#####
+Problem: ibc128, setup: 311.63 ms, time: 339.63 ns, ``mflops'': 13191
+
+#####
+OptPREO3A - Run 2
+2025-01-16 12:18:17
+#####
+Problem: ibc128, setup: 311.93 ms, time: 341.64 ns, ``mflops'': 13113
+
+#####
+OptPREO3A - Run 3
+2025-01-16 12:18:22
+#####
+Problem: ibc128, setup: 312.29 ms, time: 347.17 ns, ``mflops'': 12904
+

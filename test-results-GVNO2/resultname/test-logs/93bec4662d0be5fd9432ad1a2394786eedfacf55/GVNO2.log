@@ -1,0 +1,51 @@
+#####
+GVNO2 - Run 1
+2025-01-15 19:20:55
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+KASUMI encrypt buffer size 1024 bytes: 54.852 MiB/sec 36.56 cycles/byte (822.78 MiB in 15000.02 ms)
+KASUMI decrypt buffer size 1024 bytes: 53.156 MiB/sec 37.73 cycles/byte (797.33 MiB in 15000.01 ms)
+
+algo                               operation             1024 bytes
+KASUMI                             decrypt                 55737.66
+KASUMI                             encrypt                 57516.51
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+GVNO2 - Run 2
+2025-01-15 19:21:29
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+KASUMI encrypt buffer size 1024 bytes: 55.097 MiB/sec 36.40 cycles/byte (826.45 MiB in 15000.01 ms)
+KASUMI decrypt buffer size 1024 bytes: 52.937 MiB/sec 37.88 cycles/byte (794.06 MiB in 15000.01 ms)
+
+algo                               operation             1024 bytes
+KASUMI                             decrypt                 55508.62
+KASUMI                             encrypt                 57772.94
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+GVNO2 - Run 3
+2025-01-15 19:22:01
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+KASUMI encrypt buffer size 1024 bytes: 55.176 MiB/sec 36.34 cycles/byte (827.64 MiB in 15000.01 ms)
+KASUMI decrypt buffer size 1024 bytes: 53.025 MiB/sec 37.82 cycles/byte (795.37 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+KASUMI                             decrypt                 55600.26
+KASUMI                             encrypt                 57856.31
+
+[results are the number of 1000s bytes processed per second]
+
+

@@ -1,0 +1,39 @@
+#####
+GVNO3 - Run 1
+2025-01-16 01:56:15
+#####
+Encoder options:
+  Compression level = 10
+  Positions: Quantization = 16 bits
+
+Encoded mesh saved to out.drc (12708 ms to encode).
+
+Encoded size = 6069998 bytes
+
+
+#####
+GVNO3 - Run 2
+2025-01-16 01:56:34
+#####
+Encoder options:
+  Compression level = 10
+  Positions: Quantization = 16 bits
+
+Encoded mesh saved to out.drc (12730 ms to encode).
+
+Encoded size = 6069998 bytes
+
+
+#####
+GVNO3 - Run 3
+2025-01-16 01:56:52
+#####
+Encoder options:
+  Compression level = 10
+  Positions: Quantization = 16 bits
+
+Encoded mesh saved to out.drc (12836 ms to encode).
+
+Encoded size = 6069998 bytes
+
+

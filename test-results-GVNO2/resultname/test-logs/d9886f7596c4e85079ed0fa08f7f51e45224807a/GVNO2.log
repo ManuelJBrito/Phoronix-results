@@ -1,0 +1,42 @@
+#####
+GVNO2 - Run 1
+2025-01-15 16:32:39
+#####
+Problem: ibc64x64, setup: 309.57 ms, time: 15.17 us, ``mflops'': 16195
+
+#####
+GVNO2 - Run 2
+2025-01-15 16:32:46
+#####
+Problem: ibc64x64, setup: 308.53 ms, time: 15.56 us, ``mflops'': 15799
+
+#####
+GVNO2 - Run 3
+2025-01-15 16:32:54
+#####
+Problem: ibc64x64, setup: 305.49 ms, time: 16.41 us, ``mflops'': 14979
+
+#####
+GVNO2 - Run 4
+2025-01-15 16:33:02
+#####
+Problem: ibc64x64, setup: 308.00 ms, time: 15.69 us, ``mflops'': 15664
+
+#####
+GVNO2 - Run 5
+2025-01-15 16:33:09
+#####
+Problem: ibc64x64, setup: 307.68 ms, time: 15.44 us, ``mflops'': 15919
+
+#####
+GVNO2 - Run 6
+2025-01-15 16:33:17
+#####
+Problem: ibc64x64, setup: 307.76 ms, time: 15.49 us, ``mflops'': 15868
+
+#####
+GVNO2 - Run 7
+2025-01-15 16:33:22
+#####
+Problem: ibc64x64, setup: 307.08 ms, time: 15.34 us, ``mflops'': 16022
+

@@ -1,0 +1,63 @@
+#####
+NewGVN - Run 1
+2025-01-17 12:36:53
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+ChaCha20Poly1305 83804 key schedule/sec; 0.01 ms/op 23930 cycles/op (2 ops in 0 ms)
+ChaCha20Poly1305 encrypt buffer size 1024 bytes: 328.998 MiB/sec 6.03 cycles/byte (4905.37 MiB in 14910.01 ms)
+ChaCha20Poly1305 decrypt buffer size 1024 bytes: 327.024 MiB/sec 6.05 cycles/byte (4905.37 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+ChaCha20Poly1305                   decrypt                342910.00
+ChaCha20Poly1305                   encrypt                344979.60
+
+[results are the number of 1000s bytes processed per second]
+
+algo                               operation                 sec/op          op/sec
+ChaCha20Poly1305                   key schedule            0.000012    83804.734968
+
+
+#####
+NewGVN - Run 2
+2025-01-17 12:37:28
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+ChaCha20Poly1305 49694 key schedule/sec; 0.02 ms/op 40384 cycles/op (2 ops in 0 ms)
+ChaCha20Poly1305 encrypt buffer size 1024 bytes: 329.423 MiB/sec 6.02 cycles/byte (4906.81 MiB in 14895.17 ms)
+ChaCha20Poly1305 decrypt buffer size 1024 bytes: 327.120 MiB/sec 6.05 cycles/byte (4906.81 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+ChaCha20Poly1305                   decrypt                343010.60
+ChaCha20Poly1305                   encrypt                345424.79
+
+[results are the number of 1000s bytes processed per second]
+
+algo                               operation                 sec/op          op/sec
+ChaCha20Poly1305                   key schedule            0.000020    49694.379566
+
+
+#####
+NewGVN - Run 3
+2025-01-17 12:38:00
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+ChaCha20Poly1305 93440 key schedule/sec; 0.01 ms/op 21074 cycles/op (2 ops in 0 ms)
+ChaCha20Poly1305 encrypt buffer size 1024 bytes: 327.827 MiB/sec 6.05 cycles/byte (4880.11 MiB in 14886.21 ms)
+ChaCha20Poly1305 decrypt buffer size 1024 bytes: 325.340 MiB/sec 6.09 cycles/byte (4880.11 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+ChaCha20Poly1305                   decrypt                341144.11
+ChaCha20Poly1305                   encrypt                343751.76
+
+[results are the number of 1000s bytes processed per second]
+
+algo                               operation                 sec/op          op/sec
+ChaCha20Poly1305                   key schedule            0.000011    93440.478415
+
+

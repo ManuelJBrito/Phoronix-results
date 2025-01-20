@@ -1,0 +1,51 @@
+#####
+GVNO3 - Run 1
+2025-01-16 01:41:25
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+Twofish encrypt buffer size 1024 bytes: 179.570 MiB/sec 11.11 cycles/byte (2693.54 MiB in 15000.00 ms)
+Twofish decrypt buffer size 1024 bytes: 187.243 MiB/sec 10.65 cycles/byte (2808.65 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Twofish                            decrypt                196338.69
+Twofish                            encrypt                188292.40
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+GVNO3 - Run 2
+2025-01-16 01:42:00
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+Twofish encrypt buffer size 1024 bytes: 180.273 MiB/sec 11.07 cycles/byte (2704.09 MiB in 15000.00 ms)
+Twofish decrypt buffer size 1024 bytes: 187.323 MiB/sec 10.65 cycles/byte (2809.85 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Twofish                            decrypt                196422.84
+Twofish                            encrypt                189029.59
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+GVNO3 - Run 3
+2025-01-16 01:42:32
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+Twofish encrypt buffer size 1024 bytes: 179.923 MiB/sec 11.09 cycles/byte (2698.85 MiB in 15000.01 ms)
+Twofish decrypt buffer size 1024 bytes: 186.698 MiB/sec 10.68 cycles/byte (2800.46 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Twofish                            decrypt                195766.53
+Twofish                            encrypt                188663.13
+
+[results are the number of 1000s bytes processed per second]
+
+

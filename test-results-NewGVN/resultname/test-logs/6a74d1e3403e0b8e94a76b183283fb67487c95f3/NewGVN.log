@@ -1,0 +1,66 @@
+#####
+NewGVN - Run 1
+2025-01-17 11:05:44
+#####
+2025-01-17T10:04:48+00:00
+Running ./bench_ondemand
+Run on (24 X 2600 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x12)
+  L1 Instruction 32 KiB (x12)
+  L2 Unified 256 KiB (x12)
+  L3 Unified 15360 KiB (x2)
+Load Average: 5.70, 4.42, 2.44
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+simdjson::dom implementation:      westmere
+simdjson::ondemand implementation (stage 1): westmere
+simdjson::ondemand implementation (stage 2): fallback
+--------------------------------------------------------------------------------------------------------
+Benchmark                                              Time             CPU   Iterations UserCounters...
+--------------------------------------------------------------------------------------------------------
+partial_tweets<simdjson_ondemand>/manual_time     471731 ns       541438 ns        87581 best_branch_miss=3.397k best_bytes_per_sec=1.37654G best_cache_miss=0 best_cache_ref=854 best_cycles=1.19769M best_cycles_per_byte=1.89653 best_docs_per_sec=2.17974k best_frequency=2.61064G best_instructions=3.60212M best_instructions_per_byte=5.70393 best_instructions_per_cycle=3.00757 best_items_per_sec=217.974k branch_miss=3.49365k bytes=631.515k bytes_per_second=1.24678G/s cache_miss=1.54143m cache_ref=1.27303k cycles=1.20757M cycles_per_byte=1.91218 docs_per_sec=2.11985k/s frequency=2.55987G/s instructions=3.60212M instructions_per_byte=5.70394 instructions_per_cycle=2.98295 items=100 items_per_second=211.985k/s [BEST: throughput=  1.38 GB/s doc_throughput=  2179 docs/s instructions=     3602120 cycles=     1197686 branch_miss=    3397 cache_miss=       0 cache_ref=       854 items=       100 avg_time=    471731 ns]
+
+#####
+NewGVN - Run 2
+2025-01-17 11:06:43
+#####
+2025-01-17T10:05:46+00:00
+Running ./bench_ondemand
+Run on (24 X 2600 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x12)
+  L1 Instruction 32 KiB (x12)
+  L2 Unified 256 KiB (x12)
+  L3 Unified 15360 KiB (x2)
+Load Average: 2.64, 3.77, 2.34
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+simdjson::dom implementation:      westmere
+simdjson::ondemand implementation (stage 1): westmere
+simdjson::ondemand implementation (stage 2): fallback
+--------------------------------------------------------------------------------------------------------
+Benchmark                                              Time             CPU   Iterations UserCounters...
+--------------------------------------------------------------------------------------------------------
+partial_tweets<simdjson_ondemand>/manual_time     471270 ns       540848 ns        89239 best_branch_miss=3.368k best_bytes_per_sec=1.37093G best_cache_miss=0 best_cache_ref=1.158k best_cycles=1.2027M best_cycles_per_byte=1.90447 best_docs_per_sec=2.17085k best_frequency=2.6109G best_instructions=3.60212M best_instructions_per_byte=5.70393 best_instructions_per_cycle=2.99502 best_items_per_sec=217.085k branch_miss=3.44769k bytes=631.515k bytes_per_second=1.248G/s cache_miss=851.646u cache_ref=1.28246k cycles=1.20844M cycles_per_byte=1.91356 docs_per_sec=2.12192k/s frequency=2.56423G/s instructions=3.60212M instructions_per_byte=5.70394 instructions_per_cycle=2.98079 items=100 items_per_second=212.192k/s [BEST: throughput=  1.37 GB/s doc_throughput=  2170 docs/s instructions=     3602120 cycles=     1202704 branch_miss=    3368 cache_miss=       0 cache_ref=      1158 items=       100 avg_time=    471270 ns]
+
+#####
+NewGVN - Run 3
+2025-01-17 11:07:39
+#####
+2025-01-17T10:06:45+00:00
+Running ./bench_ondemand
+Run on (24 X 2600 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x12)
+  L1 Instruction 32 KiB (x12)
+  L2 Unified 256 KiB (x12)
+  L3 Unified 15360 KiB (x2)
+Load Average: 1.52, 3.25, 2.25
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+simdjson::dom implementation:      westmere
+simdjson::ondemand implementation (stage 1): westmere
+simdjson::ondemand implementation (stage 2): fallback
+--------------------------------------------------------------------------------------------------------
+Benchmark                                              Time             CPU   Iterations UserCounters...
+--------------------------------------------------------------------------------------------------------
+partial_tweets<simdjson_ondemand>/manual_time     471764 ns       541225 ns        89011 best_branch_miss=3.379k best_bytes_per_sec=1.37738G best_cache_miss=0 best_cache_ref=1.158k best_cycles=1.19712M best_cycles_per_byte=1.89563 best_docs_per_sec=2.18107k best_frequency=2.61101G best_instructions=3.60212M best_instructions_per_byte=5.70393 best_instructions_per_cycle=3.00899 best_items_per_sec=218.107k branch_miss=3.45799k bytes=631.515k bytes_per_second=1.24669G/s cache_miss=1.53914m cache_ref=1.29851k cycles=1.20897M cycles_per_byte=1.9144 docs_per_sec=2.1197k/s frequency=2.56266G/s instructions=3.60212M instructions_per_byte=5.70394 instructions_per_cycle=2.97949 items=100 items_per_second=211.97k/s [BEST: throughput=  1.38 GB/s doc_throughput=  2181 docs/s instructions=     3602120 cycles=     1197120 branch_miss=    3379 cache_miss=       0 cache_ref=      1158 items=       100 avg_time=    471764 ns]
+

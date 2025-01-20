@@ -1,0 +1,42 @@
+#####
+GVNO3 - Run 1
+2025-01-16 00:07:34
+#####
+
+Warmup time = 5.0 seconds
+
+>>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
+
+Image size: 6016 x 4000
+Decompress    --> Frame rate:         4.034824 fps
+                  Throughput:         97.094000 Megapixels/sec
+
+
+#####
+GVNO3 - Run 2
+2025-01-16 00:08:03
+#####
+
+Warmup time = 5.0 seconds
+
+>>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
+
+Image size: 6016 x 4000
+Decompress    --> Frame rate:         4.026464 fps
+                  Throughput:         96.892818 Megapixels/sec
+
+
+#####
+GVNO3 - Run 3
+2025-01-16 00:08:30
+#####
+
+Warmup time = 5.0 seconds
+
+>>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
+
+Image size: 6016 x 4000
+Decompress    --> Frame rate:         4.059759 fps
+                  Throughput:         97.694040 Megapixels/sec
+
+

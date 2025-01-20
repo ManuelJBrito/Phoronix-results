@@ -1,0 +1,18 @@
+#####
+GVNO3 - Run 1
+2025-01-15 22:32:02
+#####
+taskset: failed to execute ./fftw-stock/tests/bench: No such file or directory
+
+#####
+GVNO3 - Run 2
+2025-01-15 22:32:06
+#####
+taskset: failed to execute ./fftw-stock/tests/bench: No such file or directory
+
+#####
+GVNO3 - Run 3
+2025-01-15 22:32:08
+#####
+taskset: failed to execute ./fftw-stock/tests/bench: No such file or directory
+

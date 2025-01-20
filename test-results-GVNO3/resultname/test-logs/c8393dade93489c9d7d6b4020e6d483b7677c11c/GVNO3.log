@@ -1,0 +1,42 @@
+#####
+GVNO3 - Run 1
+2025-01-16 00:05:06
+#####
+Lua SciMark 2010-12-10 based on SciMark 2.0a. Copyright (C) 2006-2010 Mike Pall.
+
+FFT       227.52  [1048576]
+SOR      1104.98  [1000]
+MC        303.59  
+SPARSE    777.98  [100000, 1000000]
+LU       1541.22  [1000]
+
+SciMark   791.06  [large problem sizes]
+
+#####
+GVNO3 - Run 2
+2025-01-16 00:05:42
+#####
+Lua SciMark 2010-12-10 based on SciMark 2.0a. Copyright (C) 2006-2010 Mike Pall.
+
+FFT       226.28  [1048576]
+SOR      1096.24  [1000]
+MC        288.41  
+SPARSE    785.95  [100000, 1000000]
+LU       1548.37  [1000]
+
+SciMark   789.05  [large problem sizes]
+
+#####
+GVNO3 - Run 3
+2025-01-16 00:06:16
+#####
+Lua SciMark 2010-12-10 based on SciMark 2.0a. Copyright (C) 2006-2010 Mike Pall.
+
+FFT       227.77  [1048576]
+SOR      1101.73  [1000]
+MC        299.91  
+SPARSE    779.35  [100000, 1000000]
+LU       1547.64  [1000]
+
+SciMark   791.28  [large problem sizes]
+

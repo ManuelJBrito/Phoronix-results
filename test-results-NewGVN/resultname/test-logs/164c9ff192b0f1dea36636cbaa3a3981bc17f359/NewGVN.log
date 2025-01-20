@@ -1,0 +1,72 @@
+#####
+NewGVN - Run 1
+2025-01-17 09:28:42
+#####
+Problem: ibc32, setup: 48.95 ms, time: 107.38 ns, ``mflops'': 7449.9
+
+#####
+NewGVN - Run 2
+2025-01-17 09:28:49
+#####
+Problem: ibc32, setup: 49.02 ms, time: 109.70 ns, ``mflops'': 7292.9
+
+#####
+NewGVN - Run 3
+2025-01-17 09:28:57
+#####
+Problem: ibc32, setup: 48.88 ms, time: 117.57 ns, ``mflops'': 6804.5
+
+#####
+NewGVN - Run 4
+2025-01-17 09:29:04
+#####
+Problem: ibc32, setup: 49.02 ms, time: 108.80 ns, ``mflops'': 7353.3
+
+#####
+NewGVN - Run 5
+2025-01-17 09:29:11
+#####
+Problem: ibc32, setup: 48.87 ms, time: 107.80 ns, ``mflops'': 7420.9
+
+#####
+NewGVN - Run 6
+2025-01-17 09:29:18
+#####
+Problem: ibc32, setup: 48.96 ms, time: 107.15 ns, ``mflops'': 7465.8
+
+#####
+NewGVN - Run 7
+2025-01-17 09:29:25
+#####
+Problem: ibc32, setup: 48.86 ms, time: 107.67 ns, ``mflops'': 7430.4
+
+#####
+NewGVN - Run 8
+2025-01-17 09:29:32
+#####
+Problem: ibc32, setup: 48.94 ms, time: 110.08 ns, ``mflops'': 7267.6
+
+#####
+NewGVN - Run 9
+2025-01-17 09:29:39
+#####
+Problem: ibc32, setup: 49.77 ms, time: 109.19 ns, ``mflops'': 7326.6
+
+#####
+NewGVN - Run 10
+2025-01-17 09:29:46
+#####
+Problem: ibc32, setup: 48.59 ms, time: 111.79 ns, ``mflops'': 7156.5
+
+#####
+NewGVN - Run 11
+2025-01-17 09:29:53
+#####
+Problem: ibc32, setup: 49.28 ms, time: 108.25 ns, ``mflops'': 7390.6
+
+#####
+NewGVN - Run 12
+2025-01-17 09:29:58
+#####
+Problem: ibc32, setup: 48.77 ms, time: 110.63 ns, ``mflops'': 7231.1
+

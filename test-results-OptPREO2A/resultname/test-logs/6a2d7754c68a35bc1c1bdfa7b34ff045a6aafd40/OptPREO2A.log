@@ -1,0 +1,51 @@
+#####
+OptPREO2A - Run 1
+2025-01-16 20:56:06
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+Blowfish encrypt buffer size 1024 bytes: 189.177 MiB/sec 10.54 cycles/byte (2837.66 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 192.224 MiB/sec 10.37 cycles/byte (2883.35 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Blowfish                           decrypt                201560.96
+Blowfish                           encrypt                198366.70
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+OptPREO2A - Run 2
+2025-01-16 20:56:40
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+Blowfish encrypt buffer size 1024 bytes: 189.385 MiB/sec 10.53 cycles/byte (2840.77 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 192.059 MiB/sec 10.38 cycles/byte (2880.88 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Blowfish                           decrypt                201388.33
+Blowfish                           encrypt                198584.09
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+OptPREO2A - Run 3
+2025-01-16 20:57:12
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+Blowfish encrypt buffer size 1024 bytes: 189.693 MiB/sec 10.51 cycles/byte (2845.39 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 191.230 MiB/sec 10.43 cycles/byte (2868.45 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Blowfish                           decrypt                200519.14
+Blowfish                           encrypt                198907.42
+
+[results are the number of 1000s bytes processed per second]
+
+

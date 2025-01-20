@@ -1,0 +1,72 @@
+#####
+OptPREO3A - Run 1
+2025-01-16 12:16:14
+#####
+Problem: ibc32, setup: 49.16 ms, time: 137.48 ns, ``mflops'': 5819
+
+#####
+OptPREO3A - Run 2
+2025-01-16 12:16:21
+#####
+Problem: ibc32, setup: 49.47 ms, time: 109.92 ns, ``mflops'': 7277.7
+
+#####
+OptPREO3A - Run 3
+2025-01-16 12:16:28
+#####
+Problem: ibc32, setup: 49.20 ms, time: 108.72 ns, ``mflops'': 7358.4
+
+#####
+OptPREO3A - Run 4
+2025-01-16 12:16:35
+#####
+Problem: ibc32, setup: 49.28 ms, time: 109.56 ns, ``mflops'': 7302.1
+
+#####
+OptPREO3A - Run 5
+2025-01-16 12:16:42
+#####
+Problem: ibc32, setup: 49.30 ms, time: 108.35 ns, ``mflops'': 7383.8
+
+#####
+OptPREO3A - Run 6
+2025-01-16 12:16:49
+#####
+Problem: ibc32, setup: 49.10 ms, time: 108.80 ns, ``mflops'': 7353.3
+
+#####
+OptPREO3A - Run 7
+2025-01-16 12:16:56
+#####
+Problem: ibc32, setup: 49.32 ms, time: 108.76 ns, ``mflops'': 7355.3
+
+#####
+OptPREO3A - Run 8
+2025-01-16 12:17:03
+#####
+Problem: ibc32, setup: 49.38 ms, time: 109.82 ns, ``mflops'': 7284.8
+
+#####
+OptPREO3A - Run 9
+2025-01-16 12:17:10
+#####
+Problem: ibc32, setup: 48.58 ms, time: 108.31 ns, ``mflops'': 7386.4
+
+#####
+OptPREO3A - Run 10
+2025-01-16 12:17:17
+#####
+Problem: ibc32, setup: 49.49 ms, time: 107.99 ns, ``mflops'': 7407.8
+
+#####
+OptPREO3A - Run 11
+2025-01-16 12:17:24
+#####
+Problem: ibc32, setup: 48.96 ms, time: 107.96 ns, ``mflops'': 7410.4
+
+#####
+OptPREO3A - Run 12
+2025-01-16 12:17:29
+#####
+Problem: ibc32, setup: 49.35 ms, time: 109.84 ns, ``mflops'': 7283.3
+

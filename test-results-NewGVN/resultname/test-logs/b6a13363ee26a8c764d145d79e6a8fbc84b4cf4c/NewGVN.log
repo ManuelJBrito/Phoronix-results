@@ -1,0 +1,42 @@
+#####
+NewGVN - Run 1
+2025-01-17 11:01:13
+#####
+
+Warmup time = 5.0 seconds
+
+>>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
+
+Image size: 6016 x 4000
+Decompress    --> Frame rate:         4.069849 fps
+                  Throughput:         97.936845 Megapixels/sec
+
+
+#####
+NewGVN - Run 2
+2025-01-17 11:01:42
+#####
+
+Warmup time = 5.0 seconds
+
+>>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
+
+Image size: 6016 x 4000
+Decompress    --> Frame rate:         4.059343 fps
+                  Throughput:         97.684039 Megapixels/sec
+
+
+#####
+NewGVN - Run 3
+2025-01-17 11:02:09
+#####
+
+Warmup time = 5.0 seconds
+
+>>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
+
+Image size: 6016 x 4000
+Decompress    --> Frame rate:         3.996874 fps
+                  Throughput:         96.180785 Megapixels/sec
+
+

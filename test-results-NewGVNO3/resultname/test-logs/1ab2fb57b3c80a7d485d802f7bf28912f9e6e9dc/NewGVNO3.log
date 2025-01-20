@@ -1,0 +1,18 @@
+#####
+NewGVNO3 - Run 1
+2025-01-17 19:27:39
+#####
+Results: 1 threads 64 iter 60.18s user 60.486694s total 1.058 iter/s 1.063 iter/cpu
+
+#####
+NewGVNO3 - Run 2
+2025-01-17 19:28:44
+#####
+Results: 1 threads 64 iter 60.59s user 60.862487s total 1.052 iter/s 1.056 iter/cpu
+
+#####
+NewGVNO3 - Run 3
+2025-01-17 19:29:47
+#####
+Results: 1 threads 64 iter 60.45s user 60.734661s total 1.054 iter/s 1.059 iter/cpu
+
