@@ -1,0 +1,117 @@
+#####
+NoGVNO2 - Run 1
+2025-01-20 13:31:24
+#####
+-- Speedtest1 for SQLite 3.30.0 2019-10-04 15:03:17 c20a35336432025445f9f7e289d0cc
+ 100 - 500000 INSERTs into table with no index.....................    0.697s
+ 110 - 500000 ordered INSERTS with one index/PK....................    1.058s
+ 120 - 500000 unordered INSERTS with one index/PK..................    2.780s
+ 130 - 25 SELECTS, numeric BETWEEN, unindexed......................    1.087s
+ 140 - 10 SELECTS, LIKE, unindexed.................................    1.604s
+ 142 - 10 SELECTS w/ORDER BY, unindexed............................    2.941s
+ 145 - 10 SELECTS w/ORDER BY and LIMIT, unindexed..................    1.136s
+ 150 - CREATE INDEX five times.....................................    2.488s
+ 160 - 100000 SELECTS, numeric BETWEEN, indexed....................    5.948s
+ 161 - 100000 SELECTS, numeric BETWEEN, PK.........................    5.960s
+ 170 - 100000 SELECTS, text BETWEEN, indexed.......................    5.318s
+ 180 - 500000 INSERTS with three indexes...........................    7.040s
+ 190 - DELETE and REFILL one table.................................    7.152s
+ 200 - VACUUM......................................................    2.374s
+ 210 - ALTER TABLE ADD COLUMN, and query...........................    0.046s
+ 230 - 100000 UPDATES, numeric BETWEEN, indexed....................    5.072s
+ 240 - 500000 UPDATES of individual rows...........................    4.030s
+ 250 - One big UPDATE of the whole 500000-row table................    0.285s
+ 260 - Query added column after filling............................    0.051s
+ 270 - 100000 DELETEs, numeric BETWEEN, indexed....................    6.759s
+ 280 - 500000 DELETEs of individual rows...........................    6.423s
+ 290 - Refill two 500000-row tables using REPLACE..................   11.373s
+ 300 - Refill a 500000-row table using (b&1)==(a&1)................    6.645s
+ 310 - 100000 four-ways joins......................................   10.281s
+ 320 - subquery in result set......................................   21.187s
+ 400 - 700000 REPLACE ops on an IPK................................    4.727s
+ 410 - 700000 SELECTS on an IPK....................................    2.091s
+ 500 - 700000 REPLACE on TEXT PK...................................    5.063s
+ 510 - 700000 SELECTS on a TEXT PK.................................    3.307s
+ 520 - 700000 SELECT DISTINCT......................................    1.951s
+ 980 - PRAGMA integrity_check......................................    9.873s
+ 990 - ANALYZE.....................................................    0.561s
+       TOTAL.......................................................  147.308s
+
+#####
+NoGVNO2 - Run 2
+2025-01-20 13:33:54
+#####
+-- Speedtest1 for SQLite 3.30.0 2019-10-04 15:03:17 c20a35336432025445f9f7e289d0cc
+ 100 - 500000 INSERTs into table with no index.....................    0.622s
+ 110 - 500000 ordered INSERTS with one index/PK....................    0.904s
+ 120 - 500000 unordered INSERTS with one index/PK..................    2.693s
+ 130 - 25 SELECTS, numeric BETWEEN, unindexed......................    1.090s
+ 140 - 10 SELECTS, LIKE, unindexed.................................    1.646s
+ 142 - 10 SELECTS w/ORDER BY, unindexed............................    2.943s
+ 145 - 10 SELECTS w/ORDER BY and LIMIT, unindexed..................    1.185s
+ 150 - CREATE INDEX five times.....................................    2.518s
+ 160 - 100000 SELECTS, numeric BETWEEN, indexed....................    5.724s
+ 161 - 100000 SELECTS, numeric BETWEEN, PK.........................    5.745s
+ 170 - 100000 SELECTS, text BETWEEN, indexed.......................    5.253s
+ 180 - 500000 INSERTS with three indexes...........................    7.528s
+ 190 - DELETE and REFILL one table.................................    7.044s
+ 200 - VACUUM......................................................    2.374s
+ 210 - ALTER TABLE ADD COLUMN, and query...........................    0.047s
+ 230 - 100000 UPDATES, numeric BETWEEN, indexed....................    5.142s
+ 240 - 500000 UPDATES of individual rows...........................    4.037s
+ 250 - One big UPDATE of the whole 500000-row table................    0.290s
+ 260 - Query added column after filling............................    0.051s
+ 270 - 100000 DELETEs, numeric BETWEEN, indexed....................    6.674s
+ 280 - 500000 DELETEs of individual rows...........................    6.349s
+ 290 - Refill two 500000-row tables using REPLACE..................   11.226s
+ 300 - Refill a 500000-row table using (b&1)==(a&1)................    6.607s
+ 310 - 100000 four-ways joins......................................   10.276s
+ 320 - subquery in result set......................................   20.996s
+ 400 - 700000 REPLACE ops on an IPK................................    4.581s
+ 410 - 700000 SELECTS on an IPK....................................    2.079s
+ 500 - 700000 REPLACE on TEXT PK...................................    4.965s
+ 510 - 700000 SELECTS on a TEXT PK.................................    3.333s
+ 520 - 700000 SELECT DISTINCT......................................    1.957s
+ 980 - PRAGMA integrity_check......................................    9.809s
+ 990 - ANALYZE.....................................................    0.545s
+       TOTAL.......................................................  146.233s
+
+#####
+NoGVNO2 - Run 3
+2025-01-20 13:36:22
+#####
+-- Speedtest1 for SQLite 3.30.0 2019-10-04 15:03:17 c20a35336432025445f9f7e289d0cc
+ 100 - 500000 INSERTs into table with no index.....................    0.653s
+ 110 - 500000 ordered INSERTS with one index/PK....................    0.926s
+ 120 - 500000 unordered INSERTS with one index/PK..................    2.724s
+ 130 - 25 SELECTS, numeric BETWEEN, unindexed......................    1.099s
+ 140 - 10 SELECTS, LIKE, unindexed.................................    1.648s
+ 142 - 10 SELECTS w/ORDER BY, unindexed............................    2.923s
+ 145 - 10 SELECTS w/ORDER BY and LIMIT, unindexed..................    1.125s
+ 150 - CREATE INDEX five times.....................................    2.480s
+ 160 - 100000 SELECTS, numeric BETWEEN, indexed....................    5.693s
+ 161 - 100000 SELECTS, numeric BETWEEN, PK.........................    5.688s
+ 170 - 100000 SELECTS, text BETWEEN, indexed.......................    5.188s
+ 180 - 500000 INSERTS with three indexes...........................    7.599s
+ 190 - DELETE and REFILL one table.................................    7.078s
+ 200 - VACUUM......................................................    2.375s
+ 210 - ALTER TABLE ADD COLUMN, and query...........................    0.045s
+ 230 - 100000 UPDATES, numeric BETWEEN, indexed....................    5.103s
+ 240 - 500000 UPDATES of individual rows...........................    4.027s
+ 250 - One big UPDATE of the whole 500000-row table................    0.287s
+ 260 - Query added column after filling............................    0.051s
+ 270 - 100000 DELETEs, numeric BETWEEN, indexed....................    6.649s
+ 280 - 500000 DELETEs of individual rows...........................    6.320s
+ 290 - Refill two 500000-row tables using REPLACE..................   11.216s
+ 300 - Refill a 500000-row table using (b&1)==(a&1)................    6.628s
+ 310 - 100000 four-ways joins......................................   10.251s
+ 320 - subquery in result set......................................   20.908s
+ 400 - 700000 REPLACE ops on an IPK................................    4.582s
+ 410 - 700000 SELECTS on an IPK....................................    2.079s
+ 500 - 700000 REPLACE on TEXT PK...................................    4.946s
+ 510 - 700000 SELECTS on a TEXT PK.................................    3.301s
+ 520 - 700000 SELECT DISTINCT......................................    1.939s
+ 980 - PRAGMA integrity_check......................................    9.691s
+ 990 - ANALYZE.....................................................    0.527s
+       TOTAL.......................................................  145.749s
+

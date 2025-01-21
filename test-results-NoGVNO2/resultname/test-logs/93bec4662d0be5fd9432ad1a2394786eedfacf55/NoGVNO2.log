@@ -1,0 +1,51 @@
+#####
+NoGVNO2 - Run 1
+2025-01-20 13:22:33
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+KASUMI encrypt buffer size 1024 bytes: 54.902 MiB/sec 36.52 cycles/byte (823.53 MiB in 15000.01 ms)
+KASUMI decrypt buffer size 1024 bytes: 53.313 MiB/sec 37.62 cycles/byte (799.69 MiB in 15000.01 ms)
+
+algo                               operation             1024 bytes
+KASUMI                             decrypt                 55902.45
+KASUMI                             encrypt                 57568.75
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+NoGVNO2 - Run 2
+2025-01-20 13:23:07
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+KASUMI encrypt buffer size 1024 bytes: 55.101 MiB/sec 36.39 cycles/byte (826.52 MiB in 15000.01 ms)
+KASUMI decrypt buffer size 1024 bytes: 52.931 MiB/sec 37.89 cycles/byte (793.97 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+KASUMI                             decrypt                 55502.30
+KASUMI                             encrypt                 57777.74
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+NoGVNO2 - Run 3
+2025-01-20 13:23:39
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+KASUMI encrypt buffer size 1024 bytes: 55.177 MiB/sec 36.34 cycles/byte (827.66 MiB in 15000.01 ms)
+KASUMI decrypt buffer size 1024 bytes: 53.058 MiB/sec 37.80 cycles/byte (795.87 MiB in 15000.01 ms)
+
+algo                               operation             1024 bytes
+KASUMI                             decrypt                 55635.03
+KASUMI                             encrypt                 57857.38
+
+[results are the number of 1000s bytes processed per second]
+
+

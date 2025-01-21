@@ -1,0 +1,970 @@
+Archive:  jpeg-test-1.zip
+  inflating: jpeg-test-1.JPG         
+libjpeg-turbo-2.1.0/
+libjpeg-turbo-2.1.0/BUILDING.md
+libjpeg-turbo-2.1.0/CMakeLists.txt
+libjpeg-turbo-2.1.0/ChangeLog.md
+libjpeg-turbo-2.1.0/LICENSE.md
+libjpeg-turbo-2.1.0/README.ijg
+libjpeg-turbo-2.1.0/README.md
+libjpeg-turbo-2.1.0/cderror.h
+libjpeg-turbo-2.1.0/cdjpeg.c
+libjpeg-turbo-2.1.0/cdjpeg.h
+libjpeg-turbo-2.1.0/change.log
+libjpeg-turbo-2.1.0/cjpeg.1
+libjpeg-turbo-2.1.0/cjpeg.c
+libjpeg-turbo-2.1.0/cmakescripts/
+libjpeg-turbo-2.1.0/cmakescripts/BuildPackages.cmake
+libjpeg-turbo-2.1.0/cmakescripts/GNUInstallDirs.cmake
+libjpeg-turbo-2.1.0/cmakescripts/cmake_uninstall.cmake.in
+libjpeg-turbo-2.1.0/cmakescripts/testclean.cmake
+libjpeg-turbo-2.1.0/cmyk.h
+libjpeg-turbo-2.1.0/coderules.txt
+libjpeg-turbo-2.1.0/croptest.in
+libjpeg-turbo-2.1.0/djpeg.1
+libjpeg-turbo-2.1.0/djpeg.c
+libjpeg-turbo-2.1.0/doc/
+libjpeg-turbo-2.1.0/doc/html/
+libjpeg-turbo-2.1.0/doc/html/annotated.html
+libjpeg-turbo-2.1.0/doc/html/bc_s.png
+libjpeg-turbo-2.1.0/doc/html/bdwn.png
+libjpeg-turbo-2.1.0/doc/html/classes.html
+libjpeg-turbo-2.1.0/doc/html/closed.png
+libjpeg-turbo-2.1.0/doc/html/doc.png
+libjpeg-turbo-2.1.0/doc/html/doxygen-extra.css
+libjpeg-turbo-2.1.0/doc/html/doxygen.css
+libjpeg-turbo-2.1.0/doc/html/doxygen.svg
+libjpeg-turbo-2.1.0/doc/html/dynsections.js
+libjpeg-turbo-2.1.0/doc/html/folderclosed.png
+libjpeg-turbo-2.1.0/doc/html/folderopen.png
+libjpeg-turbo-2.1.0/doc/html/functions.html
+libjpeg-turbo-2.1.0/doc/html/functions_vars.html
+libjpeg-turbo-2.1.0/doc/html/group___turbo_j_p_e_g.html
+libjpeg-turbo-2.1.0/doc/html/index.html
+libjpeg-turbo-2.1.0/doc/html/jquery.js
+libjpeg-turbo-2.1.0/doc/html/menu.js
+libjpeg-turbo-2.1.0/doc/html/menudata.js
+libjpeg-turbo-2.1.0/doc/html/modules.html
+libjpeg-turbo-2.1.0/doc/html/nav_f.png
+libjpeg-turbo-2.1.0/doc/html/nav_g.png
+libjpeg-turbo-2.1.0/doc/html/nav_h.png
+libjpeg-turbo-2.1.0/doc/html/open.png
+libjpeg-turbo-2.1.0/doc/html/search/
+libjpeg-turbo-2.1.0/doc/html/search/all_0.html
+libjpeg-turbo-2.1.0/doc/html/search/all_0.js
+libjpeg-turbo-2.1.0/doc/html/search/all_1.html
+libjpeg-turbo-2.1.0/doc/html/search/all_1.js
+libjpeg-turbo-2.1.0/doc/html/search/all_2.html
+libjpeg-turbo-2.1.0/doc/html/search/all_2.js
+libjpeg-turbo-2.1.0/doc/html/search/all_3.html
+libjpeg-turbo-2.1.0/doc/html/search/all_3.js
+libjpeg-turbo-2.1.0/doc/html/search/all_4.html
+libjpeg-turbo-2.1.0/doc/html/search/all_4.js
+libjpeg-turbo-2.1.0/doc/html/search/all_5.html
+libjpeg-turbo-2.1.0/doc/html/search/all_5.js
+libjpeg-turbo-2.1.0/doc/html/search/all_6.html
+libjpeg-turbo-2.1.0/doc/html/search/all_6.js
+libjpeg-turbo-2.1.0/doc/html/search/all_7.html
+libjpeg-turbo-2.1.0/doc/html/search/all_7.js
+libjpeg-turbo-2.1.0/doc/html/search/all_8.html
+libjpeg-turbo-2.1.0/doc/html/search/all_8.js
+libjpeg-turbo-2.1.0/doc/html/search/all_9.html
+libjpeg-turbo-2.1.0/doc/html/search/all_9.js
+libjpeg-turbo-2.1.0/doc/html/search/classes_0.html
+libjpeg-turbo-2.1.0/doc/html/search/classes_0.js
+libjpeg-turbo-2.1.0/doc/html/search/close.svg
+libjpeg-turbo-2.1.0/doc/html/search/enums_0.html
+libjpeg-turbo-2.1.0/doc/html/search/enums_0.js
+libjpeg-turbo-2.1.0/doc/html/search/enumvalues_0.html
+libjpeg-turbo-2.1.0/doc/html/search/enumvalues_0.js
+libjpeg-turbo-2.1.0/doc/html/search/functions_0.html
+libjpeg-turbo-2.1.0/doc/html/search/functions_0.js
+libjpeg-turbo-2.1.0/doc/html/search/groups_0.html
+libjpeg-turbo-2.1.0/doc/html/search/groups_0.js
+libjpeg-turbo-2.1.0/doc/html/search/mag_sel.svg
+libjpeg-turbo-2.1.0/doc/html/search/nomatches.html
+libjpeg-turbo-2.1.0/doc/html/search/search.css
+libjpeg-turbo-2.1.0/doc/html/search/search.js
+libjpeg-turbo-2.1.0/doc/html/search/search_l.png
+libjpeg-turbo-2.1.0/doc/html/search/search_m.png
+libjpeg-turbo-2.1.0/doc/html/search/search_r.png
+libjpeg-turbo-2.1.0/doc/html/search/searchdata.js
+libjpeg-turbo-2.1.0/doc/html/search/typedefs_0.html
+libjpeg-turbo-2.1.0/doc/html/search/typedefs_0.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_0.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_0.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_1.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_1.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_2.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_2.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_3.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_3.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_4.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_4.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_5.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_5.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_6.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_6.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_7.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_7.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_8.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_8.js
+libjpeg-turbo-2.1.0/doc/html/search/variables_9.html
+libjpeg-turbo-2.1.0/doc/html/search/variables_9.js
+libjpeg-turbo-2.1.0/doc/html/splitbar.png
+libjpeg-turbo-2.1.0/doc/html/structtjregion.html
+libjpeg-turbo-2.1.0/doc/html/structtjscalingfactor.html
+libjpeg-turbo-2.1.0/doc/html/structtjtransform.html
+libjpeg-turbo-2.1.0/doc/html/sync_off.png
+libjpeg-turbo-2.1.0/doc/html/sync_on.png
+libjpeg-turbo-2.1.0/doc/html/tab_a.png
+libjpeg-turbo-2.1.0/doc/html/tab_b.png
+libjpeg-turbo-2.1.0/doc/html/tab_h.png
+libjpeg-turbo-2.1.0/doc/html/tab_s.png
+libjpeg-turbo-2.1.0/doc/html/tabs.css
+libjpeg-turbo-2.1.0/doxygen-extra.css
+libjpeg-turbo-2.1.0/doxygen.config
+libjpeg-turbo-2.1.0/example.txt
+libjpeg-turbo-2.1.0/fuzz/
+libjpeg-turbo-2.1.0/fuzz/CMakeLists.txt
+libjpeg-turbo-2.1.0/fuzz/build.sh
+libjpeg-turbo-2.1.0/fuzz/cjpeg.cc
+libjpeg-turbo-2.1.0/fuzz/compress.cc
+libjpeg-turbo-2.1.0/fuzz/compress_yuv.cc
+libjpeg-turbo-2.1.0/fuzz/decompress.cc
+libjpeg-turbo-2.1.0/fuzz/decompress_yuv.cc
+libjpeg-turbo-2.1.0/fuzz/transform.cc
+libjpeg-turbo-2.1.0/jaricom.c
+libjpeg-turbo-2.1.0/java/
+libjpeg-turbo-2.1.0/java/CMakeLists.txt
+libjpeg-turbo-2.1.0/java/MANIFEST.MF
+libjpeg-turbo-2.1.0/java/README
+libjpeg-turbo-2.1.0/java/TJBench.java
+libjpeg-turbo-2.1.0/java/TJExample.java
+libjpeg-turbo-2.1.0/java/TJUnitTest.java
+libjpeg-turbo-2.1.0/java/doc/
+libjpeg-turbo-2.1.0/java/doc/allclasses-frame.html
+libjpeg-turbo-2.1.0/java/doc/allclasses-noframe.html
+libjpeg-turbo-2.1.0/java/doc/constant-values.html
+libjpeg-turbo-2.1.0/java/doc/deprecated-list.html
+libjpeg-turbo-2.1.0/java/doc/help-doc.html
+libjpeg-turbo-2.1.0/java/doc/index-all.html
+libjpeg-turbo-2.1.0/java/doc/index.html
+libjpeg-turbo-2.1.0/java/doc/org/
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/TJ.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/TJCompressor.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/TJCustomFilter.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/TJDecompressor.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/TJException.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/TJScalingFactor.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/TJTransform.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/TJTransformer.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/YUVImage.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/package-frame.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/package-summary.html
+libjpeg-turbo-2.1.0/java/doc/org/libjpegturbo/turbojpeg/package-tree.html
+libjpeg-turbo-2.1.0/java/doc/overview-tree.html
+libjpeg-turbo-2.1.0/java/doc/package-list
+libjpeg-turbo-2.1.0/java/doc/resources/
+libjpeg-turbo-2.1.0/java/doc/resources/background.gif
+libjpeg-turbo-2.1.0/java/doc/resources/tab.gif
+libjpeg-turbo-2.1.0/java/doc/resources/titlebar.gif
+libjpeg-turbo-2.1.0/java/doc/resources/titlebar_end.gif
+libjpeg-turbo-2.1.0/java/doc/script.js
+libjpeg-turbo-2.1.0/java/doc/serialized-form.html
+libjpeg-turbo-2.1.0/java/doc/stylesheet.css
+libjpeg-turbo-2.1.0/java/org/
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJ.java
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJCompressor.java
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJCustomFilter.java
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJDecompressor.java
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJException.java
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJLoader-unix.java.in
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJLoader-win.java.in
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJScalingFactor.java
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJTransform.java
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/TJTransformer.java
+libjpeg-turbo-2.1.0/java/org/libjpegturbo/turbojpeg/YUVImage.java
+libjpeg-turbo-2.1.0/java/org_libjpegturbo_turbojpeg_TJ.h
+libjpeg-turbo-2.1.0/java/org_libjpegturbo_turbojpeg_TJCompressor.h
+libjpeg-turbo-2.1.0/java/org_libjpegturbo_turbojpeg_TJDecompressor.h
+libjpeg-turbo-2.1.0/java/org_libjpegturbo_turbojpeg_TJTransformer.h
+libjpeg-turbo-2.1.0/jcapimin.c
+libjpeg-turbo-2.1.0/jcapistd.c
+libjpeg-turbo-2.1.0/jcarith.c
+libjpeg-turbo-2.1.0/jccoefct.c
+libjpeg-turbo-2.1.0/jccolext.c
+libjpeg-turbo-2.1.0/jccolor.c
+libjpeg-turbo-2.1.0/jcdctmgr.c
+libjpeg-turbo-2.1.0/jchuff.c
+libjpeg-turbo-2.1.0/jchuff.h
+libjpeg-turbo-2.1.0/jcicc.c
+libjpeg-turbo-2.1.0/jcinit.c
+libjpeg-turbo-2.1.0/jcmainct.c
+libjpeg-turbo-2.1.0/jcmarker.c
+libjpeg-turbo-2.1.0/jcmaster.c
+libjpeg-turbo-2.1.0/jcomapi.c
+libjpeg-turbo-2.1.0/jconfig.h.in
+libjpeg-turbo-2.1.0/jconfig.txt
+libjpeg-turbo-2.1.0/jconfigint.h.in
+libjpeg-turbo-2.1.0/jcparam.c
+libjpeg-turbo-2.1.0/jcphuff.c
+libjpeg-turbo-2.1.0/jcprepct.c
+libjpeg-turbo-2.1.0/jcsample.c
+libjpeg-turbo-2.1.0/jcstest.c
+libjpeg-turbo-2.1.0/jctrans.c
+libjpeg-turbo-2.1.0/jdapimin.c
+libjpeg-turbo-2.1.0/jdapistd.c
+libjpeg-turbo-2.1.0/jdarith.c
+libjpeg-turbo-2.1.0/jdatadst-tj.c
+libjpeg-turbo-2.1.0/jdatadst.c
+libjpeg-turbo-2.1.0/jdatasrc-tj.c
+libjpeg-turbo-2.1.0/jdatasrc.c
+libjpeg-turbo-2.1.0/jdcoefct.c
+libjpeg-turbo-2.1.0/jdcoefct.h
+libjpeg-turbo-2.1.0/jdcol565.c
+libjpeg-turbo-2.1.0/jdcolext.c
+libjpeg-turbo-2.1.0/jdcolor.c
+libjpeg-turbo-2.1.0/jdct.h
+libjpeg-turbo-2.1.0/jddctmgr.c
+libjpeg-turbo-2.1.0/jdhuff.c
+libjpeg-turbo-2.1.0/jdhuff.h
+libjpeg-turbo-2.1.0/jdicc.c
+libjpeg-turbo-2.1.0/jdinput.c
+libjpeg-turbo-2.1.0/jdmainct.c
+libjpeg-turbo-2.1.0/jdmainct.h
+libjpeg-turbo-2.1.0/jdmarker.c
+libjpeg-turbo-2.1.0/jdmaster.c
+libjpeg-turbo-2.1.0/jdmaster.h
+libjpeg-turbo-2.1.0/jdmerge.c
+libjpeg-turbo-2.1.0/jdmerge.h
+libjpeg-turbo-2.1.0/jdmrg565.c
+libjpeg-turbo-2.1.0/jdmrgext.c
+libjpeg-turbo-2.1.0/jdphuff.c
+libjpeg-turbo-2.1.0/jdpostct.c
+libjpeg-turbo-2.1.0/jdsample.c
+libjpeg-turbo-2.1.0/jdsample.h
+libjpeg-turbo-2.1.0/jdtrans.c
+libjpeg-turbo-2.1.0/jerror.c
+libjpeg-turbo-2.1.0/jerror.h
+libjpeg-turbo-2.1.0/jfdctflt.c
+libjpeg-turbo-2.1.0/jfdctfst.c
+libjpeg-turbo-2.1.0/jfdctint.c
+libjpeg-turbo-2.1.0/jidctflt.c
+libjpeg-turbo-2.1.0/jidctfst.c
+libjpeg-turbo-2.1.0/jidctint.c
+libjpeg-turbo-2.1.0/jidctred.c
+libjpeg-turbo-2.1.0/jinclude.h
+libjpeg-turbo-2.1.0/jmemmgr.c
+libjpeg-turbo-2.1.0/jmemnobs.c
+libjpeg-turbo-2.1.0/jmemsys.h
+libjpeg-turbo-2.1.0/jmorecfg.h
+libjpeg-turbo-2.1.0/jpeg_nbits_table.h
+libjpeg-turbo-2.1.0/jpegcomp.h
+libjpeg-turbo-2.1.0/jpegint.h
+libjpeg-turbo-2.1.0/jpeglib.h
+libjpeg-turbo-2.1.0/jpegtran.1
+libjpeg-turbo-2.1.0/jpegtran.c
+libjpeg-turbo-2.1.0/jquant1.c
+libjpeg-turbo-2.1.0/jquant2.c
+libjpeg-turbo-2.1.0/jsimd.h
+libjpeg-turbo-2.1.0/jsimd_none.c
+libjpeg-turbo-2.1.0/jsimddct.h
+libjpeg-turbo-2.1.0/jstdhuff.c
+libjpeg-turbo-2.1.0/jutils.c
+libjpeg-turbo-2.1.0/jversion.h
+libjpeg-turbo-2.1.0/libjpeg.map.in
+libjpeg-turbo-2.1.0/libjpeg.txt
+libjpeg-turbo-2.1.0/md5/
+libjpeg-turbo-2.1.0/md5/CMakeLists.txt
+libjpeg-turbo-2.1.0/md5/md5.c
+libjpeg-turbo-2.1.0/md5/md5.h
+libjpeg-turbo-2.1.0/md5/md5cmp.c
+libjpeg-turbo-2.1.0/md5/md5hl.c
+libjpeg-turbo-2.1.0/rdbmp.c
+libjpeg-turbo-2.1.0/rdcolmap.c
+libjpeg-turbo-2.1.0/rdgif.c
+libjpeg-turbo-2.1.0/rdjpgcom.1
+libjpeg-turbo-2.1.0/rdjpgcom.c
+libjpeg-turbo-2.1.0/rdppm.c
+libjpeg-turbo-2.1.0/rdswitch.c
+libjpeg-turbo-2.1.0/rdtarga.c
+libjpeg-turbo-2.1.0/release/
+libjpeg-turbo-2.1.0/release/Config.cmake.in
+libjpeg-turbo-2.1.0/release/Distribution.xml.in
+libjpeg-turbo-2.1.0/release/License.rtf
+libjpeg-turbo-2.1.0/release/ReadMe.txt
+libjpeg-turbo-2.1.0/release/Welcome.rtf.in
+libjpeg-turbo-2.1.0/release/deb-control.in
+libjpeg-turbo-2.1.0/release/installer.nsi.in
+libjpeg-turbo-2.1.0/release/libjpeg.pc.in
+libjpeg-turbo-2.1.0/release/libturbojpeg.pc.in
+libjpeg-turbo-2.1.0/release/makedpkg.in
+libjpeg-turbo-2.1.0/release/makemacpkg.in
+libjpeg-turbo-2.1.0/release/makerpm.in
+libjpeg-turbo-2.1.0/release/makesrpm.in
+libjpeg-turbo-2.1.0/release/maketarball.in
+libjpeg-turbo-2.1.0/release/rpm.spec.in
+libjpeg-turbo-2.1.0/release/uninstall.in
+libjpeg-turbo-2.1.0/sharedlib/
+libjpeg-turbo-2.1.0/sharedlib/CMakeLists.txt
+libjpeg-turbo-2.1.0/simd/
+libjpeg-turbo-2.1.0/simd/CMakeLists.txt
+libjpeg-turbo-2.1.0/simd/arm/
+libjpeg-turbo-2.1.0/simd/arm/aarch32/
+libjpeg-turbo-2.1.0/simd/arm/aarch32/jccolext-neon.c
+libjpeg-turbo-2.1.0/simd/arm/aarch32/jchuff-neon.c
+libjpeg-turbo-2.1.0/simd/arm/aarch32/jsimd.c
+libjpeg-turbo-2.1.0/simd/arm/aarch32/jsimd_neon.S
+libjpeg-turbo-2.1.0/simd/arm/aarch64/
+libjpeg-turbo-2.1.0/simd/arm/aarch64/jccolext-neon.c
+libjpeg-turbo-2.1.0/simd/arm/aarch64/jchuff-neon.c
+libjpeg-turbo-2.1.0/simd/arm/aarch64/jsimd.c
+libjpeg-turbo-2.1.0/simd/arm/aarch64/jsimd_neon.S
+libjpeg-turbo-2.1.0/simd/arm/align.h
+libjpeg-turbo-2.1.0/simd/arm/jccolor-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jcgray-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jcgryext-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jchuff.h
+libjpeg-turbo-2.1.0/simd/arm/jcphuff-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jcsample-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jdcolext-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jdcolor-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jdmerge-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jdmrgext-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jdsample-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jfdctfst-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jfdctint-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jidctfst-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jidctint-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jidctred-neon.c
+libjpeg-turbo-2.1.0/simd/arm/jquanti-neon.c
+libjpeg-turbo-2.1.0/simd/arm/neon-compat.h.in
+libjpeg-turbo-2.1.0/simd/i386/
+libjpeg-turbo-2.1.0/simd/i386/jccolext-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jccolext-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jccolext-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jccolor-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jccolor-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jccolor-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jcgray-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jcgray-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jcgray-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jcgryext-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jcgryext-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jcgryext-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jchuff-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jcphuff-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jcsample-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jcsample-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jcsample-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdcolext-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdcolext-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jdcolext-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdcolor-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdcolor-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jdcolor-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdmerge-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdmerge-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jdmerge-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdmrgext-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdmrgext-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jdmrgext-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdsample-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jdsample-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jdsample-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jfdctflt-3dn.asm
+libjpeg-turbo-2.1.0/simd/i386/jfdctflt-sse.asm
+libjpeg-turbo-2.1.0/simd/i386/jfdctfst-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jfdctfst-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jfdctint-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jfdctint-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jfdctint-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctflt-3dn.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctflt-sse.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctflt-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctfst-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctfst-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctint-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctint-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctint-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctred-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jidctred-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jquant-3dn.asm
+libjpeg-turbo-2.1.0/simd/i386/jquant-mmx.asm
+libjpeg-turbo-2.1.0/simd/i386/jquant-sse.asm
+libjpeg-turbo-2.1.0/simd/i386/jquantf-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jquanti-avx2.asm
+libjpeg-turbo-2.1.0/simd/i386/jquanti-sse2.asm
+libjpeg-turbo-2.1.0/simd/i386/jsimd.c
+libjpeg-turbo-2.1.0/simd/i386/jsimdcpu.asm
+libjpeg-turbo-2.1.0/simd/jsimd.h
+libjpeg-turbo-2.1.0/simd/mips/
+libjpeg-turbo-2.1.0/simd/mips/jsimd.c
+libjpeg-turbo-2.1.0/simd/mips/jsimd_dspr2.S
+libjpeg-turbo-2.1.0/simd/mips/jsimd_dspr2_asm.h
+libjpeg-turbo-2.1.0/simd/mips64/
+libjpeg-turbo-2.1.0/simd/mips64/jccolext-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jccolor-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jcgray-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jcgryext-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jcsample-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jcsample.h
+libjpeg-turbo-2.1.0/simd/mips64/jdcolext-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jdcolor-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jdmerge-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jdmrgext-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jdsample-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jfdctfst-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jfdctint-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jidctfst-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jidctint-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jquanti-mmi.c
+libjpeg-turbo-2.1.0/simd/mips64/jsimd.c
+libjpeg-turbo-2.1.0/simd/mips64/jsimd_mmi.h
+libjpeg-turbo-2.1.0/simd/mips64/loongson-mmintrin.h
+libjpeg-turbo-2.1.0/simd/nasm/
+libjpeg-turbo-2.1.0/simd/nasm/jcolsamp.inc
+libjpeg-turbo-2.1.0/simd/nasm/jdct.inc
+libjpeg-turbo-2.1.0/simd/nasm/jsimdcfg.inc
+libjpeg-turbo-2.1.0/simd/nasm/jsimdcfg.inc.h
+libjpeg-turbo-2.1.0/simd/nasm/jsimdext.inc
+libjpeg-turbo-2.1.0/simd/powerpc/
+libjpeg-turbo-2.1.0/simd/powerpc/jccolext-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jccolor-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jcgray-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jcgryext-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jcsample-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jcsample.h
+libjpeg-turbo-2.1.0/simd/powerpc/jdcolext-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jdcolor-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jdmerge-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jdmrgext-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jdsample-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jfdctfst-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jfdctint-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jidctfst-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jidctint-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jquanti-altivec.c
+libjpeg-turbo-2.1.0/simd/powerpc/jsimd.c
+libjpeg-turbo-2.1.0/simd/powerpc/jsimd_altivec.h
+libjpeg-turbo-2.1.0/simd/x86_64/
+libjpeg-turbo-2.1.0/simd/x86_64/jccolext-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jccolext-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jccolor-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jccolor-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jcgray-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jcgray-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jcgryext-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jcgryext-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jchuff-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jcphuff-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jcsample-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jcsample-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdcolext-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdcolext-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdcolor-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdcolor-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdmerge-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdmerge-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdmrgext-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdmrgext-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdsample-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jdsample-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jfdctflt-sse.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jfdctfst-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jfdctint-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jfdctint-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jidctflt-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jidctfst-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jidctint-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jidctint-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jidctred-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jquantf-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jquanti-avx2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jquanti-sse2.asm
+libjpeg-turbo-2.1.0/simd/x86_64/jsimd.c
+libjpeg-turbo-2.1.0/simd/x86_64/jsimdcpu.asm
+libjpeg-turbo-2.1.0/structure.txt
+libjpeg-turbo-2.1.0/testimages/
+libjpeg-turbo-2.1.0/testimages/nightshot_iso_100.bmp
+libjpeg-turbo-2.1.0/testimages/nightshot_iso_100.txt
+libjpeg-turbo-2.1.0/testimages/test.scan
+libjpeg-turbo-2.1.0/testimages/test1.icc
+libjpeg-turbo-2.1.0/testimages/test1.icc.txt
+libjpeg-turbo-2.1.0/testimages/test2.icc
+libjpeg-turbo-2.1.0/testimages/test2.icc.txt
+libjpeg-turbo-2.1.0/testimages/testimgari.jpg
+libjpeg-turbo-2.1.0/testimages/testimgint.jpg
+libjpeg-turbo-2.1.0/testimages/testorig.jpg
+libjpeg-turbo-2.1.0/testimages/testorig.ppm
+libjpeg-turbo-2.1.0/testimages/testorig12.jpg
+libjpeg-turbo-2.1.0/testimages/vgl_5674_0098.bmp
+libjpeg-turbo-2.1.0/testimages/vgl_6434_0018a.bmp
+libjpeg-turbo-2.1.0/testimages/vgl_6548_0026a.bmp
+libjpeg-turbo-2.1.0/tjbench.c
+libjpeg-turbo-2.1.0/tjbenchtest.in
+libjpeg-turbo-2.1.0/tjbenchtest.java.in
+libjpeg-turbo-2.1.0/tjexample.c
+libjpeg-turbo-2.1.0/tjexampletest.in
+libjpeg-turbo-2.1.0/tjexampletest.java.in
+libjpeg-turbo-2.1.0/tjunittest.c
+libjpeg-turbo-2.1.0/tjutil.c
+libjpeg-turbo-2.1.0/tjutil.h
+libjpeg-turbo-2.1.0/transupp.c
+libjpeg-turbo-2.1.0/transupp.h
+libjpeg-turbo-2.1.0/turbojpeg-jni.c
+libjpeg-turbo-2.1.0/turbojpeg-mapfile
+libjpeg-turbo-2.1.0/turbojpeg-mapfile.jni
+libjpeg-turbo-2.1.0/turbojpeg.c
+libjpeg-turbo-2.1.0/turbojpeg.h
+libjpeg-turbo-2.1.0/usage.txt
+libjpeg-turbo-2.1.0/win/
+libjpeg-turbo-2.1.0/win/gcc/
+libjpeg-turbo-2.1.0/win/gcc/projectTargets-release.cmake.in
+libjpeg-turbo-2.1.0/win/jconfig.h.in
+libjpeg-turbo-2.1.0/win/jpeg62-memsrcdst.def
+libjpeg-turbo-2.1.0/win/jpeg62.def
+libjpeg-turbo-2.1.0/win/jpeg7-memsrcdst.def
+libjpeg-turbo-2.1.0/win/jpeg7.def
+libjpeg-turbo-2.1.0/win/jpeg8.def
+libjpeg-turbo-2.1.0/win/projectTargets.cmake.in
+libjpeg-turbo-2.1.0/win/vc/
+libjpeg-turbo-2.1.0/win/vc/projectTargets-release.cmake.in
+libjpeg-turbo-2.1.0/wizard.txt
+libjpeg-turbo-2.1.0/wrbmp.c
+libjpeg-turbo-2.1.0/wrgif.c
+libjpeg-turbo-2.1.0/wrjpgcom.1
+libjpeg-turbo-2.1.0/wrjpgcom.c
+libjpeg-turbo-2.1.0/wrppm.c
+libjpeg-turbo-2.1.0/wrtarga.c
+-- The C compiler identification is Clang 20.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- CMAKE_BUILD_TYPE = Release
+-- VERSION = 2.1.0, BUILD = 20250120
+-- 64-bit build (x86_64)
+-- CMAKE_INSTALL_PREFIX = /opt/libjpeg-turbo
+-- CMAKE_INSTALL_BINDIR = bin (/opt/libjpeg-turbo/bin)
+-- CMAKE_INSTALL_DATAROOTDIR =  (/opt/libjpeg-turbo)
+-- CMAKE_INSTALL_DOCDIR = doc (/opt/libjpeg-turbo/doc)
+-- CMAKE_INSTALL_INCLUDEDIR = include (/opt/libjpeg-turbo/include)
+-- CMAKE_INSTALL_LIBDIR = lib64 (/opt/libjpeg-turbo/lib64)
+-- CMAKE_INSTALL_MANDIR = man (/opt/libjpeg-turbo/man)
+-- Shared libraries enabled (ENABLE_SHARED = 1)
+-- Static libraries enabled (ENABLE_STATIC = 1)
+-- 12-bit JPEG support disabled (WITH_12BIT = 0)
+-- Arithmetic decoding support enabled (WITH_ARITH_DEC = 1)
+-- Arithmetic encoding support enabled (WITH_ARITH_ENC = 1)
+-- TurboJPEG API library enabled (WITH_TURBOJPEG = 1)
+-- TurboJPEG Java wrapper disabled (WITH_JAVA = 0)
+-- In-memory source/destination managers enabled (WITH_MEM_SRCDST = 1)
+-- Emulating libjpeg API/ABI v6.2 (WITH_JPEG7 = 0, WITH_JPEG8 = 0)
+-- libjpeg API shared library version = 62.3.0
+-- Compiler flags = -O3 -mllvm -enable-newgvn -mllvm -skip-newgvn -O3 -DNDEBUG
+-- Linker flags =  
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Performing Test HAVE_BUILTIN_CTZL
+-- Performing Test HAVE_BUILTIN_CTZL - Success
+-- Looking for include file locale.h
+-- Looking for include file locale.h - found
+-- Looking for include file stdlib.h
+-- Looking for include file stdlib.h - found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for memset
+-- Looking for memset - found
+-- Looking for memcpy
+-- Looking for memcpy - found
+-- Check size of unsigned char
+-- Check size of unsigned char - done
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Performing Test INCOMPLETE_TYPES
+-- Performing Test INCOMPLETE_TYPES - Success
+-- Compiler supports pointers to undefined structures.
+-- Performing Test RIGHT_SHIFT_IS_UNSIGNED
+-- Performing Test RIGHT_SHIFT_IS_UNSIGNED - Failed
+-- Performing Test INLINE_WORKS
+-- Performing Test INLINE_WORKS - Success
+-- INLINE = __inline__ __attribute__((always_inline)) (FORCE_INLINE = 1)
+-- Performing Test HAVE_THREAD_LOCAL
+-- Performing Test HAVE_THREAD_LOCAL - Success
+-- THREAD_LOCAL = __thread
+-- Performing Test HAVE_VERSION_SCRIPT
+-- Performing Test HAVE_VERSION_SCRIPT - Success
+-- Linker supports GNU-style version scripts
+-- CMAKE_EXECUTABLE_SUFFIX = 
+-- Looking for a ASM_NASM compiler
+-- Looking for a ASM_NASM compiler - /usr/bin/nasm
+-- The ASM_NASM compiler identification is NASM
+-- Found assembler: /usr/bin/nasm
+-- CMAKE_ASM_NASM_COMPILER = /usr/bin/nasm
+-- CMAKE_ASM_NASM_OBJECT_FORMAT = elf64
+-- CMAKE_ASM_NASM_FLAGS =  -DELF -D__x86_64__ -DPIC 
+-- SIMD extensions: x86_64 (WITH_SIMD = 1)
+-- FLOATTEST = sse
+-- RPM architecture = x86_64, DEB architecture = amd64
+-- Configuring done (6.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/tjbench-1.2.0/libjpeg-turbo-2.1.0/build
+[  0%] Building C object md5/CMakeFiles/md5cmp.dir/md5.c.o
+[  0%] Building C object CMakeFiles/rdjpgcom.dir/rdjpgcom.c.o
+[  0%] Building C object md5/CMakeFiles/md5cmp.dir/md5cmp.c.o
+[  1%] Building C object md5/CMakeFiles/md5cmp.dir/md5hl.c.o
+[  1%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jsimdcpu.asm.o
+[  1%] Building C object CMakeFiles/wrjpgcom.dir/wrjpgcom.c.o
+[  2%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jccolor-sse2.asm.o
+[  2%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jcgray-sse2.asm.o
+[  2%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jfdctflt-sse.asm.o
+[  2%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jchuff-sse2.asm.o
+[  3%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jcphuff-sse2.asm.o
+[  3%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jcsample-sse2.asm.o
+[  3%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jdcolor-sse2.asm.o
+[  3%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jdmerge-sse2.asm.o
+[  4%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jdsample-sse2.asm.o
+[  4%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jfdctfst-sse2.asm.o
+[  4%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jfdctint-sse2.asm.o
+[  5%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jidctflt-sse2.asm.o
+[  5%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jidctfst-sse2.asm.o
+[  5%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jidctint-sse2.asm.o
+[  6%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jidctred-sse2.asm.o
+[  6%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jquantf-sse2.asm.o
+[  6%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jquanti-sse2.asm.o
+[  7%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jccolor-avx2.asm.o
+[  7%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jcgray-avx2.asm.o
+[  7%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jcsample-avx2.asm.o
+[  7%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jdcolor-avx2.asm.o
+[  7%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jdsample-avx2.asm.o
+[  8%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jdmerge-avx2.asm.o
+[  8%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jfdctint-avx2.asm.o
+[  9%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jidctint-avx2.asm.o
+[  9%] Building ASM_NASM object simd/CMakeFiles/simd.dir/x86_64/jquanti-avx2.asm.o
+[  9%] Building C object simd/CMakeFiles/simd.dir/x86_64/jsimd.c.o
+[  9%] Linking C executable md5cmp
+[ 10%] Linking C executable rdjpgcom
+[ 11%] Linking C executable wrjpgcom
+[ 11%] Built target md5cmp
+[ 11%] Built target simd
+[ 11%] Built target rdjpgcom
+[ 11%] Built target wrjpgcom
+[ 11%] Building C object CMakeFiles/jpeg-static.dir/jcapimin.c.o
+[ 12%] Building C object CMakeFiles/jpeg-static.dir/jcdctmgr.c.o
+[ 12%] Building C object CMakeFiles/jpeg-static.dir/jccolor.c.o
+[ 12%] Building C object CMakeFiles/jpeg-static.dir/jcapistd.c.o
+[ 12%] Building C object CMakeFiles/jpeg-static.dir/jccoefct.c.o
+[ 13%] Building C object CMakeFiles/jpeg-static.dir/jchuff.c.o
+[ 13%] Building C object CMakeFiles/jpeg-static.dir/jcicc.c.o
+[ 13%] Building C object CMakeFiles/jpeg-static.dir/jcinit.c.o
+[ 13%] Building C object CMakeFiles/jpeg-static.dir/jcmainct.c.o
+[ 14%] Building C object CMakeFiles/jpeg-static.dir/jcmaster.c.o
+[ 14%] Building C object CMakeFiles/jpeg-static.dir/jcmarker.c.o
+[ 15%] Building C object CMakeFiles/jpeg-static.dir/jcparam.c.o
+[ 15%] Building C object CMakeFiles/jpeg-static.dir/jcomapi.c.o
+[ 16%] Building C object CMakeFiles/turbojpeg-static.dir/jcapimin.c.o
+[ 16%] Building C object CMakeFiles/turbojpeg.dir/jcapimin.c.o
+[ 16%] Building C object CMakeFiles/jpeg-static.dir/jcphuff.c.o
+[ 16%] Building C object CMakeFiles/turbojpeg-static.dir/jcapistd.c.o
+[ 16%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcapimin.c.o
+[ 16%] Building C object CMakeFiles/turbojpeg.dir/jcapistd.c.o
+[ 16%] Building C object CMakeFiles/turbojpeg-static.dir/jccoefct.c.o
+[ 16%] Building C object CMakeFiles/jpeg-static.dir/jcprepct.c.o
+[ 17%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcapistd.c.o
+[ 17%] Building C object CMakeFiles/turbojpeg.dir/jccoefct.c.o
+[ 18%] Building C object CMakeFiles/turbojpeg-static.dir/jccolor.c.o
+[ 18%] Building C object CMakeFiles/turbojpeg-static.dir/jcdctmgr.c.o
+[ 19%] Building C object CMakeFiles/jpeg-static.dir/jcsample.c.o
+[ 19%] Building C object CMakeFiles/jpeg-static.dir/jctrans.c.o
+[ 19%] Building C object CMakeFiles/jpeg-static.dir/jdapimin.c.o
+[ 20%] Building C object CMakeFiles/jpeg-static.dir/jdapistd.c.o
+[ 20%] Building C object CMakeFiles/turbojpeg-static.dir/jchuff.c.o
+[ 20%] Building C object CMakeFiles/turbojpeg.dir/jccolor.c.o
+[ 21%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jccoefct.c.o
+[ 21%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jccolor.c.o
+[ 21%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcdctmgr.c.o
+[ 22%] Building C object CMakeFiles/turbojpeg-static.dir/jcicc.c.o
+[ 22%] Building C object CMakeFiles/turbojpeg.dir/jcdctmgr.c.o
+[ 22%] Building C object CMakeFiles/jpeg-static.dir/jdatadst.c.o
+[ 23%] Building C object CMakeFiles/turbojpeg.dir/jchuff.c.o
+[ 23%] Building C object CMakeFiles/turbojpeg.dir/jcicc.c.o
+[ 23%] Building C object CMakeFiles/turbojpeg-static.dir/jcinit.c.o
+[ 23%] Building C object CMakeFiles/turbojpeg-static.dir/jcmainct.c.o
+[ 23%] Building C object CMakeFiles/turbojpeg-static.dir/jcmarker.c.o
+[ 23%] Building C object CMakeFiles/jpeg-static.dir/jdatasrc.c.o
+[ 23%] Building C object CMakeFiles/jpeg-static.dir/jdcoefct.c.o
+[ 24%] Building C object CMakeFiles/jpeg-static.dir/jdcolor.c.o
+[ 24%] Building C object CMakeFiles/jpeg-static.dir/jddctmgr.c.o
+[ 24%] Building C object CMakeFiles/jpeg-static.dir/jdhuff.c.o
+[ 25%] Building C object CMakeFiles/jpeg-static.dir/jdicc.c.o
+[ 25%] Building C object CMakeFiles/jpeg-static.dir/jdinput.c.o
+[ 26%] Building C object CMakeFiles/turbojpeg-static.dir/jcmaster.c.o
+[ 26%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jchuff.c.o
+[ 26%] Building C object CMakeFiles/jpeg-static.dir/jdmainct.c.o
+[ 27%] Building C object CMakeFiles/jpeg-static.dir/jdmarker.c.o
+[ 27%] Building C object CMakeFiles/jpeg-static.dir/jdmaster.c.o
+[ 28%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcicc.c.o
+[ 28%] Building C object CMakeFiles/turbojpeg.dir/jcinit.c.o
+[ 28%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcinit.c.o
+[ 28%] Building C object CMakeFiles/jpeg-static.dir/jdmerge.c.o
+[ 28%] Building C object CMakeFiles/turbojpeg-static.dir/jcomapi.c.o
+[ 29%] Building C object CMakeFiles/turbojpeg.dir/jcmainct.c.o
+[ 29%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcmainct.c.o
+[ 30%] Building C object CMakeFiles/jpeg-static.dir/jdphuff.c.o
+[ 30%] Building C object CMakeFiles/jpeg-static.dir/jdpostct.c.o
+[ 30%] Building C object CMakeFiles/jpeg-static.dir/jdsample.c.o
+[ 30%] Building C object CMakeFiles/jpeg-static.dir/jdtrans.c.o
+[ 31%] Building C object CMakeFiles/jpeg-static.dir/jerror.c.o
+[ 31%] Building C object CMakeFiles/turbojpeg-static.dir/jcparam.c.o
+[ 31%] Building C object CMakeFiles/jpeg-static.dir/jfdctflt.c.o
+[ 31%] Building C object CMakeFiles/turbojpeg.dir/jcmarker.c.o
+[ 32%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcmarker.c.o
+[ 32%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcmaster.c.o
+[ 32%] Building C object CMakeFiles/jpeg-static.dir/jfdctfst.c.o
+[ 32%] Building C object CMakeFiles/turbojpeg.dir/jcmaster.c.o
+[ 32%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcomapi.c.o
+[ 33%] Building C object CMakeFiles/jpeg-static.dir/jfdctint.c.o
+[ 33%] Building C object CMakeFiles/jpeg-static.dir/jidctflt.c.o
+[ 33%] Building C object CMakeFiles/jpeg-static.dir/jidctfst.c.o
+[ 34%] Building C object CMakeFiles/turbojpeg-static.dir/jcphuff.c.o
+[ 35%] Building C object CMakeFiles/jpeg-static.dir/jidctint.c.o
+[ 36%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcparam.c.o
+[ 36%] Building C object CMakeFiles/jpeg-static.dir/jidctred.c.o
+[ 36%] Building C object CMakeFiles/turbojpeg-static.dir/jcprepct.c.o
+[ 36%] Building C object CMakeFiles/jpeg-static.dir/jquant1.c.o
+[ 37%] Building C object CMakeFiles/jpeg-static.dir/jquant2.c.o
+[ 37%] Building C object CMakeFiles/jpeg-static.dir/jutils.c.o
+[ 37%] Building C object CMakeFiles/turbojpeg-static.dir/jcsample.c.o
+[ 37%] Building C object CMakeFiles/jpeg-static.dir/jmemmgr.c.o
+[ 37%] Building C object CMakeFiles/jpeg-static.dir/jmemnobs.c.o
+[ 38%] Building C object CMakeFiles/turbojpeg-static.dir/jctrans.c.o
+[ 39%] Building C object CMakeFiles/jpeg-static.dir/jaricom.c.o
+[ 39%] Building C object CMakeFiles/turbojpeg-static.dir/jdapimin.c.o
+[ 39%] Building C object CMakeFiles/turbojpeg-static.dir/jdapistd.c.o
+[ 40%] Building C object CMakeFiles/turbojpeg-static.dir/jdatadst.c.o
+[ 41%] Building C object CMakeFiles/turbojpeg.dir/jcomapi.c.o
+[ 41%] Building C object CMakeFiles/jpeg-static.dir/jcarith.c.o
+[ 41%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcphuff.c.o
+[ 41%] Building C object CMakeFiles/turbojpeg-static.dir/jdatasrc.c.o
+[ 41%] Building C object CMakeFiles/jpeg-static.dir/jdarith.c.o
+[ 41%] Building C object CMakeFiles/turbojpeg-static.dir/jdcoefct.c.o
+[ 41%] Building C object CMakeFiles/turbojpeg-static.dir/jdcolor.c.o
+[ 41%] Building C object CMakeFiles/turbojpeg.dir/jcparam.c.o
+[ 42%] Building C object CMakeFiles/turbojpeg-static.dir/jddctmgr.c.o
+[ 42%] Building C object CMakeFiles/turbojpeg.dir/jcphuff.c.o
+[ 42%] Building C object CMakeFiles/turbojpeg.dir/jcprepct.c.o
+[ 43%] Building C object CMakeFiles/turbojpeg.dir/jcsample.c.o
+[ 43%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcprepct.c.o
+[ 43%] Building C object CMakeFiles/turbojpeg-static.dir/jdhuff.c.o
+[ 43%] Building C object CMakeFiles/turbojpeg.dir/jctrans.c.o
+[ 43%] Building C object CMakeFiles/turbojpeg-static.dir/jdicc.c.o
+[ 44%] Building C object CMakeFiles/turbojpeg-static.dir/jdinput.c.o
+[ 44%] Building C object CMakeFiles/turbojpeg-static.dir/jdmainct.c.o
+[ 44%] Building C object CMakeFiles/turbojpeg.dir/jdapimin.c.o
+[ 45%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcsample.c.o
+[ 45%] Building C object CMakeFiles/turbojpeg-static.dir/jdmarker.c.o
+[ 45%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jctrans.c.o
+[ 46%] Building C object CMakeFiles/turbojpeg.dir/jdapistd.c.o
+[ 47%] Building C object CMakeFiles/turbojpeg-static.dir/jdmaster.c.o
+[ 47%] Building C object CMakeFiles/turbojpeg-static.dir/jdmerge.c.o
+[ 47%] Building C object CMakeFiles/turbojpeg.dir/jdatadst.c.o
+[ 47%] Building C object CMakeFiles/turbojpeg.dir/jdatasrc.c.o
+[ 48%] Building C object CMakeFiles/turbojpeg.dir/jdcoefct.c.o
+[ 48%] Building C object CMakeFiles/turbojpeg.dir/jdcolor.c.o
+[ 48%] Building C object CMakeFiles/turbojpeg-static.dir/jdphuff.c.o
+[ 49%] Building C object CMakeFiles/turbojpeg-static.dir/jdpostct.c.o
+[ 49%] Building C object CMakeFiles/turbojpeg.dir/jddctmgr.c.o
+[ 49%] Building C object CMakeFiles/turbojpeg-static.dir/jdsample.c.o
+[ 49%] Building C object CMakeFiles/turbojpeg-static.dir/jdtrans.c.o
+[ 50%] Building C object CMakeFiles/turbojpeg.dir/jdhuff.c.o
+[ 50%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdapimin.c.o
+[ 50%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdapistd.c.o
+[ 51%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdatadst.c.o
+[ 51%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdatasrc.c.o
+[ 51%] Building C object CMakeFiles/turbojpeg-static.dir/jerror.c.o
+[ 52%] Building C object CMakeFiles/turbojpeg-static.dir/jfdctflt.c.o
+[ 52%] Building C object CMakeFiles/turbojpeg.dir/jdicc.c.o
+[ 52%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdcoefct.c.o
+[ 53%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdcolor.c.o
+[ 53%] Building C object CMakeFiles/turbojpeg.dir/jdinput.c.o
+[ 53%] Building C object CMakeFiles/turbojpeg.dir/jdmainct.c.o
+[ 53%] Building C object CMakeFiles/turbojpeg-static.dir/jfdctint.c.o
+[ 53%] Building C object CMakeFiles/turbojpeg-static.dir/jfdctfst.c.o
+[ 53%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jddctmgr.c.o
+[ 54%] Building C object CMakeFiles/turbojpeg-static.dir/jidctflt.c.o
+[ 54%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdhuff.c.o
+[ 55%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdicc.c.o
+[ 55%] Building C object CMakeFiles/turbojpeg-static.dir/jidctfst.c.o
+[ 56%] Building C object CMakeFiles/turbojpeg.dir/jdmarker.c.o
+[ 56%] Building C object CMakeFiles/turbojpeg-static.dir/jidctint.c.o
+[ 56%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdinput.c.o
+[ 57%] Building C object CMakeFiles/turbojpeg.dir/jdmaster.c.o
+[ 57%] Building C object CMakeFiles/turbojpeg-static.dir/jidctred.c.o
+[ 57%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdmainct.c.o
+[ 57%] Building C object CMakeFiles/turbojpeg.dir/jdmerge.c.o
+[ 58%] Building C object CMakeFiles/turbojpeg.dir/jdphuff.c.o
+[ 59%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdmarker.c.o
+[ 59%] Building C object CMakeFiles/turbojpeg-static.dir/jquant2.c.o
+[ 59%] Building C object CMakeFiles/turbojpeg-static.dir/jquant1.c.o
+[ 59%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdmaster.c.o
+[ 60%] Building C object CMakeFiles/turbojpeg-static.dir/jutils.c.o
+[ 60%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdmerge.c.o
+[ 60%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdphuff.c.o
+[ 60%] Building C object CMakeFiles/turbojpeg-static.dir/jmemmgr.c.o
+[ 60%] Building C object CMakeFiles/turbojpeg-static.dir/jmemnobs.c.o
+[ 60%] Building C object CMakeFiles/turbojpeg-static.dir/jaricom.c.o
+[ 61%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdpostct.c.o
+[ 62%] Building C object CMakeFiles/turbojpeg-static.dir/jcarith.c.o
+[ 62%] Building C object CMakeFiles/turbojpeg-static.dir/turbojpeg.c.o
+[ 62%] Building C object CMakeFiles/turbojpeg-static.dir/jdarith.c.o
+[ 63%] Building C object CMakeFiles/turbojpeg-static.dir/transupp.c.o
+[ 63%] Building C object CMakeFiles/turbojpeg-static.dir/jdatadst-tj.c.o
+[ 63%] Building C object CMakeFiles/turbojpeg-static.dir/jdatasrc-tj.c.o
+[ 63%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdsample.c.o
+[ 63%] Building C object CMakeFiles/turbojpeg.dir/jdpostct.c.o
+[ 64%] Building C object CMakeFiles/turbojpeg-static.dir/rdbmp.c.o
+[ 64%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdtrans.c.o
+[ 64%] Building C object CMakeFiles/turbojpeg-static.dir/rdppm.c.o
+[ 64%] Building C object CMakeFiles/turbojpeg-static.dir/wrbmp.c.o
+[ 64%] Building C object CMakeFiles/turbojpeg.dir/jdsample.c.o
+[ 65%] Building C object CMakeFiles/turbojpeg.dir/jdtrans.c.o
+[ 66%] Building C object CMakeFiles/turbojpeg-static.dir/wrppm.c.o
+[ 66%] Building C object CMakeFiles/turbojpeg.dir/jerror.c.o
+[ 66%] Building C object CMakeFiles/turbojpeg.dir/jfdctflt.c.o
+[ 67%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jerror.c.o
+[ 67%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jfdctflt.c.o
+[ 68%] Building C object CMakeFiles/turbojpeg.dir/jfdctfst.c.o
+[ 68%] Building C object CMakeFiles/turbojpeg.dir/jfdctint.c.o
+[ 68%] Building C object CMakeFiles/turbojpeg.dir/jidctflt.c.o
+[ 68%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jfdctfst.c.o
+[ 69%] Building C object CMakeFiles/turbojpeg.dir/jidctfst.c.o
+[ 70%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jfdctint.c.o
+[ 70%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jidctflt.c.o
+[ 70%] Building C object CMakeFiles/turbojpeg.dir/jidctint.c.o
+[ 70%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jidctfst.c.o
+[ 71%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jidctint.c.o
+[ 71%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jidctred.c.o
+[ 71%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jquant1.c.o
+[ 71%] Building C object CMakeFiles/turbojpeg.dir/jidctred.c.o
+[ 72%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jquant2.c.o
+[ 72%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jutils.c.o
+[ 72%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jmemmgr.c.o
+[ 72%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jmemnobs.c.o
+[ 72%] Building C object CMakeFiles/turbojpeg.dir/jquant1.c.o
+[ 73%] Building C object CMakeFiles/turbojpeg.dir/jquant2.c.o
+[ 73%] Building C object CMakeFiles/turbojpeg.dir/jutils.c.o
+[ 74%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jaricom.c.o
+[ 74%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jcarith.c.o
+[ 74%] Building C object CMakeFiles/turbojpeg.dir/jmemmgr.c.o
+[ 75%] Building C object CMakeFiles/turbojpeg.dir/jmemnobs.c.o
+[ 75%] Building C object CMakeFiles/turbojpeg.dir/jaricom.c.o
+[ 75%] Building C object CMakeFiles/turbojpeg.dir/jcarith.c.o
+[ 76%] Building C object sharedlib/CMakeFiles/jpeg.dir/__/jdarith.c.o
+[ 76%] Building C object CMakeFiles/turbojpeg.dir/jdarith.c.o
+[ 76%] Building C object CMakeFiles/turbojpeg.dir/turbojpeg.c.o
+[ 76%] Building C object CMakeFiles/turbojpeg.dir/transupp.c.o
+[ 77%] Building C object CMakeFiles/turbojpeg.dir/jdatadst-tj.c.o
+[ 77%] Building C object CMakeFiles/turbojpeg.dir/jdatasrc-tj.c.o
+[ 77%] Building C object CMakeFiles/turbojpeg.dir/rdbmp.c.o
+[ 77%] Building C object CMakeFiles/turbojpeg.dir/rdppm.c.o
+[ 78%] Building C object CMakeFiles/turbojpeg.dir/wrbmp.c.o
+[ 78%] Building C object CMakeFiles/turbojpeg.dir/wrppm.c.o
+[ 79%] Linking C static library libjpeg.a
+[ 79%] Built target jpeg-static
+[ 79%] Building C object CMakeFiles/cjpeg-static.dir/rdgif.c.o
+[ 80%] Building C object CMakeFiles/jpegtran-static.dir/cdjpeg.c.o
+[ 80%] Building C object CMakeFiles/jpegtran-static.dir/jpegtran.c.o
+[ 81%] Building C object CMakeFiles/jpegtran-static.dir/rdswitch.c.o
+[ 81%] Building C object CMakeFiles/cjpeg-static.dir/cdjpeg.c.o
+[ 81%] Building C object CMakeFiles/cjpeg-static.dir/cjpeg.c.o
+[ 81%] Building C object CMakeFiles/jpegtran-static.dir/transupp.c.o
+[ 81%] Building C object CMakeFiles/djpeg-static.dir/cdjpeg.c.o
+[ 82%] Building C object CMakeFiles/djpeg-static.dir/djpeg.c.o
+[ 82%] Building C object CMakeFiles/cjpeg-static.dir/rdppm.c.o
+[ 82%] Building C object CMakeFiles/djpeg-static.dir/rdcolmap.c.o
+[ 83%] Building C object CMakeFiles/cjpeg-static.dir/rdswitch.c.o
+[ 83%] Building C object CMakeFiles/djpeg-static.dir/rdswitch.c.o
+[ 83%] Building C object CMakeFiles/cjpeg-static.dir/rdbmp.c.o
+[ 84%] Building C object CMakeFiles/djpeg-static.dir/wrgif.c.o
+[ 84%] Building C object CMakeFiles/cjpeg-static.dir/rdtarga.c.o
+[ 84%] Building C object CMakeFiles/djpeg-static.dir/wrppm.c.o
+[ 84%] Building C object CMakeFiles/djpeg-static.dir/wrbmp.c.o
+[ 85%] Building C object CMakeFiles/djpeg-static.dir/wrtarga.c.o
+[ 85%] Linking C static library libturbojpeg.a
+[ 85%] Built target turbojpeg-static
+[ 86%] Building C object CMakeFiles/tjbench-static.dir/tjbench.c.o
+[ 86%] Building C object CMakeFiles/tjbench-static.dir/tjutil.c.o
+[ 87%] Building C object CMakeFiles/tjunittest-static.dir/tjutil.c.o
+[ 87%] Building C object CMakeFiles/tjunittest-static.dir/tjunittest.c.o
+[ 88%] Building C object CMakeFiles/tjunittest-static.dir/md5/md5hl.c.o
+[ 88%] Building C object CMakeFiles/tjunittest-static.dir/md5/md5.c.o
+[ 88%] Linking C shared library libturbojpeg.so
+[ 89%] Linking C shared library ../libjpeg.so
+[ 89%] Linking C executable djpeg-static
+[ 89%] Built target djpeg-static
+[ 89%] Linking C executable cjpeg-static
+[ 89%] Built target turbojpeg
+[ 90%] Building C object CMakeFiles/tjbench.dir/tjbench.c.o
+[ 90%] Building C object CMakeFiles/tjunittest.dir/tjunittest.c.o
+[ 90%] Building C object CMakeFiles/tjunittest.dir/tjutil.c.o
+[ 90%] Building C object CMakeFiles/tjexample.dir/tjexample.c.o
+[ 91%] Building C object CMakeFiles/tjbench.dir/tjutil.c.o
+[ 91%] Building C object CMakeFiles/tjunittest.dir/md5/md5.c.o
+[ 91%] Building C object CMakeFiles/tjunittest.dir/md5/md5hl.c.o
+[ 91%] Built target cjpeg-static
+[ 91%] Built target jpeg
+[ 91%] Building C object sharedlib/CMakeFiles/jcstest.dir/__/jcstest.c.o
+[ 91%] Building C object sharedlib/CMakeFiles/cjpeg.dir/__/cdjpeg.c.o
+[ 91%] Building C object sharedlib/CMakeFiles/cjpeg.dir/__/cjpeg.c.o
+[ 91%] Building C object sharedlib/CMakeFiles/djpeg.dir/__/cdjpeg.c.o
+[ 91%] Building C object sharedlib/CMakeFiles/cjpeg.dir/__/rdgif.c.o
+[ 92%] Building C object sharedlib/CMakeFiles/jpegtran.dir/__/cdjpeg.c.o
+[ 92%] Building C object sharedlib/CMakeFiles/jpegtran.dir/__/jpegtran.c.o
+[ 93%] Building C object sharedlib/CMakeFiles/djpeg.dir/__/djpeg.c.o
+[ 93%] Building C object sharedlib/CMakeFiles/cjpeg.dir/__/rdppm.c.o
+[ 93%] Building C object sharedlib/CMakeFiles/djpeg.dir/__/rdcolmap.c.o
+[ 93%] Building C object sharedlib/CMakeFiles/cjpeg.dir/__/rdswitch.c.o
+[ 95%] Building C object sharedlib/CMakeFiles/djpeg.dir/__/rdswitch.c.o
+[ 95%] Building C object sharedlib/CMakeFiles/jpegtran.dir/__/rdswitch.c.o
+[ 95%] Building C object sharedlib/CMakeFiles/djpeg.dir/__/wrgif.c.o
+[ 95%] Building C object sharedlib/CMakeFiles/jpegtran.dir/__/transupp.c.o
+[ 95%] Building C object sharedlib/CMakeFiles/cjpeg.dir/__/rdbmp.c.o
+[ 95%] Building C object sharedlib/CMakeFiles/djpeg.dir/__/wrppm.c.o
+[ 96%] Building C object sharedlib/CMakeFiles/djpeg.dir/__/wrbmp.c.o
+[ 97%] Linking C executable ../jcstest
+[ 98%] Linking C executable tjexample
+[ 99%] Building C object sharedlib/CMakeFiles/cjpeg.dir/__/rdtarga.c.o
+[ 99%] Building C object sharedlib/CMakeFiles/djpeg.dir/__/wrtarga.c.o
+[ 99%] Built target jcstest
+[ 99%] Built target tjexample
+[ 99%] Linking C executable tjbench-static
+[ 99%] Linking C executable ../djpeg
+[ 99%] Built target tjbench-static
+[ 99%] Built target djpeg
+[ 99%] Linking C executable tjunittest-static
+[ 99%] Linking C executable ../cjpeg
+[ 99%] Built target cjpeg
+[ 99%] Built target tjunittest-static
+[ 99%] Linking C executable tjbench
+[ 99%] Built target tjbench
+[ 99%] Linking C executable tjunittest
+[ 99%] Built target tjunittest
+[100%] Linking C executable jpegtran-static
+[100%] Built target jpegtran-static
+[100%] Linking C executable ../jpegtran
+[100%] Built target jpegtran

@@ -1,0 +1,1090 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 DMI2 [0e00]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	00:01.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 1a [0e02]
+Rev:	04
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:01.1
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 1b [0e03]
+Rev:	04
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:02.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2a [0e04]
+Rev:	04
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:02.2
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2c [0e06]
+Rev:	04
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:03.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3a [0e08]
+Rev:	04
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:05.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc [0e28]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	00:05.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS [0e2a]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	00:05.4
+Class:	PIC [0800]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC [0e2c]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+ProgIf:	20
+NUMANode:	0
+
+Slot:	00:11.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset PCI Express Virtual Root Port [1d3e]
+Rev:	06
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:16.0
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset MEI Controller #1 [1d3a]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84ef]
+Rev:	05
+Module:	mei_me
+NUMANode:	0
+
+Slot:	00:16.1
+Class:	Communication controller [0780]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset MEI Controller #2 [1d3b]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84ef]
+Rev:	05
+NUMANode:	0
+
+Slot:	00:1a.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset USB2 Enhanced Host Controller #2 [1d2d]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84ef]
+Rev:	06
+ProgIf:	20
+Driver:	ehci-pci
+NUMANode:	0
+
+Slot:	00:1b.0
+Class:	Audio device [0403]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset High Definition Audio Controller [1d20]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84d8]
+Rev:	06
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+NUMANode:	0
+
+Slot:	00:1c.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset PCI Express Root Port 1 [1d10]
+Rev:	b6
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:1c.1
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset PCI Express Root Port 2 [1d12]
+Rev:	b6
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:1c.2
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset PCI Express Root Port 3 [1d14]
+Rev:	b6
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:1c.3
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset PCI Express Root Port 4 [1d16]
+Rev:	b6
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:1c.4
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset PCI Express Root Port 5 [1d18]
+Rev:	b6
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:1c.6
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset PCI Express Root Port 7 [1d1c]
+Rev:	b6
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:1c.7
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset PCI Express Root Port 8 [1d1e]
+Rev:	b6
+Driver:	pcieport
+NUMANode:	0
+
+Slot:	00:1d.0
+Class:	USB controller [0c03]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset USB2 Enhanced Host Controller #1 [1d26]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84ef]
+Rev:	06
+ProgIf:	20
+Driver:	ehci-pci
+NUMANode:	0
+
+Slot:	00:1e.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	82801 PCI Bridge [244e]
+Rev:	a6
+ProgIf:	01
+NUMANode:	0
+
+Slot:	00:1f.0
+Class:	ISA bridge [0601]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset LPC Controller [1d41]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84ef]
+Rev:	06
+Driver:	lpc_ich
+Module:	lpc_ich
+NUMANode:	0
+
+Slot:	00:1f.2
+Class:	SATA controller [0106]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset 6-Port SATA AHCI Controller [1d02]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84ef]
+Rev:	06
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+NUMANode:	0
+
+Slot:	00:1f.3
+Class:	SMBus [0c05]
+Vendor:	Intel Corporation [8086]
+Device:	C600/X79 series chipset SMBus Host Controller [1d22]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84ef]
+Rev:	06
+Driver:	i801_smbus
+Module:	i2c_i801
+NUMANode:	0
+
+Slot:	04:00.0
+Class:	3D controller [0302]
+Vendor:	NVIDIA Corporation [10de]
+Device:	GK110GL [Tesla K20c] [1022]
+SVendor:	NVIDIA Corporation [10de]
+SDevice:	Device [0982]
+Rev:	a1
+Driver:	nvidia
+Module:	nouveau
+Module:	nvidia_drm
+Module:	nvidia
+NUMANode:	0
+
+Slot:	06:00.0
+Class:	Serial Attached SCSI controller [0107]
+Vendor:	Intel Corporation [8086]
+Device:	C602 chipset 4-Port SATA Storage Control Unit [1d6b]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84ef]
+Rev:	06
+NUMANode:	0
+
+Slot:	07:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Intel Corporation [8086]
+Device:	82574L Gigabit Network Connection [10d3]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Motherboard [8369]
+Driver:	e1000e
+Module:	e1000e
+NUMANode:	0
+
+Slot:	08:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Intel Corporation [8086]
+Device:	82574L Gigabit Network Connection [10d3]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Motherboard [8369]
+Driver:	e1000e
+Module:	e1000e
+NUMANode:	0
+
+Slot:	09:00.0
+Class:	USB controller [0c03]
+Vendor:	ASMedia Technology Inc. [1b21]
+Device:	ASM1042 SuperSpeed USB Host Controller [1042]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	P8B WS Motherboard [8488]
+ProgIf:	30
+Driver:	xhci_hcd
+NUMANode:	0
+
+Slot:	0a:00.0
+Class:	USB controller [0c03]
+Vendor:	ASMedia Technology Inc. [1b21]
+Device:	ASM1042 SuperSpeed USB Host Controller [1042]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	P8B WS Motherboard [8488]
+ProgIf:	30
+Driver:	xhci_hcd
+NUMANode:	0
+
+Slot:	0b:00.0
+Class:	SATA controller [0106]
+Vendor:	Marvell Technology Group Ltd. [1b4b]
+Device:	88SE9230 PCIe 2.0 x2 4-port SATA 6 Gb/s RAID Controller [9230]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84fa]
+Rev:	11
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+NUMANode:	0
+
+Slot:	0c:00.0
+Class:	FireWire (IEEE 1394) [0c00]
+Vendor:	VIA Technologies, Inc. [1106]
+Device:	VT6315 Series Firewire Controller [3403]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	P8P67 Deluxe Motherboard [8384]
+Rev:	01
+ProgIf:	10
+NUMANode:	0
+
+Slot:	0d:00.0
+Class:	PCI bridge [0604]
+Vendor:	ASPEED Technology, Inc. [1a03]
+Device:	AST1150 PCI-to-PCI Bridge [1150]
+Rev:	02
+NUMANode:	0
+
+Slot:	0e:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	ASPEED Technology, Inc. [1a03]
+Device:	ASPEED Graphics Family [2000]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84eb]
+Rev:	21
+Driver:	ast
+Module:	ast
+NUMANode:	0
+
+Slot:	7f:08.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [0e80]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:09.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [0e90]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0a.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 0 [0ec0]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0a.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 1 [0ec1]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0a.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 2 [0ec2]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0a.3
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 3 [0ec3]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0b.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [0e1e]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0b.3
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [0e1f]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0c.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee0]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0c.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee2]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0c.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee4]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0d.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee1]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0d.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee3]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0d.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee5]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0e.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [0ea0]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0e.1
+Class:	Performance counters [1101]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [0e30]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	0
+
+Slot:	7f:0f.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers [0ea8]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0f.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 RAS Registers [0e71]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0f.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [0eaa]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0f.3
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [0eab]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0f.4
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [0eac]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:0f.5
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [0ead]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:10.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [0eb0]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	0
+
+Slot:	7f:10.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [0eb1]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	0
+
+Slot:	7f:10.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 0 [0eb2]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:10.3
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 1 [0eb3]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:10.4
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [0eb4]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	0
+
+Slot:	7f:10.5
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [0eb5]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	0
+
+Slot:	7f:10.6
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 2 [0eb6]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:10.7
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 3 [0eb7]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:13.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [0e1d]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:13.1
+Class:	Performance counters [1101]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [0e34]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	0
+
+Slot:	7f:13.4
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers [0e81]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:13.5
+Class:	Performance counters [1101]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [0e36]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	0
+
+Slot:	7f:16.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 System Address Decoder [0ec8]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:16.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers [0ec9]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	7f:16.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers [0eca]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	0
+
+Slot:	80:00.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port in DMI2 Mode [0e01]
+Rev:	04
+Driver:	pcieport
+NUMANode:	1
+
+Slot:	80:01.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 1a [0e02]
+Rev:	04
+Driver:	pcieport
+NUMANode:	1
+
+Slot:	80:02.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 2a [0e04]
+Rev:	04
+Driver:	pcieport
+NUMANode:	1
+
+Slot:	80:03.0
+Class:	PCI bridge [0604]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 PCI Express Root Port 3a [0e08]
+Rev:	04
+Driver:	pcieport
+NUMANode:	1
+
+Slot:	80:05.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 VTd/Memory Map/Misc [0e28]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	80:05.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 IIO RAS [0e2a]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	80:05.4
+Class:	PIC [0800]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 IOAPIC [0e2c]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+ProgIf:	20
+NUMANode:	1
+
+Slot:	83:00.0
+Class:	3D controller [0302]
+Vendor:	NVIDIA Corporation [10de]
+Device:	GK180GL [Tesla K40c] [1024]
+SVendor:	NVIDIA Corporation [10de]
+SDevice:	Device [0983]
+Rev:	a1
+Driver:	nvidia
+Module:	nouveau
+Module:	nvidia_drm
+Module:	nvidia
+NUMANode:	1
+
+Slot:	ff:08.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 0 [0e80]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:09.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 QPI Link 1 [0e90]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0a.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 0 [0ec0]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0a.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 1 [0ec1]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0a.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 2 [0ec2]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0a.3
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Power Control Unit 3 [0ec3]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0b.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [0e1e]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0b.3
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 UBOX Registers [0e1f]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0c.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee0]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0c.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee2]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0c.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee4]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0d.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee1]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0d.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee3]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0d.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Unicast Registers [0ee5]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0e.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [0ea0]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0e.1
+Class:	Performance counters [1101]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Home Agent 0 [0e30]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	1
+
+Slot:	ff:0f.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Target Address/Thermal Registers [0ea8]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0f.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 RAS Registers [0e71]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0f.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [0eaa]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0f.3
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [0eab]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0f.4
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [0eac]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:0f.5
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder Registers [0ead]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:10.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 0 [0eb0]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	1
+
+Slot:	ff:10.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 1 [0eb1]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	1
+
+Slot:	ff:10.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 0 [0eb2]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:10.3
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 1 [0eb3]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:10.4
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 2 [0eb4]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	1
+
+Slot:	ff:10.5
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 Thermal Control 3 [0eb5]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	1
+
+Slot:	ff:10.6
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 2 [0eb6]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:10.7
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Integrated Memory Controller 1 Channel 0-3 ERROR Registers 3 [0eb7]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:13.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [0e1d]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:13.1
+Class:	Performance counters [1101]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 R2PCIe [0e34]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	1
+
+Slot:	ff:13.4
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Registers [0e81]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:13.5
+Class:	Performance counters [1101]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 QPI Ring Performance Ring Monitoring [0e36]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+Driver:	ivbep_uncore
+NUMANode:	1
+
+Slot:	ff:16.0
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 System Address Decoder [0ec8]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:16.1
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers [0ec9]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+
+Slot:	ff:16.2
+Class:	System peripheral [0880]
+Vendor:	Intel Corporation [8086]
+Device:	Xeon E7 v2/Xeon E5 v2/Core i7 Broadcast Registers [0eca]
+SVendor:	ASUSTeK Computer Inc. [1043]
+SDevice:	Device [84f0]
+Rev:	04
+NUMANode:	1
+

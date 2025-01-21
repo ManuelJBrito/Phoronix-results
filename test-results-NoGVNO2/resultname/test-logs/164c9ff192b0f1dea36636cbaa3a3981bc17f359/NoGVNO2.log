@@ -1,0 +1,18 @@
+#####
+NoGVNO2 - Run 1
+2025-01-20 10:01:27
+#####
+Problem: ibc32, setup: 49.17 ms, time: 111.50 ns, ``mflops'': 7174.7
+
+#####
+NoGVNO2 - Run 2
+2025-01-20 10:01:34
+#####
+Problem: ibc32, setup: 48.96 ms, time: 108.55 ns, ``mflops'': 7369.8
+
+#####
+NoGVNO2 - Run 3
+2025-01-20 10:01:40
+#####
+Problem: ibc32, setup: 48.92 ms, time: 109.92 ns, ``mflops'': 7277.7
+

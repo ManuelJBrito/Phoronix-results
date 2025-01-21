@@ -1,0 +1,161 @@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang accepts -g... yes
+checking for /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang option to accept ISO C89... none needed
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang... /opt/rh/gcc-toolset-12/root/usr/bin/ld
+checking if the linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /opt/rh/gcc-toolset-12/root/usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang object... ok
+checking how to run the C preprocessor... /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang supports -fno-rtti -fno-exceptions... yes
+checking for /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang option to produce PIC... -fPIC -DPIC
+checking if /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang PIC flag -fPIC -DPIC works... yes
+checking if /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang static flag -static works... no
+checking if /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang supports -c -o file.o... yes
+checking if /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang supports -c -o file.o... (cached) yes
+checking whether the /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for int8_t... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for intptr_t... yes
+checking for uint8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for uintptr_t... yes
+checking for sys/types.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for fdatasync... yes
+checking for gmtime_r... yes
+checking for isnan... yes
+checking for localtime_r... yes
+checking for localtime_s... no
+checking for malloc_usable_size... yes
+checking for strchrnul... yes
+checking for usleep... yes
+checking for utime... yes
+checking for pread... yes
+checking for pread64... yes
+checking for pwrite... yes
+checking for pwrite64... yes
+checking for tclsh8.7... no
+checking for tclsh8.6... tclsh8.6
+configure: Version set to 3.30
+configure: Release set to 3.30.0
+configure: Version number set to 3030000
+checking whether to support threadsafe operation... yes
+checking for library containing pthread_create... none required
+checking for library containing pthread_mutexattr_init... none required
+checking whether to support shared library linked as release mode or not... no
+checking whether to use an in-ram database for temporary tables... no
+checking if executables have the .exe suffix... unknown
+checking for Tcl configuration... found /usr/lib64/tcl8.6/tclConfig.sh
+checking for existence of /usr/lib64/tcl8.6/tclConfig.sh... loading
+checking for library containing readline... no
+checking for library containing tgetent... -lncurses
+checking for readline in -lreadline... no
+checking readline.h usability... no
+checking readline.h presence... no
+checking for readline.h... no
+checking for /usr/include/readline.h... no
+checking for /usr/include/readline/readline.h... no
+checking for /usr/local/include/readline.h... no
+checking for /usr/local/include/readline/readline.h... no
+checking for /usr/local/readline/include/readline.h... no
+checking for /usr/local/readline/include/readline/readline.h... no
+checking for /usr/contrib/include/readline.h... no
+checking for /usr/contrib/include/readline/readline.h... no
+checking for /mingw/include/readline.h... no
+checking for /mingw/include/readline/readline.h... no
+checking for library containing fdatasync... none required
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for library containing deflate... -lz
+checking for library containing dlopen... none required
+checking whether to support MEMSYS5... no
+checking whether to support MEMSYS3... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating sqlite3.pc
+config.status: creating config.h
+config.status: executing libtool commands
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -O3 -mllvm -enable-newgvn -mllvm -skip-newgvn -o mkkeywordhash   /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkkeywordhash.c
+./mkkeywordhash >keywordhash.h
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -O3 -mllvm -enable-newgvn -mllvm -skip-newgvn -o lemon /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/lemon.c
+cp /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/lempar.c .
+cp /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/parse.y .
+./lemon   parse.y
+cat parse.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbe.c | tclsh8.6 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkopcodeh.tcl >opcodes.h
+tclsh8.6 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkopcodec.tcl opcodes.h >opcodes.c
+tclsh8.6 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/mkshellc.tcl >shell.c
+/bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang  -O3 -mllvm -enable-newgvn -mllvm -skip-newgvn -o mksourceid /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksourceid.c
+tclsh8.6 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksqlite3h.tcl /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite >sqlite3.h
+cp /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts5/fts5parse.y .
+rm -f fts5parse.h
+./lemon  fts5parse.y
+tclsh8.6 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts5/tool/mkfts5c.tcl
+cp /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts5/fts5.h .
+rm -rf tsrc
+mkdir tsrc
+cp -f /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/alter.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/analyze.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/attach.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/auth.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/backup.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/bitvec.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/btmutex.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/btree.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/btree.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/btreeInt.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/build.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/callback.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/complete.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/ctime.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/date.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/dbpage.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/dbstat.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/delete.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/expr.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/fault.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/fkey.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/func.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/global.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/hash.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/hash.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/hwtime.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/insert.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/legacy.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/loadext.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/main.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/malloc.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mem0.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mem1.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mem2.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mem3.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mem5.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/memdb.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/memjournal.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/msvc.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex_noop.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex_unix.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/mutex_w32.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/notify.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/os.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/os.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/os_common.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/os_setup.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/os_unix.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/os_win.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/os_win.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/pager.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/pager.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/parse.y /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/pcache.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/pcache.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/pcache1.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/pragma.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/pragma.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/prepare.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/printf.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/random.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/resolve.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/rowset.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/select.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/status.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/shell.c.in /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/sqlite.h.in /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/sqlite3ext.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/sqliteInt.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/sqliteLimit.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/table.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/tclsqlite.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/threads.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/tokenize.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/treeview.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/trigger.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/utf.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/update.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/upsert.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/util.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vacuum.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbe.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbe.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbeapi.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbeaux.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbeblob.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbemem.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbesort.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbetrace.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vdbeInt.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vtab.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/vxworks.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/wal.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/wal.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/walker.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/where.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/wherecode.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/whereexpr.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/whereInt.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src/window.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_hash.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_hash.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_porter.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_tokenizer.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts1/fts1_tokenizer1.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_hash.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_hash.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_icu.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_porter.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_tokenizer.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_tokenizer.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts2/fts2_tokenizer1.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3Int.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_aux.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_expr.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_hash.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_hash.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_icu.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_porter.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_snippet.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_tokenizer.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_tokenizer.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_tokenizer1.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_tokenize_vtab.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_unicode.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_unicode2.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3/fts3_write.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu/sqliteicu.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu/icu.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree/rtree.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree/rtree.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree/geopoly.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/session/sqlite3session.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/session/sqlite3session.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth/userauth.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth/sqlite3userauth.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/rbu/sqlite3rbu.h /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/rbu/sqlite3rbu.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/misc/json1.c /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/misc/stmt.c keywordhash.h opcodes.c opcodes.h parse.c parse.h config.h shell.c sqlite3.h tsrc
+rm tsrc/sqlite.h.in tsrc/parse.y
+tclsh8.6 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/vdbe-compress.tcl  <tsrc/vdbe.c >vdbe.new
+mv vdbe.new tsrc/vdbe.c
+cp fts5.c fts5.h tsrc
+touch .target_source
+tclsh8.6 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/tool/mksqlite3c.tcl
+cp tsrc/sqlite3ext.h .
+cp /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/session/sqlite3session.h .
+./libtool --mode=link /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -O3 -mllvm -enable-newgvn -mllvm -skip-newgvn -DSQLITE_OS_UNIX=1 -I. -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3 -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/async -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/session -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -I/usr/include -DSQLITE_THREADSAFE=1   -DSQLITE_HAVE_ZLIB=1     -o speedtest1 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/test/speedtest1.c sqlite3.c -lz  
+libtool: link: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -O3 -mllvm -enable-newgvn -mllvm -skip-newgvn -DSQLITE_OS_UNIX=1 -I. -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/src -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/rtree -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/icu -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/fts3 -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/async -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/session -I/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/ext/userauth -D_HAVE_SQLITE_CONFIG_H -DBUILD_sqlite -DNDEBUG -I/usr/include -DSQLITE_THREADSAFE=1 -DSQLITE_HAVE_ZLIB=1 -o speedtest1 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/sqlite-speedtest-1.0.1/sqlite/test/speedtest1.c sqlite3.c  -lz
