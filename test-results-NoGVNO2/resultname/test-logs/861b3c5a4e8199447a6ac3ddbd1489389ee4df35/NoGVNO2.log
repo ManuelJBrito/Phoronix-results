@@ -1,50 +1,50 @@
 #####
 NoGVNO2 - Run 1
-2025-01-20 13:22:33
+2025-01-28 20:50:42
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-KASUMI encrypt buffer size 1024 bytes: 54.902 MiB/sec 36.52 cycles/byte (823.53 MiB in 15000.01 ms)
-KASUMI decrypt buffer size 1024 bytes: 53.313 MiB/sec 37.62 cycles/byte (799.69 MiB in 15000.01 ms)
+KASUMI encrypt buffer size 1024 bytes: 54.883 MiB/sec 36.54 cycles/byte (823.24 MiB in 15000.01 ms)
+KASUMI decrypt buffer size 1024 bytes: 53.071 MiB/sec 37.79 cycles/byte (796.07 MiB in 15000.01 ms)
 
 algo                               operation             1024 bytes
-KASUMI                             decrypt                 55902.45
-KASUMI                             encrypt                 57568.75
+KASUMI                             decrypt                 55649.37
+KASUMI                             encrypt                 57548.88
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 NoGVNO2 - Run 2
-2025-01-20 13:23:07
+2025-01-28 20:51:16
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-KASUMI encrypt buffer size 1024 bytes: 55.101 MiB/sec 36.39 cycles/byte (826.52 MiB in 15000.01 ms)
-KASUMI decrypt buffer size 1024 bytes: 52.931 MiB/sec 37.89 cycles/byte (793.97 MiB in 15000.00 ms)
+KASUMI encrypt buffer size 1024 bytes: 55.156 MiB/sec 36.36 cycles/byte (827.34 MiB in 15000.01 ms)
+KASUMI decrypt buffer size 1024 bytes: 53.136 MiB/sec 37.74 cycles/byte (797.04 MiB in 15000.01 ms)
 
 algo                               operation             1024 bytes
-KASUMI                             decrypt                 55502.30
-KASUMI                             encrypt                 57777.74
+KASUMI                             decrypt                 55717.36
+KASUMI                             encrypt                 57835.15
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 NoGVNO2 - Run 3
-2025-01-20 13:23:39
+2025-01-28 20:51:48
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-KASUMI encrypt buffer size 1024 bytes: 55.177 MiB/sec 36.34 cycles/byte (827.66 MiB in 15000.01 ms)
-KASUMI decrypt buffer size 1024 bytes: 53.058 MiB/sec 37.80 cycles/byte (795.87 MiB in 15000.01 ms)
+KASUMI encrypt buffer size 1024 bytes: 55.123 MiB/sec 36.38 cycles/byte (826.85 MiB in 15000.00 ms)
+KASUMI decrypt buffer size 1024 bytes: 52.958 MiB/sec 37.87 cycles/byte (794.37 MiB in 15000.01 ms)
 
 algo                               operation             1024 bytes
-KASUMI                             decrypt                 55635.03
-KASUMI                             encrypt                 57857.38
+KASUMI                             decrypt                 55530.73
+KASUMI                             encrypt                 57800.90
 
 [results are the number of 1000s bytes processed per second]
 

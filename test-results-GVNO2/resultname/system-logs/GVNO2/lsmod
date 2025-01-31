@@ -1,4 +1,5 @@
 Module                  Size  Used by
+nfsv3                  86016  0
 tls                   159744  0
 nvidia_drm             86016  0
 nvidia_modeset       1212416  1 nvidia_drm
@@ -8,7 +9,7 @@ video                  77824  1 nvidia_modeset
 rpcsec_gss_krb5        40960  0
 nfsv4                1298432  1
 dns_resolver           20480  1 nfsv4
-nfs                   634880  2 nfsv4
+nfs                   634880  3 nfsv4,nfsv3
 fscache               409600  1 nfs
 netfs                  65536  2 fscache,nfs
 rpcrdma               442368  2
@@ -59,10 +60,10 @@ soundcore              16384  1 snd
 lpc_ich                24576  0
 nfsd                  983040  5
 auth_rpcgss           196608  2 nfsd,rpcsec_gss_krb5
-nfs_acl                12288  1 nfsd
-lockd                 196608  2 nfsd,nfs
+nfs_acl                12288  2 nfsd,nfsv3
+lockd                 196608  3 nfsd,nfsv3,nfs
 grace                  12288  2 nfsd,lockd
-sunrpc                888832  26 nfsd,rpcrdma,nfsv4,auth_rpcgss,lockd,rpcsec_gss_krb5,nfs_acl,nfs
+sunrpc                888832  27 nfsd,rpcrdma,nfsv4,auth_rpcgss,lockd,nfsv3,rpcsec_gss_krb5,nfs_acl,nfs
 dm_mod                245760  0
 xfs                  2682880  1
 libcrc32c              12288  1 xfs

@@ -356,12 +356,12 @@ chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO2/pts/aircrac
   CC       lib/libac/adt/libaircrack_la-circular_queue.lo
   CC       lib/libac/cpu/libaircrack_la-simd_cpuid.lo
   CC       lib/libac/support/libaircrack_la-fragments.lo
-  CC       lib/libac/support/libaircrack_la-common.lo
   CC       lib/libac/support/libaircrack_la-communications.lo
+  CC       lib/libac/support/libaircrack_la-common.lo
   CC       lib/libac/support/libaircrack_la-crypto_engine_loader.lo
+  CC       lib/libac/tui/libaircrack_la-console.lo
   CC       lib/libac/support/libaircrack_la-mcs_index_rates.lo
   CC       lib/libac/utf8/libaircrack_la-verifyssid.lo
-  CC       lib/libac/tui/libaircrack_la-console.lo
   CC       lib/libac/support/libaircrack_la-strlcat.lo
   CC       lib/libac/support/libaircrack_la-strlcpy.lo
   CC       lib/ce-wep/libaircrack_ce_wep_la-uniqueiv.lo
@@ -408,21 +408,21 @@ chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO2/pts/aircrac
   CCLD     libaccrypto.la
   CCLD     libaircrack.la
   CCLD     libaircrack-ce-wpa.la
+  CCLD     libaircrack-ce-wpa-x86-sse2.la
   CCLD     airdecap-ng
-  CCLD     packetforge-ng
   CCLD     ivstools
-  CCLD     makeivs-ng
+  CCLD     packetforge-ng
   CCLD     airdecloak-ng
+  CCLD     makeivs-ng
   CCLD     wpaclean
   CCLD     airolib-ng
+  CCLD     airbase-ng
   CCLD     buddy-ng
   CCLD     airserv-ng
-  CCLD     airventriloquist-ng
   CCLD     airtun-ng
-  CCLD     libaircrack-ce-wpa-x86-sse2.la
-  CCLD     airbase-ng
-  CCLD     libaircrack-ce-wpa-x86-avx.la
+  CCLD     airventriloquist-ng
   CCLD     libaircrack-ce-wpa-x86-avx2.la
-  CCLD     aireplay-ng
-  CXXLD    aircrack-ng
+  CCLD     libaircrack-ce-wpa-x86-avx.la
   CCLD     airodump-ng
+  CXXLD    aircrack-ng
+  CCLD     aireplay-ng

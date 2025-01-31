@@ -1,90 +1,18 @@
 #####
 NoGVNO2 - Run 1
-2025-01-20 11:10:27
+2025-01-28 19:19:27
 #####
-Results: 1 threads 496 iter 59.70s user 60.081132s total 8.256 iter/s 8.308 iter/cpu
+Results: 1 threads 487 iter 59.76s user 60.075008s total 8.107 iter/s 8.149 iter/cpu
 
 #####
 NoGVNO2 - Run 2
-2025-01-20 11:11:31
+2025-01-28 19:20:32
 #####
-Results: 1 threads 494 iter 59.64s user 60.012030s total 8.232 iter/s 8.283 iter/cpu
+Results: 1 threads 487 iter 59.78s user 60.092692s total 8.104 iter/s 8.147 iter/cpu
 
 #####
 NoGVNO2 - Run 3
-2025-01-20 11:12:35
+2025-01-28 19:21:34
 #####
-Results: 1 threads 465 iter 59.76s user 60.094032s total 7.738 iter/s 7.781 iter/cpu
-
-#####
-NoGVNO2 - Run 4
-2025-01-20 11:13:39
-#####
-Results: 1 threads 496 iter 59.72s user 60.098584s total 8.253 iter/s 8.305 iter/cpu
-
-#####
-NoGVNO2 - Run 5
-2025-01-20 11:14:43
-#####
-Results: 1 threads 495 iter 59.74s user 60.118193s total 8.234 iter/s 8.286 iter/cpu
-
-#####
-NoGVNO2 - Run 6
-2025-01-20 11:15:47
-#####
-Results: 1 threads 457 iter 59.78s user 60.109849s total 7.603 iter/s 7.645 iter/cpu
-
-#####
-NoGVNO2 - Run 7
-2025-01-20 11:16:51
-#####
-Results: 1 threads 461 iter 59.79s user 60.123225s total 7.668 iter/s 7.710 iter/cpu
-
-#####
-NoGVNO2 - Run 8
-2025-01-20 11:17:56
-#####
-Results: 1 threads 495 iter 59.74s user 60.114687s total 8.234 iter/s 8.286 iter/cpu
-
-#####
-NoGVNO2 - Run 9
-2025-01-20 11:19:00
-#####
-Results: 1 threads 470 iter 59.74s user 60.082224s total 7.823 iter/s 7.867 iter/cpu
-
-#####
-NoGVNO2 - Run 10
-2025-01-20 11:20:04
-#####
-Results: 1 threads 457 iter 59.71s user 60.035495s total 7.612 iter/s 7.654 iter/cpu
-
-#####
-NoGVNO2 - Run 11
-2025-01-20 11:21:08
-#####
-Results: 1 threads 495 iter 59.74s user 60.119826s total 8.234 iter/s 8.286 iter/cpu
-
-#####
-NoGVNO2 - Run 12
-2025-01-20 11:22:12
-#####
-Results: 1 threads 457 iter 59.71s user 60.019703s total 7.614 iter/s 7.654 iter/cpu
-
-#####
-NoGVNO2 - Run 13
-2025-01-20 11:23:16
-#####
-Results: 1 threads 490 iter 59.67s user 60.046549s total 8.160 iter/s 8.212 iter/cpu
-
-#####
-NoGVNO2 - Run 14
-2025-01-20 11:24:20
-#####
-Results: 1 threads 457 iter 59.70s user 60.029587s total 7.613 iter/s 7.655 iter/cpu
-
-#####
-NoGVNO2 - Run 15
-2025-01-20 11:25:22
-#####
-Results: 1 threads 496 iter 59.67s user 60.052136s total 8.259 iter/s 8.312 iter/cpu
+Results: 1 threads 487 iter 59.72s user 60.039230s total 8.111 iter/s 8.155 iter/cpu
 

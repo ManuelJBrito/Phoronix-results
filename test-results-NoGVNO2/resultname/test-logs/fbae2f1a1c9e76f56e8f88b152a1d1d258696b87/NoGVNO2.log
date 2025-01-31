@@ -1,36 +1,18 @@
 #####
 NoGVNO2 - Run 1
-2025-01-20 10:09:19
+2025-01-28 18:31:53
 #####
-Problem: ibc128x128, setup: 819.21 ms, time: 100.21 us, ``mflops'': 11445
+Problem: ibc128x128, setup: 820.74 ms, time: 99.42 us, ``mflops'': 11535
 
 #####
 NoGVNO2 - Run 2
-2025-01-20 10:09:26
+2025-01-28 18:32:00
 #####
-Problem: ibc128x128, setup: 809.04 ms, time: 97.94 us, ``mflops'': 11710
+Problem: ibc128x128, setup: 809.57 ms, time: 96.54 us, ``mflops'': 11880
 
 #####
 NoGVNO2 - Run 3
-2025-01-20 10:09:34
+2025-01-28 18:32:06
 #####
-Problem: ibc128x128, setup: 814.92 ms, time: 94.83 us, ``mflops'': 12094
-
-#####
-NoGVNO2 - Run 4
-2025-01-20 10:09:41
-#####
-Problem: ibc128x128, setup: 798.88 ms, time: 93.95 us, ``mflops'': 12208
-
-#####
-NoGVNO2 - Run 5
-2025-01-20 10:09:48
-#####
-Problem: ibc128x128, setup: 815.07 ms, time: 96.98 us, ``mflops'': 11826
-
-#####
-NoGVNO2 - Run 6
-2025-01-20 10:09:54
-#####
-Problem: ibc128x128, setup: 810.08 ms, time: 95.26 us, ``mflops'': 12040
+Problem: ibc128x128, setup: 813.14 ms, time: 98.61 us, ``mflops'': 11631
 

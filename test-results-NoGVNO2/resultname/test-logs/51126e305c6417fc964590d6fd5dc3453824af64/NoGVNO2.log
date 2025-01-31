@@ -1,90 +1,18 @@
 #####
 NoGVNO2 - Run 1
-2025-01-20 10:04:08
+2025-01-28 18:28:07
 #####
-Problem: ibc256, setup: 635.48 ms, time: 726.62 ns, ``mflops'': 14093
+Problem: ibc256, setup: 627.23 ms, time: 742.43 ns, ``mflops'': 13793
 
 #####
 NoGVNO2 - Run 2
-2025-01-20 10:04:15
+2025-01-28 18:28:14
 #####
-Problem: ibc256, setup: 627.71 ms, time: 782.84 ns, ``mflops'': 13081
+Problem: ibc256, setup: 629.34 ms, time: 752.81 ns, ``mflops'': 13602
 
 #####
 NoGVNO2 - Run 3
-2025-01-20 10:04:22
+2025-01-28 18:28:20
 #####
-Problem: ibc256, setup: 628.66 ms, time: 705.44 ns, ``mflops'': 14516
-
-#####
-NoGVNO2 - Run 4
-2025-01-20 10:04:29
-#####
-Problem: ibc256, setup: 624.49 ms, time: 710.33 ns, ``mflops'': 14416
-
-#####
-NoGVNO2 - Run 5
-2025-01-20 10:04:36
-#####
-Problem: ibc256, setup: 631.58 ms, time: 727.23 ns, ``mflops'': 14081
-
-#####
-NoGVNO2 - Run 6
-2025-01-20 10:04:44
-#####
-Problem: ibc256, setup: 624.60 ms, time: 728.82 ns, ``mflops'': 14050
-
-#####
-NoGVNO2 - Run 7
-2025-01-20 10:04:51
-#####
-Problem: ibc256, setup: 630.06 ms, time: 751.95 ns, ``mflops'': 13618
-
-#####
-NoGVNO2 - Run 8
-2025-01-20 10:04:58
-#####
-Problem: ibc256, setup: 627.01 ms, time: 704.53 ns, ``mflops'': 14535
-
-#####
-NoGVNO2 - Run 9
-2025-01-20 10:05:05
-#####
-Problem: ibc256, setup: 628.03 ms, time: 707.28 ns, ``mflops'': 14478
-
-#####
-NoGVNO2 - Run 10
-2025-01-20 10:05:12
-#####
-Problem: ibc256, setup: 630.67 ms, time: 704.04 ns, ``mflops'': 14545
-
-#####
-NoGVNO2 - Run 11
-2025-01-20 10:05:19
-#####
-Problem: ibc256, setup: 629.50 ms, time: 734.44 ns, ``mflops'': 13943
-
-#####
-NoGVNO2 - Run 12
-2025-01-20 10:05:26
-#####
-Problem: ibc256, setup: 632.45 ms, time: 744.20 ns, ``mflops'': 13760
-
-#####
-NoGVNO2 - Run 13
-2025-01-20 10:05:33
-#####
-Problem: ibc256, setup: 626.79 ms, time: 705.32 ns, ``mflops'': 14518
-
-#####
-NoGVNO2 - Run 14
-2025-01-20 10:05:40
-#####
-Problem: ibc256, setup: 624.00 ms, time: 735.05 ns, ``mflops'': 13931
-
-#####
-NoGVNO2 - Run 15
-2025-01-20 10:05:45
-#####
-Problem: ibc256, setup: 631.07 ms, time: 705.44 ns, ``mflops'': 14516
+Problem: ibc256, setup: 624.32 ms, time: 720.95 ns, ``mflops'': 14204
 

@@ -1,18 +1,18 @@
 #####
 GVNO2 - Run 1
-2025-01-15 16:31:33
+2025-01-30 13:56:11
 #####
-Problem: ibc4096, setup: 4.89 s, time: 16.89 us, ``mflops'': 14553
+Problem: ibc4096, setup: 4.85 s, time: 16.98 us, ``mflops'': 14477
 
 #####
 GVNO2 - Run 2
-2025-01-15 16:31:46
+2025-01-30 13:56:24
 #####
-Problem: ibc4096, setup: 4.89 s, time: 17.26 us, ``mflops'': 14241
+Problem: ibc4096, setup: 4.84 s, time: 17.00 us, ``mflops'': 14456
 
 #####
 GVNO2 - Run 3
-2025-01-15 16:31:56
+2025-01-30 13:56:34
 #####
-Problem: ibc4096, setup: 4.91 s, time: 17.12 us, ``mflops'': 14354
+Problem: ibc4096, setup: 4.86 s, time: 17.01 us, ``mflops'': 14451
 

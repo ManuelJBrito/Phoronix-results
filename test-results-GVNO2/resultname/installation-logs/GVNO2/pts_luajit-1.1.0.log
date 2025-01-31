@@ -8,8 +8,8 @@ HOSTCC    host/buildvm_lib.o
 HOSTCC    host/buildvm_fold.o
 CC        lj_gc.o
 CC        lj_char.o
-CC        lj_obj.o
 CC        lj_buf.o
+CC        lj_obj.o
 CC        lj_str.o
 CC        lj_tab.o
 CC        lj_func.o
@@ -59,11 +59,11 @@ HOSTLINK  host/minilua
 DYNASM    host/buildvm_arch.h
 HOSTCC    host/buildvm.o
 HOSTLINK  host/buildvm
+BUILDVM   lj_ffdef.h
 BUILDVM   lj_vm.S
 BUILDVM   lj_bcdef.h
-BUILDVM   lj_ffdef.h
-BUILDVM   lj_folddef.h
 BUILDVM   lj_recdef.h
+BUILDVM   lj_folddef.h
 BUILDVM   lj_libdef.h
 BUILDVM   jit/vmdef.lua
 CC        lj_err.o

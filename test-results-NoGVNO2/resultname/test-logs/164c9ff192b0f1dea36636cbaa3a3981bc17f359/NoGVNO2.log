@@ -1,18 +1,18 @@
 #####
 NoGVNO2 - Run 1
-2025-01-20 10:01:27
+2025-01-28 18:26:47
 #####
-Problem: ibc32, setup: 49.17 ms, time: 111.50 ns, ``mflops'': 7174.7
+Problem: ibc32, setup: 48.44 ms, time: 110.75 ns, ``mflops'': 7223.6
 
 #####
 NoGVNO2 - Run 2
-2025-01-20 10:01:34
+2025-01-28 18:26:54
 #####
-Problem: ibc32, setup: 48.96 ms, time: 108.55 ns, ``mflops'': 7369.8
+Problem: ibc32, setup: 47.86 ms, time: 107.83 ns, ``mflops'': 7419.3
 
 #####
 NoGVNO2 - Run 3
-2025-01-20 10:01:40
+2025-01-28 18:26:59
 #####
-Problem: ibc32, setup: 48.92 ms, time: 109.92 ns, ``mflops'': 7277.7
+Problem: ibc32, setup: 48.30 ms, time: 109.63 ns, ``mflops'': 7297.5
 

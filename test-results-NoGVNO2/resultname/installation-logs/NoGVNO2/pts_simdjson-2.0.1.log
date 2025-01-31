@@ -83,38 +83,38 @@ Call Stack (most recent call first):
 -- Including simdjson-singleheader test.
 -- Including amalgamate_demo_direct_from_repository test.
 -- Either git is unavailable or else it is too old. We are disabling checkperf targets.
--- Configuring done (24.2s)
+-- Configuring done (24.1s)
 -- Generating done (0.3s)
 -- Build files have been written to: /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4/build
-[  1%] Building C object dependencies/CMakeFiles/jsmn.dir/.cache/jsmn/jsmn.c.o
-[  1%] Building CXX object dependencies/CMakeFiles/boostjson.dir/.cache/boostjson/src/src.cpp.o
-[  2%] Building CXX object dependencies/CMakeFiles/jsoncpp.dir/jsoncppdist/jsoncpp.cpp.o
+[  0%] Building CXX object dependencies/CMakeFiles/boostjson.dir/.cache/boostjson/src/src.cpp.o
+[  1%] Building CXX object dependencies/CMakeFiles/fastjson.dir/.cache/fastjson/src/fastjson_dom.cpp.o
+[  1%] Building CXX object dependencies/CMakeFiles/fastjson.dir/.cache/fastjson/src/fastjson.cpp.o
+[  1%] Building CXX object dependencies/CMakeFiles/fastjson.dir/.cache/fastjson/src/fastjson2.cpp.o
+[  2%] Building C object dependencies/CMakeFiles/jsmn.dir/.cache/jsmn/jsmn.c.o
 [  2%] Building CXX object CMakeFiles/simdjson.dir/src/simdjson.cpp.o
-[  2%] Building CXX object dependencies/CMakeFiles/fastjson.dir/.cache/fastjson/src/fastjson.cpp.o
-[  4%] Building CXX object dependencies/CMakeFiles/fastjson.dir/.cache/fastjson/src/fastjson_dom.cpp.o
-[  4%] Building C object dependencies/CMakeFiles/cjson.dir/.cache/cjson/cJSON.c.o
-[  5%] Building C object dependencies/CMakeFiles/ujson4c.dir/.cache/ujson4c/src/ujdecode.c.o
-[  5%] Building CXX object dependencies/CMakeFiles/fastjson.dir/.cache/fastjson/src/fastjson2.cpp.o
-[  5%] Built target generated-data
-[  6%] Building CXX object dependencies/CMakeFiles/gason.dir/.cache/gason/src/gason.cpp.o
-[  6%] Building C object dependencies/CMakeFiles/ujson4c.dir/.cache/ujson4c/3rdparty/ultrajsondec.c.o
-[  6%] Building CXX object singleheader/CMakeFiles/amalgamate_demo_direct_from_repository.dir/amalgamate_demo.cpp.o
-[  6%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/benchmark.cc.o
-[  6%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
-[  6%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
-[  8%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[  2%] Building CXX object dependencies/CMakeFiles/json11.dir/.cache/json11/json11.cpp.o
+[  2%] Building C object dependencies/CMakeFiles/cjson.dir/.cache/cjson/cJSON.c.o
+[  4%] Building CXX object dependencies/CMakeFiles/gason.dir/.cache/gason/src/gason.cpp.o
+[  5%] Building CXX object dependencies/CMakeFiles/jsoncpp.dir/jsoncppdist/jsoncpp.cpp.o
+[  5%] Building C object dependencies/CMakeFiles/yyjson.dir/.cache/yyjson/src/yyjson.c.o
+[  5%] Building CXX object singleheader/CMakeFiles/amalgamate_demo_direct_from_repository.dir/amalgamate_demo.cpp.o
+[  5%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/benchmark.cc.o
+[  5%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o
+[  6%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o
+[  8%] Building C object dependencies/CMakeFiles/ujson4c.dir/.cache/ujson4c/src/ujdecode.c.o
+[  8%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o
 [  9%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o
+[  9%] Built target generated-data
 [  9%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/colorprint.cc.o
+[  9%] Building C object dependencies/CMakeFiles/ujson4c.dir/.cache/ujson4c/3rdparty/ultrajsondec.c.o
 [  9%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o
 [ 10%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/complexity.cc.o
-[ 10%] Building CXX object dependencies/CMakeFiles/json11.dir/.cache/json11/json11.cpp.o
-[ 10%] Building C object dependencies/CMakeFiles/yyjson.dir/.cache/yyjson/src/yyjson.c.o
 [ 10%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/console_reporter.cc.o
 [ 12%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/counter.cc.o
 [ 12%] Linking C static library libjsmn.a
+[ 12%] Linking CXX static library libgason.a
 [ 12%] Built target jsmn
 [ 12%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o
-[ 12%] Linking CXX static library libgason.a
 [ 12%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark.dir/json_reporter.cc.o
 [ 12%] Linking C static library libujson4c.a
 [ 12%] Built target gason
@@ -143,34 +143,31 @@ Call Stack (most recent call first):
 [ 21%] Building CXX object _deps/google_benchmarks/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
 [ 21%] Linking CXX static library libbenchmark_main.a
 [ 21%] Built target benchmark_main
-[ 21%] Linking CXX executable amalgamate_demo_direct_from_repository
-[ 21%] Built target amalgamate_demo_direct_from_repository
 [ 22%] Linking CXX static library libsimdjson.a
 [ 22%] Built target simdjson
-[ 22%] Building CXX object tools/CMakeFiles/json2json.dir/json2json.cpp.o
+[ 22%] Building CXX object tools/CMakeFiles/jsonstats.dir/jsonstats.cpp.o
+[ 22%] Generating simdjson.cpp, simdjson.h, amalgamate_demo.cpp, README.md
+[ 24%] Building CXX object tools/CMakeFiles/json2json.dir/json2json.cpp.o
 [ 24%] Building CXX object tools/CMakeFiles/minify.dir/minify.cpp.o
+[ 24%] Building CXX object tests/CMakeFiles/minify_tests.dir/minify_tests.cpp.o
 [ 25%] Building CXX object tools/CMakeFiles/jsonpointer.dir/jsonpointer.cpp.o
-[ 25%] Building CXX object tests/CMakeFiles/unicode_tests.dir/unicode_tests.cpp.o
-[ 25%] Building CXX object tools/CMakeFiles/jsonstats.dir/jsonstats.cpp.o
-[ 25%] Generating simdjson.cpp, simdjson.h, amalgamate_demo.cpp, README.md
-[ 26%] Building CXX object tests/CMakeFiles/padded_string_tests.dir/padded_string_tests.cpp.o
-[ 28%] Building CXX object tests/dom/CMakeFiles/random_string_number_tests.dir/random_string_number_tests.cpp.o
-[ 28%] Building CXX object tests/CMakeFiles/minify_tests.dir/minify_tests.cpp.o
+[ 25%] Building CXX object tests/dom/CMakeFiles/basictests.dir/basictests.cpp.o
+[ 26%] Building CXX object tests/dom/CMakeFiles/random_string_number_tests.dir/random_string_number_tests.cpp.o
+[ 26%] Building CXX object tests/CMakeFiles/unicode_tests.dir/unicode_tests.cpp.o
+[ 28%] Building CXX object tests/CMakeFiles/padded_string_tests.dir/padded_string_tests.cpp.o
 [ 28%] Building CXX object tests/CMakeFiles/checkimplementation.dir/checkimplementation.cpp.o
 [ 28%] Building CXX object tests/dom/CMakeFiles/document_stream_tests.dir/document_stream_tests.cpp.o
-[ 28%] Building CXX object tests/dom/CMakeFiles/basictests.dir/basictests.cpp.o
+[ 28%] Building CXX object tests/dom/CMakeFiles/extracting_values_example.dir/extracting_values_example.cpp.o
+[ 28%] Building CXX object tests/dom/CMakeFiles/document_tests.dir/document_tests.cpp.o
 [ 29%] Building CXX object tests/dom/CMakeFiles/errortests.dir/errortests.cpp.o
-[ 29%] Building CXX object tests/dom/CMakeFiles/document_tests.dir/document_tests.cpp.o
-[ 29%] Building CXX object tests/dom/CMakeFiles/extracting_values_example.dir/extracting_values_example.cpp.o
-[ 29%] Building CXX object tests/dom/CMakeFiles/jsoncheck.dir/jsoncheck.cpp.o
-[ 29%] Building CXX object tests/dom/CMakeFiles/numberparsingcheck.dir/numberparsingcheck.cpp.o
 [ 29%] Building CXX object tests/dom/CMakeFiles/integer_tests.dir/integer_tests.cpp.o
+[ 29%] Building CXX object tests/dom/CMakeFiles/stringparsingcheck.dir/stringparsingcheck.cpp.o
+[ 29%] Building CXX object tests/dom/CMakeFiles/numberparsingcheck.dir/numberparsingcheck.cpp.o
+[ 29%] Building CXX object tests/dom/CMakeFiles/jsoncheck.dir/jsoncheck.cpp.o
 [ 29%] Building CXX object tests/dom/CMakeFiles/minefieldcheck.dir/minefieldcheck.cpp.o
 [ 29%] Building CXX object tests/dom/CMakeFiles/parse_many_test.dir/parse_many_test.cpp.o
-[ 29%] Building CXX object tests/dom/CMakeFiles/stringparsingcheck.dir/stringparsingcheck.cpp.o
 [ 30%] Building CXX object tests/dom/CMakeFiles/pointercheck.dir/pointercheck.cpp.o
 [ 30%] Building CXX object tests/dom/CMakeFiles/trivially_copyable_test.dir/trivially_copyable_test.cpp.o
-[ 30%] Building CXX object tests/ondemand/CMakeFiles/ondemand_tostring_tests.dir/ondemand_tostring_tests.cpp.o
 SCRIPTPATH=/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4/singleheader PROJECTPATH=/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4
 We are about to amalgamate all simdjson files into one source file.
 See https://www.sqlite.org/amalgamation.html and https://en.wikipedia.org/wiki/Single_Compilation_Unit for rationale.
@@ -200,8 +197,8 @@ Done with all files generation.
 Files have been written to directory: /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4/build/singleheader/
 -rw-r--r-- 1 manuel students    2734 Jun 15  2022 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4/build/singleheader/amalgamate_demo.cpp
 -rw-r--r-- 1 manuel students     170 Jun 15  2022 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4/build/singleheader/README.md
--rw-r--r-- 1 manuel students  633044 Jan 20 10:52 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4/build/singleheader/simdjson.cpp
--rw-r--r-- 1 manuel students 1305745 Jan 20 10:52 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4/build/singleheader/simdjson.h
+-rw-r--r-- 1 manuel students  633044 Jan 28 18:33 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4/build/singleheader/simdjson.cpp
+-rw-r--r-- 1 manuel students 1305745 Jan 28 18:33 /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/simdjson-2.0.1/simdjson-2.0.4/build/singleheader/simdjson.h
 Done with all files generation.
 
 Giving final instructions:
@@ -214,65 +211,68 @@ c++ -O3 -std=c++17 -pthread -o amalgamate_demo amalgamate_demo.cpp  && ./amalgam
 
 
 [ 30%] Built target singleheader-files
+[ 30%] Building CXX object tests/ondemand/CMakeFiles/ondemand_tostring_tests.dir/ondemand_tostring_tests.cpp.o
+[ 30%] Linking CXX executable amalgamate_demo_direct_from_repository
+[ 30%] Built target amalgamate_demo_direct_from_repository
 [ 30%] Building CXX object tests/ondemand/CMakeFiles/ondemand_active_tests.dir/ondemand_active_tests.cpp.o
 [ 30%] Linking CXX executable padded_string_tests
 [ 30%] Linking CXX executable trivially_copyable_test
-[ 30%] Built target padded_string_tests
 [ 32%] Linking CXX executable checkimplementation
+[ 32%] Built target trivially_copyable_test
+[ 32%] Built target padded_string_tests
+[ 32%] Linking CXX executable minefieldcheck
 [ 33%] Building CXX object tests/ondemand/CMakeFiles/ondemand_array_tests.dir/ondemand_array_tests.cpp.o
-[ 33%] Built target trivially_copyable_test
 [ 34%] Building CXX object tests/ondemand/CMakeFiles/ondemand_array_error_tests.dir/ondemand_array_error_tests.cpp.o
 [ 34%] Built target checkimplementation
+[ 34%] Building CXX object tests/ondemand/CMakeFiles/ondemand_compilation_tests.dir/ondemand_compilation_tests.cpp.o
 [ 36%] Linking CXX executable extracting_values_example
-[ 36%] Building CXX object tests/ondemand/CMakeFiles/ondemand_compilation_tests.dir/ondemand_compilation_tests.cpp.o
-[ 36%] Linking CXX executable minefieldcheck
 [ 36%] Linking CXX executable jsoncheck
-[ 36%] Built target extracting_values_example
+[ 36%] Built target minefieldcheck
 [ 37%] Building CXX object tests/ondemand/CMakeFiles/ondemand_document_stream_tests.dir/ondemand_document_stream_tests.cpp.o
-[ 37%] Built target minefieldcheck
-[ 37%] Building CXX object tests/ondemand/CMakeFiles/ondemand_error_tests.dir/ondemand_error_tests.cpp.o
+[ 37%] Built target extracting_values_example
 [ 37%] Built target jsoncheck
+[ 37%] Building CXX object tests/ondemand/CMakeFiles/ondemand_error_tests.dir/ondemand_error_tests.cpp.o
 [ 38%] Building CXX object tests/ondemand/CMakeFiles/ondemand_error_location_tests.dir/ondemand_error_location_tests.cpp.o
 [ 40%] Linking CXX executable numberparsingcheck
-[ 41%] Linking CXX executable parse_many_test
-[ 42%] Linking CXX executable integer_tests
+[ 41%] Linking CXX executable integer_tests
+[ 42%] Linking CXX executable parse_many_test
 [ 44%] Linking CXX executable stringparsingcheck
 [ 44%] Built target numberparsingcheck
-[ 44%] Built target parse_many_test
-[ 44%] Built target integer_tests
 [ 44%] Building CXX object tests/ondemand/CMakeFiles/ondemand_json_pointer_tests.dir/ondemand_json_pointer_tests.cpp.o
+[ 44%] Built target integer_tests
 [ 45%] Building CXX object tests/ondemand/CMakeFiles/ondemand_key_string_tests.dir/ondemand_key_string_tests.cpp.o
+[ 45%] Built target parse_many_test
 [ 45%] Built target stringparsingcheck
 [ 46%] Building CXX object tests/ondemand/CMakeFiles/ondemand_misc_tests.dir/ondemand_misc_tests.cpp.o
+[ 46%] Building CXX object tests/ondemand/CMakeFiles/ondemand_number_tests.dir/ondemand_number_tests.cpp.o
 [ 48%] Linking CXX executable jsonpointer
-[ 48%] Building CXX object tests/ondemand/CMakeFiles/ondemand_number_tests.dir/ondemand_number_tests.cpp.o
 [ 48%] Linking CXX executable random_string_number_tests
 [ 48%] Built target jsonpointer
-[ 48%] Building CXX object tests/ondemand/CMakeFiles/ondemand_number_in_string_tests.dir/ondemand_number_in_string_tests.cpp.o
+[ 48%] Linking CXX executable unicode_tests
 [ 48%] Built target random_string_number_tests
+[ 48%] Building CXX object tests/ondemand/CMakeFiles/ondemand_number_in_string_tests.dir/ondemand_number_in_string_tests.cpp.o
 [ 49%] Building CXX object tests/ondemand/CMakeFiles/ondemand_object_tests.dir/ondemand_object_tests.cpp.o
-[ 49%] Linking CXX executable unicode_tests
 [ 49%] Built target unicode_tests
 [ 49%] Building CXX object tests/ondemand/CMakeFiles/ondemand_object_error_tests.dir/ondemand_object_error_tests.cpp.o
-[ 49%] Linking CXX executable errortests
 [ 50%] Linking CXX executable minify_tests
 [ 50%] Linking CXX executable document_tests
-[ 50%] Built target errortests
 [ 50%] Built target minify_tests
 [ 50%] Building CXX object tests/ondemand/CMakeFiles/ondemand_ordering_tests.dir/ondemand_ordering_tests.cpp.o
+[ 50%] Linking CXX executable errortests
 [ 50%] Linking CXX executable pointercheck
-[ 50%] Building CXX object tests/ondemand/CMakeFiles/ondemand_parse_api_tests.dir/ondemand_parse_api_tests.cpp.o
 [ 50%] Built target document_tests
-[ 50%] Building CXX object tests/ondemand/CMakeFiles/ondemand_readme_examples.dir/ondemand_readme_examples.cpp.o
+[ 50%] Building CXX object tests/ondemand/CMakeFiles/ondemand_parse_api_tests.dir/ondemand_parse_api_tests.cpp.o
+[ 50%] Built target errortests
 [ 50%] Built target pointercheck
+[ 50%] Building CXX object tests/ondemand/CMakeFiles/ondemand_readme_examples.dir/ondemand_readme_examples.cpp.o
 [ 52%] Building CXX object tests/ondemand/CMakeFiles/ondemand_scalar_tests.dir/ondemand_scalar_tests.cpp.o
 [ 52%] Linking CXX executable ondemand_active_tests
 [ 52%] Built target ondemand_active_tests
 [ 52%] Building CXX object tests/ondemand/CMakeFiles/ondemand_twitter_tests.dir/ondemand_twitter_tests.cpp.o
 [ 53%] Linking CXX executable ondemand_tostring_tests
-[ 53%] Built target ondemand_tostring_tests
-[ 53%] Building CXX object tests/ondemand/CMakeFiles/ondemand_wrong_type_error_tests.dir/ondemand_wrong_type_error_tests.cpp.o
 [ 54%] Linking CXX executable document_stream_tests
+[ 54%] Built target ondemand_tostring_tests
+[ 54%] Building CXX object tests/ondemand/CMakeFiles/ondemand_wrong_type_error_tests.dir/ondemand_wrong_type_error_tests.cpp.o
 [ 54%] Built target document_stream_tests
 [ 54%] Building CXX object tests/ondemand/CMakeFiles/ondemand_assert_out_of_order_values.dir/ondemand_assert_out_of_order_values.cpp.o
 [ 54%] Linking CXX executable ondemand_key_string_tests
@@ -287,17 +287,17 @@ c++ -O3 -std=c++17 -pthread -o amalgamate_demo amalgamate_demo.cpp  && ./amalgam
 [ 58%] Linking CXX executable ondemand_array_error_tests
 [ 58%] Built target ondemand_array_error_tests
 [ 58%] Building CXX object benchmark/CMakeFiles/bench_dom_api.dir/bench_dom_api.cpp.o
-[ 58%] Linking CXX executable ondemand_error_location_tests
 [ 60%] Linking CXX executable ondemand_parse_api_tests
-[ 60%] Built target ondemand_error_location_tests
+[ 60%] Linking CXX executable ondemand_error_location_tests
+[ 60%] Built target ondemand_parse_api_tests
 [ 61%] Building CXX object benchmark/CMakeFiles/bench_ondemand.dir/bench_ondemand.cpp.o
-[ 61%] Built target ondemand_parse_api_tests
+[ 61%] Built target ondemand_error_location_tests
 [ 61%] Building CXX object benchmark/dom/CMakeFiles/perfdiff.dir/perfdiff.cpp.o
+[ 61%] Linking CXX executable ondemand_document_stream_tests
+[ 61%] Built target ondemand_document_stream_tests
 [ 62%] Linking CXX executable basictests
-[ 62%] Linking CXX executable ondemand_document_stream_tests
-[ 62%] Built target basictests
-[ 62%] Built target ondemand_document_stream_tests
 [ 62%] Building CXX object benchmark/dom/CMakeFiles/parse.dir/parse.cpp.o
+[ 62%] Built target basictests
 [ 62%] Building CXX object benchmark/dom/CMakeFiles/parse_stream.dir/parse_stream.cpp.o
 [ 64%] Linking CXX executable ondemand_number_in_string_tests
 [ 64%] Built target ondemand_number_in_string_tests
@@ -305,91 +305,91 @@ c++ -O3 -std=c++17 -pthread -o amalgamate_demo amalgamate_demo.cpp  && ./amalgam
 [ 65%] Linking CXX executable ondemand_assert_out_of_order_values
 [ 65%] Built target ondemand_assert_out_of_order_values
 [ 66%] Building CXX object benchmark/dom/CMakeFiles/parse_noutf8validation.dir/parse.cpp.o
-[ 66%] Linking CXX executable ondemand_misc_tests
 [ 66%] Linking CXX executable minify
+[ 66%] Built target minify
+[ 66%] Building CXX object benchmark/dom/CMakeFiles/parse_nonumberparsing.dir/parse.cpp.o
+[ 66%] Linking CXX executable ondemand_misc_tests
+[ 66%] Linking CXX executable perfdiff
+[ 66%] Linking CXX executable ondemand_json_pointer_tests
+[ 66%] Built target ondemand_misc_tests
 [ 68%] Linking CXX executable jsonstats
-[ 68%] Built target ondemand_misc_tests
-[ 68%] Building CXX object benchmark/dom/CMakeFiles/parse_nonumberparsing.dir/parse.cpp.o
-[ 68%] Built target minify
 [ 69%] Building CXX object benchmark/dom/CMakeFiles/parse_nostringparsing.dir/parse.cpp.o
-[ 69%] Linking CXX executable perfdiff
-[ 69%] Built target jsonstats
-[ 69%] Building CXX object fuzz/CMakeFiles/fuzz_atpointer.dir/fuzz_atpointer.cpp.o
 [ 69%] Built target perfdiff
+[ 69%] Building CXX object fuzz/CMakeFiles/fuzz_atpointer.dir/fuzz_atpointer.cpp.o
+[ 69%] Built target ondemand_json_pointer_tests
 [ 69%] Building CXX object fuzz/CMakeFiles/fuzz_dump.dir/fuzz_dump.cpp.o
 [ 70%] Linking CXX executable json2json
-[ 70%] Linking CXX executable ondemand_json_pointer_tests
-[ 70%] Built target json2json
+[ 70%] Built target jsonstats
 [ 70%] Building CXX object fuzz/CMakeFiles/fuzz_dump_raw_tape.dir/fuzz_dump_raw_tape.cpp.o
-[ 70%] Built target ondemand_json_pointer_tests
+[ 70%] Built target json2json
 [ 70%] Building CXX object fuzz/CMakeFiles/fuzz_element.dir/fuzz_element.cpp.o
+[ 70%] Linking CXX executable get_corpus_benchmark
 [ 72%] Linking CXX executable ondemand_error_tests
-[ 72%] Linking CXX executable get_corpus_benchmark
-[ 72%] Built target ondemand_error_tests
-[ 73%] Building CXX object fuzz/CMakeFiles/fuzz_element.dir/main.cpp.o
-[ 73%] Built target get_corpus_benchmark
-[ 74%] Building CXX object fuzz/CMakeFiles/fuzz_implementations.dir/fuzz_implementations.cpp.o
-[ 76%] Linking CXX executable ondemand_ordering_tests
-[ 76%] Built target ondemand_ordering_tests
-[ 76%] Building CXX object fuzz/CMakeFiles/fuzz_implementations.dir/main.cpp.o
+[ 72%] Built target get_corpus_benchmark
+[ 73%] Building CXX object fuzz/CMakeFiles/fuzz_implementations.dir/fuzz_implementations.cpp.o
+[ 73%] Built target ondemand_error_tests
+[ 73%] Building CXX object fuzz/CMakeFiles/fuzz_implementations.dir/main.cpp.o
+[ 74%] Linking CXX executable ondemand_ordering_tests
+[ 74%] Built target ondemand_ordering_tests
+[ 76%] Building CXX object fuzz/CMakeFiles/fuzz_minify.dir/fuzz_minify.cpp.o
 [ 76%] Linking CXX executable ondemand_object_error_tests
-[ 77%] Building CXX object fuzz/CMakeFiles/fuzz_minify.dir/fuzz_minify.cpp.o
-[ 77%] Built target ondemand_object_error_tests
-[ 78%] Building CXX object fuzz/CMakeFiles/fuzz_minifyimpl.dir/fuzz_minifyimpl.cpp.o
-[ 78%] Building CXX object fuzz/CMakeFiles/fuzz_minifyimpl.dir/main.cpp.o
-[ 78%] Linking CXX executable bench_parse_call
-[ 78%] Built target bench_parse_call
-[ 78%] Building CXX object fuzz/CMakeFiles/fuzz_minify.dir/main.cpp.o
-[ 80%] Linking CXX executable ondemand_twitter_tests
-[ 80%] Built target ondemand_twitter_tests
-[ 80%] Linking CXX executable ondemand_array_tests
-[ 80%] Building CXX object fuzz/CMakeFiles/fuzz_ndjson.dir/fuzz_ndjson.cpp.o
-[ 80%] Built target ondemand_array_tests
-[ 80%] Building CXX object fuzz/CMakeFiles/fuzz_ondemand.dir/fuzz_ondemand.cpp.o
-[ 80%] Building CXX object fuzz/CMakeFiles/fuzz_ondemand.dir/main.cpp.o
-[ 80%] Building CXX object fuzz/CMakeFiles/fuzz_padded.dir/fuzz_padded.cpp.o
-[ 81%] Linking CXX executable parse_stream
-[ 82%] Linking CXX executable statisticalmodel
-[ 82%] Built target parse_stream
-[ 82%] Building CXX object fuzz/CMakeFiles/fuzz_parser.dir/fuzz_parser.cpp.o
+[ 76%] Built target ondemand_object_error_tests
+[ 77%] Building CXX object fuzz/CMakeFiles/fuzz_minifyimpl.dir/fuzz_minifyimpl.cpp.o
+[ 77%] Building CXX object fuzz/CMakeFiles/fuzz_minifyimpl.dir/main.cpp.o
+[ 77%] Linking CXX executable bench_parse_call
+[ 77%] Building CXX object fuzz/CMakeFiles/fuzz_ndjson.dir/fuzz_ndjson.cpp.o
+[ 77%] Built target bench_parse_call
+[ 77%] Building CXX object fuzz/CMakeFiles/fuzz_ondemand.dir/fuzz_ondemand.cpp.o
+[ 78%] Linking CXX executable ondemand_twitter_tests
+[ 78%] Built target ondemand_twitter_tests
+[ 78%] Building CXX object fuzz/CMakeFiles/fuzz_padded.dir/fuzz_padded.cpp.o
+[ 78%] Linking CXX executable ondemand_array_tests
+[ 78%] Built target ondemand_array_tests
+[ 80%] Building CXX object fuzz/CMakeFiles/fuzz_padded.dir/main.cpp.o
+[ 81%] Linking CXX executable statisticalmodel
+[ 82%] Linking CXX executable parse_stream
 [ 82%] Linking CXX executable ondemand_scalar_tests
 [ 82%] Built target statisticalmodel
-[ 84%] Building CXX object fuzz/CMakeFiles/fuzz_print_json.dir/fuzz_print_json.cpp.o
-[ 84%] Building CXX object fuzz/CMakeFiles/fuzz_dump.dir/main.cpp.o
-[ 84%] Built target ondemand_scalar_tests
-[ 85%] Building CXX object fuzz/CMakeFiles/fuzz_utf8.dir/fuzz_utf8.cpp.o
-[ 85%] Building CXX object fuzz/CMakeFiles/fuzz_atpointer.dir/main.cpp.o
-[ 85%] Building CXX object fuzz/CMakeFiles/fuzz_utf8.dir/main.cpp.o
-[ 86%] Building CXX object fuzz/CMakeFiles/fuzz_dump_raw_tape.dir/main.cpp.o
+[ 82%] Building CXX object fuzz/CMakeFiles/fuzz_ondemand.dir/main.cpp.o
+[ 82%] Built target parse_stream
+[ 82%] Building CXX object fuzz/CMakeFiles/fuzz_atpointer.dir/main.cpp.o
+[ 82%] Built target ondemand_scalar_tests
+[ 82%] Building CXX object fuzz/CMakeFiles/fuzz_parser.dir/fuzz_parser.cpp.o
+[ 84%] Building CXX object fuzz/CMakeFiles/fuzz_parser.dir/main.cpp.o
+[ 85%] Building CXX object fuzz/CMakeFiles/fuzz_dump_raw_tape.dir/main.cpp.o
+[ 85%] Building CXX object fuzz/CMakeFiles/fuzz_dump.dir/main.cpp.o
+[ 86%] Building CXX object fuzz/CMakeFiles/fuzz_print_json.dir/fuzz_print_json.cpp.o
 [ 88%] Linking CXX executable parse
 [ 88%] Built target parse
-[ 88%] Building CXX object singleheader/CMakeFiles/amalgamate_demo.dir/amalgamate_demo.cpp.o
-[ 89%] Linking CXX executable fuzz_dump
-[ 89%] Linking CXX executable fuzz_element
-[ 89%] Linking CXX executable bench_dom_api
-[ 89%] Built target fuzz_dump
-[ 89%] Built target fuzz_element
-[ 89%] Building CXX object fuzz/CMakeFiles/fuzz_print_json.dir/main.cpp.o
-[ 90%] Building CXX object fuzz/CMakeFiles/fuzz_parser.dir/main.cpp.o
-[ 92%] Linking CXX executable fuzz_atpointer
-[ 92%] Built target bench_dom_api
-[ 93%] Building CXX object fuzz/CMakeFiles/fuzz_padded.dir/main.cpp.o
-[ 93%] Building CXX object fuzz/CMakeFiles/fuzz_ndjson.dir/main.cpp.o
-[ 93%] Linking CXX executable parse_noutf8validation
+[ 89%] Building CXX object fuzz/CMakeFiles/fuzz_utf8.dir/fuzz_utf8.cpp.o
+[ 90%] Linking CXX executable fuzz_atpointer
+[ 90%] Building CXX object fuzz/CMakeFiles/fuzz_utf8.dir/main.cpp.o
+[ 92%] Building CXX object fuzz/CMakeFiles/fuzz_element.dir/main.cpp.o
+[ 92%] Built target fuzz_atpointer
+[ 92%] Building CXX object singleheader/CMakeFiles/amalgamate_demo.dir/amalgamate_demo.cpp.o
+[ 92%] Building CXX object fuzz/CMakeFiles/fuzz_print_json.dir/main.cpp.o
+[ 93%] Linking CXX executable fuzz_dump
 [ 93%] Linking CXX executable fuzz_dump_raw_tape
-[ 93%] Built target fuzz_atpointer
-[ 93%] Built target parse_noutf8validation
-[ 93%] Built target fuzz_dump_raw_tape
+[ 93%] Linking CXX executable bench_dom_api
 [ 93%] Linking CXX executable fuzz_implementations
-[ 93%] Linking CXX executable parse_nostringparsing
+[ 93%] Linking CXX executable parse_noutf8validation
+[ 93%] Built target fuzz_dump
+[ 93%] Building CXX object fuzz/CMakeFiles/fuzz_ndjson.dir/main.cpp.o
+[ 93%] Built target fuzz_dump_raw_tape
+[ 93%] Building CXX object fuzz/CMakeFiles/fuzz_minify.dir/main.cpp.o
 [ 93%] Linking CXX executable parse_nonumberparsing
 [ 93%] Built target fuzz_implementations
-[ 93%] Built target parse_nostringparsing
+[ 93%] Built target bench_dom_api
+[ 93%] Built target parse_noutf8validation
 [ 93%] Built target parse_nonumberparsing
+[ 93%] Linking CXX executable parse_nostringparsing
 [ 94%] Linking CXX executable fuzz_minifyimpl
-[ 94%] Built target fuzz_minifyimpl
+[ 94%] Built target parse_nostringparsing
 [ 94%] Linking CXX executable ondemand_readme_examples
+[ 94%] Built target fuzz_minifyimpl
+[ 94%] Linking CXX executable fuzz_element
 [ 94%] Built target ondemand_readme_examples
+[ 94%] Built target fuzz_element
 [ 94%] Linking CXX executable fuzz_minify
 [ 94%] Built target fuzz_minify
 [ 96%] Linking CXX executable fuzz_ndjson
@@ -403,8 +403,8 @@ c++ -O3 -std=c++17 -pthread -o amalgamate_demo amalgamate_demo.cpp  && ./amalgam
 [ 98%] Linking CXX executable benchfeatures
 [ 98%] Built target benchfeatures
 [ 98%] Linking CXX executable fuzz_print_json
-[ 98%] Built target fuzz_print_json
 [ 98%] Linking CXX executable fuzz_utf8
+[ 98%] Built target fuzz_print_json
 [ 98%] Built target fuzz_utf8
 [ 98%] Linking CXX executable ondemand_object_tests
 [ 98%] Built target ondemand_object_tests

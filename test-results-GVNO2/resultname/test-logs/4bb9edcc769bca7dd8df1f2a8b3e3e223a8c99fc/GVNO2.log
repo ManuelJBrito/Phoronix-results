@@ -1,50 +1,50 @@
 #####
 GVNO2 - Run 1
-2025-01-15 19:22:43
+2025-01-30 16:22:43
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-Twofish encrypt buffer size 1024 bytes: 180.674 MiB/sec 11.04 cycles/byte (2710.11 MiB in 15000.00 ms)
-Twofish decrypt buffer size 1024 bytes: 187.580 MiB/sec 10.63 cycles/byte (2813.70 MiB in 15000.00 ms)
+Twofish encrypt buffer size 1024 bytes: 180.118 MiB/sec 11.07 cycles/byte (2701.77 MiB in 15000.00 ms)
+Twofish decrypt buffer size 1024 bytes: 186.809 MiB/sec 10.67 cycles/byte (2802.14 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-Twofish                            decrypt                196691.91
-Twofish                            encrypt                189450.23
+Twofish                            decrypt                195883.79
+Twofish                            encrypt                188867.71
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 GVNO2 - Run 2
-2025-01-15 19:23:18
+2025-01-30 16:23:17
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-Twofish encrypt buffer size 1024 bytes: 180.466 MiB/sec 11.05 cycles/byte (2706.99 MiB in 15000.00 ms)
-Twofish decrypt buffer size 1024 bytes: 186.547 MiB/sec 10.69 cycles/byte (2798.20 MiB in 15000.00 ms)
+Twofish encrypt buffer size 1024 bytes: 179.942 MiB/sec 11.09 cycles/byte (2699.13 MiB in 15000.00 ms)
+Twofish decrypt buffer size 1024 bytes: 185.824 MiB/sec 10.73 cycles/byte (2787.36 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-Twofish                            decrypt                195608.21
-Twofish                            encrypt                189232.34
+Twofish                            decrypt                194850.82
+Twofish                            encrypt                188683.16
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 GVNO2 - Run 3
-2025-01-15 19:23:50
+2025-01-30 16:23:49
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-Twofish encrypt buffer size 1024 bytes: 181.559 MiB/sec 10.99 cycles/byte (2723.39 MiB in 15000.00 ms)
-Twofish decrypt buffer size 1024 bytes: 187.929 MiB/sec 10.61 cycles/byte (2818.94 MiB in 15000.00 ms)
+Twofish encrypt buffer size 1024 bytes: 180.972 MiB/sec 11.02 cycles/byte (2714.57 MiB in 15000.00 ms)
+Twofish decrypt buffer size 1024 bytes: 186.137 MiB/sec 10.71 cycles/byte (2792.06 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-Twofish                            decrypt                197058.21
-Twofish                            encrypt                190378.41
+Twofish                            decrypt                195179.03
+Twofish                            encrypt                189762.40
 
 [results are the number of 1000s bytes processed per second]
 

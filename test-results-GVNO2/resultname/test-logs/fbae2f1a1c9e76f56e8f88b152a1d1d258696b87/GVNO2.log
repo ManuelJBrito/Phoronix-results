@@ -1,18 +1,90 @@
 #####
 GVNO2 - Run 1
-2025-01-15 16:33:38
+2025-01-30 13:57:46
 #####
-Problem: ibc128x128, setup: 823.77 ms, time: 101.29 us, ``mflops'': 11323
+Problem: ibc128x128, setup: 815.57 ms, time: 98.73 us, ``mflops'': 11617
 
 #####
 GVNO2 - Run 2
-2025-01-15 16:33:45
+2025-01-30 13:57:53
 #####
-Problem: ibc128x128, setup: 828.01 ms, time: 97.88 us, ``mflops'': 11718
+Problem: ibc128x128, setup: 822.93 ms, time: 100.40 us, ``mflops'': 11423
 
 #####
 GVNO2 - Run 3
-2025-01-15 16:33:51
+2025-01-30 13:58:00
 #####
-Problem: ibc128x128, setup: 822.85 ms, time: 96.72 us, ``mflops'': 11858
+Problem: ibc128x128, setup: 816.13 ms, time: 91.69 us, ``mflops'': 12509
+
+#####
+GVNO2 - Run 4
+2025-01-30 13:58:08
+#####
+Problem: ibc128x128, setup: 821.12 ms, time: 99.51 us, ``mflops'': 11526
+
+#####
+GVNO2 - Run 5
+2025-01-30 13:58:15
+#####
+Problem: ibc128x128, setup: 817.46 ms, time: 100.15 us, ``mflops'': 11452
+
+#####
+GVNO2 - Run 6
+2025-01-30 13:58:23
+#####
+Problem: ibc128x128, setup: 815.08 ms, time: 100.41 us, ``mflops'': 11422
+
+#####
+GVNO2 - Run 7
+2025-01-30 13:58:30
+#####
+Problem: ibc128x128, setup: 807.68 ms, time: 97.77 us, ``mflops'': 11730
+
+#####
+GVNO2 - Run 8
+2025-01-30 13:58:37
+#####
+Problem: ibc128x128, setup: 820.15 ms, time: 99.35 us, ``mflops'': 11544
+
+#####
+GVNO2 - Run 9
+2025-01-30 13:58:45
+#####
+Problem: ibc128x128, setup: 811.92 ms, time: 96.95 us, ``mflops'': 11829
+
+#####
+GVNO2 - Run 10
+2025-01-30 13:58:52
+#####
+Problem: ibc128x128, setup: 815.99 ms, time: 92.00 us, ``mflops'': 12466
+
+#####
+GVNO2 - Run 11
+2025-01-30 13:58:59
+#####
+Problem: ibc128x128, setup: 819.96 ms, time: 98.36 us, ``mflops'': 11660
+
+#####
+GVNO2 - Run 12
+2025-01-30 13:59:07
+#####
+Problem: ibc128x128, setup: 819.88 ms, time: 99.51 us, ``mflops'': 11526
+
+#####
+GVNO2 - Run 13
+2025-01-30 13:59:14
+#####
+Problem: ibc128x128, setup: 798.47 ms, time: 98.20 us, ``mflops'': 11680
+
+#####
+GVNO2 - Run 14
+2025-01-30 13:59:22
+#####
+Problem: ibc128x128, setup: 813.56 ms, time: 100.62 us, ``mflops'': 11398
+
+#####
+GVNO2 - Run 15
+2025-01-30 13:59:27
+#####
+Problem: ibc128x128, setup: 816.56 ms, time: 98.20 us, ``mflops'': 11679
 

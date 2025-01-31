@@ -1,18 +1,18 @@
 #####
 NoGVNO2 - Run 1
-2025-01-20 10:06:01
+2025-01-28 18:28:36
 #####
-Problem: ibc512, setup: 1.19 s, time: 1.49 us, ``mflops'': 15492
+Problem: ibc512, setup: 1.18 s, time: 1.49 us, ``mflops'': 15485
 
 #####
 NoGVNO2 - Run 2
-2025-01-20 10:06:09
+2025-01-28 18:28:43
 #####
-Problem: ibc512, setup: 1.19 s, time: 1.51 us, ``mflops'': 15258
+Problem: ibc512, setup: 1.18 s, time: 1.49 us, ``mflops'': 15415
 
 #####
 NoGVNO2 - Run 3
-2025-01-20 10:06:15
+2025-01-28 18:28:49
 #####
-Problem: ibc512, setup: 1.19 s, time: 1.48 us, ``mflops'': 15524
+Problem: ibc512, setup: 1.18 s, time: 1.48 us, ``mflops'': 15543
 

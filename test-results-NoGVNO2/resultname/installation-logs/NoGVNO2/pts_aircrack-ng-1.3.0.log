@@ -350,8 +350,8 @@ chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/aircr
   CC       lib/osdep/libaircrack_osdep_la-linux.lo
   CC       lib/osdep/libaircrack_osdep_la-linux_tap.lo
   CC       lib/osdep/libaircrack_osdep_la-common.lo
-  CC       lib/libac/adt/libaircrack_la-avl_tree.lo
   CC       lib/radiotap/radiotap.lo
+  CC       lib/libac/adt/libaircrack_la-avl_tree.lo
   CC       lib/libac/adt/libaircrack_la-circular_buffer.lo
   CC       lib/libac/adt/libaircrack_la-circular_queue.lo
   CC       lib/libac/cpu/libaircrack_la-simd_cpuid.lo
@@ -370,8 +370,8 @@ chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/aircr
   CC       src/packetforge-ng/packetforge_ng-packetforge-ng.o
   CC       src/ivstools/ivstools-ivstools.o
   CC       src/kstats/kstats-kstats.o
-  CC       src/airdecloak-ng/airdecloak_ng-airdecloak-ng.o
   CC       src/makeivs-ng/makeivs_ng-makeivs-ng.o
+  CC       src/airdecloak-ng/airdecloak_ng-airdecloak-ng.o
   CC       src/wpaclean/wpaclean-wpaclean.o
   CC       src/airolib-ng/airolib_ng-airolib-ng.o
   CC       lib/cowpatty/libcowpatty_la-cowpatty.lo
@@ -408,10 +408,9 @@ chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/aircr
   CCLD     libaccrypto.la
   CCLD     libaircrack.la
   CCLD     libaircrack-ce-wpa.la
-  CCLD     libaircrack-ce-wpa-x86-sse2.la
+  CCLD     packetforge-ng
   CCLD     airdecap-ng
   CCLD     ivstools
-  CCLD     packetforge-ng
   CCLD     makeivs-ng
   CCLD     airdecloak-ng
   CCLD     wpaclean
@@ -421,8 +420,9 @@ chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO2/pts/aircr
   CCLD     airserv-ng
   CCLD     airtun-ng
   CCLD     airventriloquist-ng
+  CCLD     libaircrack-ce-wpa-x86-sse2.la
   CCLD     libaircrack-ce-wpa-x86-avx.la
   CCLD     libaircrack-ce-wpa-x86-avx2.la
   CXXLD    aircrack-ng
-  CCLD     airodump-ng
   CCLD     aireplay-ng
+  CCLD     airodump-ng

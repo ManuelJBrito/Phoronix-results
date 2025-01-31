@@ -1,18 +1,18 @@
 #####
 GVNO2 - Run 1
-2025-01-15 16:23:46
+2025-01-30 13:27:01
 #####
-taskset: failed to execute ./fftw-stock/tests/bench: No such file or directory
+Problem: ibc128x128, setup: 700.05 ms, time: 299.61 us, ``mflops'': 3827.9
 
 #####
 GVNO2 - Run 2
-2025-01-15 16:23:50
+2025-01-30 13:27:10
 #####
-taskset: failed to execute ./fftw-stock/tests/bench: No such file or directory
+Problem: ibc128x128, setup: 695.39 ms, time: 297.59 us, ``mflops'': 3853.8
 
 #####
 GVNO2 - Run 3
-2025-01-15 16:23:52
+2025-01-30 13:27:16
 #####
-taskset: failed to execute ./fftw-stock/tests/bench: No such file or directory
+Problem: ibc128x128, setup: 703.39 ms, time: 304.78 us, ``mflops'': 3763
 

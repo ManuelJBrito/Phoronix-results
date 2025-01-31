@@ -152,28 +152,28 @@ primesieve-8.0/test/prev_prime2.c
 -- Performing Test multiarch_popcnt_bmi - Success
 -- Performing Test multiarch_avx512
 -- Performing Test multiarch_avx512 - Success
--- Configuring done (3.6s)
+-- Configuring done (4.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO2/pts/primesieve-1.9.0/primesieve-8.0
 [  3%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/api-c.cpp.o
-[  7%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/CountPrintPrimes.cpp.o
-[ 11%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/Erat.cpp.o
-[ 15%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/iterator-c.cpp.o
-[ 19%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/EratMedium.cpp.o
-[ 23%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/api.cpp.o
-[ 26%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/IteratorHelper.cpp.o
-[ 30%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/CpuInfo.cpp.o
-[ 34%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/LookupTables.cpp.o
-[ 38%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/EratSmall.cpp.o
-[ 42%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/MemoryPool.cpp.o
-[ 46%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/EratBig.cpp.o
-[ 50%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/nthPrime.cpp.o
-[ 53%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/iterator.cpp.o
-[ 57%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/PrimeSieve.cpp.o
-[ 65%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/PreSieve.cpp.o
-[ 65%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/PrimeGenerator.cpp.o
-[ 69%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/ParallelSieve.cpp.o
-[ 73%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/popcount.cpp.o
+[  7%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/api.cpp.o
+[ 11%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/EratMedium.cpp.o
+[ 15%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/CpuInfo.cpp.o
+[ 19%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/CountPrintPrimes.cpp.o
+[ 23%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/Erat.cpp.o
+[ 26%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/EratSmall.cpp.o
+[ 30%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/LookupTables.cpp.o
+[ 34%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/iterator-c.cpp.o
+[ 38%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/EratBig.cpp.o
+[ 42%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/IteratorHelper.cpp.o
+[ 46%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/iterator.cpp.o
+[ 53%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/MemoryPool.cpp.o
+[ 53%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/nthPrime.cpp.o
+[ 57%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/PrimeGenerator.cpp.o
+[ 61%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/ParallelSieve.cpp.o
+[ 69%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/PrimeSieve.cpp.o
+[ 69%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/popcount.cpp.o
+[ 73%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/PreSieve.cpp.o
 [ 76%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/SievingPrimes.cpp.o
 [ 80%] Linking CXX static library libprimesieve.a
 [ 80%] Built target libprimesieve-static

@@ -1,18 +1,18 @@
 #####
 GVNO2 - Run 1
-2025-01-15 16:27:57
+2025-01-30 13:53:05
 #####
-Problem: ibc128, setup: 311.37 ms, time: 337.59 ns, ``mflops'': 13271
+Problem: ibc128, setup: 309.56 ms, time: 344.70 ns, ``mflops'': 12997
 
 #####
 GVNO2 - Run 2
-2025-01-15 16:28:03
+2025-01-30 13:53:11
 #####
-Problem: ibc128, setup: 309.73 ms, time: 336.46 ns, ``mflops'': 13315
+Problem: ibc128, setup: 306.62 ms, time: 337.49 ns, ``mflops'': 13274
 
 #####
 GVNO2 - Run 3
-2025-01-15 16:28:08
+2025-01-30 13:53:16
 #####
-Problem: ibc128, setup: 310.94 ms, time: 346.62 ns, ``mflops'': 12925
+Problem: ibc128, setup: 308.03 ms, time: 337.62 ns, ``mflops'': 13270
 

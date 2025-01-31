@@ -24,8 +24,7 @@ none /run/credentials/systemd-tmpfiles-setup.service ramfs ro,nosuid,nodev,noexe
 sunrpc /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
 auto.home /home autofs rw,relatime,fd=6,pgrp=1680,timeout=300,minproto=5,maxproto=5,indirect,pipe_ino=1411 0 0
 auto.misc /misc autofs rw,relatime,fd=9,pgrp=1680,timeout=300,minproto=5,maxproto=5,indirect,pipe_ino=27975 0 0
-tmpfs /run/user/61008 tmpfs rw,nosuid,nodev,relatime,size=3259520k,nr_inodes=814880,mode=700,uid=61008,gid=134,inode64 0 0
-maxwell:/export/home/manuel /home/manuel nfs4 rw,nosuid,relatime,vers=4.2,rsize=1048576,wsize=1048576,namlen=255,soft,proto=tcp,timeo=600,retrans=2,sec=sys,clientaddr=146.193.38.134,local_lock=none,addr=146.193.38.4 0 0
 maxwell:/export/home/luxufan /home/luxufan nfs4 rw,nosuid,relatime,vers=4.2,rsize=1048576,wsize=1048576,namlen=255,soft,proto=tcp,timeo=600,retrans=2,sec=sys,clientaddr=146.193.38.134,local_lock=none,addr=146.193.38.4 0 0
 tmpfs /run/user/61011 tmpfs rw,nosuid,nodev,relatime,size=3259520k,nr_inodes=814880,mode=700,uid=61011,gid=134,inode64 0 0
-tmpfs /run/user/0 tmpfs rw,nosuid,nodev,relatime,size=3259520k,nr_inodes=814880,mode=700,inode64 0 0
+tmpfs /run/user/61008 tmpfs rw,nosuid,nodev,relatime,size=3259520k,nr_inodes=814880,mode=700,uid=61008,gid=134,inode64 0 0
+maxwell:/export/home/manuel /home/manuel nfs4 rw,nosuid,relatime,vers=4.2,rsize=1048576,wsize=1048576,namlen=255,soft,proto=tcp,timeo=600,retrans=2,sec=sys,clientaddr=146.193.38.134,local_lock=none,addr=146.193.38.4 0 0

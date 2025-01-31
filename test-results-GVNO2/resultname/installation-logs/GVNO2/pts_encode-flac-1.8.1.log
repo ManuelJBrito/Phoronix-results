@@ -298,8 +298,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       format.lo
   CC       lpc.lo
   CC       lpc_intrin_sse2.lo
-  CC       lpc_intrin_sse41.lo
   CC       lpc_intrin_avx2.lo
+  CC       lpc_intrin_sse41.lo
   CC       lpc_intrin_fma.lo
   CC       lpc_intrin_vsx.lo
   CC       lpc_intrin_neon.lo
@@ -307,8 +307,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       memory.lo
   CC       metadata_iterators.lo
   CC       metadata_object.lo
-  CC       stream_encoder.lo
   CC       stream_decoder.lo
+  CC       stream_encoder.lo
   CC       stream_encoder_intrin_sse2.lo
   CC       stream_encoder_intrin_ssse3.lo
   CC       stream_encoder_intrin_avx2.lo
@@ -330,17 +330,17 @@ make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       grabbag/cuesheet.lo
   CC       grabbag/file.lo
   CC       grabbag/picture.lo
-  CC       grabbag/replaygain.lo
   CC       grabbag/seektable.lo
-  CC       grabbag/snprintf.lo
+  CC       grabbag/replaygain.lo
   CC       utf8/charset.lo
-  CC       utf8/iconvert.lo
+  CC       grabbag/snprintf.lo
   CC       utf8/utf8.lo
   CC       replaygain_analysis/replaygain_analysis.lo
+  CC       utf8/iconvert.lo
   CC       replaygain_synthesis/libreplaygain_synthesis_la-replaygain_synthesis.lo
   CCLD     utf8/libutf8.la
-  CCLD     replaygain_synthesis/libreplaygain_synthesis.la
   CCLD     getopt/libgetopt.la
+  CCLD     replaygain_synthesis/libreplaygain_synthesis.la
   CCLD     replaygain_analysis/libreplaygain_analysis.la
   CCLD     grabbag/libgrabbag.la
 make[3]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO2/pts/encode-flac-1.8.1/flac-1.4.2/src/share'
@@ -358,16 +358,16 @@ make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
 make[3]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO2/pts/encode-flac-1.8.1/flac-1.4.2/src/flac'
 Making all in metaflac
 make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO2/pts/encode-flac-1.8.1/flac-1.4.2/src/metaflac'
-  CC       operations.o
   CC       main.o
-  CC       operations_shorthand_picture.o
+  CC       operations.o
   CC       operations_shorthand_cuesheet.o
-  CC       operations_shorthand_streaminfo.o
+  CC       operations_shorthand_picture.o
   CC       operations_shorthand_seektable.o
+  CC       operations_shorthand_streaminfo.o
   CC       operations_shorthand_vorbiscomment.o
   CC       options.o
-  CC       utils.o
   CC       usage.o
+  CC       utils.o
   CCLD     metaflac
 make[3]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO2/pts/encode-flac-1.8.1/flac-1.4.2/src/metaflac'
 Making all in test_grabbag

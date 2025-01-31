@@ -1,3 +1,4 @@
+nfsv3 86016 0 - Live 0x0000000000000000
 tls 159744 0 - Live 0x0000000000000000
 nvidia_drm 86016 0 - Live 0x0000000000000000 (POE)
 nvidia_modeset 1212416 1 nvidia_drm, Live 0x0000000000000000 (POE)
@@ -7,7 +8,7 @@ video 77824 1 nvidia_modeset, Live 0x0000000000000000
 rpcsec_gss_krb5 40960 0 - Live 0x0000000000000000
 nfsv4 1298432 1 - Live 0x0000000000000000
 dns_resolver 20480 1 nfsv4, Live 0x0000000000000000
-nfs 634880 2 nfsv4, Live 0x0000000000000000
+nfs 634880 3 nfsv3,nfsv4, Live 0x0000000000000000
 fscache 409600 1 nfs, Live 0x0000000000000000
 netfs 65536 2 nfs,fscache, Live 0x0000000000000000
 rpcrdma 442368 2 - Live 0x0000000000000000
@@ -58,10 +59,10 @@ soundcore 16384 1 snd, Live 0x0000000000000000
 lpc_ich 24576 0 - Live 0x0000000000000000
 nfsd 983040 5 - Live 0x0000000000000000
 auth_rpcgss 196608 2 rpcsec_gss_krb5,nfsd, Live 0x0000000000000000
-nfs_acl 12288 1 nfsd, Live 0x0000000000000000
-lockd 196608 2 nfs,nfsd, Live 0x0000000000000000
+nfs_acl 12288 2 nfsv3,nfsd, Live 0x0000000000000000
+lockd 196608 3 nfsv3,nfs,nfsd, Live 0x0000000000000000
 grace 12288 2 nfsd,lockd, Live 0x0000000000000000
-sunrpc 888832 26 rpcsec_gss_krb5,nfsv4,nfs,rpcrdma,nfsd,auth_rpcgss,nfs_acl,lockd, Live 0x0000000000000000
+sunrpc 888832 27 nfsv3,rpcsec_gss_krb5,nfsv4,nfs,rpcrdma,nfsd,auth_rpcgss,nfs_acl,lockd, Live 0x0000000000000000
 dm_mod 245760 0 - Live 0x0000000000000000
 xfs 2682880 1 - Live 0x0000000000000000
 libcrc32c 12288 1 xfs, Live 0x0000000000000000
