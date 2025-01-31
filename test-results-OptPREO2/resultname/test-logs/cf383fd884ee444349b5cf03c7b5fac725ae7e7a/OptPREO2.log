@@ -1,0 +1,78 @@
+#####
+OptPREO2 - Run 1
+2025-01-29 16:49:44
+#####
+Parallel BZIP2 v1.1.13 [Dec 18, 2015]
+By: Jeff Gilchrist [http://compression.ca]
+Major contributions: Yavor Nikolov [http://javornikolov.wordpress.com]
+Uses libbzip2 by Julian Seward
+
+         # CPUs: 24
+ BWT Block Size: 500 KB
+File Block Size: 900 KB
+ Maximum Memory: 100 MB
+-------------------------------------------
+         File #: 1 of 1
+     Input Name: ../FreeBSD-13.0-RELEASE-amd64-memstick.img
+    Output Name: <stdout>
+
+     Input Size: 1090900480 bytes
+*Warning* Max memory limit increased to 3272 MB to support 24 CPUs
+Compressing data...
+Completed: 4%             Completed: 8%             Completed: 12%             Completed: 16%             Completed: 20%             Completed: 24%             Completed: 29%             Completed: 33%             Completed: 37%             Completed: 41%             Completed: 45%             Completed: 49%             Completed: 54%             Completed: 58%             Completed: 62%             Completed: 66%             Completed: 70%             Completed: 74%             Completed: 79%             Completed: 83%             Completed: 87%             Completed: 91%             Completed: 95%             Completed: 99%             Completed: 100%                 Output Size: 728266111 bytes
+Completed: 100%             -------------------------------------------
+
+     Wall Clock: 271.729346 seconds
+
+#####
+OptPREO2 - Run 2
+2025-01-29 16:54:19
+#####
+Parallel BZIP2 v1.1.13 [Dec 18, 2015]
+By: Jeff Gilchrist [http://compression.ca]
+Major contributions: Yavor Nikolov [http://javornikolov.wordpress.com]
+Uses libbzip2 by Julian Seward
+
+         # CPUs: 24
+ BWT Block Size: 500 KB
+File Block Size: 900 KB
+ Maximum Memory: 100 MB
+-------------------------------------------
+         File #: 1 of 1
+     Input Name: ../FreeBSD-13.0-RELEASE-amd64-memstick.img
+    Output Name: <stdout>
+
+     Input Size: 1090900480 bytes
+*Warning* Max memory limit increased to 3272 MB to support 24 CPUs
+Compressing data...
+Completed: 4%             Completed: 8%             Completed: 12%             Completed: 16%             Completed: 20%             Completed: 24%             Completed: 29%             Completed: 33%             Completed: 37%             Completed: 41%             Completed: 45%             Completed: 49%             Completed: 54%             Completed: 58%             Completed: 62%             Completed: 66%             Completed: 70%             Completed: 74%             Completed: 79%             Completed: 83%             Completed: 87%             Completed: 91%             Completed: 95%             Completed: 99%             Completed: 100%                 Output Size: 728266111 bytes
+Completed: 100%             -------------------------------------------
+
+     Wall Clock: 270.186870 seconds
+
+#####
+OptPREO2 - Run 3
+2025-01-29 16:58:52
+#####
+Parallel BZIP2 v1.1.13 [Dec 18, 2015]
+By: Jeff Gilchrist [http://compression.ca]
+Major contributions: Yavor Nikolov [http://javornikolov.wordpress.com]
+Uses libbzip2 by Julian Seward
+
+         # CPUs: 24
+ BWT Block Size: 500 KB
+File Block Size: 900 KB
+ Maximum Memory: 100 MB
+-------------------------------------------
+         File #: 1 of 1
+     Input Name: ../FreeBSD-13.0-RELEASE-amd64-memstick.img
+    Output Name: <stdout>
+
+     Input Size: 1090900480 bytes
+*Warning* Max memory limit increased to 3272 MB to support 24 CPUs
+Compressing data...
+Completed: 4%             Completed: 8%             Completed: 12%             Completed: 16%             Completed: 20%             Completed: 24%             Completed: 29%             Completed: 33%             Completed: 37%             Completed: 41%             Completed: 45%             Completed: 49%             Completed: 54%             Completed: 58%             Completed: 62%             Completed: 66%             Completed: 70%             Completed: 74%             Completed: 79%             Completed: 83%             Completed: 87%             Completed: 91%             Completed: 95%             Completed: 99%             Completed: 100%                 Output Size: 728266111 bytes
+Completed: 100%             -------------------------------------------
+
+     Wall Clock: 270.936526 seconds
+

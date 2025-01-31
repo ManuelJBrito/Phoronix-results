@@ -1,0 +1,18 @@
+#####
+OptPREO2 - Run 1
+2025-01-29 14:07:10
+#####
+Results: 1 threads 9 iter 66.08s user 66.280645s total 0.136 iter/s 0.136 iter/cpu
+
+#####
+OptPREO2 - Run 2
+2025-01-29 14:08:18
+#####
+Results: 1 threads 9 iter 63.72s user 63.921970s total 0.141 iter/s 0.141 iter/cpu
+
+#####
+OptPREO2 - Run 3
+2025-01-29 14:09:24
+#####
+Results: 1 threads 9 iter 63.67s user 63.864129s total 0.141 iter/s 0.141 iter/cpu
+

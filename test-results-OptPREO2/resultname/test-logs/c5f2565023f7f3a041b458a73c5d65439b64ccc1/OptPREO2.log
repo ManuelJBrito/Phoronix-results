@@ -1,0 +1,18 @@
+#####
+OptPREO2 - Run 1
+2025-01-29 13:10:04
+#####
+Problem: ibc4096x4096, setup: 242.57 s, time: 735.76 ms, ``mflops'': 2736.3
+
+#####
+OptPREO2 - Run 2
+2025-01-29 13:15:30
+#####
+Problem: ibc4096x4096, setup: 249.36 s, time: 721.00 ms, ``mflops'': 2792.3
+
+#####
+OptPREO2 - Run 3
+2025-01-29 13:20:51
+#####
+Problem: ibc4096x4096, setup: 243.93 s, time: 734.00 ms, ``mflops'': 2742.9
+

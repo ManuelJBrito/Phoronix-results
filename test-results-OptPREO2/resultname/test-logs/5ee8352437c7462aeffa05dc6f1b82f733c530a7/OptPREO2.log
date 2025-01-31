@@ -1,0 +1,57 @@
+#####
+OptPREO2 - Run 1
+2025-01-29 14:53:54
+#####
+Doing sha512 for 30s on 16 size blocks: 47082505 sha512's in 29.92s
+Doing sha512 for 30s on 64 size blocks: 47306906 sha512's in 29.92s
+Doing sha512 for 30s on 256 size blocks: 20439439 sha512's in 29.92s
+Doing sha512 for 30s on 1024 size blocks: 7701370 sha512's in 29.93s
+Doing sha512 for 30s on 8192 size blocks: 1131551 sha512's in 29.92s
+Doing sha512 for 30s on 16384 size blocks: 570468 sha512's in 29.92s
+version: 3.1.0
+built on: Wed Jan 29 13:37:00 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O2 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha512           25177.81k   101191.24k   174882.90k   263488.24k   309815.03k   312384.62k
+
+#####
+OptPREO2 - Run 2
+2025-01-29 14:56:58
+#####
+Doing sha512 for 30s on 16 size blocks: 47353245 sha512's in 29.92s
+Doing sha512 for 30s on 64 size blocks: 47273685 sha512's in 29.92s
+Doing sha512 for 30s on 256 size blocks: 20499516 sha512's in 29.92s
+Doing sha512 for 30s on 1024 size blocks: 7703207 sha512's in 29.92s
+Doing sha512 for 30s on 8192 size blocks: 1127133 sha512's in 29.92s
+Doing sha512 for 30s on 16384 size blocks: 571470 sha512's in 29.92s
+version: 3.1.0
+built on: Wed Jan 29 13:37:00 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O2 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha512           25322.59k   101120.18k   175396.93k   263639.17k   308605.40k   312933.30k
+
+#####
+OptPREO2 - Run 3
+2025-01-29 15:00:00
+#####
+Doing sha512 for 30s on 16 size blocks: 47579061 sha512's in 29.92s
+Doing sha512 for 30s on 64 size blocks: 47389076 sha512's in 29.92s
+Doing sha512 for 30s on 256 size blocks: 20579004 sha512's in 29.93s
+Doing sha512 for 30s on 1024 size blocks: 7708501 sha512's in 29.92s
+Doing sha512 for 30s on 8192 size blocks: 1132626 sha512's in 29.92s
+Doing sha512 for 30s on 16384 size blocks: 573512 sha512's in 29.92s
+version: 3.1.0
+built on: Wed Jan 29 13:37:00 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O2 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha512           25443.35k   101367.01k   176018.21k   263820.36k   310109.36k   314051.49k
+

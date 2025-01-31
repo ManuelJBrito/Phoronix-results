@@ -1,0 +1,2555 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>$result_name</Title>
+    <LastModified>2025-01-29 23:19:52</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.4</TestClient>
+    <Description>2 x Intel Xeon E5-2620 v2 testing with a ASUS Z9PE-D8 WS (5503 BIOS) and ASPEED on CentOS Stream 9 via the Phoronix Test Suite.</Description>
+    <Notes></Notes>
+    <InternalTags></InternalTags>
+    <ReferenceID></ReferenceID>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>OptPREO2</Identifier>
+    <Hardware>Processor: 2 x Intel Xeon E5-2620 v2 @ 2.60GHz (12 Cores / 24 Threads), Motherboard: ASUS Z9PE-D8 WS (5503 BIOS), Chipset: Intel Xeon E7 v2/Xeon, Memory: 32GB, Disk: 256GB Samsung SSD 850 + 2000GB Western Digital WD20EARX-00P, Graphics: ASPEED, Audio: Realtek ALC898, Network: 2 x Intel 82574L</Hardware>
+    <Software>OS: CentOS Stream 9, Kernel: 5.14.0-547.el9.x86_64 (x86_64), Display Server: X Server, Display Driver: NVIDIA, Compiler: GCC 11.5.0 20240719 + PGI Compiler 16.10-0 + LLVM 3.1 + CUDA 11.2, File-System: ext4, Screen Resolution: 1024x768</Software>
+    <User></User>
+    <TimeStamp>2025-01-29 12:50:49</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_cpufreq conservative","cpu-microcode":"0x42e","kernel-extra-details":"Transparent Huge Pages: always","environment-variables":"FLAGS=\"-O2 -mllvm -enable-newgvn\" CXXFLAGS=\"-O2 -mllvm -enable-newgvn\" CFLAGS=\"-O2 -mllvm -enable-newgvn\"","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT vulnerable + mds: Mitigation of Clear buffers; SMT vulnerable + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; STIBP: conditional; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc32</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>4965.9</Value>
+        <RawString>4935.9:5033.5:4928.4</RawString>
+        <JSON>{"test-run-times":"4.44:2.24:2.29"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>137</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>128564</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>128568</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>128572</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc64</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>4847.5</Value>
+        <RawString>4919:4899.5:4724</RawString>
+        <JSON>{"test-run-times":"2.74:2.79:2.81"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc128</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>4385.5</Value>
+        <RawString>4387.3:4384.7:4384.5</RawString>
+        <JSON>{"test-run-times":"3.70:3.67:3.65"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc256</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>4294.2</Value>
+        <RawString>4291.5:4300.1:4291.1</RawString>
+        <JSON>{"test-run-times":"4.45:4.43:4.44"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc512</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>4390.5</Value>
+        <RawString>4386.5:4412.4:4372.7</RawString>
+        <JSON>{"test-run-times":"3.00:2.98:3.03"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc1024</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>4281.5</Value>
+        <RawString>4285.8:4283.4:4275.4</RawString>
+        <JSON>{"test-run-times":"3.79:3.80:3.80"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc2048</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>4045.6</Value>
+        <RawString>4053.4:4038.1:4045.4</RawString>
+        <JSON>{"test-run-times":"5.05:5.05:5.05"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc4096</Arguments>
+    <Description>Build: Stock - Size: 1D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>3953.8</Value>
+        <RawString>3953.9:3953.7:3953.9</RawString>
+        <JSON>{"test-run-times":"6.85:6.84:6.85"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc32x32</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>5203.0</Value>
+        <RawString>5200.2:5220.4:5188.4</RawString>
+        <JSON>{"test-run-times":"2.21:2.19:2.22"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc64x64</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>4357.3</Value>
+        <RawString>4341.3:4360.3:4370.3</RawString>
+        <JSON>{"test-run-times":"3.24:3.23:3.25"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc128x128</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>3831.1</Value>
+        <RawString>3824.5:3847.4:3821.5</RawString>
+        <JSON>{"test-run-times":"4.55:4.54:4.61"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc256x256</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>3683.3</Value>
+        <RawString>3671.8:3688.9:3689.2</RawString>
+        <JSON>{"test-run-times":"3.82:3.78:3.78"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc512x512</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>3794.1</Value>
+        <RawString>3829.7:3810.2:3742.5</RawString>
+        <JSON>{"test-run-times":"5.22:5.26:5.26"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc1024x1024</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>3078.6</Value>
+        <RawString>3054.3:3093.6:3087.9</RawString>
+        <JSON>{"test-run-times":"25.92:25.95:25.95"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc2048x2048</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>2726.1</Value>
+        <RawString>2737.7:2739.7:2701</RawString>
+        <JSON>{"test-run-times":"107.67:107.82:107.88"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-stock/tests/bench  --time-repeat 100 -opatient ibc4096x4096</Arguments>
+    <Description>Build: Stock - Size: 2D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>2757.2</Value>
+        <RawString>2736.3:2792.3:2742.9</RawString>
+        <JSON>{"test-run-times":"317.01:322.31:318.12"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc32</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>7331.4</Value>
+        <RawString>7419.3:7341.9:7233.1</RawString>
+        <JSON>{"test-run-times":"2.99:3.00:3.07"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc64</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>10433</Value>
+        <RawString>10289:10507:10502</RawString>
+        <JSON>{"test-run-times":"2.70:2.62:2.60"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc128</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>13106</Value>
+        <RawString>13077:13011:13230</RawString>
+        <JSON>{"test-run-times":"2.61:2.63:2.58"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc256</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>14120</Value>
+        <RawString>14344:14062:13955</RawString>
+        <JSON>{"test-run-times":"3.03:3.08:3.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc512</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>15444</Value>
+        <RawString>15574:15295:15464</RawString>
+        <JSON>{"test-run-times":"3.69:3.70:3.67"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc1024</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>16085</Value>
+        <RawString>16164:16082:16010</RawString>
+        <JSON>{"test-run-times":"4.54:4.57:4.55"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc2048</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>15556</Value>
+        <RawString>15515:15663:15489</RawString>
+        <JSON>{"test-run-times":"6.05:6.03:6.06"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc4096</Arguments>
+    <Description>Build: Float + SSE - Size: 1D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>14245</Value>
+        <RawString>14074:14296:14366</RawString>
+        <JSON>{"test-run-times":"8.55:8.47:8.41"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc32x32</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 32</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>16375</Value>
+        <RawString>16394:16410:16320</RawString>
+        <JSON>{"test-run-times":"2.81:2.80:2.80"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc64x64</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 64</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>16000</Value>
+        <RawString>16080:15981:15940</RawString>
+        <JSON>{"test-run-times":"3.54:3.53:3.54"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc128x128</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 128</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>11690</Value>
+        <RawString>11471:11804:11796</RawString>
+        <JSON>{"test-run-times":"3.43:3.35:3.34"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc256x256</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 256</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>11531</Value>
+        <RawString>11510:11447:11635</RawString>
+        <JSON>{"test-run-times":"5.13:5.15:5.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc512x512</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 512</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>11841</Value>
+        <RawString>11637:11924:11962</RawString>
+        <JSON>{"test-run-times":"7.33:7.24:7.20"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc1024x1024</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 1024</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>12228</Value>
+        <RawString>12288:12324:12073</RawString>
+        <JSON>{"test-run-times":"24.55:24.60:24.67"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc2048x2048</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 2048</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>6924.9</Value>
+        <RawString>6889.6:6883:7002.1</RawString>
+        <JSON>{"test-run-times":"150.67:150.69:150.69"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/fftw-1.2.0</Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>fftw-mr/tests/bench  --time-repeat 100 -opatient ibc4096x4096</Arguments>
+    <Description>Build: Float + SSE - Size: 2D FFT Size 4096</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>6680.4</Value>
+        <RawString>6700.2:6702.8:6638.3</RawString>
+        <JSON>{"test-run-times":"399.72:397.70:396.51"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>Operation: HWB Color Space</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>92</Value>
+        <RawString>91:93:93</RawString>
+        <JSON>{"test-run-times":"61.98:60.57:60.47"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>84</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>127420</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-operator all Noise-Gaussian 30%</Arguments>
+    <Description>Operation: Noise-Gaussian</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>13</Value>
+        <RawString>13:13:13</RawString>
+        <JSON>{"test-run-times":"61.26:60.41:64.79"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-enhance</Arguments>
+    <Description>Operation: Enhanced</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>9</Value>
+        <RawString>9:9:9</RawString>
+        <JSON>{"test-run-times":"66.30:63.94:63.89"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Operation: Resizing</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>63</Value>
+        <RawString>63:63:63</RawString>
+        <JSON>{"test-run-times":"60.22:60.31:60.12"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-rotate 90</Arguments>
+    <Description>Operation: Rotate</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>460</Value>
+        <RawString>459:460:460</RawString>
+        <JSON>{"test-run-times":"60.10:60.09:60.14"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-sharpen 0x2.0</Arguments>
+    <Description>Operation: Sharpen</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>10</Value>
+        <RawString>10:10:10</RawString>
+        <JSON>{"test-run-times":"66.47:66.52:66.47"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-2.1.0</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>-swirl 90</Arguments>
+    <Description>Operation: Swirl</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>21</Value>
+        <RawString>21:21:21</RawString>
+        <JSON>{"test-run-times":"60.18:60.45:60.35"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_COMPOSITE</Arguments>
+    <Description>Test: Composite</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>791.31</Value>
+        <RawString>787.53:791.3:795.09</RawString>
+        <JSON>{"test-run-times":"33.94:31.84:31.72"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>17</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>11080</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>11092</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_FFT</Arguments>
+    <Description>Test: Fast Fourier Transform</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>225.65</Value>
+        <RawString>225.32:225.29:226.33</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_SOR</Arguments>
+    <Description>Test: Jacobi Successive Over-Relaxation</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1100.31</Value>
+        <RawString>1097.81:1098.82:1104.29</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_MONTE</Arguments>
+    <Description>Test: Monte Carlo</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>299.69</Value>
+        <RawString>298.69:301.03:299.34</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_SPARSE</Arguments>
+    <Description>Test: Sparse Matrix Multiply</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>785.88</Value>
+        <RawString>786.53:781.92:789.18</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/luajit-1.1.0</Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>TEST_DENSE</Arguments>
+    <Description>Test: Dense LU Matrix Factorization</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1545.01</Value>
+        <RawString>1529.27:1549.45:1556.3</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/tjbench-1.2.0</Identifier>
+    <Title>libjpeg-turbo tjbench</Title>
+    <AppVersion>2.1.0</AppVersion>
+    <Arguments>decompression-throughput</Arguments>
+    <Description>Test: Decompression Throughput</Description>
+    <Scale>Megapixels/sec</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>96.996643</Value>
+        <RawString>96.373677:97.27323:97.343021</RawString>
+        <JSON>{"test-run-times":"27.21:25.33:25.31"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>libjpeg-turbo tjbench</Title>
+    <AppVersion>2.1.0</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>21</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>libjpeg-turbo tjbench</Title>
+    <AppVersion>2.1.0</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>50012</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>large_random</Arguments>
+    <Description>Throughput Test: LargeRandom</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>0.43</Value>
+        <RawString>0.43:0.43:0.43</RawString>
+        <JSON>{"test-run-times":"66.87:64.91:64.95"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>149</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>167740</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/aircrack-ng-1.3.0</Identifier>
+    <Title>Aircrack-ng</Title>
+    <AppVersion>1.7</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>k/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>994.747</Value>
+        <RawString>993.756:994.821:995.665</RawString>
+        <JSON>{"test-run-times":"32.13:30.19:30.06"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Aircrack-ng</Title>
+    <AppVersion>1.7</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>44</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Aircrack-ng</Title>
+    <AppVersion>1.7</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>40096</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>rsa4096</Arguments>
+    <Description>Algorithm: RSA4096</Description>
+    <Scale>sign/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>101.1</Value>
+        <RawString>99.5:101.9:101.8</RawString>
+        <JSON>{"test-run-times":"62.02:60.04:60.05"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>rsa4096</Arguments>
+    <Description>Algorithm: RSA4096</Description>
+    <Scale>verify/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>6622.1</Value>
+        <RawString>6620.4:6621.7:6624.1</RawString>
+        <JSON>{"test-run-times":"62.02:60.04:60.05"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>98</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>458628</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>sha256</Arguments>
+    <Description>Algorithm: SHA256</Description>
+    <Scale>byte/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>170590787</Value>
+        <RawString>170321370:171107760:170343230</RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>sha512</Arguments>
+    <Description>Algorithm: SHA512</Description>
+    <Scale>byte/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>175432680</Value>
+        <RawString>174882900:175396930:176018210</RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>-evp aes-128-gcm</Arguments>
+    <Description>Algorithm: AES-128-GCM</Description>
+    <Scale></Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02","error":"The test run did not produce a result."}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>-evp aes-256-gcm</Arguments>
+    <Description>Algorithm: AES-256-GCM</Description>
+    <Scale></Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02","error":"The test run did not produce a result."}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>-evp chacha20</Arguments>
+    <Description>Algorithm: ChaCha20</Description>
+    <Scale></Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02","error":"The test run did not produce a result."}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-3.1.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>-evp chacha20-poly1305</Arguments>
+    <Description>Algorithm: ChaCha20-Poly1305</Description>
+    <Scale></Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02","error":"The test run did not produce a result."}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>AES-256</Arguments>
+    <Description>Test: AES-256</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1252.933</Value>
+        <RawString>1236.888:1261.537:1260.374</RawString>
+        <JSON>{"test-run-times":"33.48:31.56:31.60"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>AES-256</Arguments>
+    <Description>Test: AES-256 - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1263.577</Value>
+        <RawString>1257.846:1261.976:1270.909</RawString>
+        <JSON>{"test-run-times":"33.48:31.56:31.60"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>106</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>100880</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Blowfish</Arguments>
+    <Description>Test: Blowfish</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>188.976</Value>
+        <RawString>189.232:189.578:188.119</RawString>
+        <JSON>{"test-run-times":"30.26:30.26:30.26"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Blowfish</Arguments>
+    <Description>Test: Blowfish - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>191.130</Value>
+        <RawString>191.463:190.599:191.329</RawString>
+        <JSON>{"test-run-times":"30.26:30.26:30.26"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>CAST-256</Arguments>
+    <Description>Test: CAST-256</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>71.841</Value>
+        <RawString>71.593:72.083:71.848</RawString>
+        <JSON>{"test-run-times":"30.12:30.12:30.11"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>CAST-256</Arguments>
+    <Description>Test: CAST-256 - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>72.939</Value>
+        <RawString>72.834:72.62:73.364</RawString>
+        <JSON>{"test-run-times":"30.12:30.12:30.11"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>KASUMI</Arguments>
+    <Description>Test: KASUMI</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>55.232</Value>
+        <RawString>55.141:55.385:55.17</RawString>
+        <JSON>{"test-run-times":"30.10:30.09:30.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>KASUMI</Arguments>
+    <Description>Test: KASUMI - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>53.074</Value>
+        <RawString>53.107:53.181:52.934</RawString>
+        <JSON>{"test-run-times":"30.10:30.09:30.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Twofish</Arguments>
+    <Description>Test: Twofish</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>180.096</Value>
+        <RawString>180.61:179.348:180.33</RawString>
+        <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>Twofish</Arguments>
+    <Description>Test: Twofish - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>186.587</Value>
+        <RawString>186.568:187.038:186.156</RawString>
+        <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>ChaCha20Poly1305</Arguments>
+    <Description>Test: ChaCha20Poly1305</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>326.745</Value>
+        <RawString>326.384:326.393:327.459</RawString>
+        <JSON>{"test-run-times":"30.37:30.35:30.27"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/botan-1.6.0</Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>ChaCha20Poly1305</Arguments>
+    <Description>Test: ChaCha20Poly1305 - Decrypt</Description>
+    <Scale>MiB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>323.627</Value>
+        <RawString>324.129:323.862:322.891</RawString>
+        <JSON>{"test-run-times":"30.37:30.35:30.27"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sqlite-speedtest-1.0.1</Identifier>
+    <Title>SQLite Speedtest</Title>
+    <AppVersion>3.30</AppVersion>
+    <Arguments></Arguments>
+    <Description>Timed Time - Size 1,000</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>145.262</Value>
+        <RawString>145.65:144.955:145.18</RawString>
+        <JSON>{"test-run-times":"147.66:145.00:145.23"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>SQLite Speedtest</Title>
+    <AppVersion>3.30</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>68</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>SQLite Speedtest</Title>
+    <AppVersion>3.30</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>136152</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/encode-flac-1.8.1</Identifier>
+    <Title>FLAC Audio Encoding</Title>
+    <AppVersion>1.4</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.96:0.01:0.01:0.01:0.01","error":"The test run did not produce a result."}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>FLAC Audio Encoding</Title>
+    <AppVersion>1.4</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>41</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>FLAC Audio Encoding</Title>
+    <AppVersion>1.4</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>2440</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/draco-1.6.1</Identifier>
+    <Title>Google Draco</Title>
+    <AppVersion>1.5.6</AppVersion>
+    <Arguments>-i church.ply</Arguments>
+    <Description>Model: Church Facade</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>12846</Value>
+        <RawString>12870:12900:12769</RawString>
+        <JSON>{"test-run-times":"17.59:15.62:15.56"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Google Draco</Title>
+    <AppVersion>1.5.6</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>43</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Google Draco</Title>
+    <AppVersion>1.5.6</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>469372</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>468732</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/draco-1.6.1</Identifier>
+    <Title>Google Draco</Title>
+    <AppVersion>1.5.6</AppVersion>
+    <Arguments>-i lion.ply</Arguments>
+    <Description>Model: Lion</Description>
+    <Scale>ms</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>9642</Value>
+        <RawString>9625:9699:9601</RawString>
+        <JSON>{"test-run-times":"12.43:12.50:12.36"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3</Arguments>
+    <Description>Compression Level: 3 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>136.5</Value>
+        <RawString>137.8:135.9:135.9</RawString>
+        <JSON>{"test-run-times":"67.45:65.48:65.46"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3</Arguments>
+    <Description>Compression Level: 3 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>502.7</Value>
+        <RawString>503.4:501.9:502.8</RawString>
+        <JSON>{"test-run-times":"67.45:65.48:65.46"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>21</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>228480</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3 --long</Arguments>
+    <Description>Compression Level: 3, Long Mode - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>111.8</Value>
+        <RawString>111.8:111.9:111.8</RawString>
+        <JSON>{"test-run-times":"64.00:63.88:63.98"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3 --long</Arguments>
+    <Description>Compression Level: 3, Long Mode - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>508.4</Value>
+        <RawString>508.6:508.9:507.6</RawString>
+        <JSON>{"test-run-times":"64.00:63.88:63.98"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8</Arguments>
+    <Description>Compression Level: 8 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>41.7</Value>
+        <RawString>41.6:41.6:41.9</RawString>
+        <JSON>{"test-run-times":"64.13:64.00:64.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8</Arguments>
+    <Description>Compression Level: 8 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>501.7</Value>
+        <RawString>522.7:459.5:523</RawString>
+        <JSON>{"test-run-times":"64.13:64.00:64.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8 --long</Arguments>
+    <Description>Compression Level: 8, Long Mode - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>40.3</Value>
+        <RawString>40.3:40.3:40.3</RawString>
+        <JSON>{"test-run-times":"64.11:64.11:64.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8 --long</Arguments>
+    <Description>Compression Level: 8, Long Mode - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>518.5</Value>
+        <RawString>517.9:518.6:519</RawString>
+        <JSON>{"test-run-times":"64.11:64.11:64.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b12</Arguments>
+    <Description>Compression Level: 12 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>17.5</Value>
+        <RawString>17.5:17.6:17.5</RawString>
+        <JSON>{"test-run-times":"69.65:69.56:69.64"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b12</Arguments>
+    <Description>Compression Level: 12 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>503.9</Value>
+        <RawString>503.4:503.9:504.4</RawString>
+        <JSON>{"test-run-times":"69.65:69.56:69.64"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19</Arguments>
+    <Description>Compression Level: 19 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>2.07</Value>
+        <RawString>2.08:2.07:2.06</RawString>
+        <JSON>{"test-run-times":"135.31:135.62:135.89"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19</Arguments>
+    <Description>Compression Level: 19 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>461.8</Value>
+        <RawString>461.9:462:461.6</RawString>
+        <JSON>{"test-run-times":"135.31:135.62:135.89"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19 --long</Arguments>
+    <Description>Compression Level: 19, Long Mode - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1.96</Value>
+        <RawString>1.97:1.96:1.96</RawString>
+        <JSON>{"test-run-times":"140.56:140.65:140.82"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19 --long</Arguments>
+    <Description>Compression Level: 19, Long Mode - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>445.1</Value>
+        <RawString>444.3:445.5:445.4</RawString>
+        <JSON>{"test-run-times":"140.56:140.65:140.82"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-pbzip2-1.6.1</Identifier>
+    <Title>Parallel BZIP2 Compression</Title>
+    <AppVersion>1.1.13</AppVersion>
+    <Arguments></Arguments>
+    <Description>FreeBSD-13.0-RELEASE-amd64-memstick.img Compression</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>270.950914</Value>
+        <RawString>271.729346:270.18687:270.936526</RawString>
+        <JSON>{"test-run-times":"273.64:270.20:270.95"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Parallel BZIP2 Compression</Title>
+    <AppVersion>1.1.13</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>16</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Parallel BZIP2 Compression</Title>
+    <AppVersion>1.1.13</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1071620</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/espeak-1.7.0</Identifier>
+    <Title>eSpeak-NG Speech Engine</Title>
+    <AppVersion>1.51</AppVersion>
+    <Arguments></Arguments>
+    <Description>Text-To-Speech Synthesis</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>67.051</Value>
+        <RawString>62.822:64.532:72.962:64.286:74.187:67.504:61.365:68.322:65.814:69.341:67.829:61.925:68.049:66.25:70.135:67.549:62.584:64.017:74.664:66.876</RawString>
+        <JSON>{"test-run-times":"62.82:64.53:72.96:64.29:74.19:67.50:61.36:68.32:65.81:69.34:67.83:61.92:68.05:66.25:70.14:67.55:62.58:64.02:74.66:66.88"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>eSpeak-NG Speech Engine</Title>
+    <AppVersion>1.51</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>109</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>eSpeak-NG Speech Engine</Title>
+    <AppVersion>1.51</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1616532</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/rnnoise-1.0.2</Identifier>
+    <Title>RNNoise</Title>
+    <AppVersion>2020-06-28</AppVersion>
+    <Arguments></Arguments>
+    <Description></Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>38.794</Value>
+        <RawString>39.42:38.27:38.691</RawString>
+        <JSON>{"test-run-times":"39.42:38.27:38.69"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>RNNoise</Title>
+    <AppVersion>2020-06-28</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>38</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>RNNoise</Title>
+    <AppVersion>2020-06-28</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>248620</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ngspice-1.0.0</Identifier>
+    <Title>Ngspice</Title>
+    <AppVersion>34</AppVersion>
+    <Arguments>~/iscas85Circuits/85/c2670/c2670_ann.net</Arguments>
+    <Description>Circuit: C2670</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>213.199</Value>
+        <RawString>216.774:212.68:210.142</RawString>
+        <JSON>{"test-run-times":"221.07:214.85:212.30"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Ngspice</Title>
+    <AppVersion>34</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>187</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Ngspice</Title>
+    <AppVersion>34</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>158052</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ngspice-1.0.0</Identifier>
+    <Title>Ngspice</Title>
+    <AppVersion>34</AppVersion>
+    <Arguments>~/iscas85Circuits/85/c7552p/c7552_ann.net</Arguments>
+    <Description>Circuit: C7552</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>173.095</Value>
+        <RawString>172.337:173.022:173.927</RawString>
+        <JSON>{"test-run-times":"177.08:177.81:178.67"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/z3-1.0.1</Identifier>
+    <Title>Z3 Theorem Prover</Title>
+    <AppVersion>4.12.1</AppVersion>
+    <Arguments>1.smt2</Arguments>
+    <Description>SMT File: 1.smt2</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"1.90:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/z3-z3-4.12.1\/build\/z3: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Z3 Theorem Prover</Title>
+    <AppVersion>4.12.1</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>117</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Z3 Theorem Prover</Title>
+    <AppVersion>4.12.1</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>73740</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/z3-1.0.1</Identifier>
+    <Title>Z3 Theorem Prover</Title>
+    <AppVersion>4.12.1</AppVersion>
+    <Arguments>2.smt2</Arguments>
+    <Description>SMT File: 2.smt2</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/z3-z3-4.12.1\/build\/z3: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/primesieve-1.9.0</Identifier>
+    <Title>Primesieve</Title>
+    <AppVersion>8.0</AppVersion>
+    <Arguments>1e12</Arguments>
+    <Description>Length: 1e12</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>476.004</Value>
+        <RawString>475.167:476.935:475.91</RawString>
+        <JSON>{"test-run-times":"477.13:476.96:475.93"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Primesieve</Title>
+    <AppVersion>8.0</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>15</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Primesieve</Title>
+    <AppVersion>8.0</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>3272</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/primesieve-1.9.0</Identifier>
+    <Title>Primesieve</Title>
+    <AppVersion>8.0</AppVersion>
+    <Arguments>1e13</Arguments>
+    <Description>Length: 1e13</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>5904.604</Value>
+        <RawString>5909.103:5903.192:5901.518</RawString>
+        <JSON>{"test-run-times":"5909.12:5903.21:5901.54"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/mafft-1.6.2</Identifier>
+    <Title>Timed MAFFT Alignment</Title>
+    <AppVersion>7.471</AppVersion>
+    <Arguments></Arguments>
+    <Description>Multiple Sequence Alignment - LSU RNA</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>36.366</Value>
+        <RawString>37.956:35.926:35.997:36.03:35.922</RawString>
+        <JSON>{"test-run-times":"37.96:35.93:36.00:36.03:35.92"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Timed MAFFT Alignment</Title>
+    <AppVersion>7.471</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>12</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Timed MAFFT Alignment</Title>
+    <AppVersion>7.471</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>14320</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_COMPOSITE</Arguments>
+    <Description>Computational Test: Composite</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1294.64</Value>
+        <RawString>1294.26:1294.61:1295.05</RawString>
+        <JSON>{"test-run-times":"31.54:29.49:29.45"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>4</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>236</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>248</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_FFT</Arguments>
+    <Description>Computational Test: Fast Fourier Transform</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>258.10</Value>
+        <RawString>258.12:258.01:258.16</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_SOR</Arguments>
+    <Description>Computational Test: Jacobi Successive Over-Relaxation</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1091.86</Value>
+        <RawString>1088.69:1091.08:1095.8</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_MONTE</Arguments>
+    <Description>Computational Test: Monte Carlo</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>369.33</Value>
+        <RawString>370.62:368.94:368.44</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_SPARSE</Arguments>
+    <Description>Computational Test: Sparse Matrix Multiply</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>1720.27</Value>
+        <RawString>1721.07:1726.47:1713.27</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/scimark2-1.3.2</Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>TEST_DENSE</Arguments>
+    <Description>Computational Test: Dense LU Matrix Factorization</Description>
+    <Scale>Mflops</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO2</Identifier>
+        <Value>3033.64</Value>
+        <RawString>3032.79:3028.56:3039.57</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

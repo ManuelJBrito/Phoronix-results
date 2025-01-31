@@ -1,0 +1,39 @@
+#####
+OptPREO2 - Run 1
+2025-01-29 16:04:58
+#####
+Encoder options:
+  Compression level = 10
+  Positions: Quantization = 16 bits
+
+Encoded mesh saved to out.drc (12870 ms to encode).
+
+Encoded size = 6069998 bytes
+
+
+#####
+OptPREO2 - Run 2
+2025-01-29 16:05:17
+#####
+Encoder options:
+  Compression level = 10
+  Positions: Quantization = 16 bits
+
+Encoded mesh saved to out.drc (12900 ms to encode).
+
+Encoded size = 6069998 bytes
+
+
+#####
+OptPREO2 - Run 3
+2025-01-29 16:05:35
+#####
+Encoder options:
+  Compression level = 10
+  Positions: Quantization = 16 bits
+
+Encoded mesh saved to out.drc (12769 ms to encode).
+
+Encoded size = 6069998 bytes
+
+
