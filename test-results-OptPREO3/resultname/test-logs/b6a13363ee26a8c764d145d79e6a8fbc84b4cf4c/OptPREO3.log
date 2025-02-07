@@ -1,0 +1,42 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 10:37:54
+#####
+
+Warmup time = 5.0 seconds
+
+>>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
+
+Image size: 6016 x 4000
+Decompress    --> Frame rate:         4.097442 fps
+                  Throughput:         98.600849 Megapixels/sec
+
+
+#####
+OptPREO3 - Run 2
+2025-02-05 10:38:24
+#####
+
+Warmup time = 5.0 seconds
+
+>>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
+
+Image size: 6016 x 4000
+Decompress    --> Frame rate:         4.096760 fps
+                  Throughput:         98.584435 Megapixels/sec
+
+
+#####
+OptPREO3 - Run 3
+2025-02-05 10:38:51
+#####
+
+Warmup time = 5.0 seconds
+
+>>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
+
+Image size: 6016 x 4000
+Decompress    --> Frame rate:         4.075626 fps
+                  Throughput:         98.075862 Megapixels/sec
+
+

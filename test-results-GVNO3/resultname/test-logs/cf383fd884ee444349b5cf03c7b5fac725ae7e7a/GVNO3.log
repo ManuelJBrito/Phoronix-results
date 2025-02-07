@@ -1,6 +1,6 @@
 #####
 GVNO3 - Run 1
-2025-01-16 02:45:42
+2025-02-06 16:44:56
 #####
 Parallel BZIP2 v1.1.13 [Dec 18, 2015]
 By: Jeff Gilchrist [http://compression.ca]
@@ -22,11 +22,11 @@ Compressing data...
 Completed: 4%             Completed: 8%             Completed: 12%             Completed: 16%             Completed: 20%             Completed: 24%             Completed: 29%             Completed: 33%             Completed: 37%             Completed: 41%             Completed: 45%             Completed: 49%             Completed: 54%             Completed: 58%             Completed: 62%             Completed: 66%             Completed: 70%             Completed: 74%             Completed: 79%             Completed: 83%             Completed: 87%             Completed: 91%             Completed: 95%             Completed: 99%             Completed: 100%                 Output Size: 728266111 bytes
 Completed: 100%             -------------------------------------------
 
-     Wall Clock: 262.412271 seconds
+     Wall Clock: 213.819478 seconds
 
 #####
 GVNO3 - Run 2
-2025-01-16 02:50:09
+2025-02-06 16:48:34
 #####
 Parallel BZIP2 v1.1.13 [Dec 18, 2015]
 By: Jeff Gilchrist [http://compression.ca]
@@ -48,11 +48,11 @@ Compressing data...
 Completed: 4%             Completed: 8%             Completed: 12%             Completed: 16%             Completed: 20%             Completed: 24%             Completed: 29%             Completed: 33%             Completed: 37%             Completed: 41%             Completed: 45%             Completed: 49%             Completed: 54%             Completed: 58%             Completed: 62%             Completed: 66%             Completed: 70%             Completed: 74%             Completed: 79%             Completed: 83%             Completed: 87%             Completed: 91%             Completed: 95%             Completed: 99%             Completed: 100%                 Output Size: 728266111 bytes
 Completed: 100%             -------------------------------------------
 
-     Wall Clock: 263.202793 seconds
+     Wall Clock: 214.305995 seconds
 
 #####
 GVNO3 - Run 3
-2025-01-16 02:54:33
+2025-02-06 16:52:10
 #####
 Parallel BZIP2 v1.1.13 [Dec 18, 2015]
 By: Jeff Gilchrist [http://compression.ca]
@@ -74,5 +74,5 @@ Compressing data...
 Completed: 4%             Completed: 8%             Completed: 12%             Completed: 16%             Completed: 20%             Completed: 24%             Completed: 29%             Completed: 33%             Completed: 37%             Completed: 41%             Completed: 45%             Completed: 49%             Completed: 54%             Completed: 58%             Completed: 62%             Completed: 66%             Completed: 70%             Completed: 74%             Completed: 79%             Completed: 83%             Completed: 87%             Completed: 91%             Completed: 95%             Completed: 99%             Completed: 100%                 Output Size: 728266111 bytes
 Completed: 100%             -------------------------------------------
 
-     Wall Clock: 261.934033 seconds
+     Wall Clock: 213.877447 seconds
 

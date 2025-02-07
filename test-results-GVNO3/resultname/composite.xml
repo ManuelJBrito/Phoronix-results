@@ -3,7 +3,7 @@
 <PhoronixTestSuite>
   <Generated>
     <Title>$result_name</Title>
-    <LastModified>2025-01-16 04:55:01</LastModified>
+    <LastModified>2025-02-06 23:00:40</LastModified>
     <TestClient>Phoronix Test Suite v10.8.4</TestClient>
     <Description>2 x Intel Xeon E5-2620 v2 testing with a ASUS Z9PE-D8 WS (5503 BIOS) and ASPEED on CentOS Stream 9 via the Phoronix Test Suite.</Description>
     <Notes></Notes>
@@ -13,13 +13,13 @@
   </Generated>
   <System>
     <Identifier>GVNO3</Identifier>
-    <Hardware>Processor: 2 x Intel Xeon E5-2620 v2 @ 2.60GHz (12 Cores / 24 Threads), Motherboard: ASUS Z9PE-D8 WS (5503 BIOS), Chipset: Intel Xeon E7 v2/Xeon, Memory: 32GB, Disk: 256GB Samsung SSD 850 + 2000GB Western Digital WD20EARX-00P, Graphics: ASPEED, Audio: Realtek ALC898, Network: 2 x Intel 82574L</Hardware>
-    <Software>OS: CentOS Stream 9, Kernel: 5.14.0-547.el9.x86_64 (x86_64), Display Server: X Server, Display Driver: NVIDIA, Compiler: GCC 11.5.0 20240719 + PGI Compiler 16.10-0 + LLVM 3.1 + CUDA 11.2, File-System: ext4, Screen Resolution: 1024x768</Software>
+    <Hardware>Processor: 2 x Intel Xeon E5-2620 v2 @ 2.60GHz (12 Cores / 24 Threads), Motherboard: ASUS Z9PE-D8 WS (5503 BIOS), Chipset: Intel Xeon E7 v2/Xeon, Memory: 32GB, Disk: 2000GB Western Digital WD20EARX-00P + 256GB Samsung SSD 850, Graphics: ASPEED, Audio: Realtek ALC898, Network: 2 x Intel 82574L</Hardware>
+    <Software>OS: CentOS Stream 9, Kernel: 5.14.0-559.el9.x86_64 (x86_64), Display Server: X Server, Compiler: GCC 11.5.0 20240719 + PGI Compiler 16.10-0 + LLVM 3.1 + CUDA 11.2, File-System: ext4, Screen Resolution: 1024x768</Software>
     <User></User>
-    <TimeStamp>2025-01-15 22:30:42</TimeStamp>
+    <TimeStamp>2025-02-06 13:09:25</TimeStamp>
     <TestClientVersion>10.8.4</TestClientVersion>
     <Notes></Notes>
-    <JSON>{"cpu-scaling-governor":"intel_cpufreq conservative","cpu-microcode":"0x42e","kernel-extra-details":"Transparent Huge Pages: always","environment-variables":"FLAGS=-O3 CXXFLAGS=-O3 CFLAGS=-O3","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of VMX disabled + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT vulnerable + mds: Mitigation of Clear buffers; SMT vulnerable + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; STIBP: conditional; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+    <JSON>{"cpu-scaling-governor":"intel_cpufreq schedutil","cpu-microcode":"0x42e","kernel-extra-details":"Transparent Huge Pages: always","environment-variables":"FLAGS=-O3 CXXFLAGS=-O3 CFLAGS=-O3","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of Split huge pages + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT vulnerable + mds: Mitigation of Clear buffers; SMT vulnerable + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; STIBP: conditional; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
   </System>
   <Result>
     <Identifier>pts/fftw-1.2.0</Identifier>
@@ -33,9 +33,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
+        <Value>5045.8</Value>
+        <RawString>5042.2:5048.5:5046.6</RawString>
+        <JSON>{"test-run-times":"3.99:2.19:2.18"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>FFTW</Title>
+    <AppVersion>3.3.6</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>91</Value>
         <RawString></RawString>
-        <JSON>{"test-run-times":"1.96:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -51,22 +68,12 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>98648</Value>
+        <Value>128736</Value>
         <RawString></RawString>
       </Entry>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>98652</Value>
-        <RawString></RawString>
-      </Entry>
-      <Entry>
-        <Identifier>GVNO3</Identifier>
-        <Value>98656</Value>
-        <RawString></RawString>
-      </Entry>
-      <Entry>
-        <Identifier>GVNO3</Identifier>
-        <Value>98660</Value>
+        <Value>128740</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -83,9 +90,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>4892.9</Value>
+        <RawString>4890:4903.7:4885.1</RawString>
+        <JSON>{"test-run-times":"2.73:2.70:2.74"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -101,9 +108,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>4431.9</Value>
+        <RawString>4429.2:4437.7:4428.9</RawString>
+        <JSON>{"test-run-times":"3.58:3.58:3.57"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -119,9 +126,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>4300.6</Value>
+        <RawString>4286.5:4306.5:4308.7</RawString>
+        <JSON>{"test-run-times":"4.37:4.35:4.35"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -137,9 +144,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>4391.7</Value>
+        <RawString>4346.5:4426.9:4401.7</RawString>
+        <JSON>{"test-run-times":"2.97:2.94:2.95"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -155,9 +162,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>4272.9</Value>
+        <RawString>4273.6:4262.5:4282.7</RawString>
+        <JSON>{"test-run-times":"3.73:3.74:3.73"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -173,9 +180,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>4067.6</Value>
+        <RawString>4077.8:4083:4042</RawString>
+        <JSON>{"test-run-times":"4.94:4.93:4.96"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -191,9 +198,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>3954.0</Value>
+        <RawString>3965.4:3946.7:3949.9</RawString>
+        <JSON>{"test-run-times":"6.74:6.76:6.76"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -209,9 +216,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>5225.8</Value>
+        <RawString>5218.4:5225.1:5234</RawString>
+        <JSON>{"test-run-times":"2.17:2.16:2.16"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -227,9 +234,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>4330.6</Value>
+        <RawString>4343.1:4364.2:4284.6</RawString>
+        <JSON>{"test-run-times":"3.17:3.15:3.20"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -245,9 +252,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>3837.8</Value>
+        <RawString>3845.6:3847.8:3819.9</RawString>
+        <JSON>{"test-run-times":"4.49:4.50:4.53"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -263,9 +270,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>3666.9</Value>
+        <RawString>3692.5:3622.3:3686</RawString>
+        <JSON>{"test-run-times":"3.76:3.80:3.76"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -281,9 +288,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>3779.6</Value>
+        <RawString>3816.7:3644.5:3828.5:3828.8</RawString>
+        <JSON>{"test-run-times":"5.15:5.23:5.13:5.14"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -299,9 +306,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>3073.3</Value>
+        <RawString>3119:3072.4:3028.4</RawString>
+        <JSON>{"test-run-times":"25.18:25.27:25.34"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -317,9 +324,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>2724.2</Value>
+        <RawString>2748.6:2706.7:2717.2</RawString>
+        <JSON>{"test-run-times":"106.77:107.08:107.08"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -335,9 +342,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value></Value>
-        <RawString></RawString>
-        <JSON>{"test-run-times":"0.01:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/fftw-stock\/tests\/bench: No such file or directory"}</JSON>
+        <Value>2756.9</Value>
+        <RawString>2738.8:2767.9:2764</RawString>
+        <JSON>{"test-run-times":"319.86:322.15:321.67"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -353,9 +360,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>7139.8</Value>
-        <RawString>6915.4:7268.7:7229.6:6928.2:7290.9:7206.2</RawString>
-        <JSON>{"test-run-times":"3.22:3.06:3.10:3.20:3.05:3.08"}</JSON>
+        <Value>7273.8</Value>
+        <RawString>7079.2:7350.7:7391.6</RawString>
+        <JSON>{"test-run-times":"3.24:2.96:2.95"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -371,9 +378,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>10280</Value>
-        <RawString>10338:10401:10101</RawString>
-        <JSON>{"test-run-times":"2.68:2.64:2.74"}</JSON>
+        <Value>10416</Value>
+        <RawString>10394:10255:10600</RawString>
+        <JSON>{"test-run-times":"2.59:2.62:2.54"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -389,9 +396,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>12963</Value>
-        <RawString>13097:13157:12636</RawString>
-        <JSON>{"test-run-times":"2.63:2.61:2.70"}</JSON>
+        <Value>13232</Value>
+        <RawString>13134:13341:13221</RawString>
+        <JSON>{"test-run-times":"2.56:2.53:2.55"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -407,9 +414,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>14223</Value>
-        <RawString>14060:14099:14511</RawString>
-        <JSON>{"test-run-times":"3.10:3.07:3.00"}</JSON>
+        <Value>14021</Value>
+        <RawString>14044:14139:13879</RawString>
+        <JSON>{"test-run-times":"3.03:3.01:3.05"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -425,9 +432,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>15498</Value>
-        <RawString>15563:15458:15472</RawString>
-        <JSON>{"test-run-times":"3.66:3.71:3.68"}</JSON>
+        <Value>15734</Value>
+        <RawString>15821:15566:15816</RawString>
+        <JSON>{"test-run-times":"3.58:3.62:3.58"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -443,9 +450,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>15982</Value>
-        <RawString>15801:16189:15956</RawString>
-        <JSON>{"test-run-times":"4.61:4.55:4.59"}</JSON>
+        <Value>15881</Value>
+        <RawString>15932:15341:16223:16028</RawString>
+        <JSON>{"test-run-times":"4.51:4.62:4.46:4.50"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -461,9 +468,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>15369</Value>
-        <RawString>15305:15270:15533</RawString>
-        <JSON>{"test-run-times":"6.12:6.11:6.09"}</JSON>
+        <Value>15607</Value>
+        <RawString>15577:15475:15768</RawString>
+        <JSON>{"test-run-times":"5.95:5.97:5.91"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -479,9 +486,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>14362</Value>
-        <RawString>14303:14456:14327</RawString>
-        <JSON>{"test-run-times":"8.50:8.49:8.49"}</JSON>
+        <Value>14327</Value>
+        <RawString>14262:14442:14277</RawString>
+        <JSON>{"test-run-times":"8.34:8.29:8.33"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -497,9 +504,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>16369</Value>
-        <RawString>16398:16671:16037</RawString>
-        <JSON>{"test-run-times":"2.80:2.77:2.86"}</JSON>
+        <Value>16693</Value>
+        <RawString>16756:16708:16614</RawString>
+        <JSON>{"test-run-times":"2.68:2.69:2.71"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -515,9 +522,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>15865</Value>
-        <RawString>15909:15945:15742</RawString>
-        <JSON>{"test-run-times":"3.56:3.55:3.58"}</JSON>
+        <Value>16063</Value>
+        <RawString>16062:16184:15942</RawString>
+        <JSON>{"test-run-times":"3.45:3.43:3.49"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -533,9 +540,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>11812</Value>
-        <RawString>12535:11332:11661:11619:11594:12555:12372:12465:11680:11544:11450:11513:11666:11657:11530</RawString>
-        <JSON>{"test-run-times":"3.20:3.45:3.38:3.41:3.41:3.20:3.25:3.23:3.38:3.43:3.44:3.42:3.39:3.42:3.42"}</JSON>
+        <Value>11909</Value>
+        <RawString>11861:11998:11867</RawString>
+        <JSON>{"test-run-times":"3.29:3.26:3.29"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -551,9 +558,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>11420</Value>
-        <RawString>11391:11451:11419</RawString>
-        <JSON>{"test-run-times":"5.19:5.16:5.16"}</JSON>
+        <Value>11439</Value>
+        <RawString>11572:11352:11394</RawString>
+        <JSON>{"test-run-times":"5.07:5.12:5.11"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -569,9 +576,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>11820</Value>
-        <RawString>11779:11901:11781</RawString>
-        <JSON>{"test-run-times":"7.32:7.29:7.31"}</JSON>
+        <Value>11774</Value>
+        <RawString>11840:11748:11734</RawString>
+        <JSON>{"test-run-times":"7.18:7.20:7.20"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -587,9 +594,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>12110</Value>
-        <RawString>12013:12235:12082</RawString>
-        <JSON>{"test-run-times":"24.85:24.65:24.80"}</JSON>
+        <Value>12113</Value>
+        <RawString>11908:12191:12240</RawString>
+        <JSON>{"test-run-times":"24.32:24.23:24.22"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -605,9 +612,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>7056.8</Value>
-        <RawString>7061:7076.9:7032.6</RawString>
-        <JSON>{"test-run-times":"150.85:150.19:150.52"}</JSON>
+        <Value>7066.5</Value>
+        <RawString>7042.4:7074.2:7082.9</RawString>
+        <JSON>{"test-run-times":"147.76:147.74:148.17"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -623,9 +630,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>6707.7</Value>
-        <RawString>6718.1:6702.1:6703</RawString>
-        <JSON>{"test-run-times":"397.92:399.17:399.78"}</JSON>
+        <Value>6708.3</Value>
+        <RawString>6730:6681.6:6713.4</RawString>
+        <JSON>{"test-run-times":"393.25:393.05:391.94"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -641,9 +648,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>94</Value>
-        <RawString>95:93:93</RawString>
-        <JSON>{"test-run-times":"62.45:60.49:60.30"}</JSON>
+        <Value>95</Value>
+        <RawString>94:96:96</RawString>
+        <JSON>{"test-run-times":"62.18:60.25:60.24"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.38</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>58</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -659,7 +683,7 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>127628</Value>
+        <Value>127644</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -676,9 +700,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>13</Value>
-        <RawString>13:13:13</RawString>
-        <JSON>{"test-run-times":"60.04:60.13:60.35"}</JSON>
+        <Value>14</Value>
+        <RawString>14:14:14</RawString>
+        <JSON>{"test-run-times":"63.21:63.16:63.18"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -696,7 +720,7 @@
         <Identifier>GVNO3</Identifier>
         <Value>9</Value>
         <RawString>9:9:9</RawString>
-        <JSON>{"test-run-times":"65.24:64.30:64.01"}</JSON>
+        <JSON>{"test-run-times":"61.98:62.01:61.99"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -712,9 +736,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>64</Value>
-        <RawString>64:63:64</RawString>
-        <JSON>{"test-run-times":"60.93:60.03:60.86"}</JSON>
+        <Value>66</Value>
+        <RawString>66:66:66</RawString>
+        <JSON>{"test-run-times":"60.59:60.61:60.63"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -730,9 +754,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>474</Value>
-        <RawString>499:463:464:463:462:498:463:462:462:497:473:462:500:462:478</RawString>
-        <JSON>{"test-run-times":"60.03:60.12:60.08:60.04:60.15:60.14:60.10:60.06:60.05:60.14:60.12:60.04:60.09:60.08:60.03"}</JSON>
+        <Value>503</Value>
+        <RawString>503:503:504</RawString>
+        <JSON>{"test-run-times":"60.05:60.04:60.11"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -750,7 +774,7 @@
         <Identifier>GVNO3</Identifier>
         <Value>10</Value>
         <RawString>10:10:10</RawString>
-        <JSON>{"test-run-times":"64.40:65.66:65.13"}</JSON>
+        <JSON>{"test-run-times":"64.29:64.30:64.32"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -767,8 +791,8 @@
       <Entry>
         <Identifier>GVNO3</Identifier>
         <Value>22</Value>
-        <RawString>20:22:22:22:22:22:22:21:22:22:22:22:22:22</RawString>
-        <JSON>{"test-run-times":"62.48:60.79:62.46:60.76:62.65:62.66:62.36:60.14:62.77:60.75:62.62:62.73:60.91:62.69"}</JSON>
+        <RawString>22:22:22</RawString>
+        <JSON>{"test-run-times":"60.68:62.42:60.57"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -784,9 +808,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>790.46</Value>
-        <RawString>791.06:789.05:791.28</RawString>
-        <JSON>{"test-run-times":"33.69:31.97:31.73"}</JSON>
+        <Value>802.84</Value>
+        <RawString>803.12:802.67:802.72</RawString>
+        <JSON>{"test-run-times":"32.88:31.23:31.17"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>LuaJIT</Title>
+    <AppVersion>2.1-git</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>15</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -802,12 +843,12 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>11436</Value>
+        <Value>11444</Value>
         <RawString></RawString>
       </Entry>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>11448</Value>
+        <Value>11456</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -824,8 +865,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>227.19</Value>
-        <RawString>227.52:226.28:227.77</RawString>
+        <Value>230.86</Value>
+        <RawString>230.66:229.72:232.2</RawString>
       </Entry>
     </Data>
   </Result>
@@ -841,8 +882,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1100.98</Value>
-        <RawString>1104.98:1096.24:1101.73</RawString>
+        <Value>1117.12</Value>
+        <RawString>1117.48:1117.49:1116.39</RawString>
       </Entry>
     </Data>
   </Result>
@@ -858,8 +899,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>297.30</Value>
-        <RawString>303.59:288.41:299.91</RawString>
+        <Value>306.86</Value>
+        <RawString>307.17:306.56:306.86</RawString>
       </Entry>
     </Data>
   </Result>
@@ -875,8 +916,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>781.09</Value>
-        <RawString>777.98:785.95:779.35</RawString>
+        <Value>792.85</Value>
+        <RawString>792.43:793.79:792.32</RawString>
       </Entry>
     </Data>
   </Result>
@@ -892,8 +933,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1545.74</Value>
-        <RawString>1541.22:1548.37:1547.64</RawString>
+        <Value>1566.50</Value>
+        <RawString>1567.88:1565.8:1565.83</RawString>
       </Entry>
     </Data>
   </Result>
@@ -909,9 +950,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>97.226953</Value>
-        <RawString>97.094:96.892818:97.69404</RawString>
-        <JSON>{"test-run-times":"27.26:25.22:25.49"}</JSON>
+        <Value>98.685159</Value>
+        <RawString>98.532259:98.912593:98.610625</RawString>
+        <JSON>{"test-run-times":"26.89:25.41:25.24"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>libjpeg-turbo tjbench</Title>
+    <AppVersion>2.1.0</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>18</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -936,17 +994,34 @@
     <Identifier>pts/simdjson-2.0.1</Identifier>
     <Title>simdjson</Title>
     <AppVersion>2.0</AppVersion>
-    <Arguments>partial_tweets</Arguments>
-    <Description>Throughput Test: PartialTweets</Description>
+    <Arguments>large_random</Arguments>
+    <Description>Throughput Test: LargeRandom</Description>
     <Scale>GB/s</Scale>
     <Proportion>HIB</Proportion>
     <DisplayFormat>BAR_GRAPH</DisplayFormat>
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1.36</Value>
-        <RawString>1.36:1.36:1.36</RawString>
-        <JSON>{"test-run-times":"56.11:54.53:54.56"}</JSON>
+        <Value>0.46</Value>
+        <RawString>0.46:0.46:0.46</RawString>
+        <JSON>{"test-run-times":"66.03:64.27:64.18"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>140</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -962,80 +1037,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>167204</Value>
+        <Value>167532</Value>
         <RawString></RawString>
-      </Entry>
-    </Data>
-  </Result>
-  <Result>
-    <Identifier>pts/simdjson-2.0.1</Identifier>
-    <Title>simdjson</Title>
-    <AppVersion>2.0</AppVersion>
-    <Arguments>large_random</Arguments>
-    <Description>Throughput Test: LargeRandom</Description>
-    <Scale>GB/s</Scale>
-    <Proportion>HIB</Proportion>
-    <DisplayFormat>BAR_GRAPH</DisplayFormat>
-    <Data>
-      <Entry>
-        <Identifier>GVNO3</Identifier>
-        <Value>0.46</Value>
-        <RawString>0.46:0.46:0.46</RawString>
-        <JSON>{"test-run-times":"64.41:64.42:64.46"}</JSON>
-      </Entry>
-    </Data>
-  </Result>
-  <Result>
-    <Identifier>pts/simdjson-2.0.1</Identifier>
-    <Title>simdjson</Title>
-    <AppVersion>2.0</AppVersion>
-    <Arguments>kostya</Arguments>
-    <Description>Throughput Test: Kostya</Description>
-    <Scale>GB/s</Scale>
-    <Proportion>HIB</Proportion>
-    <DisplayFormat>BAR_GRAPH</DisplayFormat>
-    <Data>
-      <Entry>
-        <Identifier>GVNO3</Identifier>
-        <Value>1.14</Value>
-        <RawString>1.14:1.14:1.13</RawString>
-        <JSON>{"test-run-times":"79.51:79.36:79.49"}</JSON>
-      </Entry>
-    </Data>
-  </Result>
-  <Result>
-    <Identifier>pts/simdjson-2.0.1</Identifier>
-    <Title>simdjson</Title>
-    <AppVersion>2.0</AppVersion>
-    <Arguments>distinct_user_id</Arguments>
-    <Description>Throughput Test: DistinctUserID</Description>
-    <Scale>GB/s</Scale>
-    <Proportion>HIB</Proportion>
-    <DisplayFormat>BAR_GRAPH</DisplayFormat>
-    <Data>
-      <Entry>
-        <Identifier>GVNO3</Identifier>
-        <Value>1.53</Value>
-        <RawString>1.52:1.52:1.54</RawString>
-        <JSON>{"test-run-times":"55.19:55.08:55.11"}</JSON>
-      </Entry>
-    </Data>
-  </Result>
-  <Result>
-    <Identifier>pts/simdjson-2.0.1</Identifier>
-    <Title>simdjson</Title>
-    <AppVersion>2.0</AppVersion>
-    <Arguments>top_tweet</Arguments>
-    <Description>Throughput Test: TopTweet</Description>
-    <Scale>GB/s</Scale>
-    <Proportion>HIB</Proportion>
-    <DisplayFormat>BAR_GRAPH</DisplayFormat>
-    <Data>
-      <Entry>
-        <Identifier>GVNO3</Identifier>
-        <Value>1.52</Value>
-        <RawString>1.52:1.52:1.52</RawString>
-        <JSON>{"test-run-times":"54.82:54.74:54.87"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1051,9 +1054,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>12381.950</Value>
-        <RawString>12380.072:12378.119:12387.658</RawString>
-        <JSON>{"test-run-times":"32.16:30.18:30.15"}</JSON>
+        <Value>1012.223</Value>
+        <RawString>1010.812:1013.034:1012.824</RawString>
+        <JSON>{"test-run-times":"31.76:30.04:30.04"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Aircrack-ng</Title>
+    <AppVersion>1.7</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>31</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1069,7 +1089,7 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>40180</Value>
+        <Value>40188</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -1086,9 +1106,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1222.8</Value>
-        <RawString>1221.7:1223.4:1223.4</RawString>
-        <JSON>{"test-run-times":"62.04:60.07:60.07"}</JSON>
+        <Value>103.8</Value>
+        <RawString>103.4:104:104</RawString>
+        <JSON>{"test-run-times":"62.32:60.04:60.04"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1104,9 +1124,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>80922.3</Value>
-        <RawString>80921.7:80862.9:80982.3</RawString>
-        <JSON>{"test-run-times":"62.04:60.07:60.07"}</JSON>
+        <Value>6763.0</Value>
+        <RawString>6783.2:6749.2:6756.7</RawString>
+        <JSON>{"test-run-times":"62.32:60.04:60.04"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.1</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>94</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1122,7 +1159,12 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>464612</Value>
+        <Value>464620</Value>
+        <RawString></RawString>
+      </Entry>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>464624</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -1139,8 +1181,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1968017357</Value>
-        <RawString>1968239460:1967765300:1968047310</RawString>
+        <Value>173995667</Value>
+        <RawString>174111090:173737680:174138230</RawString>
         <JSON>{"test-run-times":"180.02:180.02:180.02"}</JSON>
       </Entry>
     </Data>
@@ -1157,8 +1199,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1891302623</Value>
-        <RawString>1891167190:1891233190:1891507490</RawString>
+        <Value>178608460</Value>
+        <RawString>178633680:178486040:178705660</RawString>
         <JSON>{"test-run-times":"180.02:180.02:180.02"}</JSON>
       </Entry>
     </Data>
@@ -1169,15 +1211,15 @@
     <AppVersion>3.1</AppVersion>
     <Arguments>-evp aes-128-gcm</Arguments>
     <Description>Algorithm: AES-128-GCM</Description>
-    <Scale>byte/s</Scale>
+    <Scale></Scale>
     <Proportion>HIB</Proportion>
     <DisplayFormat>BAR_GRAPH</DisplayFormat>
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>13355826563</Value>
-        <RawString>13358817280:13359302520:13349359890</RawString>
-        <JSON>{"test-run-times":"180.03:180.02:180.02"}</JSON>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02","error":"The test run did not produce a result."}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1187,15 +1229,15 @@
     <AppVersion>3.1</AppVersion>
     <Arguments>-evp aes-256-gcm</Arguments>
     <Description>Algorithm: AES-256-GCM</Description>
-    <Scale>byte/s</Scale>
+    <Scale></Scale>
     <Proportion>HIB</Proportion>
     <DisplayFormat>BAR_GRAPH</DisplayFormat>
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>11748521480</Value>
-        <RawString>11746463470:11761945800:11737155170</RawString>
-        <JSON>{"test-run-times":"180.02:180.02:180.02"}</JSON>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02","error":"The test run did not produce a result."}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1205,15 +1247,15 @@
     <AppVersion>3.1</AppVersion>
     <Arguments>-evp chacha20</Arguments>
     <Description>Algorithm: ChaCha20</Description>
-    <Scale>byte/s</Scale>
+    <Scale></Scale>
     <Proportion>HIB</Proportion>
     <DisplayFormat>BAR_GRAPH</DisplayFormat>
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>13879013010</Value>
-        <RawString>13886350400:13873255220:13877433410</RawString>
-        <JSON>{"test-run-times":"180.03:180.02:180.02"}</JSON>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02","error":"The test run did not produce a result."}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1223,15 +1265,15 @@
     <AppVersion>3.1</AppVersion>
     <Arguments>-evp chacha20-poly1305</Arguments>
     <Description>Algorithm: ChaCha20-Poly1305</Description>
-    <Scale>byte/s</Scale>
+    <Scale></Scale>
     <Proportion>HIB</Proportion>
     <DisplayFormat>BAR_GRAPH</DisplayFormat>
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>9381393840</Value>
-        <RawString>9382798130:9381402760:9379980630</RawString>
-        <JSON>{"test-run-times":"180.03:180.03:180.02"}</JSON>
+        <Value></Value>
+        <RawString></RawString>
+        <JSON>{"test-run-times":"180.02:180.02:180.02","error":"The test run did not produce a result."}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1247,9 +1289,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1261.440</Value>
-        <RawString>1257.844:1266.149:1260.326</RawString>
-        <JSON>{"test-run-times":"33.51:31.57:31.56"}</JSON>
+        <Value>1276.629</Value>
+        <RawString>1264.586:1275.645:1289.657</RawString>
+        <JSON>{"test-run-times":"33.21:31.55:31.65"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1265,9 +1307,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1266.829</Value>
-        <RawString>1274.568:1262.457:1263.463</RawString>
-        <JSON>{"test-run-times":"33.51:31.57:31.56"}</JSON>
+        <Value>1284.832</Value>
+        <RawString>1280.842:1279.64:1294.014</RawString>
+        <JSON>{"test-run-times":"33.21:31.55:31.65"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Botan</Title>
+    <AppVersion>2.17.3</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>106</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1283,7 +1342,7 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>101348</Value>
+        <Value>101896</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -1300,9 +1359,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>189.802</Value>
-        <RawString>189.92:189.544:189.942</RawString>
-        <JSON>{"test-run-times":"30.26:30.26:30.25"}</JSON>
+        <Value>193.306</Value>
+        <RawString>193.34:193.193:193.384</RawString>
+        <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1318,9 +1377,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>190.372</Value>
-        <RawString>190.116:190.49:190.51</RawString>
-        <JSON>{"test-run-times":"30.26:30.26:30.25"}</JSON>
+        <Value>193.813</Value>
+        <RawString>193.774:193.808:193.858</RawString>
+        <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1336,9 +1395,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>72.017</Value>
-        <RawString>71.753:71.977:72.321</RawString>
-        <JSON>{"test-run-times":"30.12:30.11:30.12"}</JSON>
+        <Value>73.324</Value>
+        <RawString>73.346:73.304:73.321</RawString>
+        <JSON>{"test-run-times":"30.11:30.11:30.11"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1354,9 +1413,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>73.078</Value>
-        <RawString>73.073:72.79:73.37</RawString>
-        <JSON>{"test-run-times":"30.12:30.11:30.12"}</JSON>
+        <Value>74.336</Value>
+        <RawString>74.376:74.298:74.333</RawString>
+        <JSON>{"test-run-times":"30.11:30.11:30.11"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1372,8 +1431,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>55.318</Value>
-        <RawString>55.321:55.411:55.223</RawString>
+        <Value>56.185</Value>
+        <RawString>56.125:56.217:56.213</RawString>
         <JSON>{"test-run-times":"30.10:30.09:30.09"}</JSON>
       </Entry>
     </Data>
@@ -1390,8 +1449,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>53.201</Value>
-        <RawString>53.201:52.956:53.445</RawString>
+        <Value>54.114</Value>
+        <RawString>54.118:54.101:54.123</RawString>
         <JSON>{"test-run-times":"30.10:30.09:30.09"}</JSON>
       </Entry>
     </Data>
@@ -1408,8 +1467,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>179.922</Value>
-        <RawString>179.57:180.273:179.923</RawString>
+        <Value>183.900</Value>
+        <RawString>183.787:183.748:184.164</RawString>
         <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
       </Entry>
     </Data>
@@ -1426,8 +1485,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>187.088</Value>
-        <RawString>187.243:187.323:186.698</RawString>
+        <Value>190.482</Value>
+        <RawString>190.572:190.485:190.388</RawString>
         <JSON>{"test-run-times":"30.25:30.25:30.25"}</JSON>
       </Entry>
     </Data>
@@ -1444,9 +1503,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>326.374</Value>
-        <RawString>321.718:329.197:328.206</RawString>
-        <JSON>{"test-run-times":"30.17:30.30:30.30"}</JSON>
+        <Value>334.463</Value>
+        <RawString>334.516:334.414:334.459</RawString>
+        <JSON>{"test-run-times":"30.31:30.31:30.22"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1462,9 +1521,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>323.319</Value>
-        <RawString>317.025:327.145:325.786</RawString>
-        <JSON>{"test-run-times":"30.17:30.30:30.30"}</JSON>
+        <Value>331.884</Value>
+        <RawString>332.552:332.498:330.601</RawString>
+        <JSON>{"test-run-times":"30.31:30.31:30.22"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1480,9 +1539,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>145.938</Value>
-        <RawString>145.391:146.87:145.552</RawString>
-        <JSON>{"test-run-times":"147.39:146.92:145.60"}</JSON>
+        <Value>143.135</Value>
+        <RawString>144.141:142.689:142.576</RawString>
+        <JSON>{"test-run-times":"145.77:142.73:142.62"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>SQLite Speedtest</Title>
+    <AppVersion>3.30</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>61</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1517,7 +1593,24 @@
         <Identifier>GVNO3</Identifier>
         <Value></Value>
         <RawString></RawString>
-        <JSON>{"test-run-times":"1.98:0.01:0.01:0.01:0.01","error":"The test run did not produce a result."}</JSON>
+        <JSON>{"test-run-times":"1.57:0.01:0.01:0.01:0.01","error":"The test run did not produce a result."}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>FLAC Audio Encoding</Title>
+    <AppVersion>1.4</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>28</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1533,7 +1626,7 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>2456</Value>
+        <Value>2464</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -1550,9 +1643,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>12758</Value>
-        <RawString>12708:12730:12836</RawString>
-        <JSON>{"test-run-times":"17.36:15.52:15.54"}</JSON>
+        <Value>12514</Value>
+        <RawString>12587:12429:12525</RawString>
+        <JSON>{"test-run-times":"18.03:15.04:15.14"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Google Draco</Title>
+    <AppVersion>1.5.6</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>41</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1568,12 +1678,12 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>469468</Value>
+        <Value>469740</Value>
         <RawString></RawString>
       </Entry>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>468828</Value>
+        <Value>469100</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -1590,9 +1700,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>9670</Value>
-        <RawString>9656:9558:9797</RawString>
-        <JSON>{"test-run-times":"12.32:12.26:12.53"}</JSON>
+        <Value>9434</Value>
+        <RawString>9441:9415:9446</RawString>
+        <JSON>{"test-run-times":"13.27:12.02:12.08"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1608,9 +1718,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>89.9</Value>
-        <RawString>89.9:90.2:89.7</RawString>
-        <JSON>{"test-run-times":"66.05:63.87:63.95"}</JSON>
+        <Value>135.4</Value>
+        <RawString>134.7:136.8:134.7</RawString>
+        <JSON>{"test-run-times":"69.87:64.12:64.44"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1626,9 +1736,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>514.9</Value>
-        <RawString>514.5:514.7:515.6</RawString>
-        <JSON>{"test-run-times":"66.05:63.87:63.95"}</JSON>
+        <Value>516.1</Value>
+        <RawString>516.6:515.8:515.9</RawString>
+        <JSON>{"test-run-times":"69.87:64.12:64.44"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>19</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1644,7 +1771,7 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>229092</Value>
+        <Value>229036</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -1661,9 +1788,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>82.5</Value>
-        <RawString>84.2:82:81.4</RawString>
-        <JSON>{"test-run-times":"64.56:65.14:65.23"}</JSON>
+        <Value>111.8</Value>
+        <RawString>111.7:111.8:111.8</RawString>
+        <JSON>{"test-run-times":"64.04:64.04:64.00"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1679,9 +1806,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>538.2</Value>
-        <RawString>538.5:538.9:537.1</RawString>
-        <JSON>{"test-run-times":"64.56:65.14:65.23"}</JSON>
+        <Value>522.8</Value>
+        <RawString>522.7:522.5:523.2</RawString>
+        <JSON>{"test-run-times":"64.04:64.04:64.00"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1697,9 +1824,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>30.0</Value>
-        <RawString>29.9:30:30</RawString>
-        <JSON>{"test-run-times":"68.71:68.53:68.58"}</JSON>
+        <Value>42.1</Value>
+        <RawString>42.1:42.1:42.2</RawString>
+        <JSON>{"test-run-times":"62.89:62.88:62.81"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1715,9 +1842,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>531.2</Value>
-        <RawString>531.2:531.3:531.2</RawString>
-        <JSON>{"test-run-times":"68.71:68.53:68.58"}</JSON>
+        <Value>533.2</Value>
+        <RawString>533.4:533:533.2</RawString>
+        <JSON>{"test-run-times":"62.89:62.88:62.81"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1733,9 +1860,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>28.8</Value>
-        <RawString>28.8:28.8:28.7</RawString>
-        <JSON>{"test-run-times":"69.54:69.48:69.41"}</JSON>
+        <Value>40.7</Value>
+        <RawString>40.6:40.7:40.8</RawString>
+        <JSON>{"test-run-times":"64.17:64.10:64.03"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1751,9 +1878,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>539.6</Value>
-        <RawString>539.9:539.3:539.7</RawString>
-        <JSON>{"test-run-times":"69.54:69.48:69.41"}</JSON>
+        <Value>530.4</Value>
+        <RawString>530.5:530.3:530.3</RawString>
+        <JSON>{"test-run-times":"64.17:64.10:64.03"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1769,9 +1896,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>11.4</Value>
-        <RawString>11.4:11.4:11.4</RawString>
-        <JSON>{"test-run-times":"70.41:70.40:70.42"}</JSON>
+        <Value>17.7</Value>
+        <RawString>17.7:17.6:17.7</RawString>
+        <JSON>{"test-run-times":"68.38:68.58:68.56"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1787,9 +1914,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>508.7</Value>
-        <RawString>508.8:509.6:507.6</RawString>
-        <JSON>{"test-run-times":"70.41:70.40:70.42"}</JSON>
+        <Value>511.1</Value>
+        <RawString>511.1:511.2:511.1</RawString>
+        <JSON>{"test-run-times":"68.38:68.58:68.56"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1805,9 +1932,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1.49</Value>
-        <RawString>1.49:1.48:1.49</RawString>
-        <JSON>{"test-run-times":"175.46:175.63:175.30"}</JSON>
+        <Value>2.16</Value>
+        <RawString>2.16:2.16:2.16</RawString>
+        <JSON>{"test-run-times":"130.34:130.30:130.43"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1823,9 +1950,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>466.8</Value>
-        <RawString>467.7:465:467.7</RawString>
-        <JSON>{"test-run-times":"175.46:175.63:175.30"}</JSON>
+        <Value>470.5</Value>
+        <RawString>470.3:470.5:470.7</RawString>
+        <JSON>{"test-run-times":"130.34:130.30:130.43"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1841,9 +1968,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1.56</Value>
-        <RawString>1.56:1.56:1.56</RawString>
-        <JSON>{"test-run-times":"169.29:169.31:169.32"}</JSON>
+        <Value>2.05</Value>
+        <RawString>2.05:2.05:2.05</RawString>
+        <JSON>{"test-run-times":"136.13:135.74:135.85"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1859,9 +1986,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>461.7</Value>
-        <RawString>461.3:462.5:461.3</RawString>
-        <JSON>{"test-run-times":"169.29:169.31:169.32"}</JSON>
+        <Value>465.1</Value>
+        <RawString>465.4:465.6:464.3</RawString>
+        <JSON>{"test-run-times":"136.13:135.74:135.85"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -1877,9 +2004,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>262.516366</Value>
-        <RawString>262.412271:263.202793:261.934033</RawString>
-        <JSON>{"test-run-times":"264.37:263.22:261.95"}</JSON>
+        <Value>214.000973</Value>
+        <RawString>213.819478:214.305995:213.877447</RawString>
+        <JSON>{"test-run-times":"215.56:214.32:213.89"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Parallel BZIP2 Compression</Title>
+    <AppVersion>1.1.13</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>15</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1912,9 +2056,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>64.062</Value>
-        <RawString>61.233:64.342:60.865:67.521:65.743:65.443:64.758:65.737:64.723:64.004:62.515:60.511:66.63:65.665:65.725:64.793:64.044:62.168:61.281:63.531</RawString>
-        <JSON>{"test-run-times":"61.23:64.34:60.86:67.52:65.74:65.44:64.76:65.74:64.72:64.00:62.51:60.51:66.63:65.66:65.72:64.79:64.04:62.17:61.28:63.53"}</JSON>
+        <Value>61.832</Value>
+        <RawString>60.566:64.759:61.853:59.559:63.94:61.771:59.662:64.207:61.925:59.905:63.345:61.863:59.81:63.62:61.928:59.682:63.456:62.041:59.899:62.855</RawString>
+        <JSON>{"test-run-times":"60.57:64.76:61.85:59.56:63.94:61.77:59.66:64.21:61.92:59.90:63.35:61.86:59.81:63.62:61.93:59.68:63.46:62.04:59.90:62.85"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>eSpeak-NG Speech Engine</Title>
+    <AppVersion>1.51</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>74</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1930,7 +2091,7 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1616596</Value>
+        <Value>1616600</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -1947,9 +2108,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>37.628</Value>
-        <RawString>39.477:37.227:37.368:37.061:37.642:36.993</RawString>
-        <JSON>{"test-run-times":"39.48:37.23:37.37:37.06:37.64:36.99"}</JSON>
+        <Value>37.794</Value>
+        <RawString>38.793:37.095:37.494</RawString>
+        <JSON>{"test-run-times":"38.79:37.09:37.49"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>RNNoise</Title>
+    <AppVersion>2020-06-28</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>29</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -1965,7 +2143,7 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>248664</Value>
+        <Value>248672</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -1982,9 +2160,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>218.804</Value>
-        <RawString>212.287:224.739:220.735:217.456</RawString>
-        <JSON>{"test-run-times":"216.57:226.99:222.93:219.76"}</JSON>
+        <Value>211.734</Value>
+        <RawString>212.368:212.774:210.061</RawString>
+        <JSON>{"test-run-times":"216.38:214.66:211.97"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Ngspice</Title>
+    <AppVersion>34</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>142</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -2017,9 +2212,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>167.609</Value>
-        <RawString>163.853:172.655:173.205:172.642:160.21:171.496:160.711:171.256:173.168:161.066:170.62:160.424</RawString>
-        <JSON>{"test-run-times":"168.58:178.13:177.99:177.47:165.01:176.28:165.44:176.02:177.92:165.80:175.39:165.23"}</JSON>
+        <Value>171.606</Value>
+        <RawString>171.047:170.023:173.748</RawString>
+        <JSON>{"test-run-times":"175.53:174.63:178.95"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -2037,7 +2232,24 @@
         <Identifier>GVNO3</Identifier>
         <Value></Value>
         <RawString></RawString>
-        <JSON>{"test-run-times":"1.92:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/z3-z3-4.12.1\/build\/z3: No such file or directory"}</JSON>
+        <JSON>{"test-run-times":"1.52:0.01:0.01","error":"The test quit with a non-zero exit status. E: taskset: failed to execute .\/z3-z3-4.12.1\/build\/z3: No such file or directory"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Z3 Theorem Prover</Title>
+    <AppVersion>4.12.1</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>74</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -2053,7 +2265,7 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>65556</Value>
+        <Value>65752</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -2088,9 +2300,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>44.251</Value>
-        <RawString>44.25:44.131:44.373</RawString>
-        <JSON>{"test-run-times":"46.18:44.15:44.39"}</JSON>
+        <Value>471.296</Value>
+        <RawString>470.454:471.825:471.61</RawString>
+        <JSON>{"test-run-times":"472.05:471.84:471.63"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Primesieve</Title>
+    <AppVersion>8.0</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>13</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -2106,7 +2335,7 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>3272</Value>
+        <Value>3308</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -2123,9 +2352,9 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>504.354</Value>
-        <RawString>502.052:507.719:503.291</RawString>
-        <JSON>{"test-run-times":"502.07:507.73:503.31"}</JSON>
+        <Value>5856.496</Value>
+        <RawString>5853.266:5856.581:5859.64</RawString>
+        <JSON>{"test-run-times":"5853.28:5856.60:5859.65"}</JSON>
       </Entry>
     </Data>
   </Result>
@@ -2141,9 +2370,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>68.409</Value>
-        <RawString>69.441:68.161:67.626</RawString>
-        <JSON>{"test-run-times":"69.44:68.16:67.63"}</JSON>
+        <Value>36.472</Value>
+        <RawString>37.618:36.483:35.514:37.243:35.562:36.41</RawString>
+        <JSON>{"test-run-times":"37.62:36.48:35.51:37.24:35.56:36.41"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Timed MAFFT Alignment</Title>
+    <AppVersion>7.471</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>11</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -2176,9 +2422,26 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1308.88</Value>
-        <RawString>1303.66:1310.49:1312.49</RawString>
-        <JSON>{"test-run-times":"31.26:29.19:29.23"}</JSON>
+        <Value>1286.66</Value>
+        <RawString>1277.68:1293.84:1288.47</RawString>
+        <JSON>{"test-run-times":"30.99:29.16:29.24"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>SciMark</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>GVNO3</Identifier>
+        <Value>3</Value>
+        <RawString></RawString>
       </Entry>
     </Data>
   </Result>
@@ -2194,12 +2457,12 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>236</Value>
+        <Value>248</Value>
         <RawString></RawString>
       </Entry>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>248</Value>
+        <Value>260</Value>
         <RawString></RawString>
       </Entry>
     </Data>
@@ -2216,8 +2479,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>260.85</Value>
-        <RawString>264.21:258.49:259.85</RawString>
+        <Value>266.04</Value>
+        <RawString>267.38:265.43:265.3</RawString>
       </Entry>
     </Data>
   </Result>
@@ -2233,8 +2496,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1104.21</Value>
-        <RawString>1095.66:1117.34:1099.63</RawString>
+        <Value>1122.48</Value>
+        <RawString>1121.86:1122.76:1122.81</RawString>
       </Entry>
     </Data>
   </Result>
@@ -2250,8 +2513,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>368.06</Value>
-        <RawString>366.28:373.32:364.59</RawString>
+        <Value>375.43</Value>
+        <RawString>376.41:376.38:373.49</RawString>
       </Entry>
     </Data>
   </Result>
@@ -2267,8 +2530,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>1786.78</Value>
-        <RawString>1778.49:1803.94:1777.91</RawString>
+        <Value>1630.48</Value>
+        <RawString>1630.93:1622:1638.5</RawString>
       </Entry>
     </Data>
   </Result>
@@ -2284,8 +2547,8 @@
     <Data>
       <Entry>
         <Identifier>GVNO3</Identifier>
-        <Value>3024.49</Value>
-        <RawString>3013.63:2999.36:3060.47</RawString>
+        <Value>3038.90</Value>
+        <RawString>2991.8:3082.64:3042.27</RawString>
       </Entry>
     </Data>
   </Result>

@@ -1,18 +1,18 @@
 #####
 GVNO3 - Run 1
-2025-01-15 22:38:57
+2025-02-06 13:42:52
 #####
-Problem: ibc2048, setup: 3.03 s, time: 7.36 us, ``mflops'': 15305
+Problem: ibc2048, setup: 2.97 s, time: 7.23 us, ``mflops'': 15577
 
 #####
 GVNO3 - Run 2
-2025-01-15 22:39:07
+2025-02-06 13:43:02
 #####
-Problem: ibc2048, setup: 3.03 s, time: 7.38 us, ``mflops'': 15270
+Problem: ibc2048, setup: 2.97 s, time: 7.28 us, ``mflops'': 15475
 
 #####
 GVNO3 - Run 3
-2025-01-15 22:39:15
+2025-02-06 13:43:09
 #####
-Problem: ibc2048, setup: 3.05 s, time: 7.25 us, ``mflops'': 15533
+Problem: ibc2048, setup: 2.97 s, time: 7.14 us, ``mflops'': 15768
 

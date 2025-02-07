@@ -108,6 +108,8 @@ checking dependency style of /bitbucket/manuel/benchmarks/workdir/bench-infra/to
 checking how to run the C++ preprocessor... /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -E
 checking for ld used by /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++... /opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64
 checking if the linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+./configure: line 13920: eval: -p: invalid option
+eval: usage: eval [arg ...]
 checking whether the /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
 checking for /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ option to produce PIC... -fPIC -DPIC
 checking if /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ PIC flag -fPIC -DPIC works... yes
@@ -277,16 +279,242 @@ Makefile:2878: warning: ignoring prerequisites on suffix rule definition
   CC       src/libespeak-ng/la-klatt.lo
   CC       src/libespeak-ng/la-sPlayer.lo
   CXX      src/speechPlayer/src/frame.lo
+-DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+-I.
+Found nit in -I.
+-O3
+Found nit in -O3
+-MT
+Found nit in -MT
+speechPlayer/src/frame.lo
+Found nit in src/speechPlayer/src/frame.lo
+-MD
+Found nit in -MD
+-MP
+Found nit in -MP
+-MF
+Found nit in -MF
+speechPlayer/src/.deps/frame.Tpo
+Found nit in src/speechPlayer/src/.deps/frame.Tpo
+-c
+Found nit in -c
+speechPlayer/src/frame
+Found nit in src/speechPlayer/src/frame.cpp
+-fPIC
+Found nit in -fPIC
+-DPIC
+Found nit in -DPIC
+-o
+Found nit in -o
+speechPlayer/src/.libs/frame.o
+Found nit in src/speechPlayer/src/.libs/frame.o
   CXX      src/speechPlayer/src/speechPlayer.lo
+-DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+-I.
+Found nit in -I.
+-O3
+Found nit in -O3
+-MT
+Found nit in -MT
+speechPlayer/src/speechPlayer.lo
+Found nit in src/speechPlayer/src/speechPlayer.lo
+-MD
+Found nit in -MD
+-MP
+Found nit in -MP
+-MF
+Found nit in -MF
+speechPlayer/src/.deps/speechPlayer.Tpo
+Found nit in src/speechPlayer/src/.deps/speechPlayer.Tpo
+-c
+Found nit in -c
+speechPlayer/src/speechPlayer
+Found nit in src/speechPlayer/src/speechPlayer.cpp
+-fPIC
+Found nit in -fPIC
+-DPIC
+Found nit in -DPIC
+-o
+Found nit in -o
+speechPlayer/src/.libs/speechPlayer.o
+Found nit in src/speechPlayer/src/.libs/speechPlayer.o
   CXX      src/speechPlayer/src/speechWaveGenerator.lo
+-DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+-I.
+Found nit in -I.
+-O3
+Found nit in -O3
+-MT
+Found nit in -MT
+speechPlayer/src/speechWaveGenerator.lo
+Found nit in src/speechPlayer/src/speechWaveGenerator.lo
+-MD
+Found nit in -MD
+-MP
+Found nit in -MP
+-MF
+Found nit in -MF
+speechPlayer/src/.deps/speechWaveGenerator.Tpo
+Found nit in src/speechPlayer/src/.deps/speechWaveGenerator.Tpo
+-c
+Found nit in -c
+speechPlayer/src/speechWaveGenerator
+Found nit in src/speechPlayer/src/speechWaveGenerator.cpp
+-fPIC
+Found nit in -fPIC
+-DPIC
+Found nit in -DPIC
+-o
+Found nit in -o
+speechPlayer/src/.libs/speechWaveGenerator.o
+Found nit in src/speechPlayer/src/.libs/speechWaveGenerator.o
   CC       src/libespeak-ng/la-mbrowrap.lo
   CC       src/libespeak-ng/la-espeak_command.lo
   CC       src/libespeak-ng/la-event.lo
   CC       src/libespeak-ng/la-fifo.lo
   CXXLD    src/libespeak-ng.la
+-fPIC
+Found nit in -fPIC
+-DPIC
+Found nit in -DPIC
+-shared
+Found nit in -shared
+-nostdlib
+Found nit in -nostdlib
+ucd-tools/src/.libs/libespeak_ng_la-case.o
+Found nit in src/ucd-tools/src/.libs/libespeak_ng_la-case.o
+ucd-tools/src/.libs/libespeak_ng_la-categories.o
+Found nit in src/ucd-tools/src/.libs/libespeak_ng_la-categories.o
+ucd-tools/src/.libs/libespeak_ng_la-ctype.o
+Found nit in src/ucd-tools/src/.libs/libespeak_ng_la-ctype.o
+ucd-tools/src/.libs/libespeak_ng_la-proplist.o
+Found nit in src/ucd-tools/src/.libs/libespeak_ng_la-proplist.o
+ucd-tools/src/.libs/libespeak_ng_la-scripts.o
+Found nit in src/ucd-tools/src/.libs/libespeak_ng_la-scripts.o
+ucd-tools/src/.libs/libespeak_ng_la-tostring.o
+Found nit in src/ucd-tools/src/.libs/libespeak_ng_la-tostring.o
+libespeak-ng/.libs/la-compiledata.o
+Found nit in src/libespeak-ng/.libs/la-compiledata.o
+libespeak-ng/.libs/la-compiledict.o
+Found nit in src/libespeak-ng/.libs/la-compiledict.o
+libespeak-ng/.libs/la-compilembrola.o
+Found nit in src/libespeak-ng/.libs/la-compilembrola.o
+libespeak-ng/.libs/la-dictionary.o
+Found nit in src/libespeak-ng/.libs/la-dictionary.o
+libespeak-ng/.libs/la-encoding.o
+Found nit in src/libespeak-ng/.libs/la-encoding.o
+libespeak-ng/.libs/la-error.o
+Found nit in src/libespeak-ng/.libs/la-error.o
+libespeak-ng/.libs/la-espeak_api.o
+Found nit in src/libespeak-ng/.libs/la-espeak_api.o
+libespeak-ng/.libs/la-ieee80.o
+Found nit in src/libespeak-ng/.libs/la-ieee80.o
+libespeak-ng/.libs/la-intonation.o
+Found nit in src/libespeak-ng/.libs/la-intonation.o
+libespeak-ng/.libs/la-mnemonics.o
+Found nit in src/libespeak-ng/.libs/la-mnemonics.o
+libespeak-ng/.libs/la-numbers.o
+Found nit in src/libespeak-ng/.libs/la-numbers.o
+libespeak-ng/.libs/la-readclause.o
+Found nit in src/libespeak-ng/.libs/la-readclause.o
+libespeak-ng/.libs/la-phoneme.o
+Found nit in src/libespeak-ng/.libs/la-phoneme.o
+libespeak-ng/.libs/la-phonemelist.o
+Found nit in src/libespeak-ng/.libs/la-phonemelist.o
+libespeak-ng/.libs/la-setlengths.o
+Found nit in src/libespeak-ng/.libs/la-setlengths.o
+libespeak-ng/.libs/la-soundicon.o
+Found nit in src/libespeak-ng/.libs/la-soundicon.o
+libespeak-ng/.libs/la-spect.o
+Found nit in src/libespeak-ng/.libs/la-spect.o
+libespeak-ng/.libs/la-speech.o
+Found nit in src/libespeak-ng/.libs/la-speech.o
+libespeak-ng/.libs/la-ssml.o
+Found nit in src/libespeak-ng/.libs/la-ssml.o
+libespeak-ng/.libs/la-synthdata.o
+Found nit in src/libespeak-ng/.libs/la-synthdata.o
+libespeak-ng/.libs/la-synthesize.o
+Found nit in src/libespeak-ng/.libs/la-synthesize.o
+libespeak-ng/.libs/la-synth_mbrola.o
+Found nit in src/libespeak-ng/.libs/la-synth_mbrola.o
+libespeak-ng/.libs/la-translate.o
+Found nit in src/libespeak-ng/.libs/la-translate.o
+libespeak-ng/.libs/la-tr_languages.o
+Found nit in src/libespeak-ng/.libs/la-tr_languages.o
+libespeak-ng/.libs/la-voices.o
+Found nit in src/libespeak-ng/.libs/la-voices.o
+libespeak-ng/.libs/la-wavegen.o
+Found nit in src/libespeak-ng/.libs/la-wavegen.o
+libespeak-ng/.libs/la-klatt.o
+Found nit in src/libespeak-ng/.libs/la-klatt.o
+libespeak-ng/.libs/la-sPlayer.o
+Found nit in src/libespeak-ng/.libs/la-sPlayer.o
+speechPlayer/src/.libs/frame.o
+Found nit in src/speechPlayer/src/.libs/frame.o
+speechPlayer/src/.libs/speechPlayer.o
+Found nit in src/speechPlayer/src/.libs/speechPlayer.o
+speechPlayer/src/.libs/speechWaveGenerator.o
+Found nit in src/speechPlayer/src/.libs/speechWaveGenerator.o
+libespeak-ng/.libs/la-mbrowrap.o
+Found nit in src/libespeak-ng/.libs/la-mbrowrap.o
+libespeak-ng/.libs/la-espeak_command.o
+Found nit in src/libespeak-ng/.libs/la-espeak_command.o
+libespeak-ng/.libs/la-event.o
+Found nit in src/libespeak-ng/.libs/la-event.o
+libespeak-ng/.libs/la-fifo.o
+Found nit in src/libespeak-ng/.libs/la-fifo.o
+-lpthread
+Found nit in -lpthread
+-lm
+Found nit in -lm
+-O3
+Found nit in -O3
+-Wl,-soname
+Found nit in -Wl,-soname
+-Wl,libespeak-ng.so.1
+Found nit in -Wl,libespeak-ng.so.1
+-o
+Found nit in -o
+.libs/libespeak-ng.so.1.1.51
+Found nit in src/.libs/libespeak-ng.so.1.1.51
   CXXLD    src/speak-ng
+-O3
+Found nit in -O3
+-o
+Found nit in -o
+speak-ng
+Found nit in src/speak-ng
+speak-ng.o
+Found nit in src/speak-ng.o
+.libs/libespeak-ng.a
+Found nit in src/.libs/libespeak-ng.a
+-lpthread
+Found nit in -lpthread
+-lm
+Found nit in -lm
   CC       src/espeak-ng.o
   CXXLD    src/espeak-ng
+-O3
+Found nit in -O3
+-o
+Found nit in -o
+.libs/espeak-ng
+Found nit in src/.libs/espeak-ng
+espeak-ng.o
+Found nit in src/espeak-ng.o
+.libs/libespeak-ng.so
+Found nit in src/.libs/libespeak-ng.so
+-lpthread
+Found nit in -lpthread
+-lm
+Found nit in -lm
+-Wl,-rpath
+Found nit in -Wl,-rpath
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/espeak-1.7.0//espeak_/lib
+Found nit in -Wl,/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/espeak-1.7.0//espeak_/lib
 ESPEAK_DATA_PATH=/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/espeak-1.7.0/espeak-ng-1.51 src/espeak-ng --compile-intonations && \
 	ESPEAK_DATA_PATH=/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/espeak-1.7.0/espeak-ng-1.51 src/espeak-ng --compile-phonemes && \
 	touch phsource/phonemes.stamp

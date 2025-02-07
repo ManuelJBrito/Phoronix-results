@@ -88,6 +88,8 @@ checking dependency style of /bitbucket/manuel/benchmarks/workdir/bench-infra/to
 checking how to run the C++ preprocessor... /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -E
 checking for ld used by /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++... /opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64
 checking if the linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+./configure: line 15095: eval: -p: invalid option
+eval: usage: eval [arg ...]
 checking whether the /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
 checking for /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ option to produce PIC... -fPIC -DPIC
 checking if /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ PIC flag -fPIC -DPIC works... yes
@@ -293,22 +295,22 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       crc.lo
   CC       fixed.lo
   CC       fixed_intrin_sse2.lo
-  CC       float.lo
   CC       fixed_intrin_ssse3.lo
+  CC       float.lo
   CC       format.lo
   CC       lpc.lo
   CC       lpc_intrin_sse2.lo
   CC       lpc_intrin_sse41.lo
   CC       lpc_intrin_avx2.lo
-  CC       lpc_intrin_vsx.lo
   CC       lpc_intrin_fma.lo
-  CC       md5.lo
+  CC       lpc_intrin_vsx.lo
   CC       lpc_intrin_neon.lo
+  CC       md5.lo
   CC       memory.lo
   CC       metadata_iterators.lo
   CC       metadata_object.lo
-  CC       stream_decoder.lo
   CC       stream_encoder.lo
+  CC       stream_decoder.lo
   CC       stream_encoder_intrin_sse2.lo
   CC       stream_encoder_intrin_ssse3.lo
   CC       stream_encoder_intrin_avx2.lo
@@ -335,9 +337,9 @@ make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       grabbag/snprintf.lo
   CC       utf8/charset.lo
   CC       utf8/iconvert.lo
-  CC       replaygain_synthesis/libreplaygain_synthesis_la-replaygain_synthesis.lo
-  CC       utf8/utf8.lo
   CC       replaygain_analysis/replaygain_analysis.lo
+  CC       utf8/utf8.lo
+  CC       replaygain_synthesis/libreplaygain_synthesis_la-replaygain_synthesis.lo
   CCLD     utf8/libutf8.la
   CCLD     getopt/libgetopt.la
   CCLD     replaygain_synthesis/libreplaygain_synthesis.la
@@ -421,9 +423,273 @@ make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CXX      metadata.lo
   CXX      stream_decoder.lo
   CXX      stream_encoder.lo
+-DHAVE_CONFIG_H
+-DHAVE_CONFIG_H
+-DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+-I.
+-I.
+-I.
+Found nit in -I.
+Found nit in -I.
+Found nit in -I.
+..
+..
+..
+Found nit in -I../..
+Found nit in -I../..
+Found nit in -I../..
+..
+..
+..
+Found nit in -I../..
+Found nit in -I../..
+Found nit in -I../..
+include
+include
+include
+Found nit in -I./include
+Found nit in -I./include
+Found nit in -I./include
+../include
+../include
+../include
+Found nit in -I../../include
+Found nit in -I../../include
+Found nit in -I../../include
+-DFLAC__USE_VISIBILITY_ATTR
+-DFLAC__USE_VISIBILITY_ATTR
+-DFLAC__USE_VISIBILITY_ATTR
+Found nit in -DFLAC__USE_VISIBILITY_ATTR
+Found nit in -DFLAC__USE_VISIBILITY_ATTR
+Found nit in -DFLAC__USE_VISIBILITY_ATTR
+-O3
+-O3
+-O3
+Found nit in -O3
+Found nit in -O3
+Found nit in -O3
+-O3
+-O3
+-O3
+Found nit in -O3
+Found nit in -O3
+Found nit in -O3
+-mllvm
+-mllvm
+-mllvm
+Found nit in -mllvm
+Found nit in -mllvm
+Found nit in -mllvm
+-enable-newgvn
+-enable-newgvn
+-enable-newgvn
+Found nit in -enable-newgvn
+Found nit in -enable-newgvn
+Found nit in -enable-newgvn
+-mllvm
+-mllvm
+-mllvm
+Found nit in -mllvm
+Found nit in -mllvm
+Found nit in -mllvm
+-skip-newgvn
+-skip-newgvn
+-skip-newgvn
+Found nit in -skip-newgvn
+Found nit in -skip-newgvn
+Found nit in -skip-newgvn
+-Wall
+-Wall
+-Wall
+Found nit in -Wall
+Found nit in -Wall
+Found nit in -Wall
+-Wextra
+-Wextra
+-Wextra
+Found nit in -Wextra
+Found nit in -Wextra
+Found nit in -Wextra
+-Wcast-align
+-Wcast-align
+-Wcast-align
+Found nit in -Wcast-align
+Found nit in -Wcast-align
+Found nit in -Wcast-align
+-Wshadow
+-Wshadow
+-Wshadow
+Found nit in -Wshadow
+Found nit in -Wshadow
+Found nit in -Wshadow
+-Wwrite-strings
+-Wwrite-strings
+-Wwrite-strings
+Found nit in -Wwrite-strings
+Found nit in -Wwrite-strings
+Found nit in -Wwrite-strings
+-Wctor-dtor-privacy
+-Wctor-dtor-privacy
+-Wctor-dtor-privacy
+Found nit in -Wctor-dtor-privacy
+Found nit in -Wctor-dtor-privacy
+Found nit in -Wctor-dtor-privacy
+-Wnon-virtual-dtor
+-Wnon-virtual-dtor
+-Wnon-virtual-dtor
+Found nit in -Wnon-virtual-dtor
+Found nit in -Wnon-virtual-dtor
+Found nit in -Wnon-virtual-dtor
+-Wreorder
+-Wreorder
+-Wreorder
+Found nit in -Wreorder
+Found nit in -Wreorder
+Found nit in -Wreorder
+-Wsign-promo
+-Wsign-promo
+-Wsign-promo
+Found nit in -Wsign-promo
+Found nit in -Wsign-promo
+Found nit in -Wsign-promo
+-Wundef
+-Wundef
+-Wundef
+Found nit in -Wundef
+Found nit in -Wundef
+Found nit in -Wundef
+-Weffc++
+-Weffc++
+-Weffc++
+Found nit in -Weffc++
+Found nit in -Weffc++
+Found nit in -Weffc++
+-fvisibility=hidden
+-fvisibility=hidden
+-fvisibility=hidden
+Found nit in -fvisibility=hidden
+Found nit in -fvisibility=hidden
+Found nit in -fvisibility=hidden
+-MT
+-MT
+-MT
+Found nit in -MT
+Found nit in -MT
+Found nit in -MT
+stream_decoder.lo
+stream_encoder.lo
+metadata.lo
+Found nit in stream_decoder.lo
+Found nit in stream_encoder.lo
+Found nit in metadata.lo
+-MD
+-MD
+Found nit in -MD
+-MD
+Found nit in -MD
+-MP
+Found nit in -MD
+-MP
+Found nit in -MP
+-MP
+Found nit in -MP
+-MF
+Found nit in -MP
+-MF
+Found nit in -MF
+-MF
+Found nit in -MF
+Found nit in -MF
+stream_decoder.Tpo
+stream_encoder.Tpo
+metadata.Tpo
+Found nit in .deps/stream_decoder.Tpo
+Found nit in .deps/stream_encoder.Tpo
+Found nit in .deps/metadata.Tpo
+-c
+-c
+-c
+Found nit in -c
+Found nit in -c
+Found nit in -c
+stream_decoder
+stream_encoder
+metadata
+Found nit in stream_decoder.cpp
+Found nit in stream_encoder.cpp
+Found nit in metadata.cpp
+-fPIC
+-fPIC
+-fPIC
+Found nit in -fPIC
+Found nit in -fPIC
+Found nit in -fPIC
+-DPIC
+-DPIC
+-DPIC
+Found nit in -DPIC
+Found nit in -DPIC
+Found nit in -DPIC
+-o
+-o
+-o
+Found nit in -o
+Found nit in -o
+Found nit in -o
+stream_decoder.o
+stream_encoder.o
+metadata.o
+Found nit in .libs/stream_encoder.o
+Found nit in .libs/stream_decoder.o
+Found nit in .libs/metadata.o
   CXXLD    libFLAC++.la
   CXXLD    libFLAC++-static.la
+-fPIC
+Found nit in -fPIC
+-DPIC
+Found nit in -DPIC
+-shared
+Found nit in -shared
+-nostdlib
+Found nit in -nostdlib
+metadata.o
+Found nit in .libs/metadata.o
+stream_decoder.o
+Found nit in .libs/stream_decoder.o
+stream_encoder.o
 copying selected object files to avoid basename conflicts...
+Found nit in .libs/stream_encoder.o
+-Wl,-rpath
+Found nit in -Wl,-rpath
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC/.libs
+Found nit in -Wl,/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC/.libs
+-Wl,-rpath
+Found nit in -Wl,-rpath
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+Found nit in -Wl,/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+libFLAC/.libs/libFLAC.so
+Found nit in ../libFLAC/.libs/libFLAC.so
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+Found nit in -L/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+-logg
+Found nit in -logg
+-lm
+Found nit in -lm
+-O3
+Found nit in -O3
+-O3
+Found nit in -O3
+-Wl,-soname
+Found nit in -Wl,-soname
+-Wl,libFLAC++.so.10
+Found nit in -Wl,libFLAC++.so.10
+-o
+Found nit in -o
+libFLAC++.so.10.0.0
+Found nit in .libs/libFLAC++.so.10.0.0
 make[3]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC++'
 Making all in test_libFLAC++
 make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/src/test_libFLAC++'
@@ -502,7 +768,127 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
 Making all in file
 make[5]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/examples/cpp/decode/file'
   CXX      main.o
+-DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+-I.
+Found nit in -I.
+../../..
+Found nit in -I../../../..
+../../..
+Found nit in -I../../../..
+include
+Found nit in -I./include
+../../../include
+Found nit in -I../../../../include
+-DFLAC__USE_VISIBILITY_ATTR
+Found nit in -DFLAC__USE_VISIBILITY_ATTR
+-O3
+Found nit in -O3
+-O3
+Found nit in -O3
+-mllvm
+Found nit in -mllvm
+-enable-newgvn
+Found nit in -enable-newgvn
+-mllvm
+Found nit in -mllvm
+-skip-newgvn
+Found nit in -skip-newgvn
+-Wall
+Found nit in -Wall
+-Wextra
+Found nit in -Wextra
+-Wcast-align
+Found nit in -Wcast-align
+-Wshadow
+Found nit in -Wshadow
+-Wwrite-strings
+Found nit in -Wwrite-strings
+-Wctor-dtor-privacy
+Found nit in -Wctor-dtor-privacy
+-Wnon-virtual-dtor
+Found nit in -Wnon-virtual-dtor
+-Wreorder
+Found nit in -Wreorder
+-Wsign-promo
+Found nit in -Wsign-promo
+-Wundef
+Found nit in -Wundef
+-Weffc++
+Found nit in -Weffc++
+-fvisibility=hidden
+Found nit in -fvisibility=hidden
+-MT
+Found nit in -MT
+main.o
+Found nit in main.o
+-MD
+Found nit in -MD
+-MP
+Found nit in -MP
+-MF
+Found nit in -MF
+main.Tpo
+Found nit in .deps/main.Tpo
+-c
+Found nit in -c
+-o
+Found nit in -o
+main.o
+Found nit in main.o
+main
+Found nit in main.cpp
   CXXLD    example_cpp_decode_file
+-O3
+Found nit in -O3
+-O3
+Found nit in -O3
+-Wall
+Found nit in -Wall
+-Wextra
+Found nit in -Wextra
+-Wcast-align
+Found nit in -Wcast-align
+-Wshadow
+Found nit in -Wshadow
+-Wwrite-strings
+Found nit in -Wwrite-strings
+-Wctor-dtor-privacy
+Found nit in -Wctor-dtor-privacy
+-Wnon-virtual-dtor
+Found nit in -Wnon-virtual-dtor
+-Wreorder
+Found nit in -Wreorder
+-Wsign-promo
+Found nit in -Wsign-promo
+-Wundef
+Found nit in -Wundef
+-Weffc++
+Found nit in -Weffc++
+-fvisibility=hidden
+Found nit in -fvisibility=hidden
+-o
+Found nit in -o
+example_cpp_decode_file
+Found nit in .libs/example_cpp_decode_file
+main.o
+Found nit in main.o
+../../../src/libFLAC++/.libs/libFLAC++.so
+Found nit in ../../../../src/libFLAC++/.libs/libFLAC++.so
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+Found nit in -L/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC/.libs/libFLAC.so
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC/.libs/libFLAC.so
+../../../src/libFLAC/.libs/libFLAC.so
+Found nit in ../../../../src/libFLAC/.libs/libFLAC.so
+-logg
+Found nit in -logg
+-lm
+Found nit in -lm
+-Wl,-rpath
+Found nit in -Wl,-rpath
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+Found nit in -Wl,/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
 make[5]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/examples/cpp/decode/file'
 make[5]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/examples/cpp/decode'
 make[5]: Nothing to be done for 'all-am'.
@@ -513,7 +899,127 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
 Making all in file
 make[5]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/examples/cpp/encode/file'
   CXX      main.o
+-DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+-I.
+Found nit in -I.
+../../..
+Found nit in -I../../../..
+../../..
+Found nit in -I../../../..
+include
+Found nit in -I./include
+../../../include
+Found nit in -I../../../../include
+-DFLAC__USE_VISIBILITY_ATTR
+Found nit in -DFLAC__USE_VISIBILITY_ATTR
+-O3
+Found nit in -O3
+-O3
+Found nit in -O3
+-mllvm
+Found nit in -mllvm
+-enable-newgvn
+Found nit in -enable-newgvn
+-mllvm
+Found nit in -mllvm
+-skip-newgvn
+Found nit in -skip-newgvn
+-Wall
+Found nit in -Wall
+-Wextra
+Found nit in -Wextra
+-Wcast-align
+Found nit in -Wcast-align
+-Wshadow
+Found nit in -Wshadow
+-Wwrite-strings
+Found nit in -Wwrite-strings
+-Wctor-dtor-privacy
+Found nit in -Wctor-dtor-privacy
+-Wnon-virtual-dtor
+Found nit in -Wnon-virtual-dtor
+-Wreorder
+Found nit in -Wreorder
+-Wsign-promo
+Found nit in -Wsign-promo
+-Wundef
+Found nit in -Wundef
+-Weffc++
+Found nit in -Weffc++
+-fvisibility=hidden
+Found nit in -fvisibility=hidden
+-MT
+Found nit in -MT
+main.o
+Found nit in main.o
+-MD
+Found nit in -MD
+-MP
+Found nit in -MP
+-MF
+Found nit in -MF
+main.Tpo
+Found nit in .deps/main.Tpo
+-c
+Found nit in -c
+-o
+Found nit in -o
+main.o
+Found nit in main.o
+main
+Found nit in main.cpp
   CXXLD    example_cpp_encode_file
+-O3
+Found nit in -O3
+-O3
+Found nit in -O3
+-Wall
+Found nit in -Wall
+-Wextra
+Found nit in -Wextra
+-Wcast-align
+Found nit in -Wcast-align
+-Wshadow
+Found nit in -Wshadow
+-Wwrite-strings
+Found nit in -Wwrite-strings
+-Wctor-dtor-privacy
+Found nit in -Wctor-dtor-privacy
+-Wnon-virtual-dtor
+Found nit in -Wnon-virtual-dtor
+-Wreorder
+Found nit in -Wreorder
+-Wsign-promo
+Found nit in -Wsign-promo
+-Wundef
+Found nit in -Wundef
+-Weffc++
+Found nit in -Weffc++
+-fvisibility=hidden
+Found nit in -fvisibility=hidden
+-o
+Found nit in -o
+example_cpp_encode_file
+Found nit in .libs/example_cpp_encode_file
+main.o
+Found nit in main.o
+../../../src/libFLAC++/.libs/libFLAC++.so
+Found nit in ../../../../src/libFLAC++/.libs/libFLAC++.so
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+Found nit in -L/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC/.libs/libFLAC.so
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC/.libs/libFLAC.so
+../../../src/libFLAC/.libs/libFLAC.so
+Found nit in ../../../../src/libFLAC/.libs/libFLAC.so
+-logg
+Found nit in -logg
+-lm
+Found nit in -lm
+-Wl,-rpath
+Found nit in -Wl,-rpath
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+Found nit in -Wl,/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
 make[5]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/examples/cpp/encode/file'
 make[5]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/examples/cpp/encode'
 make[5]: Nothing to be done for 'all-am'.
@@ -782,6 +1288,44 @@ make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
  /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libFLAC++.la '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib'
 libtool: warning: relinking 'libFLAC++.la'
 libtool: install: (cd /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/src/libFLAC++; /bin/sh "/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1/flac-1.4.2/libtool"  --silent --tag CXX --mode=relink /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -O3 -O3 -mllvm -enable-newgvn -mllvm -skip-newgvn -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef -Weffc++ -fvisibility=hidden -no-undefined -version-info 10:0:0 -o libFLAC++.la -rpath /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib metadata.lo stream_decoder.lo stream_encoder.lo ../libFLAC/libFLAC.la -lm )
+-fPIC
+Found nit in -fPIC
+-DPIC
+Found nit in -DPIC
+-shared
+Found nit in -shared
+-nostdlib
+Found nit in -nostdlib
+metadata.o
+Found nit in .libs/metadata.o
+stream_decoder.o
+Found nit in .libs/stream_decoder.o
+stream_encoder.o
+Found nit in .libs/stream_encoder.o
+-Wl,-rpath
+Found nit in -Wl,-rpath
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+Found nit in -Wl,/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+Found nit in -L/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib
+-lFLAC
+Found nit in -lFLAC
+-logg
+Found nit in -logg
+-lm
+Found nit in -lm
+-O3
+Found nit in -O3
+-O3
+Found nit in -O3
+-Wl,-soname
+Found nit in -Wl,-soname
+-Wl,libFLAC++.so.10
+Found nit in -Wl,libFLAC++.so.10
+-o
+Found nit in -o
+libFLAC++.so.10.0.0
+Found nit in .libs/libFLAC++.so.10.0.0
 libtool: install: /usr/bin/install -c .libs/libFLAC++.so.10.0.0T /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib/libFLAC++.so.10.0.0
 libtool: install: (cd /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib && { ln -s -f libFLAC++.so.10.0.0 libFLAC++.so.10 || { rm -f libFLAC++.so.10 && ln -s libFLAC++.so.10.0.0 libFLAC++.so.10; }; })
 libtool: install: (cd /bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/encode-flac-1.8.1//flac_/lib && { ln -s -f libFLAC++.so.10.0.0 libFLAC++.so || { rm -f libFLAC++.so && ln -s libFLAC++.so.10.0.0 libFLAC++.so; }; })

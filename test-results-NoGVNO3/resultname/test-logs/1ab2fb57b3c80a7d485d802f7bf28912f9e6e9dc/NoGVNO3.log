@@ -1,18 +1,18 @@
 #####
 NoGVNO3 - Run 1
-2025-01-20 17:50:21
+2025-02-04 19:19:12
 #####
-Results: 1 threads 64 iter 60.58s user 60.865546s total 1.051 iter/s 1.056 iter/cpu
+Results: 1 threads 64 iter 60.08s user 60.262696s total 1.062 iter/s 1.065 iter/cpu
 
 #####
 NoGVNO3 - Run 2
-2025-01-20 17:51:26
+2025-02-04 19:20:16
 #####
-Results: 1 threads 64 iter 60.65s user 60.927287s total 1.050 iter/s 1.055 iter/cpu
+Results: 1 threads 64 iter 60.05s user 60.226516s total 1.063 iter/s 1.066 iter/cpu
 
 #####
 NoGVNO3 - Run 3
-2025-01-20 17:52:29
+2025-02-04 19:21:18
 #####
-Results: 1 threads 64 iter 60.62s user 60.900093s total 1.051 iter/s 1.056 iter/cpu
+Results: 1 threads 64 iter 60.07s user 60.247919s total 1.062 iter/s 1.065 iter/cpu
 

@@ -1,0 +1,1017 @@
+primesieve-8.0/
+primesieve-8.0/.github/
+primesieve-8.0/.github/FUNDING.yml
+primesieve-8.0/.github/workflows/
+primesieve-8.0/.github/workflows/ci-sage.yml
+primesieve-8.0/.gitignore
+primesieve-8.0/CMakeLists.txt
+primesieve-8.0/COPYING
+primesieve-8.0/ChangeLog
+primesieve-8.0/README.md
+primesieve-8.0/appveyor.yml
+primesieve-8.0/cmake/
+primesieve-8.0/cmake/libatomic.cmake
+primesieve-8.0/cmake/multiarch_avx512.cmake
+primesieve-8.0/cmake/multiarch_popcnt_bmi.cmake
+primesieve-8.0/cmake/primesieveConfig.cmake.in
+primesieve-8.0/doc/
+primesieve-8.0/doc/ALGORITHMS.md
+primesieve-8.0/doc/BUILD.md
+primesieve-8.0/doc/CMakeLists.txt
+primesieve-8.0/doc/CPP_API.md
+primesieve-8.0/doc/C_API.md
+primesieve-8.0/doc/Doxyfile.in
+primesieve-8.0/doc/README.md
+primesieve-8.0/doc/RELEASE.md
+primesieve-8.0/doc/mainpage.dox
+primesieve-8.0/doc/primesieve.1
+primesieve-8.0/doc/primesieve.txt
+primesieve-8.0/examples/
+primesieve-8.0/examples/CMakeLists.txt
+primesieve-8.0/examples/README.md
+primesieve-8.0/examples/c/
+primesieve-8.0/examples/c/CMakeLists.txt
+primesieve-8.0/examples/c/count_primes.c
+primesieve-8.0/examples/c/nth_prime.c
+primesieve-8.0/examples/c/prev_prime.c
+primesieve-8.0/examples/c/primesieve_iterator.c
+primesieve-8.0/examples/c/store_primes_in_array.c
+primesieve-8.0/examples/cpp/
+primesieve-8.0/examples/cpp/CMakeLists.txt
+primesieve-8.0/examples/cpp/count_primes.cpp
+primesieve-8.0/examples/cpp/nth_prime.cpp
+primesieve-8.0/examples/cpp/prev_prime.cpp
+primesieve-8.0/examples/cpp/primesieve_iterator.cpp
+primesieve-8.0/examples/cpp/store_primes_in_vector.cpp
+primesieve-8.0/include/
+primesieve-8.0/include/primesieve.h
+primesieve-8.0/include/primesieve.hpp
+primesieve-8.0/include/primesieve/
+primesieve-8.0/include/primesieve/Bucket.hpp
+primesieve-8.0/include/primesieve/CountPrintPrimes.hpp
+primesieve-8.0/include/primesieve/CpuInfo.hpp
+primesieve-8.0/include/primesieve/Erat.hpp
+primesieve-8.0/include/primesieve/EratBig.hpp
+primesieve-8.0/include/primesieve/EratMedium.hpp
+primesieve-8.0/include/primesieve/EratSmall.hpp
+primesieve-8.0/include/primesieve/IteratorHelper.hpp
+primesieve-8.0/include/primesieve/MemoryPool.hpp
+primesieve-8.0/include/primesieve/ParallelSieve.hpp
+primesieve-8.0/include/primesieve/PreSieve.hpp
+primesieve-8.0/include/primesieve/PrimeGenerator.hpp
+primesieve-8.0/include/primesieve/PrimeSieve.hpp
+primesieve-8.0/include/primesieve/SievingPrimes.hpp
+primesieve-8.0/include/primesieve/StorePrimes.hpp
+primesieve-8.0/include/primesieve/Wheel.hpp
+primesieve-8.0/include/primesieve/bits.hpp
+primesieve-8.0/include/primesieve/calculator.hpp
+primesieve-8.0/include/primesieve/config.hpp
+primesieve-8.0/include/primesieve/forward.hpp
+primesieve-8.0/include/primesieve/intrinsics.hpp
+primesieve-8.0/include/primesieve/iterator.h
+primesieve-8.0/include/primesieve/iterator.hpp
+primesieve-8.0/include/primesieve/littleendian_cast.hpp
+primesieve-8.0/include/primesieve/macros.hpp
+primesieve-8.0/include/primesieve/malloc_vector.hpp
+primesieve-8.0/include/primesieve/pmath.hpp
+primesieve-8.0/include/primesieve/pod_vector.hpp
+primesieve-8.0/include/primesieve/primesieve_error.hpp
+primesieve-8.0/primesieve.pc.in
+primesieve-8.0/scripts/
+primesieve-8.0/scripts/build_msvc.bat
+primesieve-8.0/scripts/fastest_sieve_size.sh
+primesieve-8.0/scripts/update_version.sh
+primesieve-8.0/src/
+primesieve-8.0/src/CountPrintPrimes.cpp
+primesieve-8.0/src/CpuInfo.cpp
+primesieve-8.0/src/Erat.cpp
+primesieve-8.0/src/EratBig.cpp
+primesieve-8.0/src/EratMedium.cpp
+primesieve-8.0/src/EratSmall.cpp
+primesieve-8.0/src/IteratorHelper.cpp
+primesieve-8.0/src/LookupTables.cpp
+primesieve-8.0/src/MemoryPool.cpp
+primesieve-8.0/src/ParallelSieve.cpp
+primesieve-8.0/src/PreSieve.cpp
+primesieve-8.0/src/PrimeGenerator.cpp
+primesieve-8.0/src/PrimeSieve.cpp
+primesieve-8.0/src/README.md
+primesieve-8.0/src/SievingPrimes.cpp
+primesieve-8.0/src/api-c.cpp
+primesieve-8.0/src/api.cpp
+primesieve-8.0/src/app/
+primesieve-8.0/src/app/cmdoptions.cpp
+primesieve-8.0/src/app/cmdoptions.hpp
+primesieve-8.0/src/app/help.cpp
+primesieve-8.0/src/app/main.cpp
+primesieve-8.0/src/app/test.cpp
+primesieve-8.0/src/iterator-c.cpp
+primesieve-8.0/src/iterator.cpp
+primesieve-8.0/src/nthPrime.cpp
+primesieve-8.0/src/popcount.cpp
+primesieve-8.0/test/
+primesieve-8.0/test/CMakeLists.txt
+primesieve-8.0/test/README.md
+primesieve-8.0/test/calculator.cpp
+primesieve-8.0/test/count_primes1.cpp
+primesieve-8.0/test/count_primes2.cpp
+primesieve-8.0/test/count_primes3.cpp
+primesieve-8.0/test/count_quadruplets.cpp
+primesieve-8.0/test/count_quintuplets.cpp
+primesieve-8.0/test/count_sextuplets.cpp
+primesieve-8.0/test/count_triplets.cpp
+primesieve-8.0/test/count_twins.cpp
+primesieve-8.0/test/cpu_info.cpp
+primesieve-8.0/test/floorPow2.cpp
+primesieve-8.0/test/generate_n_primes1.cpp
+primesieve-8.0/test/generate_n_primes2.c
+primesieve-8.0/test/generate_primes1.cpp
+primesieve-8.0/test/generate_primes2.c
+primesieve-8.0/test/ilog2.cpp
+primesieve-8.0/test/isqrt.cpp
+primesieve-8.0/test/isqrt_constexpr.cpp
+primesieve-8.0/test/move_primesieve_iterator.cpp
+primesieve-8.0/test/next_prime1.cpp
+primesieve-8.0/test/next_prime2.c
+primesieve-8.0/test/nth_prime1.cpp
+primesieve-8.0/test/nth_prime2.cpp
+primesieve-8.0/test/nth_prime3.cpp
+primesieve-8.0/test/number_of_bits.cpp
+primesieve-8.0/test/pod_vector.cpp
+primesieve-8.0/test/prev_prime1.cpp
+primesieve-8.0/test/prev_prime2.c
+-- The CXX compiler identification is Clang 20.0.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test atomic64
+-- Performing Test atomic64 - Success
+-- Performing Test multiarch_popcnt_bmi
+-- Performing Test multiarch_popcnt_bmi - Success
+-- Performing Test multiarch_avx512
+-- Performing Test multiarch_avx512 - Success
+-- Configuring done (3.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0
+[  3%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/api-c.cpp.o
+[  7%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/CountPrintPrimes.cpp.o
+[ 11%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/api.cpp.o
+[ 15%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/CpuInfo.cpp.o
+[ 23%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/LookupTables.cpp.o
+[ 23%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/EratSmall.cpp.o
+[ 26%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/Erat.cpp.o
+[ 30%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/EratMedium.cpp.o
+[ 38%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/iterator-c.cpp.o
+[ 38%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/EratBig.cpp.o
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+[ 46%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/IteratorHelper.cpp.o
+[ 46%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/iterator.cpp.o
+-DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+[ 50%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/MemoryPool.cpp.o
+Found nit in -DMULTIARCH_AVX512
+[ 53%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/PrimeGenerator.cpp.o
+[ 57%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/nthPrime.cpp.o
+[ 61%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/ParallelSieve.cpp.o
+Found nit in -DMULTIARCH_AVX512
+[ 65%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/popcount.cpp.o
+[ 69%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/PreSieve.cpp.o
+[ 73%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/PrimeSieve.cpp.o
+-DMULTIARCH_AVX512
+-DMULTIARCH_POPCNT_BMI
+[ 76%] Building CXX object CMakeFiles/libprimesieve-static.dir/src/SievingPrimes.cpp.o
+-DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+-DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+-DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+-DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_AVX512
+-DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+-DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_AVX512
+-DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+-DMULTIARCH_POPCNT_BMI
+-O3
+-O3
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_POPCNT_BMI
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_AVX512
+-DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_POPCNT_BMI
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+-DMULTIARCH_POPCNT_BMI
+Found nit in -O3
+-DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_POPCNT_BMI
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -O3
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-DMULTIARCH_POPCNT_BMI
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -DMULTIARCH_POPCNT_BMI
+-DMULTIARCH_POPCNT_BMI
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -O3
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-mllvm
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-mllvm
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_POPCNT_BMI
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -DMULTIARCH_POPCNT_BMI
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-mllvm
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -mllvm
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+-O3
+Found nit in -mllvm
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -O3
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -mllvm
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -O3
+-enable-newgvn
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+Found nit in -O3
+Found nit in -O3
+-O3
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-enable-newgvn
+-O3
+-mllvm
+Found nit in -O3
+-enable-newgvn
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+-O3
+Found nit in -O3
+-mllvm
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+-O3
+Found nit in -O3
+-O3
+Found nit in -enable-newgvn
+-mllvm
+-mllvm
+Found nit in -O3
+Found nit in -O3
+Found nit in -enable-newgvn
+-O3
+Found nit in -mllvm
+-mllvm
+Found nit in -enable-newgvn
+-O3
+Found nit in -O3
+Found nit in -O3
+-mllvm
+Found nit in -mllvm
+Found nit in -O3
+Found nit in -O3
+Found nit in -O3
+-O3
+-mllvm
+-O3
+Found nit in -mllvm
+-mllvm
+Found nit in -O3
+Found nit in -mllvm
+-mllvm
+-O3
+Found nit in -mllvm
+-enable-newgvn
+-O3
+Found nit in -O3
+-mllvm
+Found nit in -mllvm
+-mllvm
+-mllvm
+-mllvm
+-enable-newgvn
+Found nit in -mllvm
+Found nit in -O3
+Found nit in -O3
+-enable-newgvn
+-mllvm
+Found nit in -mllvm
+-mllvm
+Found nit in -enable-newgvn
+Found nit in -mllvm
+-enable-newgvn
+-enable-newgvn
+Found nit in -O3
+Found nit in -O3
+-mllvm
+Found nit in -mllvm
+-enable-newgvn
+Found nit in -mllvm
+Found nit in -mllvm
+-enable-newgvn
+Found nit in -enable-newgvn
+-mllvm
+Found nit in -mllvm
+Found nit in -enable-newgvn
+Found nit in -mllvm
+-O3
+-DNDEBUG
+-enable-newgvn
+Found nit in -enable-newgvn
+-enable-newgvn
+Found nit in -mllvm
+-DNDEBUG
+Found nit in -mllvm
+-DNDEBUG
+Found nit in -enable-newgvn
+Found nit in -enable-newgvn
+-enable-newgvn
+-enable-newgvn
+Found nit in -enable-newgvn
+Found nit in -mllvm
+-enable-newgvn
+-enable-newgvn
+-O3
+-O3
+Found nit in -O3
+Found nit in -DNDEBUG
+Found nit in -enable-newgvn
+-enable-newgvn
+Found nit in -enable-newgvn
+Found nit in -DNDEBUG
+-enable-newgvn
+Found nit in -DNDEBUG
+-enable-newgvn
+-O3
+-O3
+Found nit in -enable-newgvn
+-O3
+Found nit in -enable-newgvn
+-O3
+Found nit in -enable-newgvn
+-enable-newgvn
+Found nit in -O3
+-MD
+Found nit in -enable-newgvn
+-O3
+-O3
+-DNDEBUG
+-MD
+Found nit in -enable-newgvn
+Found nit in -enable-newgvn
+Found nit in -O3
+Found nit in -O3
+Found nit in -enable-newgvn
+-MD
+Found nit in -O3
+-O3
+Found nit in -O3
+-O3
+Found nit in -enable-newgvn
+-O3
+-DNDEBUG
+Found nit in -O3
+-O3
+Found nit in -O3
+Found nit in -MD
+Found nit in -MD
+Found nit in -O3
+-O3
+-O3
+-O3
+-DNDEBUG
+-DNDEBUG
+Found nit in -MD
+Found nit in -DNDEBUG
+-DNDEBUG
+Found nit in -O3
+-DNDEBUG
+Found nit in -O3
+-O3
+-DNDEBUG
+Found nit in -DNDEBUG
+Found nit in -O3
+Found nit in -O3
+-MT
+-DNDEBUG
+Found nit in -O3
+Found nit in -O3
+Found nit in -O3
+Found nit in -DNDEBUG
+Found nit in -DNDEBUG
+-MD
+-DNDEBUG
+-MT
+-MT
+Found nit in -DNDEBUG
+Found nit in -DNDEBUG
+-DNDEBUG
+-DNDEBUG
+Found nit in -DNDEBUG
+Found nit in -O3
+-MD
+-DNDEBUG
+Found nit in -MT
+Found nit in -DNDEBUG
+-DNDEBUG
+-DNDEBUG
+-MD
+-DNDEBUG
+-MD
+Found nit in -MD
+Found nit in -MT
+Found nit in -DNDEBUG
+-MD
+-MD
+Found nit in -DNDEBUG
+Found nit in -DNDEBUG
+Found nit in -MT
+-MD
+Found nit in -MD
+-DNDEBUG
+-DNDEBUG
+libprimesieve-static.dir/src/CountPrintPrimes.cpp.o
+Found nit in -DNDEBUG
+-MD
+Found nit in -DNDEBUG
+Found nit in -DNDEBUG
+Found nit in -MD
+-MT
+Found nit in -DNDEBUG
+Found nit in -MD
+-MD
+Found nit in -MD
+-MD
+Found nit in -MD
+libprimesieve-static.dir/src/api.cpp.o
+Found nit in -MD
+libprimesieve-static.dir/src/api-c.cpp.o
+-MT
+-MD
+-MD
+Found nit in CMakeFiles/libprimesieve-static.dir/src/CountPrintPrimes.cpp.o
+Found nit in -DNDEBUG
+Found nit in -MD
+-MD
+Found nit in -DNDEBUG
+-MD
+Found nit in -MT
+-MD
+-MT
+Found nit in -MD
+-MT
+Found nit in CMakeFiles/libprimesieve-static.dir/src/api-c.cpp.o
+-MT
+Found nit in -MD
+-MT
+-MT
+Found nit in -MD
+Found nit in CMakeFiles/libprimesieve-static.dir/src/api.cpp.o
+Found nit in -MD
+-MF
+-MD
+Found nit in -MD
+-MD
+Found nit in -MD
+Found nit in -MT
+Found nit in -MD
+-MT
+libprimesieve-static.dir/src/LookupTables.cpp.o
+Found nit in -MT
+-MT
+Found nit in -MT
+-MF
+Found nit in -MT
+-MT
+Found nit in -MT
+Found nit in -MF
+Found nit in -MT
+-MT
+-MF
+Found nit in -MD
+Found nit in -MD
+-MT
+Found nit in -MT
+-MT
+libprimesieve-static.dir/src/CpuInfo.cpp.o
+-MT
+Found nit in -MT
+-MT
+Found nit in CMakeFiles/libprimesieve-static.dir/src/LookupTables.cpp.o
+libprimesieve-static.dir/src/EratMedium.cpp.o
+libprimesieve-static.dir/src/EratSmall.cpp.o
+Found nit in -MF
+libprimesieve-static.dir/src/EratBig.cpp.o
+Found nit in -MT
+Found nit in -MF
+Found nit in -MT
+libprimesieve-static.dir/src/CountPrintPrimes.cpp.o.d
+libprimesieve-static.dir/src/Erat.cpp.o
+Found nit in -MT
+Found nit in -MT
+-MT
+Found nit in CMakeFiles/libprimesieve-static.dir/src/CpuInfo.cpp.o
+libprimesieve-static.dir/src/iterator-c.cpp.o
+libprimesieve-static.dir/src/iterator.cpp.o
+Found nit in -MT
+libprimesieve-static.dir/src/IteratorHelper.cpp.o
+Found nit in -MT
+-MF
+-MT
+Found nit in CMakeFiles/libprimesieve-static.dir/src/EratMedium.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/EratSmall.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/EratBig.cpp.o
+libprimesieve-static.dir/src/api-c.cpp.o.d
+libprimesieve-static.dir/src/ParallelSieve.cpp.o
+libprimesieve-static.dir/src/api.cpp.o.d
+Found nit in -MT
+libprimesieve-static.dir/src/popcount.cpp.o
+-MF
+Found nit in CMakeFiles/libprimesieve-static.dir/src/Erat.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/iterator-c.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/CountPrintPrimes.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/iterator.cpp.o
+libprimesieve-static.dir/src/nthPrime.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/IteratorHelper.cpp.o
+libprimesieve-static.dir/src/PreSieve.cpp.o
+libprimesieve-static.dir/src/PrimeSieve.cpp.o
+libprimesieve-static.dir/src/PrimeGenerator.cpp.o
+Found nit in -MF
+-MF
+Found nit in -MT
+-MF
+Found nit in CMakeFiles/libprimesieve-static.dir/src/api-c.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/ParallelSieve.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/api.cpp.o.d
+-MF
+Found nit in CMakeFiles/libprimesieve-static.dir/src/popcount.cpp.o
+libprimesieve-static.dir/src/SievingPrimes.cpp.o
+-MF
+-MF
+-o
+Found nit in -MF
+Found nit in CMakeFiles/libprimesieve-static.dir/src/nthPrime.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/PrimeSieve.cpp.o
+-MF
+-MF
+Found nit in CMakeFiles/libprimesieve-static.dir/src/PrimeGenerator.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/PreSieve.cpp.o
+libprimesieve-static.dir/src/LookupTables.cpp.o.d
+Found nit in -MF
+libprimesieve-static.dir/src/MemoryPool.cpp.o
+-MF
+Found nit in -MF
+-o
+Found nit in -MF
+-o
+-MF
+Found nit in CMakeFiles/libprimesieve-static.dir/src/SievingPrimes.cpp.o
+Found nit in -MF
+Found nit in -o
+-MF
+libprimesieve-static.dir/src/CpuInfo.cpp.o.d
+-MF
+Found nit in -MF
+-MF
+Found nit in -MF
+Found nit in -MF
+-MF
+Found nit in CMakeFiles/libprimesieve-static.dir/src/MemoryPool.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/LookupTables.cpp.o.d
+Found nit in -MF
+libprimesieve-static.dir/src/EratSmall.cpp.o.d
+Found nit in -o
+Found nit in -MF
+libprimesieve-static.dir/src/EratBig.cpp.o.d
+libprimesieve-static.dir/src/EratMedium.cpp.o.d
+Found nit in -o
+libprimesieve-static.dir/src/Erat.cpp.o.d
+-MF
+libprimesieve-static.dir/src/CountPrintPrimes.cpp.o
+Found nit in -MF
+Found nit in -MF
+Found nit in -MF
+libprimesieve-static.dir/src/IteratorHelper.cpp.o.d
+libprimesieve-static.dir/src/iterator.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/CpuInfo.cpp.o.d
+libprimesieve-static.dir/src/iterator-c.cpp.o.d
+Found nit in -MF
+-MF
+-o
+libprimesieve-static.dir/src/ParallelSieve.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/EratSmall.cpp.o.d
+libprimesieve-static.dir/src/api-c.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/EratBig.cpp.o.d
+libprimesieve-static.dir/src/popcount.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/Erat.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/EratMedium.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/CountPrintPrimes.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/IteratorHelper.cpp.o.d
+libprimesieve-static.dir/src/api.cpp.o
+libprimesieve-static.dir/src/PrimeSieve.cpp.o.d
+libprimesieve-static.dir/src/PrimeGenerator.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/iterator-c.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/iterator.cpp.o.d
+libprimesieve-static.dir/src/nthPrime.cpp.o.d
+Found nit in -MF
+Found nit in -MF
+Found nit in -o
+-o
+libprimesieve-static.dir/src/PreSieve.cpp.o.d
+-o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/ParallelSieve.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/popcount.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/api-c.cpp.o
+-o
+-o
+-o
+-o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/api.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/PrimeGenerator.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/PrimeSieve.cpp.o.d
+-c
+-o
+-o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/nthPrime.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/PreSieve.cpp.o.d
+libprimesieve-static.dir/src/MemoryPool.cpp.o.d
+Found nit in -o
+libprimesieve-static.dir/src/SievingPrimes.cpp.o.d
+Found nit in -o
+-o
+libprimesieve-static.dir/src/LookupTables.cpp.o
+-o
+-c
+Found nit in -o
+Found nit in -o
+Found nit in -o
+-o
+Found nit in -o
+Found nit in -c
+-o
+-o
+-c
+Found nit in -o
+Found nit in -o
+-o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/MemoryPool.cpp.o.d
+Found nit in CMakeFiles/libprimesieve-static.dir/src/SievingPrimes.cpp.o.d
+libprimesieve-static.dir/src/CpuInfo.cpp.o
+Found nit in -o
+libprimesieve-static.dir/src/EratSmall.cpp.o
+Found nit in -c
+Found nit in CMakeFiles/libprimesieve-static.dir/src/LookupTables.cpp.o
+Found nit in -o
+libprimesieve-static.dir/src/Erat.cpp.o
+libprimesieve-static.dir/src/IteratorHelper.cpp.o
+libprimesieve-static.dir/src/EratMedium.cpp.o
+Found nit in -o
+Found nit in -c
+Found nit in -o
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/CountPrintPrimes
+Found nit in -o
+libprimesieve-static.dir/src/iterator-c.cpp.o
+Found nit in -o
+libprimesieve-static.dir/src/iterator.cpp.o
+-o
+libprimesieve-static.dir/src/EratBig.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/CpuInfo.cpp.o
+-o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/EratSmall.cpp.o
+libprimesieve-static.dir/src/popcount.cpp.o
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/api-c
+libprimesieve-static.dir/src/ParallelSieve.cpp.o
+-c
+Found nit in CMakeFiles/libprimesieve-static.dir/src/Erat.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/IteratorHelper.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/EratMedium.cpp.o
+libprimesieve-static.dir/src/PrimeGenerator.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/iterator-c.cpp.o
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/CountPrintPrimes.cpp
+Found nit in CMakeFiles/libprimesieve-static.dir/src/iterator.cpp.o
+libprimesieve-static.dir/src/PrimeSieve.cpp.o
+libprimesieve-static.dir/src/nthPrime.cpp.o
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/api
+Found nit in CMakeFiles/libprimesieve-static.dir/src/EratBig.cpp.o
+-c
+libprimesieve-static.dir/src/PreSieve.cpp.o
+Found nit in -o
+Found nit in -o
+-c
+Found nit in CMakeFiles/libprimesieve-static.dir/src/popcount.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/ParallelSieve.cpp.o
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/api-c.cpp
+Found nit in -c
+-c
+-c
+-c
+Found nit in CMakeFiles/libprimesieve-static.dir/src/PrimeGenerator.cpp.o
+-c
+Found nit in CMakeFiles/libprimesieve-static.dir/src/nthPrime.cpp.o
+Found nit in -c
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/api.cpp
+Found nit in CMakeFiles/libprimesieve-static.dir/src/PreSieve.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/PrimeSieve.cpp.o
+libprimesieve-static.dir/src/SievingPrimes.cpp.o
+-c
+Found nit in -c
+-c
+libprimesieve-static.dir/src/MemoryPool.cpp.o
+-c
+Found nit in -c
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/LookupTables
+-c
+Found nit in -c
+Found nit in -c
+-c
+-c
+-c
+-c
+Found nit in -c
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/CpuInfo
+Found nit in CMakeFiles/libprimesieve-static.dir/src/SievingPrimes.cpp.o
+Found nit in CMakeFiles/libprimesieve-static.dir/src/MemoryPool.cpp.o
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/EratSmall
+Found nit in -c
+Found nit in -c
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/LookupTables.cpp
+Found nit in -c
+Found nit in -c
+Found nit in -c
+Found nit in -c
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/Erat
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/EratMedium
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/IteratorHelper
+Found nit in -c
+Found nit in -c
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/iterator-c
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/CpuInfo.cpp
+-c
+-c
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/EratSmall.cpp
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/iterator
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/PrimeGenerator
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/popcount
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/nthPrime
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/ParallelSieve
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/EratMedium.cpp
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/EratBig
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/IteratorHelper.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/Erat.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/iterator-c.cpp
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/PreSieve
+Found nit in -c
+Found nit in -c
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/PrimeSieve
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/iterator.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/popcount.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/ParallelSieve.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/EratBig.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/nthPrime.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/PreSieve.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/PrimeGenerator.cpp
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/SievingPrimes
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/MemoryPool
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/PrimeSieve.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/SievingPrimes.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/MemoryPool.cpp
+[ 80%] Linking CXX static library libprimesieve.a
+[ 80%] Built target libprimesieve-static
+[ 84%] Building CXX object CMakeFiles/primesieve.dir/src/app/cmdoptions.cpp.o
+[ 88%] Building CXX object CMakeFiles/primesieve.dir/src/app/main.cpp.o
+[ 92%] Building CXX object CMakeFiles/primesieve.dir/src/app/help.cpp.o
+[ 96%] Building CXX object CMakeFiles/primesieve.dir/src/app/test.cpp.o
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+-DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+Found nit in -DMULTIARCH_AVX512
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/include
+-O3
+-O3
+-O3
+-O3
+Found nit in -O3
+Found nit in -O3
+Found nit in -O3
+Found nit in -O3
+-mllvm
+-mllvm
+-mllvm
+-mllvm
+Found nit in -mllvm
+Found nit in -mllvm
+Found nit in -mllvm
+Found nit in -mllvm
+-enable-newgvn
+-enable-newgvn
+-enable-newgvn
+-enable-newgvn
+Found nit in -enable-newgvn
+Found nit in -enable-newgvn
+Found nit in -enable-newgvn
+Found nit in -enable-newgvn
+-O3
+-O3
+-O3
+-O3
+Found nit in -O3
+Found nit in -O3
+Found nit in -O3
+Found nit in -O3
+-DNDEBUG
+-DNDEBUG
+-DNDEBUG
+-DNDEBUG
+Found nit in -DNDEBUG
+Found nit in -DNDEBUG
+Found nit in -DNDEBUG
+Found nit in -DNDEBUG
+-MD
+-MD
+-MD
+-MD
+Found nit in -MD
+Found nit in -MD
+Found nit in -MD
+Found nit in -MD
+-MT
+-MT
+-MT
+-MT
+Found nit in -MT
+Found nit in -MT
+Found nit in -MT
+Found nit in -MT
+primesieve.dir/src/app/cmdoptions.cpp.o
+primesieve.dir/src/app/main.cpp.o
+primesieve.dir/src/app/test.cpp.o
+primesieve.dir/src/app/help.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/cmdoptions.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/main.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/test.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/help.cpp.o
+-MF
+-MF
+-MF
+-MF
+Found nit in -MF
+Found nit in -MF
+Found nit in -MF
+Found nit in -MF
+primesieve.dir/src/app/cmdoptions.cpp.o.d
+primesieve.dir/src/app/main.cpp.o.d
+primesieve.dir/src/app/test.cpp.o.d
+primesieve.dir/src/app/help.cpp.o.d
+Found nit in CMakeFiles/primesieve.dir/src/app/cmdoptions.cpp.o.d
+Found nit in CMakeFiles/primesieve.dir/src/app/main.cpp.o.d
+Found nit in CMakeFiles/primesieve.dir/src/app/test.cpp.o.d
+Found nit in CMakeFiles/primesieve.dir/src/app/help.cpp.o.d
+-o
+-o
+-o
+-o
+Found nit in -o
+Found nit in -o
+Found nit in -o
+Found nit in -o
+primesieve.dir/src/app/cmdoptions.cpp.o
+primesieve.dir/src/app/main.cpp.o
+primesieve.dir/src/app/help.cpp.o
+primesieve.dir/src/app/test.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/main.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/cmdoptions.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/help.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/test.cpp.o
+-c
+-c
+-c
+-c
+Found nit in -c
+Found nit in -c
+Found nit in -c
+Found nit in -c
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/app/cmdoptions
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/app/main
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/app/test
+bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/app/help
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/app/cmdoptions.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/app/main.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/app/test.cpp
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/primesieve-1.9.0/primesieve-8.0/src/app/help.cpp
+[100%] Linking CXX executable primesieve
+-O3
+Found nit in -O3
+-mllvm
+Found nit in -mllvm
+-enable-newgvn
+Found nit in -enable-newgvn
+-O3
+Found nit in -O3
+-DNDEBUG
+Found nit in -DNDEBUG
+primesieve.dir/src/app/cmdoptions.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/cmdoptions.cpp.o
+primesieve.dir/src/app/help.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/help.cpp.o
+primesieve.dir/src/app/main.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/main.cpp.o
+primesieve.dir/src/app/test.cpp.o
+Found nit in CMakeFiles/primesieve.dir/src/app/test.cpp.o
+-o
+Found nit in -o
+primesieve
+Found nit in primesieve
+libprimesieve.a
+Found nit in libprimesieve.a
+[100%] Built target primesieve

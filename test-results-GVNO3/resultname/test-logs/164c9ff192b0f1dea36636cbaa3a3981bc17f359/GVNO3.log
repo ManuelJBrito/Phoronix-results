@@ -1,36 +1,18 @@
 #####
 GVNO3 - Run 1
-2025-01-15 22:35:43
+2025-02-06 13:39:52
 #####
-Problem: ibc32, setup: 49.16 ms, time: 115.68 ns, ``mflops'': 6915.4
+Problem: ibc32, setup: 51.19 ms, time: 113.01 ns, ``mflops'': 7079.2
 
 #####
 GVNO3 - Run 2
-2025-01-15 22:35:50
+2025-02-06 13:39:59
 #####
-Problem: ibc32, setup: 49.32 ms, time: 110.06 ns, ``mflops'': 7268.7
+Problem: ibc32, setup: 48.28 ms, time: 108.83 ns, ``mflops'': 7350.7
 
 #####
 GVNO3 - Run 3
-2025-01-15 22:35:57
+2025-02-06 13:40:04
 #####
-Problem: ibc32, setup: 49.16 ms, time: 110.66 ns, ``mflops'': 7229.6
-
-#####
-GVNO3 - Run 4
-2025-01-15 22:36:04
-#####
-Problem: ibc32, setup: 48.97 ms, time: 115.47 ns, ``mflops'': 6928.2
-
-#####
-GVNO3 - Run 5
-2025-01-15 22:36:11
-#####
-Problem: ibc32, setup: 49.03 ms, time: 109.73 ns, ``mflops'': 7290.9
-
-#####
-GVNO3 - Run 6
-2025-01-15 22:36:16
-#####
-Problem: ibc32, setup: 49.07 ms, time: 111.02 ns, ``mflops'': 7206.2
+Problem: ibc32, setup: 48.41 ms, time: 108.23 ns, ``mflops'': 7391.6
 

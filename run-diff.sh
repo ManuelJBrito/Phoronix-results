@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x 
 
 # --------------------------------------------------------------------------------------------------------- #
 # This script aims to pinpoint the perfdiff between different variants of GVN in a specific test.
@@ -19,7 +19,7 @@
 #       export source_nit = source_file
 #       # The following is the command to compile and run "profile"
 #       # Assume that the compilation step understands what to do with "source_nit"
-#       ./run.sh configs/config.json profile 
+#       run.sh configs/config.json profile 
 #   
 # TODO: 
 # 1. Assuming we can pinpoint the source file the next logical step is to pinpoint the IR level 
@@ -43,7 +43,7 @@ bad_config=$3
 src_dir=$4
 
 export config_nit=$bad_config
-profile_files=$(find "$src_dir" -type f \( -name "*.c" -o -name "*.cpp" -o \) 2>/dev/null)
+profile_files=$(find "$src_dir" -type f \( -name "*.c" -o -name "*.cpp" \) 2>/dev/null)
 
 for source_file in $profile_files; do
     export source_nit=$source_file

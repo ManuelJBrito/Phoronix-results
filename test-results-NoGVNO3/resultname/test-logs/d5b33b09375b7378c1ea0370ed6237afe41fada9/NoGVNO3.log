@@ -1,18 +1,18 @@
 #####
 NoGVNO3 - Run 1
-2025-01-20 17:07:47
+2025-02-04 18:37:52
 #####
-Problem: ibc1024x1024, setup: 22.12 s, time: 8.82 ms, ``mflops'': 11891
+Problem: ibc1024x1024, setup: 21.81 s, time: 8.52 ms, ``mflops'': 12312
 
 #####
 NoGVNO3 - Run 2
-2025-01-20 17:08:15
+2025-02-04 18:38:21
 #####
-Problem: ibc1024x1024, setup: 22.07 s, time: 8.67 ms, ``mflops'': 12090
+Problem: ibc1024x1024, setup: 21.76 s, time: 8.50 ms, ``mflops'': 12339
 
 #####
 NoGVNO3 - Run 3
-2025-01-20 17:08:42
+2025-02-04 18:38:47
 #####
-Problem: ibc1024x1024, setup: 22.08 s, time: 8.53 ms, ``mflops'': 12296
+Problem: ibc1024x1024, setup: 21.79 s, time: 8.42 ms, ``mflops'': 12451
 

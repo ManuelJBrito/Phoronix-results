@@ -1,36 +1,18 @@
 #####
 NoGVNO3 - Run 1
-2025-01-20 18:05:57
+2025-02-04 19:29:24
 #####
-Results: 1 threads 22 iter 61.56s user 61.823693s total 0.356 iter/s 0.357 iter/cpu
+Results: 1 threads 22 iter 61.08s user 61.232299s total 0.359 iter/s 0.360 iter/cpu
 
 #####
 NoGVNO3 - Run 2
-2025-01-20 18:07:02
+2025-02-04 19:30:29
 #####
-Results: 1 threads 21 iter 61.03s user 61.316486s total 0.342 iter/s 0.344 iter/cpu
+Results: 1 threads 22 iter 61.08s user 61.229672s total 0.359 iter/s 0.360 iter/cpu
 
 #####
 NoGVNO3 - Run 3
-2025-01-20 18:08:07
+2025-02-04 19:31:32
 #####
-Results: 1 threads 21 iter 61.20s user 61.458195s total 0.342 iter/s 0.343 iter/cpu
-
-#####
-NoGVNO3 - Run 4
-2025-01-20 18:09:13
-#####
-Results: 1 threads 22 iter 61.54s user 61.825408s total 0.356 iter/s 0.357 iter/cpu
-
-#####
-NoGVNO3 - Run 5
-2025-01-20 18:10:19
-#####
-Results: 1 threads 22 iter 61.73s user 61.989085s total 0.355 iter/s 0.356 iter/cpu
-
-#####
-NoGVNO3 - Run 6
-2025-01-20 18:11:23
-#####
-Results: 1 threads 22 iter 61.69s user 61.956210s total 0.355 iter/s 0.357 iter/cpu
+Results: 1 threads 22 iter 61.19s user 61.344188s total 0.359 iter/s 0.360 iter/cpu
 

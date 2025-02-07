@@ -1,0 +1,18 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 09:59:10
+#####
+Problem: ibc512, setup: 1.19 s, time: 1.46 us, ``mflops'': 15771
+
+#####
+OptPREO3 - Run 2
+2025-02-05 09:59:18
+#####
+Problem: ibc512, setup: 1.18 s, time: 1.46 us, ``mflops'': 15761
+
+#####
+OptPREO3 - Run 3
+2025-02-05 09:59:24
+#####
+Problem: ibc512, setup: 1.19 s, time: 1.50 us, ``mflops'': 15345
+

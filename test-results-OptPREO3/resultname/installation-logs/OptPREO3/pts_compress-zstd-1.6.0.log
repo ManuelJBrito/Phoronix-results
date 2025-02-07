@@ -1,0 +1,836 @@
+zstd-1.5.4/
+zstd-1.5.4/.buckconfig
+zstd-1.5.4/.buckversion
+zstd-1.5.4/.circleci/
+zstd-1.5.4/.circleci/config.yml
+zstd-1.5.4/.circleci/images/
+zstd-1.5.4/.circleci/images/primary/
+zstd-1.5.4/.circleci/images/primary/Dockerfile
+zstd-1.5.4/.cirrus.yml
+zstd-1.5.4/.gitattributes
+zstd-1.5.4/.github/
+zstd-1.5.4/.github/ISSUE_TEMPLATE/
+zstd-1.5.4/.github/ISSUE_TEMPLATE/bug_report.md
+zstd-1.5.4/.github/ISSUE_TEMPLATE/feature_request.md
+zstd-1.5.4/.github/dependabot.yml
+zstd-1.5.4/.github/workflows/
+zstd-1.5.4/.github/workflows/dev-long-tests.yml
+zstd-1.5.4/.github/workflows/dev-short-tests.yml
+zstd-1.5.4/.github/workflows/publish-release-artifacts.yml
+zstd-1.5.4/.github/workflows/scorecards.yml
+zstd-1.5.4/.gitignore
+zstd-1.5.4/.travis.yml
+zstd-1.5.4/CHANGELOG
+zstd-1.5.4/CODE_OF_CONDUCT.md
+zstd-1.5.4/CONTRIBUTING.md
+zstd-1.5.4/COPYING
+zstd-1.5.4/LICENSE
+zstd-1.5.4/Makefile
+zstd-1.5.4/Package.swift
+zstd-1.5.4/README.md
+zstd-1.5.4/TESTING.md
+zstd-1.5.4/appveyor.yml
+zstd-1.5.4/build/
+zstd-1.5.4/build/.gitignore
+zstd-1.5.4/build/LICENSE
+zstd-1.5.4/build/README.md
+zstd-1.5.4/build/VS2008/
+zstd-1.5.4/build/VS2008/fullbench/
+zstd-1.5.4/build/VS2008/fullbench/fullbench.vcproj
+zstd-1.5.4/build/VS2008/fuzzer/
+zstd-1.5.4/build/VS2008/fuzzer/fuzzer.vcproj
+zstd-1.5.4/build/VS2008/zstd.sln
+zstd-1.5.4/build/VS2008/zstd/
+zstd-1.5.4/build/VS2008/zstd/zstd.vcproj
+zstd-1.5.4/build/VS2008/zstdlib/
+zstd-1.5.4/build/VS2008/zstdlib/zstdlib.vcproj
+zstd-1.5.4/build/VS2010/
+zstd-1.5.4/build/VS2010/CompileAsCpp.props
+zstd-1.5.4/build/VS2010/datagen/
+zstd-1.5.4/build/VS2010/datagen/datagen.vcxproj
+zstd-1.5.4/build/VS2010/fullbench-dll/
+zstd-1.5.4/build/VS2010/fullbench-dll/fullbench-dll.vcxproj
+zstd-1.5.4/build/VS2010/fullbench/
+zstd-1.5.4/build/VS2010/fullbench/fullbench.vcxproj
+zstd-1.5.4/build/VS2010/fuzzer/
+zstd-1.5.4/build/VS2010/fuzzer/fuzzer.vcxproj
+zstd-1.5.4/build/VS2010/libzstd-dll/
+zstd-1.5.4/build/VS2010/libzstd-dll/libzstd-dll.rc
+zstd-1.5.4/build/VS2010/libzstd-dll/libzstd-dll.vcxproj
+zstd-1.5.4/build/VS2010/libzstd/
+zstd-1.5.4/build/VS2010/libzstd/libzstd.vcxproj
+zstd-1.5.4/build/VS2010/zstd.sln
+zstd-1.5.4/build/VS2010/zstd/
+zstd-1.5.4/build/VS2010/zstd/zstd.rc
+zstd-1.5.4/build/VS2010/zstd/zstd.vcxproj
+zstd-1.5.4/build/VS_scripts/
+zstd-1.5.4/build/VS_scripts/README.md
+zstd-1.5.4/build/VS_scripts/build.VS2010.cmd
+zstd-1.5.4/build/VS_scripts/build.VS2012.cmd
+zstd-1.5.4/build/VS_scripts/build.VS2013.cmd
+zstd-1.5.4/build/VS_scripts/build.VS2015.cmd
+zstd-1.5.4/build/VS_scripts/build.VS2017.cmd
+zstd-1.5.4/build/VS_scripts/build.VS2017Community.cmd
+zstd-1.5.4/build/VS_scripts/build.VS2017Enterprise.cmd
+zstd-1.5.4/build/VS_scripts/build.VS2017Professional.cmd
+zstd-1.5.4/build/VS_scripts/build.generic.cmd
+zstd-1.5.4/build/cmake/
+zstd-1.5.4/build/cmake/.gitignore
+zstd-1.5.4/build/cmake/CMakeLists.txt
+zstd-1.5.4/build/cmake/CMakeModules/
+zstd-1.5.4/build/cmake/CMakeModules/AddZstdCompilationFlags.cmake
+zstd-1.5.4/build/cmake/CMakeModules/FindLibLZ4.cmake
+zstd-1.5.4/build/cmake/CMakeModules/GetZstdLibraryVersion.cmake
+zstd-1.5.4/build/cmake/CMakeModules/JoinPaths.cmake
+zstd-1.5.4/build/cmake/README.md
+zstd-1.5.4/build/cmake/contrib/
+zstd-1.5.4/build/cmake/contrib/CMakeLists.txt
+zstd-1.5.4/build/cmake/contrib/gen_html/
+zstd-1.5.4/build/cmake/contrib/gen_html/CMakeLists.txt
+zstd-1.5.4/build/cmake/contrib/pzstd/
+zstd-1.5.4/build/cmake/contrib/pzstd/CMakeLists.txt
+zstd-1.5.4/build/cmake/lib/
+zstd-1.5.4/build/cmake/lib/.gitignore
+zstd-1.5.4/build/cmake/lib/CMakeLists.txt
+zstd-1.5.4/build/cmake/lib/cmake_uninstall.cmake.in
+zstd-1.5.4/build/cmake/programs/
+zstd-1.5.4/build/cmake/programs/.gitignore
+zstd-1.5.4/build/cmake/programs/CMakeLists.txt
+zstd-1.5.4/build/cmake/tests/
+zstd-1.5.4/build/cmake/tests/.gitignore
+zstd-1.5.4/build/cmake/tests/CMakeLists.txt
+zstd-1.5.4/build/cmake/zstdConfig.cmake
+zstd-1.5.4/build/meson/
+zstd-1.5.4/build/meson/GetZstdLibraryVersion.py
+zstd-1.5.4/build/meson/InstallSymlink.py
+zstd-1.5.4/build/meson/README.md
+zstd-1.5.4/build/meson/contrib/
+zstd-1.5.4/build/meson/contrib/gen_html/
+zstd-1.5.4/build/meson/contrib/gen_html/meson.build
+zstd-1.5.4/build/meson/contrib/meson.build
+zstd-1.5.4/build/meson/contrib/pzstd/
+zstd-1.5.4/build/meson/contrib/pzstd/meson.build
+zstd-1.5.4/build/meson/lib/
+zstd-1.5.4/build/meson/lib/meson.build
+zstd-1.5.4/build/meson/meson.build
+zstd-1.5.4/build/meson/meson_options.txt
+zstd-1.5.4/build/meson/programs/
+zstd-1.5.4/build/meson/programs/meson.build
+zstd-1.5.4/build/meson/tests/
+zstd-1.5.4/build/meson/tests/meson.build
+zstd-1.5.4/build/meson/tests/valgrindTest.py
+zstd-1.5.4/build/single_file_libs/
+zstd-1.5.4/build/single_file_libs/.gitignore
+zstd-1.5.4/build/single_file_libs/README.md
+zstd-1.5.4/build/single_file_libs/build_decoder_test.sh
+zstd-1.5.4/build/single_file_libs/build_library_test.sh
+zstd-1.5.4/build/single_file_libs/combine.py
+zstd-1.5.4/build/single_file_libs/combine.sh
+zstd-1.5.4/build/single_file_libs/create_single_file_decoder.sh
+zstd-1.5.4/build/single_file_libs/create_single_file_library.sh
+zstd-1.5.4/build/single_file_libs/examples/
+zstd-1.5.4/build/single_file_libs/examples/README.md
+zstd-1.5.4/build/single_file_libs/examples/emscripten.c
+zstd-1.5.4/build/single_file_libs/examples/roundtrip.c
+zstd-1.5.4/build/single_file_libs/examples/shell.html
+zstd-1.5.4/build/single_file_libs/examples/simple.c
+zstd-1.5.4/build/single_file_libs/examples/testcard-dxt1.inl
+zstd-1.5.4/build/single_file_libs/examples/testcard-zstd.inl
+zstd-1.5.4/build/single_file_libs/examples/testcard.png
+zstd-1.5.4/build/single_file_libs/zstd-in.c
+zstd-1.5.4/build/single_file_libs/zstddeclib-in.c
+zstd-1.5.4/contrib/
+zstd-1.5.4/contrib/VS2005/
+zstd-1.5.4/contrib/VS2005/README.md
+zstd-1.5.4/contrib/VS2005/fullbench/
+zstd-1.5.4/contrib/VS2005/fullbench/fullbench.vcproj
+zstd-1.5.4/contrib/VS2005/fuzzer/
+zstd-1.5.4/contrib/VS2005/fuzzer/fuzzer.vcproj
+zstd-1.5.4/contrib/VS2005/zstd.sln
+zstd-1.5.4/contrib/VS2005/zstd/
+zstd-1.5.4/contrib/VS2005/zstd/zstd.vcproj
+zstd-1.5.4/contrib/VS2005/zstdlib/
+zstd-1.5.4/contrib/VS2005/zstdlib/zstdlib.vcproj
+zstd-1.5.4/contrib/cleanTabs
+zstd-1.5.4/contrib/diagnose_corruption/
+zstd-1.5.4/contrib/diagnose_corruption/.gitignore
+zstd-1.5.4/contrib/diagnose_corruption/Makefile
+zstd-1.5.4/contrib/diagnose_corruption/check_flipped_bits.c
+zstd-1.5.4/contrib/docker/
+zstd-1.5.4/contrib/docker/Dockerfile
+zstd-1.5.4/contrib/docker/README.md
+zstd-1.5.4/contrib/externalSequenceProducer/
+zstd-1.5.4/contrib/externalSequenceProducer/.gitignore
+zstd-1.5.4/contrib/externalSequenceProducer/Makefile
+zstd-1.5.4/contrib/externalSequenceProducer/README.md
+zstd-1.5.4/contrib/externalSequenceProducer/main.c
+zstd-1.5.4/contrib/externalSequenceProducer/sequence_producer.c
+zstd-1.5.4/contrib/externalSequenceProducer/sequence_producer.h
+zstd-1.5.4/contrib/freestanding_lib/
+zstd-1.5.4/contrib/freestanding_lib/freestanding.py
+zstd-1.5.4/contrib/gen_html/
+zstd-1.5.4/contrib/gen_html/.gitignore
+zstd-1.5.4/contrib/gen_html/Makefile
+zstd-1.5.4/contrib/gen_html/README.md
+zstd-1.5.4/contrib/gen_html/gen-zstd-manual.sh
+zstd-1.5.4/contrib/gen_html/gen_html.cpp
+zstd-1.5.4/contrib/largeNbDicts/
+zstd-1.5.4/contrib/largeNbDicts/.gitignore
+zstd-1.5.4/contrib/largeNbDicts/Makefile
+zstd-1.5.4/contrib/largeNbDicts/README.md
+zstd-1.5.4/contrib/largeNbDicts/largeNbDicts.c
+zstd-1.5.4/contrib/linux-kernel/
+zstd-1.5.4/contrib/linux-kernel/.gitignore
+zstd-1.5.4/contrib/linux-kernel/Makefile
+zstd-1.5.4/contrib/linux-kernel/README.md
+zstd-1.5.4/contrib/linux-kernel/btrfs-benchmark.sh
+zstd-1.5.4/contrib/linux-kernel/btrfs-extract-benchmark.sh
+zstd-1.5.4/contrib/linux-kernel/decompress_sources.h
+zstd-1.5.4/contrib/linux-kernel/linux.mk
+zstd-1.5.4/contrib/linux-kernel/linux_zstd.h
+zstd-1.5.4/contrib/linux-kernel/mem.h
+zstd-1.5.4/contrib/linux-kernel/squashfs-benchmark.sh
+zstd-1.5.4/contrib/linux-kernel/test/
+zstd-1.5.4/contrib/linux-kernel/test/Makefile
+zstd-1.5.4/contrib/linux-kernel/test/include/
+zstd-1.5.4/contrib/linux-kernel/test/include/asm/
+zstd-1.5.4/contrib/linux-kernel/test/include/asm/unaligned.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/compiler.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/errno.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/kernel.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/limits.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/math64.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/module.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/printk.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/stddef.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/swab.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/types.h
+zstd-1.5.4/contrib/linux-kernel/test/include/linux/xxhash.h
+zstd-1.5.4/contrib/linux-kernel/test/macro-test.sh
+zstd-1.5.4/contrib/linux-kernel/test/static_test.c
+zstd-1.5.4/contrib/linux-kernel/test/test.c
+zstd-1.5.4/contrib/linux-kernel/zstd_common_module.c
+zstd-1.5.4/contrib/linux-kernel/zstd_compress_module.c
+zstd-1.5.4/contrib/linux-kernel/zstd_decompress_module.c
+zstd-1.5.4/contrib/linux-kernel/zstd_deps.h
+zstd-1.5.4/contrib/match_finders/
+zstd-1.5.4/contrib/match_finders/README.md
+zstd-1.5.4/contrib/match_finders/zstd_edist.c
+zstd-1.5.4/contrib/match_finders/zstd_edist.h
+zstd-1.5.4/contrib/premake/
+zstd-1.5.4/contrib/premake/premake4.lua
+zstd-1.5.4/contrib/premake/zstd.lua
+zstd-1.5.4/contrib/pzstd/
+zstd-1.5.4/contrib/pzstd/.gitignore
+zstd-1.5.4/contrib/pzstd/BUCK
+zstd-1.5.4/contrib/pzstd/ErrorHolder.h
+zstd-1.5.4/contrib/pzstd/Logging.h
+zstd-1.5.4/contrib/pzstd/Makefile
+zstd-1.5.4/contrib/pzstd/Options.cpp
+zstd-1.5.4/contrib/pzstd/Options.h
+zstd-1.5.4/contrib/pzstd/Pzstd.cpp
+zstd-1.5.4/contrib/pzstd/Pzstd.h
+zstd-1.5.4/contrib/pzstd/README.md
+zstd-1.5.4/contrib/pzstd/SkippableFrame.cpp
+zstd-1.5.4/contrib/pzstd/SkippableFrame.h
+zstd-1.5.4/contrib/pzstd/images/
+zstd-1.5.4/contrib/pzstd/images/Cspeed.png
+zstd-1.5.4/contrib/pzstd/images/Dspeed.png
+zstd-1.5.4/contrib/pzstd/main.cpp
+zstd-1.5.4/contrib/pzstd/test/
+zstd-1.5.4/contrib/pzstd/test/BUCK
+zstd-1.5.4/contrib/pzstd/test/OptionsTest.cpp
+zstd-1.5.4/contrib/pzstd/test/PzstdTest.cpp
+zstd-1.5.4/contrib/pzstd/test/RoundTrip.h
+zstd-1.5.4/contrib/pzstd/test/RoundTripTest.cpp
+zstd-1.5.4/contrib/pzstd/utils/
+zstd-1.5.4/contrib/pzstd/utils/BUCK
+zstd-1.5.4/contrib/pzstd/utils/Buffer.h
+zstd-1.5.4/contrib/pzstd/utils/FileSystem.h
+zstd-1.5.4/contrib/pzstd/utils/Likely.h
+zstd-1.5.4/contrib/pzstd/utils/Portability.h
+zstd-1.5.4/contrib/pzstd/utils/Range.h
+zstd-1.5.4/contrib/pzstd/utils/ResourcePool.h
+zstd-1.5.4/contrib/pzstd/utils/ScopeGuard.h
+zstd-1.5.4/contrib/pzstd/utils/ThreadPool.h
+zstd-1.5.4/contrib/pzstd/utils/WorkQueue.h
+zstd-1.5.4/contrib/pzstd/utils/test/
+zstd-1.5.4/contrib/pzstd/utils/test/BUCK
+zstd-1.5.4/contrib/pzstd/utils/test/BufferTest.cpp
+zstd-1.5.4/contrib/pzstd/utils/test/RangeTest.cpp
+zstd-1.5.4/contrib/pzstd/utils/test/ResourcePoolTest.cpp
+zstd-1.5.4/contrib/pzstd/utils/test/ScopeGuardTest.cpp
+zstd-1.5.4/contrib/pzstd/utils/test/ThreadPoolTest.cpp
+zstd-1.5.4/contrib/pzstd/utils/test/WorkQueueTest.cpp
+zstd-1.5.4/contrib/recovery/
+zstd-1.5.4/contrib/recovery/Makefile
+zstd-1.5.4/contrib/recovery/recover_directory.c
+zstd-1.5.4/contrib/seekable_format/
+zstd-1.5.4/contrib/seekable_format/examples/
+zstd-1.5.4/contrib/seekable_format/examples/.gitignore
+zstd-1.5.4/contrib/seekable_format/examples/Makefile
+zstd-1.5.4/contrib/seekable_format/examples/parallel_compression.c
+zstd-1.5.4/contrib/seekable_format/examples/parallel_processing.c
+zstd-1.5.4/contrib/seekable_format/examples/seekable_compression.c
+zstd-1.5.4/contrib/seekable_format/examples/seekable_decompression.c
+zstd-1.5.4/contrib/seekable_format/examples/seekable_decompression_mem.c
+zstd-1.5.4/contrib/seekable_format/tests/
+zstd-1.5.4/contrib/seekable_format/tests/.gitignore
+zstd-1.5.4/contrib/seekable_format/tests/Makefile
+zstd-1.5.4/contrib/seekable_format/tests/seekable_tests.c
+zstd-1.5.4/contrib/seekable_format/zstd_seekable.h
+zstd-1.5.4/contrib/seekable_format/zstd_seekable_compression_format.md
+zstd-1.5.4/contrib/seekable_format/zstdseek_compress.c
+zstd-1.5.4/contrib/seekable_format/zstdseek_decompress.c
+zstd-1.5.4/contrib/seqBench/
+zstd-1.5.4/contrib/seqBench/Makefile
+zstd-1.5.4/contrib/seqBench/seqBench.c
+zstd-1.5.4/contrib/snap/
+zstd-1.5.4/contrib/snap/snapcraft.yaml
+zstd-1.5.4/doc/
+zstd-1.5.4/doc/README.md
+zstd-1.5.4/doc/decompressor_errata.md
+zstd-1.5.4/doc/educational_decoder/
+zstd-1.5.4/doc/educational_decoder/.gitignore
+zstd-1.5.4/doc/educational_decoder/Makefile
+zstd-1.5.4/doc/educational_decoder/README.md
+zstd-1.5.4/doc/educational_decoder/harness.c
+zstd-1.5.4/doc/educational_decoder/zstd_decompress.c
+zstd-1.5.4/doc/educational_decoder/zstd_decompress.h
+zstd-1.5.4/doc/images/
+zstd-1.5.4/doc/images/CSpeed2.png
+zstd-1.5.4/doc/images/DCspeed5.png
+zstd-1.5.4/doc/images/DSpeed3.png
+zstd-1.5.4/doc/images/cdict_v136.png
+zstd-1.5.4/doc/images/dict-cr.png
+zstd-1.5.4/doc/images/dict-cs.png
+zstd-1.5.4/doc/images/dict-ds.png
+zstd-1.5.4/doc/images/zstd_cdict_v1_3_5.png
+zstd-1.5.4/doc/images/zstd_logo86.png
+zstd-1.5.4/doc/zstd_compression_format.md
+zstd-1.5.4/doc/zstd_manual.html
+zstd-1.5.4/examples/
+zstd-1.5.4/examples/.gitignore
+zstd-1.5.4/examples/Makefile
+zstd-1.5.4/examples/README.md
+zstd-1.5.4/examples/common.h
+zstd-1.5.4/examples/dictionary_compression.c
+zstd-1.5.4/examples/dictionary_decompression.c
+zstd-1.5.4/examples/multiple_simple_compression.c
+zstd-1.5.4/examples/multiple_streaming_compression.c
+zstd-1.5.4/examples/simple_compression.c
+zstd-1.5.4/examples/simple_decompression.c
+zstd-1.5.4/examples/streaming_compression.c
+zstd-1.5.4/examples/streaming_compression_thread_pool.c
+zstd-1.5.4/examples/streaming_decompression.c
+zstd-1.5.4/examples/streaming_memory_usage.c
+zstd-1.5.4/lib/
+zstd-1.5.4/lib/.gitignore
+zstd-1.5.4/lib/BUCK
+zstd-1.5.4/lib/Makefile
+zstd-1.5.4/lib/README.md
+zstd-1.5.4/lib/common/
+zstd-1.5.4/lib/common/bits.h
+zstd-1.5.4/lib/common/bitstream.h
+zstd-1.5.4/lib/common/compiler.h
+zstd-1.5.4/lib/common/cpu.h
+zstd-1.5.4/lib/common/debug.c
+zstd-1.5.4/lib/common/debug.h
+zstd-1.5.4/lib/common/entropy_common.c
+zstd-1.5.4/lib/common/error_private.c
+zstd-1.5.4/lib/common/error_private.h
+zstd-1.5.4/lib/common/fse.h
+zstd-1.5.4/lib/common/fse_decompress.c
+zstd-1.5.4/lib/common/huf.h
+zstd-1.5.4/lib/common/mem.h
+zstd-1.5.4/lib/common/pool.c
+zstd-1.5.4/lib/common/pool.h
+zstd-1.5.4/lib/common/portability_macros.h
+zstd-1.5.4/lib/common/threading.c
+zstd-1.5.4/lib/common/threading.h
+zstd-1.5.4/lib/common/xxhash.c
+zstd-1.5.4/lib/common/xxhash.h
+zstd-1.5.4/lib/common/zstd_common.c
+zstd-1.5.4/lib/common/zstd_deps.h
+zstd-1.5.4/lib/common/zstd_internal.h
+zstd-1.5.4/lib/common/zstd_trace.h
+zstd-1.5.4/lib/compress/
+zstd-1.5.4/lib/compress/clevels.h
+zstd-1.5.4/lib/compress/fse_compress.c
+zstd-1.5.4/lib/compress/hist.c
+zstd-1.5.4/lib/compress/hist.h
+zstd-1.5.4/lib/compress/huf_compress.c
+zstd-1.5.4/lib/compress/zstd_compress.c
+zstd-1.5.4/lib/compress/zstd_compress_internal.h
+zstd-1.5.4/lib/compress/zstd_compress_literals.c
+zstd-1.5.4/lib/compress/zstd_compress_literals.h
+zstd-1.5.4/lib/compress/zstd_compress_sequences.c
+zstd-1.5.4/lib/compress/zstd_compress_sequences.h
+zstd-1.5.4/lib/compress/zstd_compress_superblock.c
+zstd-1.5.4/lib/compress/zstd_compress_superblock.h
+zstd-1.5.4/lib/compress/zstd_cwksp.h
+zstd-1.5.4/lib/compress/zstd_double_fast.c
+zstd-1.5.4/lib/compress/zstd_double_fast.h
+zstd-1.5.4/lib/compress/zstd_fast.c
+zstd-1.5.4/lib/compress/zstd_fast.h
+zstd-1.5.4/lib/compress/zstd_lazy.c
+zstd-1.5.4/lib/compress/zstd_lazy.h
+zstd-1.5.4/lib/compress/zstd_ldm.c
+zstd-1.5.4/lib/compress/zstd_ldm.h
+zstd-1.5.4/lib/compress/zstd_ldm_geartab.h
+zstd-1.5.4/lib/compress/zstd_opt.c
+zstd-1.5.4/lib/compress/zstd_opt.h
+zstd-1.5.4/lib/compress/zstdmt_compress.c
+zstd-1.5.4/lib/compress/zstdmt_compress.h
+zstd-1.5.4/lib/decompress/
+zstd-1.5.4/lib/decompress/huf_decompress.c
+zstd-1.5.4/lib/decompress/huf_decompress_amd64.S
+zstd-1.5.4/lib/decompress/zstd_ddict.c
+zstd-1.5.4/lib/decompress/zstd_ddict.h
+zstd-1.5.4/lib/decompress/zstd_decompress.c
+zstd-1.5.4/lib/decompress/zstd_decompress_block.c
+zstd-1.5.4/lib/decompress/zstd_decompress_block.h
+zstd-1.5.4/lib/decompress/zstd_decompress_internal.h
+zstd-1.5.4/lib/deprecated/
+zstd-1.5.4/lib/deprecated/zbuff.h
+zstd-1.5.4/lib/deprecated/zbuff_common.c
+zstd-1.5.4/lib/deprecated/zbuff_compress.c
+zstd-1.5.4/lib/deprecated/zbuff_decompress.c
+zstd-1.5.4/lib/dictBuilder/
+zstd-1.5.4/lib/dictBuilder/cover.c
+zstd-1.5.4/lib/dictBuilder/cover.h
+zstd-1.5.4/lib/dictBuilder/divsufsort.c
+zstd-1.5.4/lib/dictBuilder/divsufsort.h
+zstd-1.5.4/lib/dictBuilder/fastcover.c
+zstd-1.5.4/lib/dictBuilder/zdict.c
+zstd-1.5.4/lib/dll/
+zstd-1.5.4/lib/dll/example/
+zstd-1.5.4/lib/dll/example/Makefile
+zstd-1.5.4/lib/dll/example/README.md
+zstd-1.5.4/lib/dll/example/build_package.bat
+zstd-1.5.4/lib/dll/example/fullbench-dll.sln
+zstd-1.5.4/lib/dll/example/fullbench-dll.vcxproj
+zstd-1.5.4/lib/legacy/
+zstd-1.5.4/lib/legacy/zstd_legacy.h
+zstd-1.5.4/lib/legacy/zstd_v01.c
+zstd-1.5.4/lib/legacy/zstd_v01.h
+zstd-1.5.4/lib/legacy/zstd_v02.c
+zstd-1.5.4/lib/legacy/zstd_v02.h
+zstd-1.5.4/lib/legacy/zstd_v03.c
+zstd-1.5.4/lib/legacy/zstd_v03.h
+zstd-1.5.4/lib/legacy/zstd_v04.c
+zstd-1.5.4/lib/legacy/zstd_v04.h
+zstd-1.5.4/lib/legacy/zstd_v05.c
+zstd-1.5.4/lib/legacy/zstd_v05.h
+zstd-1.5.4/lib/legacy/zstd_v06.c
+zstd-1.5.4/lib/legacy/zstd_v06.h
+zstd-1.5.4/lib/legacy/zstd_v07.c
+zstd-1.5.4/lib/legacy/zstd_v07.h
+zstd-1.5.4/lib/libzstd.mk
+zstd-1.5.4/lib/libzstd.pc.in
+zstd-1.5.4/lib/module.modulemap
+zstd-1.5.4/lib/zdict.h
+zstd-1.5.4/lib/zstd.h
+zstd-1.5.4/lib/zstd_errors.h
+zstd-1.5.4/programs/
+zstd-1.5.4/programs/.gitignore
+zstd-1.5.4/programs/BUCK
+zstd-1.5.4/programs/Makefile
+zstd-1.5.4/programs/README.md
+zstd-1.5.4/programs/benchfn.c
+zstd-1.5.4/programs/benchfn.h
+zstd-1.5.4/programs/benchzstd.c
+zstd-1.5.4/programs/benchzstd.h
+zstd-1.5.4/programs/datagen.c
+zstd-1.5.4/programs/datagen.h
+zstd-1.5.4/programs/dibio.c
+zstd-1.5.4/programs/dibio.h
+zstd-1.5.4/programs/fileio.c
+zstd-1.5.4/programs/fileio.h
+zstd-1.5.4/programs/fileio_asyncio.c
+zstd-1.5.4/programs/fileio_asyncio.h
+zstd-1.5.4/programs/fileio_common.h
+zstd-1.5.4/programs/fileio_types.h
+zstd-1.5.4/programs/platform.h
+zstd-1.5.4/programs/timefn.c
+zstd-1.5.4/programs/timefn.h
+zstd-1.5.4/programs/util.c
+zstd-1.5.4/programs/util.h
+zstd-1.5.4/programs/windres/
+zstd-1.5.4/programs/windres/verrsrc.h
+zstd-1.5.4/programs/windres/zstd.rc
+zstd-1.5.4/programs/windres/zstd32.res
+zstd-1.5.4/programs/windres/zstd64.res
+zstd-1.5.4/programs/zstd.1
+zstd-1.5.4/programs/zstd.1.md
+zstd-1.5.4/programs/zstdcli.c
+zstd-1.5.4/programs/zstdcli_trace.c
+zstd-1.5.4/programs/zstdcli_trace.h
+zstd-1.5.4/programs/zstdgrep
+zstd-1.5.4/programs/zstdgrep.1
+zstd-1.5.4/programs/zstdgrep.1.md
+zstd-1.5.4/programs/zstdless
+zstd-1.5.4/programs/zstdless.1
+zstd-1.5.4/programs/zstdless.1.md
+zstd-1.5.4/tests/
+zstd-1.5.4/tests/.gitignore
+zstd-1.5.4/tests/DEPRECATED-test-zstd-speed.py
+zstd-1.5.4/tests/Makefile
+zstd-1.5.4/tests/README.md
+zstd-1.5.4/tests/automated_benchmarking.py
+zstd-1.5.4/tests/bigdict.c
+zstd-1.5.4/tests/checkTag.c
+zstd-1.5.4/tests/check_size.py
+zstd-1.5.4/tests/cli-tests/
+zstd-1.5.4/tests/cli-tests/.gitignore
+zstd-1.5.4/tests/cli-tests/README.md
+zstd-1.5.4/tests/cli-tests/basic/
+zstd-1.5.4/tests/cli-tests/basic/help.sh
+zstd-1.5.4/tests/cli-tests/basic/help.sh.stdout.glob
+zstd-1.5.4/tests/cli-tests/basic/memlimit.sh
+zstd-1.5.4/tests/cli-tests/basic/memlimit.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/basic/memlimit.sh.stdout.exact
+zstd-1.5.4/tests/cli-tests/basic/output_dir.sh
+zstd-1.5.4/tests/cli-tests/basic/output_dir.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/basic/output_dir.sh.stdout.exact
+zstd-1.5.4/tests/cli-tests/basic/version.sh
+zstd-1.5.4/tests/cli-tests/basic/version.sh.stdout.glob
+zstd-1.5.4/tests/cli-tests/bin/
+zstd-1.5.4/tests/cli-tests/bin/cmp_size
+zstd-1.5.4/tests/cli-tests/bin/datagen
+zstd-1.5.4/tests/cli-tests/bin/die
+zstd-1.5.4/tests/cli-tests/bin/println
+zstd-1.5.4/tests/cli-tests/bin/unzstd
+zstd-1.5.4/tests/cli-tests/bin/zstd
+zstd-1.5.4/tests/cli-tests/bin/zstdcat
+zstd-1.5.4/tests/cli-tests/bin/zstdgrep
+zstd-1.5.4/tests/cli-tests/bin/zstdless
+zstd-1.5.4/tests/cli-tests/cltools/
+zstd-1.5.4/tests/cli-tests/cltools/setup
+zstd-1.5.4/tests/cli-tests/cltools/zstdgrep.sh
+zstd-1.5.4/tests/cli-tests/cltools/zstdgrep.sh.exit
+zstd-1.5.4/tests/cli-tests/cltools/zstdgrep.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/cltools/zstdgrep.sh.stdout.glob
+zstd-1.5.4/tests/cli-tests/cltools/zstdless.sh
+zstd-1.5.4/tests/cli-tests/cltools/zstdless.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/cltools/zstdless.sh.stdout.glob
+zstd-1.5.4/tests/cli-tests/common/
+zstd-1.5.4/tests/cli-tests/common/format.sh
+zstd-1.5.4/tests/cli-tests/common/mtime.sh
+zstd-1.5.4/tests/cli-tests/common/permissions.sh
+zstd-1.5.4/tests/cli-tests/common/platform.sh
+zstd-1.5.4/tests/cli-tests/compression/
+zstd-1.5.4/tests/cli-tests/compression/adapt.sh
+zstd-1.5.4/tests/cli-tests/compression/basic.sh
+zstd-1.5.4/tests/cli-tests/compression/compress-literals.sh
+zstd-1.5.4/tests/cli-tests/compression/format.sh
+zstd-1.5.4/tests/cli-tests/compression/golden.sh
+zstd-1.5.4/tests/cli-tests/compression/gzip-compat.sh
+zstd-1.5.4/tests/cli-tests/compression/levels.sh
+zstd-1.5.4/tests/cli-tests/compression/levels.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/compression/long-distance-matcher.sh
+zstd-1.5.4/tests/cli-tests/compression/multi-threaded.sh
+zstd-1.5.4/tests/cli-tests/compression/multi-threaded.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/compression/multiple-files.sh
+zstd-1.5.4/tests/cli-tests/compression/multiple-files.sh.stdout.exact
+zstd-1.5.4/tests/cli-tests/compression/row-match-finder.sh
+zstd-1.5.4/tests/cli-tests/compression/setup
+zstd-1.5.4/tests/cli-tests/compression/stream-size.sh
+zstd-1.5.4/tests/cli-tests/compression/verbose-wlog.sh
+zstd-1.5.4/tests/cli-tests/compression/verbose-wlog.sh.stderr.glob
+zstd-1.5.4/tests/cli-tests/compression/verbose-wlog.sh.stdout.glob
+zstd-1.5.4/tests/cli-tests/compression/window-resize.sh
+zstd-1.5.4/tests/cli-tests/compression/window-resize.sh.stderr.ignore
+zstd-1.5.4/tests/cli-tests/compression/window-resize.sh.stdout.glob
+zstd-1.5.4/tests/cli-tests/decompression/
+zstd-1.5.4/tests/cli-tests/decompression/golden.sh
+zstd-1.5.4/tests/cli-tests/decompression/pass-through.sh
+zstd-1.5.4/tests/cli-tests/decompression/pass-through.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/decompression/pass-through.sh.stdout.exact
+zstd-1.5.4/tests/cli-tests/dict-builder/
+zstd-1.5.4/tests/cli-tests/dict-builder/empty-input.sh
+zstd-1.5.4/tests/cli-tests/dict-builder/empty-input.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/dict-builder/no-inputs.sh
+zstd-1.5.4/tests/cli-tests/dict-builder/no-inputs.sh.exit
+zstd-1.5.4/tests/cli-tests/dict-builder/no-inputs.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/dictionaries/
+zstd-1.5.4/tests/cli-tests/dictionaries/dictionary-mismatch.sh
+zstd-1.5.4/tests/cli-tests/dictionaries/dictionary-mismatch.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/dictionaries/golden.sh
+zstd-1.5.4/tests/cli-tests/dictionaries/setup
+zstd-1.5.4/tests/cli-tests/dictionaries/setup_once
+zstd-1.5.4/tests/cli-tests/file-stat/
+zstd-1.5.4/tests/cli-tests/file-stat/compress-file-to-file.sh
+zstd-1.5.4/tests/cli-tests/file-stat/compress-file-to-file.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/file-stat/compress-file-to-stdout.sh
+zstd-1.5.4/tests/cli-tests/file-stat/compress-file-to-stdout.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/file-stat/compress-stdin-to-file.sh
+zstd-1.5.4/tests/cli-tests/file-stat/compress-stdin-to-file.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/file-stat/compress-stdin-to-stdout.sh
+zstd-1.5.4/tests/cli-tests/file-stat/compress-stdin-to-stdout.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/file-stat/decompress-file-to-file.sh
+zstd-1.5.4/tests/cli-tests/file-stat/decompress-file-to-file.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/file-stat/decompress-file-to-stdout.sh
+zstd-1.5.4/tests/cli-tests/file-stat/decompress-file-to-stdout.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/file-stat/decompress-stdin-to-file.sh
+zstd-1.5.4/tests/cli-tests/file-stat/decompress-stdin-to-file.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/file-stat/decompress-stdin-to-stdout.sh
+zstd-1.5.4/tests/cli-tests/file-stat/decompress-stdin-to-stdout.sh.stderr.exact
+zstd-1.5.4/tests/cli-tests/progress/
+zstd-1.5.4/tests/cli-tests/progress/no-progress.sh
+zstd-1.5.4/tests/cli-tests/progress/no-progress.sh.stderr.glob
+zstd-1.5.4/tests/cli-tests/progress/progress.sh
+zstd-1.5.4/tests/cli-tests/progress/progress.sh.stderr.glob
+zstd-1.5.4/tests/cli-tests/run.py
+zstd-1.5.4/tests/cli-tests/zstd-symlinks/
+zstd-1.5.4/tests/cli-tests/zstd-symlinks/setup
+zstd-1.5.4/tests/cli-tests/zstd-symlinks/zstdcat.sh
+zstd-1.5.4/tests/cli-tests/zstd-symlinks/zstdcat.sh.stdout.exact
+zstd-1.5.4/tests/datagencli.c
+zstd-1.5.4/tests/decodecorpus.c
+zstd-1.5.4/tests/dict-files/
+zstd-1.5.4/tests/dict-files/zero-weight-dict
+zstd-1.5.4/tests/external_matchfinder.c
+zstd-1.5.4/tests/external_matchfinder.h
+zstd-1.5.4/tests/fullbench.c
+zstd-1.5.4/tests/fuzz/
+zstd-1.5.4/tests/fuzz/.gitignore
+zstd-1.5.4/tests/fuzz/Makefile
+zstd-1.5.4/tests/fuzz/README.md
+zstd-1.5.4/tests/fuzz/block_decompress.c
+zstd-1.5.4/tests/fuzz/block_round_trip.c
+zstd-1.5.4/tests/fuzz/decompress_dstSize_tooSmall.c
+zstd-1.5.4/tests/fuzz/dictionary_decompress.c
+zstd-1.5.4/tests/fuzz/dictionary_loader.c
+zstd-1.5.4/tests/fuzz/dictionary_round_trip.c
+zstd-1.5.4/tests/fuzz/dictionary_stream_round_trip.c
+zstd-1.5.4/tests/fuzz/fse_read_ncount.c
+zstd-1.5.4/tests/fuzz/fuzz.h
+zstd-1.5.4/tests/fuzz/fuzz.py
+zstd-1.5.4/tests/fuzz/fuzz_data_producer.c
+zstd-1.5.4/tests/fuzz/fuzz_data_producer.h
+zstd-1.5.4/tests/fuzz/fuzz_helpers.c
+zstd-1.5.4/tests/fuzz/fuzz_helpers.h
+zstd-1.5.4/tests/fuzz/huf_decompress.c
+zstd-1.5.4/tests/fuzz/huf_round_trip.c
+zstd-1.5.4/tests/fuzz/raw_dictionary_round_trip.c
+zstd-1.5.4/tests/fuzz/regression_driver.c
+zstd-1.5.4/tests/fuzz/seekable_roundtrip.c
+zstd-1.5.4/tests/fuzz/sequence_compression_api.c
+zstd-1.5.4/tests/fuzz/simple_compress.c
+zstd-1.5.4/tests/fuzz/simple_decompress.c
+zstd-1.5.4/tests/fuzz/simple_round_trip.c
+zstd-1.5.4/tests/fuzz/stream_decompress.c
+zstd-1.5.4/tests/fuzz/stream_round_trip.c
+zstd-1.5.4/tests/fuzz/zstd_frame_info.c
+zstd-1.5.4/tests/fuzz/zstd_helpers.c
+zstd-1.5.4/tests/fuzz/zstd_helpers.h
+zstd-1.5.4/tests/fuzzer.c
+zstd-1.5.4/tests/golden-compression/
+zstd-1.5.4/tests/golden-compression/http
+zstd-1.5.4/tests/golden-compression/huffman-compressed-larger
+zstd-1.5.4/tests/golden-compression/large-literal-and-match-lengths
+zstd-1.5.4/tests/golden-decompression/
+zstd-1.5.4/tests/golden-decompression/empty-block.zst
+zstd-1.5.4/tests/golden-decompression/rle-first-block.zst
+zstd-1.5.4/tests/golden-dictionaries/
+zstd-1.5.4/tests/golden-dictionaries/http-dict-missing-symbols
+zstd-1.5.4/tests/gzip/
+zstd-1.5.4/tests/gzip/Makefile
+zstd-1.5.4/tests/gzip/gzip-env.sh
+zstd-1.5.4/tests/gzip/helin-segv.sh
+zstd-1.5.4/tests/gzip/help-version.sh
+zstd-1.5.4/tests/gzip/hufts-segv.gz
+zstd-1.5.4/tests/gzip/hufts.sh
+zstd-1.5.4/tests/gzip/init.cfg
+zstd-1.5.4/tests/gzip/init.sh
+zstd-1.5.4/tests/gzip/keep.sh
+zstd-1.5.4/tests/gzip/list.sh
+zstd-1.5.4/tests/gzip/memcpy-abuse.sh
+zstd-1.5.4/tests/gzip/mixed.sh
+zstd-1.5.4/tests/gzip/null-suffix-clobber.sh
+zstd-1.5.4/tests/gzip/stdin.sh
+zstd-1.5.4/tests/gzip/test-driver.sh
+zstd-1.5.4/tests/gzip/trailing-nul.sh
+zstd-1.5.4/tests/gzip/unpack-invalid.sh
+zstd-1.5.4/tests/gzip/z-suffix.sh
+zstd-1.5.4/tests/gzip/zdiff.sh
+zstd-1.5.4/tests/gzip/zgrep-context.sh
+zstd-1.5.4/tests/gzip/zgrep-f.sh
+zstd-1.5.4/tests/gzip/zgrep-signal.sh
+zstd-1.5.4/tests/gzip/znew-k.sh
+zstd-1.5.4/tests/invalidDictionaries.c
+zstd-1.5.4/tests/legacy.c
+zstd-1.5.4/tests/libzstd_builds.sh
+zstd-1.5.4/tests/longmatch.c
+zstd-1.5.4/tests/paramgrill.c
+zstd-1.5.4/tests/playTests.sh
+zstd-1.5.4/tests/poolTests.c
+zstd-1.5.4/tests/rateLimiter.py
+zstd-1.5.4/tests/regression/
+zstd-1.5.4/tests/regression/.gitignore
+zstd-1.5.4/tests/regression/Makefile
+zstd-1.5.4/tests/regression/README.md
+zstd-1.5.4/tests/regression/config.c
+zstd-1.5.4/tests/regression/config.h
+zstd-1.5.4/tests/regression/data.c
+zstd-1.5.4/tests/regression/data.h
+zstd-1.5.4/tests/regression/levels.h
+zstd-1.5.4/tests/regression/method.c
+zstd-1.5.4/tests/regression/method.h
+zstd-1.5.4/tests/regression/result.c
+zstd-1.5.4/tests/regression/result.h
+zstd-1.5.4/tests/regression/results.csv
+zstd-1.5.4/tests/regression/test.c
+zstd-1.5.4/tests/roundTripCrash.c
+zstd-1.5.4/tests/seqgen.c
+zstd-1.5.4/tests/seqgen.h
+zstd-1.5.4/tests/test-license.py
+zstd-1.5.4/tests/test-variants.sh
+zstd-1.5.4/tests/test-zstd-versions.py
+zstd-1.5.4/tests/zstreamtest.c
+zstd-1.5.4/zlibWrapper/
+zstd-1.5.4/zlibWrapper/.gitignore
+zstd-1.5.4/zlibWrapper/BUCK
+zstd-1.5.4/zlibWrapper/Makefile
+zstd-1.5.4/zlibWrapper/README.md
+zstd-1.5.4/zlibWrapper/examples/
+zstd-1.5.4/zlibWrapper/examples/example.c
+zstd-1.5.4/zlibWrapper/examples/example_original.c
+zstd-1.5.4/zlibWrapper/examples/fitblk.c
+zstd-1.5.4/zlibWrapper/examples/fitblk_original.c
+zstd-1.5.4/zlibWrapper/examples/minigzip.c
+zstd-1.5.4/zlibWrapper/examples/zwrapbench.c
+zstd-1.5.4/zlibWrapper/gzclose.c
+zstd-1.5.4/zlibWrapper/gzcompatibility.h
+zstd-1.5.4/zlibWrapper/gzguts.h
+zstd-1.5.4/zlibWrapper/gzlib.c
+zstd-1.5.4/zlibWrapper/gzread.c
+zstd-1.5.4/zlibWrapper/gzwrite.c
+zstd-1.5.4/zlibWrapper/zstd_zlibwrapper.c
+zstd-1.5.4/zlibWrapper/zstd_zlibwrapper.h
+make[1]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/compress-zstd-1.6.0/zstd-1.5.4/lib'
+make[1]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/compress-zstd-1.6.0/zstd-1.5.4/programs'
+creating pkgconfig
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/debug.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/entropy_common.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/error_private.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/fse_decompress.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/pool.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/threading.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/xxhash.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_common.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_v05.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_v06.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_v07.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/fse_compress.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/hist.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/huf_compress.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_compress.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_compress_literals.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_compress_sequences.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_compress_superblock.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_double_fast.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_fast.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_lazy.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_ldm.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/debug.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/entropy_common.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/error_private.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/fse_decompress.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_opt.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstdmt_compress.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/huf_decompress.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/pool.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_ddict.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_decompress.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zstd_decompress_block.o
+AS obj/conf_131ac11b25e67a2d52ecb77463313591/static/huf_decompress_amd64.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/threading.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/cover.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/divsufsort.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/fastcover.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/xxhash.o
+CC obj/conf_131ac11b25e67a2d52ecb77463313591/static/zdict.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_common.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_v05.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_v06.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_v07.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/fse_compress.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/hist.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/huf_compress.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_compress.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_compress_literals.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_compress_sequences.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_compress_superblock.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_double_fast.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_fast.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_lazy.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_ldm.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_opt.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/debug.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/entropy_common.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstdmt_compress.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/huf_decompress.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_ddict.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_decompress.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zstd_decompress_block.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/error_private.o
+AS obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/huf_decompress_amd64.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/cover.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/fse_decompress.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/divsufsort.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/fastcover.o
+CC obj/conf_1e544bccd8a9d0332aa60a9938a357d9/dynamic/zdict.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/pool.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/threading.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/xxhash.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_common.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/fse_compress.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/hist.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/huf_compress.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_compress.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_compress_literals.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_compress_sequences.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_compress_superblock.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_double_fast.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_fast.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_lazy.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_ldm.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_opt.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstdmt_compress.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/huf_decompress.o
+AS obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/huf_decompress_amd64.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_ddict.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_decompress.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_decompress_block.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/cover.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/divsufsort.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/fastcover.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zdict.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_v05.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_v06.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd_v07.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/benchfn.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/benchzstd.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/datagen.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/dibio.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/fileio.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/fileio_asyncio.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/timefn.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/util.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstdcli.o
+CC obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstdcli_trace.o
+compiling single-threaded static library 1.5.4
+compiling multi-threaded dynamic library 1.5.4
+creating versioned links
+release build completed
+make[1]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/compress-zstd-1.6.0/zstd-1.5.4/lib'
+==> building with threading support
+==> building zstd with .gz compression support
+==> building zstd with .xz/.lzma compression support
+==> no liblz4, building zstd without .lz4 support
+LINK obj/conf_1b73c1c2760d6277dcfd1b9aedb5b217/zstd
+zstd build completed
+make[1]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-OptPREO3/pts/compress-zstd-1.6.0/zstd-1.5.4/programs'

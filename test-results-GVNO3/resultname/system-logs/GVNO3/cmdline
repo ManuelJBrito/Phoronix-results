@@ -1,1 +1,1 @@
-BOOT_IMAGE=(hd0,msdos2)/boot/vmlinuz-5.14.0-547.el9.x86_64 root=UUID=27bbff10-61ae-4380-bc26-8ac361255517 ro rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1 crashkernel=1G-4G:192M,4G-64G:256M,64G-:512M
+BOOT_IMAGE=(hd0,msdos2)/boot/vmlinuz-5.14.0-559.el9.x86_64 root=UUID=27bbff10-61ae-4380-bc26-8ac361255517 ro rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1 crashkernel=1G-4G:192M,4G-64G:256M,64G-:512M

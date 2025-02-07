@@ -95,6 +95,8 @@ checking whether to build static libraries... yes
 checking how to run the C++ preprocessor... /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -E
 checking for ld used by /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++... /opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64
 checking if the linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+./configure: line 16248: eval: -p: invalid option
+eval: usage: eval [arg ...]
 checking whether the /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
 checking for /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ option to produce PIC... -fPIC -DPIC
 checking if /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ PIC flag -fPIC -DPIC works... yes
@@ -513,13 +515,13 @@ make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       divderiv.lo
   CC       equalder.lo
   CC       expderiv.lo
-  CC       multder.lo
   CC       invderiv.lo
+  CC       multder.lo
   CC       plusder.lo
   CC       powderiv.lo
+  CC       sqrtder.lo
   CC       tanderiv.lo
   CC       timesder.lo
-  CC       sqrtder.lo
   CCLD     libderiv.la
 make[3]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/maths/deriv'
 Making all in misc
@@ -568,10 +570,10 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/frontend/plotting'
 Making all in help
 make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/frontend/help'
-  CC       libhlp_la-provide.lo
   CC       libhlp_la-help.lo
-  CC       libhlp_la-textdisp.lo
+  CC       libhlp_la-provide.lo
   CC       libhlp_la-readhelp.lo
+  CC       libhlp_la-textdisp.lo
   CC       libhlp_la-xdisplay.lo
   CC       libhlp_la-x11disp.lo
   CCLD     libhlp.la
@@ -622,13 +624,13 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       com_dl.lo
   CC       com_display.lo
   CC       com_dump.lo
-  CC       com_ghelp.lo
   CC       com_echo.lo
+  CC       com_ghelp.lo
   CC       com_gnuplot.lo
-  CC       com_hardcopy.lo
   CC       com_help.lo
-  CC       com_let.lo
+  CC       com_hardcopy.lo
   CC       com_history.lo
+  CC       com_let.lo
   CC       com_option.lo
   CC       com_plot.lo
   CC       com_rehash.lo
@@ -709,8 +711,8 @@ Making all in spicelib
 make[2]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib'
 Making all in analysis
 make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/analysis'
-  CC       acaskq.lo
   CC       acan.lo
+  CC       acaskq.lo
   CC       acsetp.lo
   CC       analysis.lo
   CC       cktacct.lo
@@ -730,12 +732,12 @@ make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       cktncdump.lo
   CC       cktfbran.lo
   CC       cktfnda.lo
-  CC       cktfndm.lo
   CC       cktfnode.lo
+  CC       cktfndm.lo
   CC       cktftask.lo
   CC       cktgrnd.lo
-  CC       ckti2nod.lo
   CC       cktic.lo
+  CC       ckti2nod.lo
   CC       cktlnkeq.lo
   CC       cktload.lo
   CC       cktmapn.lo
@@ -743,15 +745,15 @@ make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       cktmask.lo
   CC       cktmkcur.lo
   CC       cktmknod.lo
-  CC       cktmkvol.lo
   CC       cktmpar.lo
   CC       cktnames.lo
+  CC       cktmkvol.lo
   CC       cktnewan.lo
   CC       cktneweq.lo
   CC       cktnewn.lo
   CC       cktnodn.lo
-  CC       cktnoise.lo
   CC       cktntask.lo
+  CC       cktnoise.lo
   CC       cktnum2n.lo
   CC       cktop.lo
   CC       cktparam.lo
@@ -760,8 +762,8 @@ make[3]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       cktpzld.lo
   CC       cktpzset.lo
   CC       cktpzstr.lo
-  CC       cktsetap.lo
   CC       cktsens.lo
+  CC       cktsetap.lo
   CC       cktsetbk.lo
   CC       cktsetnp.lo
   CC       cktsetup.lo
@@ -813,8 +815,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       inp2c.lo
   CC       inp2d.lo
   CC       inp2dot.lo
-  CC       inp2f.lo
   CC       inp2e.lo
+  CC       inp2f.lo
   CC       inp2g.lo
   CC       inp2h.lo
   CC       inp2i.lo
@@ -836,12 +838,12 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       inp2z.lo
   CC       inpaname.lo
   CC       inpapnam.lo
-  CC       inpdomod.lo
   CC       inpcfix.lo
   CC       inpdoopt.lo
+  CC       inpdomod.lo
   CC       inpdpar.lo
-  CC       inperrc.lo
   CC       inperror.lo
+  CC       inperrc.lo
   CC       inpeval.lo
   CC       inpfindl.lo
   CC       inpfindv.lo
@@ -849,8 +851,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       inpgstr.lo
   CC       inpgtitl.lo
   CC       inpgtok.lo
-  CC       inpkmods.lo
   CC       inpgval.lo
+  CC       inpkmods.lo
   CC       inplist.lo
   CC       inplkmod.lo
   CC       inpmkmod.lo
@@ -861,10 +863,10 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       inppname.lo
   CC       inpptree.lo
   CC       inpptree-parser.lo
-  CC       inptyplk.lo
   CC       inpsymt.lo
-  CC       ptfuncs.lo
+  CC       inptyplk.lo
   CC       sperror.lo
+  CC       ptfuncs.lo
   CCLD     libinp.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/parser'
 make[3]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/parser'
@@ -901,8 +903,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       bjtload.lo
   CC       bjtmask.lo
   CC       bjtmpar.lo
-  CC       bjtparam.lo
   CC       bjtnoise.lo
+  CC       bjtparam.lo
   CC       bjtpzld.lo
   CC       bjtsacl.lo
   CC       bjtsetup.lo
@@ -931,11 +933,11 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b1mpar.lo
   CC       b1par.lo
   CC       b1noi.lo
-  CC       b1pzld.lo
   CC       b1set.lo
+  CC       b1pzld.lo
   CC       b1temp.lo
-  CC       bsim1init.lo
   CC       b1trunc.lo
+  CC       bsim1init.lo
   CCLD     libbsim1.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/bsim1'
 Making all in bsim2
@@ -953,10 +955,10 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b2noi.lo
   CC       b2par.lo
   CC       b2pzld.lo
-  CC       b2temp.lo
   CC       b2set.lo
-  CC       bsim2init.lo
+  CC       b2temp.lo
   CC       b2trunc.lo
+  CC       bsim2init.lo
   CCLD     libbsim2.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/bsim2'
 Making all in bsim3
@@ -972,12 +974,12 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b3mdel.lo
   CC       b3mpar.lo
   CC       b3noi.lo
-  CC       b3pzld.lo
   CC       b3par.lo
+  CC       b3pzld.lo
   CC       b3set.lo
   CC       b3soachk.lo
-  CC       b3temp.lo
   CC       b3trunc.lo
+  CC       b3temp.lo
   CC       bsim3init.lo
   CCLD     libbsim3.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/bsim3'
@@ -1040,8 +1042,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b4v5mdel.lo
   CC       b4v5mpar.lo
   CC       b4v5noi.lo
-  CC       b4v5pzld.lo
   CC       b4v5par.lo
+  CC       b4v5pzld.lo
   CC       b4v5set.lo
   CC       b4v5soachk.lo
   CC       b4v5temp.lo
@@ -1065,8 +1067,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b4v6noi.lo
   CC       b4v6par.lo
   CC       b4v6pzld.lo
-  CC       b4v6soachk.lo
   CC       b4v6set.lo
+  CC       b4v6soachk.lo
   CC       b4v6temp.lo
   CC       b4v6trunc.lo
   CC       bsim4v6init.lo
@@ -1084,11 +1086,11 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b4v7ld.lo
   CC       b4v7mask.lo
   CC       b4v7mdel.lo
-  CC       b4v7noi.lo
   CC       b4v7mpar.lo
+  CC       b4v7noi.lo
   CC       b4v7par.lo
-  CC       b4v7set.lo
   CC       b4v7pzld.lo
+  CC       b4v7set.lo
   CC       b4v7soachk.lo
   CC       b4v7temp.lo
   CC       b4v7trunc.lo
@@ -1106,8 +1108,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b3v0mask.lo
   CC       b3v0mpar.lo
   CC       b3v0noi.lo
-  CC       b3v0pzld.lo
   CC       b3v0par.lo
+  CC       b3v0pzld.lo
   CC       b3v0set.lo
   CC       b3v0temp.lo
   CC       b3v0trunc.lo
@@ -1124,12 +1126,12 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b3v1getic.lo
   CC       b3v1ld.lo
   CC       b3v1mask.lo
-  CC       b3v1noi.lo
   CC       b3v1mpar.lo
+  CC       b3v1noi.lo
   CC       b3v1par.lo
   CC       b3v1pzld.lo
-  CC       b3v1set.lo
   CC       b3v1temp.lo
+  CC       b3v1set.lo
   CC       b3v1trunc.lo
   CC       bsim3v1init.lo
   CCLD     libbsim3v1.la
@@ -1148,8 +1150,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b3v32mpar.lo
   CC       b3v32noi.lo
   CC       b3v32par.lo
-  CC       b3v32set.lo
   CC       b3v32pzld.lo
+  CC       b3v32set.lo
   CC       b3v32soachk.lo
   CC       b3v32temp.lo
   CC       b3v32trunc.lo
@@ -1202,16 +1204,16 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       b3soiddacld.lo
   CC       b3soiddask.lo
   CC       b3soiddcheck.lo
-  CC       b3soiddcvtest.lo
   CC       b3soiddgetic.lo
+  CC       b3soiddcvtest.lo
   CC       b3soiddld.lo
   CC       b3soiddmask.lo
   CC       b3soiddmpar.lo
   CC       b3soiddnoi.lo
   CC       b3soiddpar.lo
   CC       b3soiddpzld.lo
-  CC       b3soiddtemp.lo
   CC       b3soiddset.lo
+  CC       b3soiddtemp.lo
   CC       b3soiddtrunc.lo
   CC       b3soiddinit.lo
   CCLD     libbsim3soidd.la
@@ -1230,10 +1232,10 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       cappzld.lo
   CC       capsacl.lo
   CC       capsetup.lo
-  CC       capsoachk.lo
   CC       capsload.lo
-  CC       capsset.lo
+  CC       capsoachk.lo
   CC       capsprt.lo
+  CC       capsset.lo
   CC       capsupd.lo
   CC       captemp.lo
   CC       captrunc.lo
@@ -1242,15 +1244,15 @@ make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests
 Making all in cccs
 make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/cccs'
   CC       cccs.lo
-  CC       cccsinit.lo
   CC       cccsask.lo
-  CC       cccspar.lo
+  CC       cccsinit.lo
   CC       cccsload.lo
+  CC       cccspar.lo
   CC       cccspzld.lo
   CC       cccssacl.lo
   CC       cccsset.lo
-  CC       cccssprt.lo
   CC       cccssld.lo
+  CC       cccssprt.lo
   CC       cccssset.lo
   CCLD     libcccs.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/cccs'
@@ -1288,8 +1290,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       cswacld.lo
   CC       cswask.lo
   CC       cswinit.lo
-  CC       cswmask.lo
   CC       cswload.lo
+  CC       cswmask.lo
   CC       cswmpar.lo
   CC       cswnoise.lo
   CC       cswparam.lo
@@ -1300,28 +1302,28 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/csw'
 Making all in dio
 make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/dio'
-  CC       dioacld.lo
   CC       dio.lo
-  CC       dioconv.lo
+  CC       dioacld.lo
   CC       dioask.lo
+  CC       dioconv.lo
+  CC       diodisto.lo
   CC       diodset.lo
   CC       diogetic.lo
-  CC       diodisto.lo
-  CC       dioload.lo
   CC       dioinit.lo
-  CC       dionoise.lo
+  CC       dioload.lo
   CC       diomask.lo
   CC       diompar.lo
-  CC       diopzld.lo
+  CC       dionoise.lo
   CC       dioparam.lo
+  CC       diopzld.lo
   CC       diosacl.lo
   CC       diosetup.lo
   CC       diosload.lo
   CC       diosoachk.lo
-  CC       diosset.lo
   CC       diosprt.lo
-  CC       diosupd.lo
+  CC       diosset.lo
   CC       diotemp.lo
+  CC       diosupd.lo
   CC       diotrunc.lo
   CCLD     libdio.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/dio'
@@ -1335,21 +1337,21 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       indmask.lo
   CC       indmpar.lo
   CC       indparam.lo
-  CC       indsacl.lo
   CC       indpzld.lo
-  CC       indsload.lo
+  CC       indsacl.lo
   CC       indsetup.lo
-  CC       indsprt.lo
+  CC       indsload.lo
   CC       indsset.lo
-  CC       indtemp.lo
+  CC       indsprt.lo
   CC       indsupd.lo
+  CC       indtemp.lo
   CC       indtrunc.lo
   CC       mutacld.lo
-  CC       mutparam.lo
   CC       mutask.lo
+  CC       mutparam.lo
   CC       mutpzld.lo
-  CC       mutsprt.lo
   CC       mutsetup.lo
+  CC       mutsprt.lo
   CC       mutsset.lo
   CC       muttemp.lo
   CCLD     libind.la
@@ -1377,11 +1379,11 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       hfetload.lo
   CC       hfetmask.lo
   CC       hfetmpar.lo
-  CC       hfetpzl.lo
   CC       hfetparam.lo
+  CC       hfetpzl.lo
   CC       hfetsetup.lo
-  CC       hfettrunc.lo
   CC       hfettemp.lo
+  CC       hfettrunc.lo
   CCLD     libhfet.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/hfet1'
 Making all in hfet2
@@ -1419,6 +1421,118 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       hicum2setup.lo
   CC       hicum2soachk.lo
   CC       hicum2trunc.lo
+-DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+-I.
+Found nit in -I.
+-I.
+Found nit in -I.
+../../../src/include
+Found nit in -I../../../../src/include
+-O
+Found nit in -O
+-g
+Found nit in -g
+-DHAVE_CONFIG_H
+-Wall
+Found nit in -DHAVE_CONFIG_H
+Found nit in -Wall
+-I.
+-Wextra
+Found nit in -I.
+Found nit in -Wextra
+-I.
+../../../src/include/cppduals
+Found nit in -I.
+Found nit in -I../../../../src/include/cppduals
+../../../src/include
+../../../src/include
+Found nit in -I../../../../src/include
+Found nit in -I../../../../src/include
+-O
+Found nit in -O
+-std=c++11
+Found nit in -std=c++11
+-g
+Found nit in -g
+-O
+Found nit in -O
+-Wall
+-g
+Found nit in -Wall
+Found nit in -g
+-Wextra
+-Wall
+Found nit in -Wextra
+Found nit in -Wall
+../../../src/include/cppduals
+-Wextra
+Found nit in -I../../../../src/include/cppduals
+Found nit in -Wextra
+../../../src/include
+-O3
+Found nit in -O3
+Found nit in -I../../../../src/include
+-MT
+-std=c++11
+Found nit in -MT
+Found nit in -std=c++11
+hicumL2temp.lo
+-O
+Found nit in hicumL2temp.lo
+Found nit in -O
+-MD
+-g
+Found nit in -MD
+Found nit in -g
+-MP
+-Wall
+Found nit in -MP
+Found nit in -Wall
+-MF
+-Wextra
+Found nit in -MF
+Found nit in -Wextra
+hicumL2temp.Tpo
+-O3
+Found nit in .deps/hicumL2temp.Tpo
+Found nit in -O3
+-c
+-MT
+Found nit in -c
+Found nit in -MT
+hicumL2temp
+hicumL2.lo
+Found nit in hicumL2temp.cpp
+Found nit in hicumL2.lo
+-fPIC
+-MD
+Found nit in -fPIC
+Found nit in -MD
+-DPIC
+-MP
+Found nit in -DPIC
+Found nit in -MP
+-o
+-MF
+Found nit in -o
+Found nit in -MF
+hicumL2temp.o
+hicumL2.Tpo
+Found nit in .libs/hicumL2temp.o
+Found nit in .deps/hicumL2.Tpo
+-c
+Found nit in -c
+hicumL2
+Found nit in hicumL2.cpp
+-fPIC
+Found nit in -fPIC
+-DPIC
+Found nit in -DPIC
+-o
+Found nit in -o
+hicumL2.o
+Found nit in .libs/hicumL2.o
   CXXLD    libhicum2.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/hicum2'
 Making all in hisim2
@@ -1434,8 +1548,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       hsm2mask.lo
   CC       hsm2mdel.lo
   CC       hsm2mpar.lo
-  CC       hsm2par.lo
   CC       hsm2noi.lo
+  CC       hsm2par.lo
   CC       hsm2pzld.lo
   CC       hsm2set.lo
   CC       hsm2soachk.lo
@@ -1481,8 +1595,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       hsmhv2noi.lo
   CC       hsmhv2par.lo
   CC       hsmhv2pzld.lo
-  CC       hsmhv2set.lo
   CC       hsmhv2soachk.lo
+  CC       hsmhv2set.lo
   CC       hsmhv2temp.lo
   CC       hsmhv2trunc.lo
   CCLD     libhisimhv2.la
@@ -1556,10 +1670,10 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       mesmpar.lo
   CC       mesnoise.lo
   CC       mesparam.lo
-  CC       messetup.lo
   CC       mespzld.lo
-  CC       mestemp.lo
+  CC       messetup.lo
   CC       mestrunc.lo
+  CC       mestemp.lo
   CCLD     libmes.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/mes'
 Making all in mesa
@@ -1590,13 +1704,13 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       mos1dset.lo
   CC       mos1ic.lo
   CC       mos1init.lo
-  CC       mos1mask.lo
   CC       mos1load.lo
+  CC       mos1mask.lo
   CC       mos1mpar.lo
-  CC       mos1par.lo
   CC       mos1noi.lo
-  CC       mos1sacl.lo
+  CC       mos1par.lo
   CC       mos1pzld.lo
+  CC       mos1sacl.lo
   CC       mos1set.lo
   CC       mos1sld.lo
   CC       mos1sprt.lo
@@ -1619,16 +1733,16 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       mos2init.lo
   CC       mos2load.lo
   CC       mos2mask.lo
-  CC       mos2noi.lo
   CC       mos2mpar.lo
+  CC       mos2noi.lo
   CC       mos2par.lo
   CC       mos2pzld.lo
   CC       mos2sacl.lo
   CC       mos2set.lo
   CC       mos2sld.lo
   CC       mos2sprt.lo
-  CC       mos2supd.lo
   CC       mos2sset.lo
+  CC       mos2supd.lo
   CC       mos2temp.lo
   CC       mos2trun.lo
   CCLD     libmos2.la
@@ -1671,8 +1785,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       mos6load.lo
   CC       mos6mask.lo
   CC       mos6mpar.lo
-  CC       mos6set.lo
   CC       mos6par.lo
+  CC       mos6set.lo
   CC       mos6temp.lo
   CC       mos6trun.lo
   CCLD     libmos6.la
@@ -1717,8 +1831,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       respzld.lo
   CC       ressacl.lo
   CC       ressetup.lo
-  CC       ressload.lo
   CC       ressoachk.lo
+  CC       ressload.lo
   CC       ressprt.lo
   CC       ressset.lo
   CC       restemp.lo
@@ -1726,21 +1840,21 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/res'
 Making all in soi3
 make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/soi3'
-  CC       soi3acld.lo
   CC       soi3.lo
-  CC       soi3cap.lo
+  CC       soi3acld.lo
   CC       soi3ask.lo
-  CC       soi3ic.lo
+  CC       soi3cap.lo
   CC       soi3conv.lo
-  CC       soi3load.lo
+  CC       soi3ic.lo
   CC       soi3init.lo
-  CC       soi3mpar.lo
+  CC       soi3load.lo
   CC       soi3mask.lo
+  CC       soi3mpar.lo
   CC       soi3nois.lo
   CC       soi3par.lo
-  CC       soi3temp.lo
   CC       soi3set.lo
   CC       soi3trun.lo
+  CC       soi3temp.lo
   CCLD     libsoi3.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/soi3'
 Making all in sw
@@ -1749,9 +1863,9 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       swacload.lo
   CC       swask.lo
   CC       swinit.lo
+  CC       swload.lo
   CC       swmask.lo
   CC       swmparam.lo
-  CC       swload.lo
   CC       swnoise.lo
   CC       swparam.lo
   CC       swpzload.lo
@@ -1808,13 +1922,13 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       vbicinit.lo
   CC       vbicload.lo
   CC       vbicmask.lo
-  CC       vbicnoise.lo
   CC       vbicmpar.lo
+  CC       vbicnoise.lo
   CC       vbicparam.lo
   CC       vbicpzld.lo
-  CC       vbictemp.lo
-  CC       vbicsoachk.lo
   CC       vbicsetup.lo
+  CC       vbicsoachk.lo
+  CC       vbictemp.lo
   CC       vbictrunc.lo
   CCLD     libvbic.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/vbic'
@@ -1852,14 +1966,14 @@ make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests
 Making all in vdmos
 make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/vdmos'
   CC       vdmos.lo
-  CC       vdmosask.lo
   CC       vdmosacld.lo
+  CC       vdmosask.lo
   CC       vdmosconv.lo
-  CC       vdmosdset.lo
   CC       vdmosdist.lo
+  CC       vdmosdset.lo
   CC       vdmosic.lo
-  CC       vdmosload.lo
   CC       vdmosinit.lo
+  CC       vdmosload.lo
   CC       vdmosmask.lo
   CC       vdmosmpar.lo
   CC       vdmosnoi.lo
@@ -1867,8 +1981,8 @@ make[4]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-test
   CC       vdmospzld.lo
   CC       vdmosset.lo
   CC       vdmossoachk.lo
-  CC       vdmostrun.lo
   CC       vdmostemp.lo
+  CC       vdmostrun.lo
   CCLD     libvdmos.la
 make[4]: Leaving directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/ngspice-1.0.0/ngspice-34/src/spicelib/devices/vdmos'
 Making all in vsrc

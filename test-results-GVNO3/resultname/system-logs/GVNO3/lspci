@@ -240,10 +240,7 @@ Device:	GK110GL [Tesla K20c] [1022]
 SVendor:	NVIDIA Corporation [10de]
 SDevice:	Device [0982]
 Rev:	a1
-Driver:	nvidia
 Module:	nouveau
-Module:	nvidia_drm
-Module:	nvidia
 NUMANode:	0
 
 Slot:	06:00.0
@@ -742,10 +739,7 @@ Device:	GK180GL [Tesla K40c] [1024]
 SVendor:	NVIDIA Corporation [10de]
 SDevice:	Device [0983]
 Rev:	a1
-Driver:	nvidia
 Module:	nouveau
-Module:	nvidia_drm
-Module:	nvidia
 NUMANode:	1
 
 Slot:	ff:08.0

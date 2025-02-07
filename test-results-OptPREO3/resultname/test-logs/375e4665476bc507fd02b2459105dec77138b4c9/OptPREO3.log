@@ -1,0 +1,57 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 10:55:33
+#####
+Doing sha256 for 30s on 16 size blocks: 66343183 sha256's in 29.95s
+Doing sha256 for 30s on 64 size blocks: 42101839 sha256's in 29.95s
+Doing sha256 for 30s on 256 size blocks: 20086387 sha256's in 29.95s
+Doing sha256 for 30s on 1024 size blocks: 6540110 sha256's in 29.95s
+Doing sha256 for 30s on 8192 size blocks: 895039 sha256's in 29.95s
+Doing sha256 for 30s on 16384 size blocks: 451448 sha256's in 29.96s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha256           35442.10k    89967.20k   171689.99k   223608.44k   244813.34k   246879.97k
+
+#####
+OptPREO3 - Run 2
+2025-02-05 10:58:37
+#####
+Doing sha256 for 30s on 16 size blocks: 66233334 sha256's in 29.95s
+Doing sha256 for 30s on 64 size blocks: 42260560 sha256's in 29.95s
+Doing sha256 for 30s on 256 size blocks: 20190705 sha256's in 29.95s
+Doing sha256 for 30s on 1024 size blocks: 6547746 sha256's in 29.95s
+Doing sha256 for 30s on 8192 size blocks: 893329 sha256's in 29.96s
+Doing sha256 for 30s on 16384 size blocks: 450625 sha256's in 29.95s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha256           35383.42k    90306.37k   172581.65k   223869.51k   244264.06k   246512.19k
+
+#####
+OptPREO3 - Run 3
+2025-02-05 11:01:39
+#####
+Doing sha256 for 30s on 16 size blocks: 66357339 sha256's in 29.95s
+Doing sha256 for 30s on 64 size blocks: 42157574 sha256's in 29.95s
+Doing sha256 for 30s on 256 size blocks: 20203204 sha256's in 29.95s
+Doing sha256 for 30s on 1024 size blocks: 6542057 sha256's in 29.96s
+Doing sha256 for 30s on 8192 size blocks: 889098 sha256's in 29.95s
+Doing sha256 for 30s on 16384 size blocks: 449939 sha256's in 29.95s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+sha256           35449.66k    90086.30k   172688.49k   223600.35k   243188.34k   246136.91k
+

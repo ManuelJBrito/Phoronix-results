@@ -1,6 +1,6 @@
 #####
 NoGVNO3 - Run 1
-2025-01-20 18:15:00
+2025-02-04 19:34:57
 #####
 
 Warmup time = 5.0 seconds
@@ -8,13 +8,13 @@ Warmup time = 5.0 seconds
 >>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
 
 Image size: 6016 x 4000
-Decompress    --> Frame rate:         4.088626 fps
-                  Throughput:         98.388706 Megapixels/sec
+Decompress    --> Frame rate:         4.045739 fps
+                  Throughput:         97.356654 Megapixels/sec
 
 
 #####
 NoGVNO3 - Run 2
-2025-01-20 18:15:29
+2025-02-04 19:35:26
 #####
 
 Warmup time = 5.0 seconds
@@ -22,13 +22,13 @@ Warmup time = 5.0 seconds
 >>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
 
 Image size: 6016 x 4000
-Decompress    --> Frame rate:         4.073635 fps
-                  Throughput:         98.027949 Megapixels/sec
+Decompress    --> Frame rate:         4.105470 fps
+                  Throughput:         98.794031 Megapixels/sec
 
 
 #####
 NoGVNO3 - Run 3
-2025-01-20 18:15:57
+2025-02-04 19:35:54
 #####
 
 Warmup time = 5.0 seconds
@@ -36,7 +36,7 @@ Warmup time = 5.0 seconds
 >>>>>  JPEG 4:2:2 --> BGR (Top-down)  <<<<<
 
 Image size: 6016 x 4000
-Decompress    --> Frame rate:         4.064676 fps
-                  Throughput:         97.812362 Megapixels/sec
+Decompress    --> Frame rate:         4.087597 fps
+                  Throughput:         98.363937 Megapixels/sec
 
 

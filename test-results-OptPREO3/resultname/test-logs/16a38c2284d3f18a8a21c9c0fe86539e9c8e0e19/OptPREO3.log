@@ -1,0 +1,57 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 11:14:10
+#####
+Doing AES-128-GCM for 30s on 16 size blocks: 401407338 AES-128-GCM's in 29.96s
+Doing AES-128-GCM for 30s on 64 size blocks: 244795719 AES-128-GCM's in 29.95s
+Doing AES-128-GCM for 30s on 256 size blocks: 96957839 AES-128-GCM's in 29.96s
+Doing AES-128-GCM for 30s on 1024 size blocks: 27750876 AES-128-GCM's in 29.95s
+Doing AES-128-GCM for 30s on 8192 size blocks: 3602759 AES-128-GCM's in 29.96s
+Doing AES-128-GCM for 30s on 16384 size blocks: 1804161 AES-128-GCM's in 29.95s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-128-GCM     214369.74k   523102.71k   828478.20k   948811.25k   985106.87k   986957.39k
+
+#####
+OptPREO3 - Run 2
+2025-02-05 11:17:14
+#####
+Doing AES-128-GCM for 30s on 16 size blocks: 386374049 AES-128-GCM's in 29.95s
+Doing AES-128-GCM for 30s on 64 size blocks: 243364206 AES-128-GCM's in 29.96s
+Doing AES-128-GCM for 30s on 256 size blocks: 96520976 AES-128-GCM's in 29.95s
+Doing AES-128-GCM for 30s on 1024 size blocks: 27728795 AES-128-GCM's in 29.96s
+Doing AES-128-GCM for 30s on 8192 size blocks: 3598579 AES-128-GCM's in 29.95s
+Doing AES-128-GCM for 30s on 16384 size blocks: 1809315 AES-128-GCM's in 29.96s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-128-GCM     206410.18k   519870.13k   825020.70k   947739.86k   984292.46k   989446.49k
+
+#####
+OptPREO3 - Run 3
+2025-02-05 11:20:16
+#####
+Doing AES-128-GCM for 30s on 16 size blocks: 400975721 AES-128-GCM's in 29.95s
+Doing AES-128-GCM for 30s on 64 size blocks: 243981598 AES-128-GCM's in 29.96s
+Doing AES-128-GCM for 30s on 256 size blocks: 96830237 AES-128-GCM's in 29.96s
+Doing AES-128-GCM for 30s on 1024 size blocks: 27678759 AES-128-GCM's in 29.95s
+Doing AES-128-GCM for 30s on 8192 size blocks: 3595633 AES-128-GCM's in 29.96s
+Doing AES-128-GCM for 30s on 16384 size blocks: 1807111 AES-128-GCM's in 29.95s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-128-GCM     214210.74k   521188.99k   827387.87k   946345.55k   983158.40k   988571.17k
+

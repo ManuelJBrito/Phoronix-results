@@ -1,0 +1,18 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 09:56:15
+#####
+Problem: ibc32, setup: 49.71 ms, time: 108.44 ns, ``mflops'': 7377.1
+
+#####
+OptPREO3 - Run 2
+2025-02-05 09:56:22
+#####
+Problem: ibc32, setup: 49.76 ms, time: 110.07 ns, ``mflops'': 7268.1
+
+#####
+OptPREO3 - Run 3
+2025-02-05 09:56:27
+#####
+Problem: ibc32, setup: 49.55 ms, time: 112.14 ns, ``mflops'': 7133.7
+

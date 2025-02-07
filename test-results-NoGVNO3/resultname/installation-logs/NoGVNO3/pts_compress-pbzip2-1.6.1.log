@@ -141,3 +141,35 @@ You can also do "bzip2 --help" to see some helpful information.
 "bzip2 -L" displays the software license.
 
 /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -O2 -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -DUSE_STACKSIZE_CUSTOMIZATION -pthread -D_POSIX_PTHREAD_SEMANTICS  pbzip2.cpp BZ2StreamScanner.cpp ErrorContext.cpp libbz2.a -o pbzip2 -I. -L. -lbz2 -lpthread
+-O2
+Found nit in -O2
+-D_LARGEFILE64_SOURCE
+Found nit in -D_LARGEFILE64_SOURCE
+-D_FILE_OFFSET_BITS=64
+Found nit in -D_FILE_OFFSET_BITS=64
+-DUSE_STACKSIZE_CUSTOMIZATION
+Found nit in -DUSE_STACKSIZE_CUSTOMIZATION
+-pthread
+Found nit in -pthread
+-D_POSIX_PTHREAD_SEMANTICS
+Found nit in -D_POSIX_PTHREAD_SEMANTICS
+pbzip2
+Found nit in pbzip2.cpp
+BZ2StreamScanner
+Found nit in BZ2StreamScanner.cpp
+ErrorContext
+Found nit in ErrorContext.cpp
+libbz2.a
+Found nit in libbz2.a
+-o
+Found nit in -o
+pbzip2
+Found nit in pbzip2
+-I.
+Found nit in -I.
+-L.
+Found nit in -L.
+-lbz2
+Found nit in -lbz2
+-lpthread
+Found nit in -lpthread

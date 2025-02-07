@@ -1,38 +1,38 @@
 #####
 NoGVNO3 - Run 1
-2025-01-20 20:04:55
+2025-02-04 21:10:22
 #####
 Encoder options:
   Compression level = 10
   Positions: Quantization = 16 bits
 
-Encoded mesh saved to out.drc (9726 ms to encode).
+Encoded mesh saved to out.drc (9940 ms to encode).
 
 Encoded size = 5411725 bytes
 
 
 #####
 NoGVNO3 - Run 2
-2025-01-20 20:05:11
+2025-02-04 21:10:39
 #####
 Encoder options:
   Compression level = 10
   Positions: Quantization = 16 bits
 
-Encoded mesh saved to out.drc (9723 ms to encode).
+Encoded mesh saved to out.drc (9898 ms to encode).
 
 Encoded size = 5411725 bytes
 
 
 #####
 NoGVNO3 - Run 3
-2025-01-20 20:05:26
+2025-02-04 21:10:54
 #####
 Encoder options:
   Compression level = 10
   Positions: Quantization = 16 bits
 
-Encoded mesh saved to out.drc (9630 ms to encode).
+Encoded mesh saved to out.drc (9862 ms to encode).
 
 Encoded size = 5411725 bytes
 

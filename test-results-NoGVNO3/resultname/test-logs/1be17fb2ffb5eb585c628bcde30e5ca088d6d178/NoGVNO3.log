@@ -1,50 +1,50 @@
 #####
 NoGVNO3 - Run 1
-2025-01-20 19:45:22
+2025-02-04 20:51:14
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-CAST-256 encrypt buffer size 1024 bytes: 71.911 MiB/sec 27.87 cycles/byte (1078.66 MiB in 15000.00 ms)
-CAST-256 decrypt buffer size 1024 bytes: 73.033 MiB/sec 27.44 cycles/byte (1095.49 MiB in 15000.01 ms)
+CAST-256 encrypt buffer size 1024 bytes: 72.666 MiB/sec 27.58 cycles/byte (1090.00 MiB in 15000.00 ms)
+CAST-256 decrypt buffer size 1024 bytes: 73.556 MiB/sec 27.24 cycles/byte (1103.34 MiB in 15000.01 ms)
 
 algo                               operation             1024 bytes
-CAST-256                           decrypt                 76580.20
-CAST-256                           encrypt                 75404.07
+CAST-256                           decrypt                 77129.20
+CAST-256                           encrypt                 76196.17
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 NoGVNO3 - Run 2
-2025-01-20 19:45:56
+2025-02-04 20:51:49
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-CAST-256 encrypt buffer size 1024 bytes: 72.215 MiB/sec 27.75 cycles/byte (1083.23 MiB in 15000.01 ms)
-CAST-256 decrypt buffer size 1024 bytes: 73.211 MiB/sec 27.37 cycles/byte (1098.16 MiB in 15000.00 ms)
+CAST-256 encrypt buffer size 1024 bytes: 72.515 MiB/sec 27.64 cycles/byte (1087.72 MiB in 15000.01 ms)
+CAST-256 decrypt buffer size 1024 bytes: 73.572 MiB/sec 27.24 cycles/byte (1103.59 MiB in 15000.01 ms)
 
 algo                               operation             1024 bytes
-CAST-256                           decrypt                 76767.23
-CAST-256                           encrypt                 75723.20
+CAST-256                           decrypt                 77146.22
+CAST-256                           encrypt                 76037.12
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 NoGVNO3 - Run 3
-2025-01-20 19:46:29
+2025-02-04 20:52:21
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-CAST-256 encrypt buffer size 1024 bytes: 72.083 MiB/sec 27.80 cycles/byte (1081.24 MiB in 15000.01 ms)
-CAST-256 decrypt buffer size 1024 bytes: 73.077 MiB/sec 27.42 cycles/byte (1096.16 MiB in 15000.00 ms)
+CAST-256 encrypt buffer size 1024 bytes: 72.630 MiB/sec 27.59 cycles/byte (1089.45 MiB in 15000.01 ms)
+CAST-256 decrypt buffer size 1024 bytes: 73.480 MiB/sec 27.27 cycles/byte (1102.20 MiB in 15000.01 ms)
 
 algo                               operation             1024 bytes
-CAST-256                           decrypt                 76627.00
-CAST-256                           encrypt                 75584.32
+CAST-256                           decrypt                 77049.14
+CAST-256                           encrypt                 76158.26
 
 [results are the number of 1000s bytes processed per second]
 

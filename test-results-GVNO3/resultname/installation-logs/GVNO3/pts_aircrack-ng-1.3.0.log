@@ -132,6 +132,8 @@ checking whether to build static libraries... no
 checking how to run the C++ preprocessor... /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -std=gnu++17 -E
 checking for ld used by /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -std=gnu++17... /opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64
 checking if the linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/configure: line 16233: eval: -s: invalid option
+eval: usage: eval [arg ...]
 checking whether the /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -std=gnu++17 linker (/opt/rh/gcc-toolset-12/root/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
 checking for /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -std=gnu++17 option to produce PIC... -fPIC -DPIC
 checking if /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang++ -std=gnu++17 PIC flag -fPIC -DPIC works... yes
@@ -338,8 +340,6 @@ make[2]: Nothing to be done for 'all'.
 Making all in scripts
 cp "/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng.linux" "/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng"
 chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/scripts/airmon-ng"
-  CC       lib/libac/cpu/libaircrack_la-trampoline_x86.lo
-  CC       lib/libac/cpu/libaircrack_la-cpuset_pthread.lo
   CC       src/aircrack-ng/aircrack_ng-aircrack-ng.o
   CXX      src/aircrack-ng/aircrack_ng-linecount.o
   CC       src/aircrack-ng/aircrack_ng-session.o
@@ -357,13 +357,69 @@ chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrac
   CC       lib/libac/cpu/libaircrack_la-simd_cpuid.lo
   CC       lib/libac/support/libaircrack_la-fragments.lo
   CC       lib/libac/support/libaircrack_la-common.lo
+-std=gnu++17
   CC       lib/libac/support/libaircrack_la-communications.lo
   CC       lib/libac/support/libaircrack_la-crypto_engine_loader.lo
   CC       lib/libac/support/libaircrack_la-mcs_index_rates.lo
   CC       lib/libac/tui/libaircrack_la-console.lo
+Found nit in -std=gnu++17
   CC       lib/libac/utf8/libaircrack_la-verifyssid.lo
   CC       lib/libac/support/libaircrack_la-strlcat.lo
   CC       lib/libac/support/libaircrack_la-strlcpy.lo
+-DHAVE_CONFIG_H
+Found nit in -DHAVE_CONFIG_H
+-I.
+Found nit in -I.
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/include
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/include
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/lib
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/lib
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/lib
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/lib
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/lib/radiotap
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/lib/radiotap
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/lib/radiotap
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/lib/radiotap
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/src/aircrack-ng
+Found nit in -I/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/src/aircrack-ng
+-Wno-unused-command-line-argument
+Found nit in -Wno-unused-command-line-argument
+-Wall
+Found nit in -Wall
+-Wno-unused-command-line-argument
+Found nit in -Wno-unused-command-line-argument
+-O3
+Found nit in -O3
+-fvisibility=hidden
+Found nit in -fvisibility=hidden
+-O3
+Found nit in -O3
+-MT
+Found nit in -MT
+aircrack-ng/aircrack_ng-linecount.o
+Found nit in src/aircrack-ng/aircrack_ng-linecount.o
+-MD
+Found nit in -MD
+-MP
+Found nit in -MP
+-MF
+Found nit in -MF
+aircrack-ng/.deps/aircrack_ng-linecount.Tpo
+Found nit in src/aircrack-ng/.deps/aircrack_ng-linecount.Tpo
+-c
+Found nit in -c
+-o
+Found nit in -o
+aircrack-ng/aircrack_ng-linecount.o
+Found nit in src/aircrack-ng/aircrack_ng-linecount.o
+aircrack-ng/linecount
+Found nit in src/aircrack-ng/linecount.cpp
+  CC       lib/libac/cpu/libaircrack_la-trampoline_x86.lo
+  CC       lib/libac/cpu/libaircrack_la-cpuset_pthread.lo
   CC       lib/ce-wep/libaircrack_ce_wep_la-uniqueiv.lo
   CC       lib/ptw/libptw_la-aircrack-ptw-lib.lo
   CC       src/airdecap-ng/airdecap_ng-airdecap-ng.o
@@ -408,8 +464,8 @@ chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrac
   CCLD     libaccrypto.la
   CCLD     libaircrack.la
   CCLD     libaircrack-ce-wpa.la
-  CCLD     airdecap-ng
   CCLD     packetforge-ng
+  CCLD     airdecap-ng
   CCLD     ivstools
   CCLD     makeivs-ng
   CCLD     airdecloak-ng
@@ -419,10 +475,74 @@ chmod +x "/bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrac
   CCLD     airserv-ng
   CCLD     airtun-ng
   CCLD     airventriloquist-ng
-  CCLD     airbase-ng
   CCLD     libaircrack-ce-wpa-x86-sse2.la
+  CCLD     airbase-ng
   CCLD     libaircrack-ce-wpa-x86-avx2.la
   CCLD     libaircrack-ce-wpa-x86-avx.la
   CXXLD    aircrack-ng
-  CCLD     aireplay-ng
   CCLD     airodump-ng
+  CCLD     aireplay-ng
+-std=gnu++17
+Found nit in -std=gnu++17
+-Wall
+Found nit in -Wall
+-Wno-unused-command-line-argument
+Found nit in -Wno-unused-command-line-argument
+-O3
+Found nit in -O3
+-fvisibility=hidden
+Found nit in -fvisibility=hidden
+-O3
+Found nit in -O3
+-rdynamic
+Found nit in -rdynamic
+-Wno-unused-command-line-argument
+Found nit in -Wno-unused-command-line-argument
+-o
+Found nit in -o
+aircrack-ng
+Found nit in .libs/aircrack-ng
+aircrack-ng/aircrack_ng-aircrack-ng.o
+Found nit in src/aircrack-ng/aircrack_ng-aircrack-ng.o
+aircrack-ng/aircrack_ng-linecount.o
+Found nit in src/aircrack-ng/aircrack_ng-linecount.o
+aircrack-ng/aircrack_ng-session.o
+Found nit in src/aircrack-ng/aircrack_ng-session.o
+.libs/libaccrypto.a
+Found nit in ./.libs/libaccrypto.a
+.libs/libaircrack.a
+Found nit in ./.libs/libaircrack.a
+bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/.libs/libaircrack-osdep.so
+Found nit in /bitbucket/manuel/benchmarks/workdir/installed-tests-GVNO3/pts/aircrack-ng-1.3.0/aircrack-ng-1.7/.libs/libaircrack-osdep.so
+-lnl-3
+Found nit in -lnl-3
+-lnl-genl-3
+Found nit in -lnl-genl-3
+-lpcre
+Found nit in -lpcre
+.libs/libaircrack-ce-wep.a
+Found nit in ./.libs/libaircrack-ce-wep.a
+usr/lib
+Found nit in -L/usr/lib
+-lsqlite3
+Found nit in -lsqlite3
+.libs/libptw.a
+Found nit in ./.libs/libptw.a
+-lpthread
+Found nit in -lpthread
+-lz
+Found nit in -lz
+-lssl
+Found nit in -lssl
+-lcrypto
+Found nit in -lcrypto
+-ldl
+Found nit in -ldl
+-lm
+Found nit in -lm
+-pthread
+Found nit in -pthread
+-Wl,-rpath
+Found nit in -Wl,-rpath
+usr/local/lib
+Found nit in -Wl,/usr/local/lib

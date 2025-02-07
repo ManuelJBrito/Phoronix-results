@@ -1,10 +1,11 @@
 ERROR: [Loader Message] Code 0 : loader_scanned_icd_add: Could not get 'vkCreateInstance' via 'vk_icdGetInstanceProcAddr' for ICD libGLX_nvidia.so.0
+WARNING: [Loader Message] Code 0 : Layer VK_LAYER_MESA_device_select uses API version 1.3 which is older than the application specified API version of 1.4. May cause issues.
 'DISPLAY' environment variable not set... skipping surface info
 ==========
 VULKANINFO
 ==========
 
-Vulkan Instance Version: 1.3.283
+Vulkan Instance Version: 1.4.304
 
 
 Instance Extensions: count = 24
@@ -39,13 +40,13 @@ Layers: count = 2
 VK_LAYER_MESA_device_select (Linux device selection layer) Vulkan version 1.3.211, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
-		GPU id = 0 (llvmpipe (LLVM 18.1.8, 256 bits))
+		GPU id = 0 (llvmpipe (LLVM 19.1.3, 256 bits))
 		Layer-Device Extensions: count = 0
 
 VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.175, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
-		GPU id = 0 (llvmpipe (LLVM 18.1.8, 256 bits))
+		GPU id = 0 (llvmpipe (LLVM 19.1.3, 256 bits))
 		Layer-Device Extensions: count = 0
 
 Device Properties and Extensions:
@@ -53,12 +54,12 @@ Device Properties and Extensions:
 GPU0:
 VkPhysicalDeviceProperties:
 ---------------------------
-	apiVersion        = 1.3.278 (4206870)
+	apiVersion        = 1.3.289 (4206881)
 	driverVersion     = 0.0.1 (1)
 	vendorID          = 0x10005
 	deviceID          = 0x0000
 	deviceType        = PHYSICAL_DEVICE_TYPE_CPU
-	deviceName        = llvmpipe (LLVM 18.1.8, 256 bits)
+	deviceName        = llvmpipe (LLVM 19.1.3, 256 bits)
 
 VkPhysicalDeviceLimits:
 -----------------------
@@ -74,7 +75,7 @@ VkPhysicalDeviceLimits:
 	maxMemoryAllocationCount                        = 4294967295
 	maxSamplerAllocationCount                       = 32768
 	bufferImageGranularity                          = 0x00000040
-	sparseAddressSpaceSize                          = 0x00000000
+	sparseAddressSpaceSize                          = 0x80000000
 	maxBoundDescriptorSets                          = 8
 	maxPerStageDescriptorSamplers                   = 1000000
 	maxPerStageDescriptorUniformBuffers             = 1000000
@@ -203,9 +204,9 @@ VkPhysicalDeviceLimits:
 
 VkPhysicalDeviceSparseProperties:
 ---------------------------------
-	residencyStandard2DBlockShape            = false
-	residencyStandard2DMultisampleBlockShape = false
-	residencyStandard3DBlockShape            = false
+	residencyStandard2DBlockShape            = true
+	residencyStandard2DMultisampleBlockShape = true
+	residencyStandard3DBlockShape            = true
 	residencyAlignedMipSize                  = false
 	residencyNonResidentStrict               = false
 
@@ -277,6 +278,69 @@ VkPhysicalDeviceGraphicsPipelineLibraryPropertiesEXT:
 	graphicsPipelineLibraryFastLinking                        = true
 	graphicsPipelineLibraryIndependentInterpolationDecoration = true
 
+VkPhysicalDeviceHostImageCopyPropertiesEXT:
+-------------------------------------------
+	copySrcLayoutCount                  = 23
+	pCopySrcLayouts: count = 23
+		IMAGE_LAYOUT_GENERAL
+		IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL
+		IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL
+		IMAGE_LAYOUT_PREINITIALIZED
+		IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_PRESENT_SRC_KHR
+		IMAGE_LAYOUT_VIDEO_DECODE_DST_KHR
+		IMAGE_LAYOUT_VIDEO_DECODE_SRC_KHR
+		IMAGE_LAYOUT_VIDEO_DECODE_DPB_KHR
+		IMAGE_LAYOUT_SHARED_PRESENT_KHR
+		IMAGE_LAYOUT_FRAGMENT_DENSITY_MAP_OPTIMAL_EXT
+		IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR
+	copyDstLayoutCount                  = 23
+	pCopyDstLayouts: count = 23
+		IMAGE_LAYOUT_GENERAL
+		IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL
+		IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL
+		IMAGE_LAYOUT_PREINITIALIZED
+		IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_READ_ONLY_OPTIMAL
+		IMAGE_LAYOUT_ATTACHMENT_OPTIMAL
+		IMAGE_LAYOUT_PRESENT_SRC_KHR
+		IMAGE_LAYOUT_VIDEO_DECODE_DST_KHR
+		IMAGE_LAYOUT_VIDEO_DECODE_SRC_KHR
+		IMAGE_LAYOUT_VIDEO_DECODE_DPB_KHR
+		IMAGE_LAYOUT_SHARED_PRESENT_KHR
+		IMAGE_LAYOUT_FRAGMENT_DENSITY_MAP_OPTIMAL_EXT
+		IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR
+	identicalMemoryTypeRequirements     = false
+
+VkPhysicalDeviceLayeredApiPropertiesListKHR:
+--------------------------------------------
+	layeredApiCount               = 0
+	pLayeredApis                  = NULL
+
+VkPhysicalDeviceLegacyVertexAttributesPropertiesEXT:
+----------------------------------------------------
+	nativeUnalignedPerformance = true
+
 VkPhysicalDeviceLineRasterizationPropertiesKHR:
 -----------------------------------------------
 	lineSubPixelPrecisionBits = 8
@@ -295,6 +359,17 @@ VkPhysicalDeviceMaintenance6PropertiesKHR:
 	blockTexelViewCompatibleMultipleLayers = true
 	maxCombinedImageSamplerDescriptorCount = 3
 	fragmentShadingRateClampCombinerInputs = false
+
+VkPhysicalDeviceMaintenance7PropertiesKHR:
+------------------------------------------
+	robustFragmentShadingRateAttachmentAccess                 = false
+	separateDepthStencilAttachmentAccess                      = true
+	maxDescriptorSetTotalUniformBuffersDynamic                = 1000000
+	maxDescriptorSetTotalStorageBuffersDynamic                = 1000000
+	maxDescriptorSetTotalBuffersDynamic                       = 1000000
+	maxDescriptorSetUpdateAfterBindTotalUniformBuffersDynamic = 1000000
+	maxDescriptorSetUpdateAfterBindTotalStorageBuffersDynamic = 1000000
+	maxDescriptorSetUpdateAfterBindTotalBuffersDynamic        = 1000000
 
 VkPhysicalDeviceMeshShaderPropertiesEXT:
 ----------------------------------------
@@ -389,14 +464,14 @@ VkPhysicalDeviceTransformFeedbackPropertiesEXT:
 	transformFeedbackRasterizationStreamSelect = false
 	transformFeedbackDraw                      = true
 
-VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
-----------------------------------------------------
-	maxVertexAttribDivisor = 4294967295
-
 VkPhysicalDeviceVertexAttributeDivisorPropertiesKHR:
 ----------------------------------------------------
 	maxVertexAttribDivisor       = 4294967295
 	supportsNonZeroFirstInstance = false
+
+VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
+----------------------------------------------------
+	maxVertexAttribDivisor = 4294967295
 
 VkPhysicalDeviceVulkan11Properties:
 -----------------------------------
@@ -428,7 +503,7 @@ VkPhysicalDeviceVulkan12Properties:
 -----------------------------------
 	driverID                                             = DRIVER_ID_MESA_LLVMPIPE
 	driverName                                           = llvmpipe
-	driverInfo                                           = Mesa 24.1.2 (LLVM 18.1.8)
+	driverInfo                                           = Mesa 24.2.8 (LLVM 19.1.3)
 	conformanceVersion:
 		major    = 1
 		minor    = 3
@@ -537,61 +612,7 @@ VkPhysicalDeviceVulkan13Properties:
 	uniformTexelBufferOffsetSingleTexelAlignment                                  = true
 	maxBufferSize                                                                 = 0xffffffff
 
-VkPhysicalDeviceHostImageCopyPropertiesEXT:
--------------------------------------------
-	copySrcLayoutCount                  = 23
-	pCopySrcLayouts: count = 23
-		IMAGE_LAYOUT_GENERAL
-		IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL
-		IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL
-		IMAGE_LAYOUT_PREINITIALIZED
-		IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_PRESENT_SRC_KHR
-		IMAGE_LAYOUT_VIDEO_DECODE_DST_KHR
-		IMAGE_LAYOUT_VIDEO_DECODE_SRC_KHR
-		IMAGE_LAYOUT_VIDEO_DECODE_DPB_KHR
-		IMAGE_LAYOUT_SHARED_PRESENT_KHR
-		IMAGE_LAYOUT_FRAGMENT_DENSITY_MAP_OPTIMAL_EXT
-		IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR
-	copyDstLayoutCount                  = 23
-	pCopyDstLayouts: count = 23
-		IMAGE_LAYOUT_GENERAL
-		IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_TRANSFER_SRC_OPTIMAL
-		IMAGE_LAYOUT_TRANSFER_DST_OPTIMAL
-		IMAGE_LAYOUT_PREINITIALIZED
-		IMAGE_LAYOUT_DEPTH_READ_ONLY_STENCIL_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_ATTACHMENT_STENCIL_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_DEPTH_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_STENCIL_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_STENCIL_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_READ_ONLY_OPTIMAL
-		IMAGE_LAYOUT_ATTACHMENT_OPTIMAL
-		IMAGE_LAYOUT_PRESENT_SRC_KHR
-		IMAGE_LAYOUT_VIDEO_DECODE_DST_KHR
-		IMAGE_LAYOUT_VIDEO_DECODE_SRC_KHR
-		IMAGE_LAYOUT_VIDEO_DECODE_DPB_KHR
-		IMAGE_LAYOUT_SHARED_PRESENT_KHR
-		IMAGE_LAYOUT_FRAGMENT_DENSITY_MAP_OPTIMAL_EXT
-		IMAGE_LAYOUT_FRAGMENT_SHADING_RATE_ATTACHMENT_OPTIMAL_KHR
-	identicalMemoryTypeRequirements     = false
-
-Device Extensions: count = 141
+Device Extensions: count = 144
 	VK_AMDX_shader_enqueue                        : extension revision 1
 	VK_ARM_rasterization_order_attachment_access  : extension revision 1
 	VK_EXT_4444_formats                           : extension revision 1
@@ -621,6 +642,7 @@ Device Extensions: count = 141
 	VK_EXT_image_sliced_view_of_3d                : extension revision 1
 	VK_EXT_index_type_uint8                       : extension revision 1
 	VK_EXT_inline_uniform_block                   : extension revision 1
+	VK_EXT_legacy_vertex_attributes               : extension revision 1
 	VK_EXT_line_rasterization                     : extension revision 1
 	VK_EXT_load_store_op_none                     : extension revision 1
 	VK_EXT_memory_budget                          : extension revision 1
@@ -650,6 +672,7 @@ Device Extensions: count = 141
 	VK_EXT_shader_atomic_float2                   : extension revision 1
 	VK_EXT_shader_demote_to_helper_invocation     : extension revision 1
 	VK_EXT_shader_object                          : extension revision 1
+	VK_EXT_shader_replicated_composites           : extension revision 1
 	VK_EXT_shader_stencil_export                  : extension revision 1
 	VK_EXT_shader_subgroup_ballot                 : extension revision 1
 	VK_EXT_shader_subgroup_vote                   : extension revision 1
@@ -698,6 +721,7 @@ Device Extensions: count = 141
 	VK_KHR_maintenance4                           : extension revision 2
 	VK_KHR_maintenance5                           : extension revision 1
 	VK_KHR_maintenance6                           : extension revision 1
+	VK_KHR_maintenance7                           : extension revision 1
 	VK_KHR_map_memory2                            : extension revision 1
 	VK_KHR_multiview                              : extension revision 1
 	VK_KHR_pipeline_library                       : extension revision 1
@@ -740,7 +764,7 @@ VkQueueFamilyProperties:
 	-------------------
 		minImageTransferGranularity = (1,1,1)
 		queueCount                  = 1
-		queueFlags                  = QUEUE_GRAPHICS_BIT | QUEUE_COMPUTE_BIT | QUEUE_TRANSFER_BIT
+		queueFlags                  = QUEUE_GRAPHICS_BIT | QUEUE_COMPUTE_BIT | QUEUE_TRANSFER_BIT | QUEUE_SPARSE_BINDING_BIT
 		timestampValidBits          = 64
 		present support             = false
 
@@ -748,9 +772,9 @@ VkPhysicalDeviceMemoryProperties:
 =================================
 memoryHeaps: count = 1
 	memoryHeaps[0]:
-		size   = 33377492992 (0x7c5742000) (31.09 GiB)
-		budget = 33377492992 (0x7c5742000) (31.09 GiB)
-		usage  = 1624457216 (0x60d34000) (1.51 GiB)
+		size   = 33375117312 (0x7c54fe000) (31.08 GiB)
+		budget = 33375117312 (0x7c54fe000) (31.08 GiB)
+		usage  = 1296728064 (0x4d4a8000) (1.21 GiB)
 		flags: count = 1
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 memoryTypes: count = 1
@@ -770,10 +794,8 @@ memoryTypes: count = 1
 				FORMAT_S8_UINT
 				FORMAT_D24_UNORM_S8_UINT
 				FORMAT_D32_SFLOAT_S8_UINT
-				(non-sparse)
 			IMAGE_TILING_LINEAR:
 				color images
-				(non-sparse)
 
 VkPhysicalDeviceFeatures:
 =========================
@@ -819,17 +841,17 @@ VkPhysicalDeviceFeatures:
 	shaderFloat64                           = true
 	shaderInt64                             = true
 	shaderInt16                             = true
-	shaderResourceResidency                 = false
+	shaderResourceResidency                 = true
 	shaderResourceMinLod                    = false
-	sparseBinding                           = false
-	sparseResidencyBuffer                   = false
-	sparseResidencyImage2D                  = false
-	sparseResidencyImage3D                  = false
+	sparseBinding                           = true
+	sparseResidencyBuffer                   = true
+	sparseResidencyImage2D                  = true
+	sparseResidencyImage3D                  = true
 	sparseResidency2Samples                 = false
 	sparseResidency4Samples                 = false
 	sparseResidency8Samples                 = false
 	sparseResidency16Samples                = false
-	sparseResidencyAliased                  = false
+	sparseResidencyAliased                  = true
 	variableMultisampleRate                 = false
 	inheritedQueries                        = false
 
@@ -961,6 +983,10 @@ VkPhysicalDeviceIndexTypeUint8FeaturesKHR:
 ------------------------------------------
 	indexTypeUint8 = true
 
+VkPhysicalDeviceLegacyVertexAttributesFeaturesEXT:
+--------------------------------------------------
+	legacyVertexAttributes = true
+
 VkPhysicalDeviceLineRasterizationFeaturesKHR:
 ---------------------------------------------
 	rectangularLines         = true
@@ -977,6 +1003,10 @@ VkPhysicalDeviceMaintenance5FeaturesKHR:
 VkPhysicalDeviceMaintenance6FeaturesKHR:
 ----------------------------------------
 	maintenance6 = true
+
+VkPhysicalDeviceMaintenance7FeaturesKHR:
+----------------------------------------
+	maintenance7 = true
 
 VkPhysicalDeviceMemoryPriorityFeaturesEXT:
 ------------------------------------------
@@ -1096,8 +1126,8 @@ VkPhysicalDeviceShaderAtomicFloatFeaturesEXT:
 	shaderSharedFloat64AtomicAdd = false
 	shaderImageFloat32Atomics    = true
 	shaderImageFloat32AtomicAdd  = true
-	sparseImageFloat32Atomics    = false
-	sparseImageFloat32AtomicAdd  = false
+	sparseImageFloat32Atomics    = true
+	sparseImageFloat32AtomicAdd  = true
 
 VkPhysicalDeviceShaderClockFeaturesKHR:
 ---------------------------------------
@@ -1115,6 +1145,10 @@ VkPhysicalDeviceShaderMaximalReconvergenceFeaturesKHR:
 VkPhysicalDeviceShaderObjectFeaturesEXT:
 ----------------------------------------
 	shaderObject = true
+
+VkPhysicalDeviceShaderReplicatedCompositesFeaturesEXT:
+------------------------------------------------------
+	shaderReplicatedComposites = true
 
 VkPhysicalDeviceSwapchainMaintenance1FeaturesEXT:
 -------------------------------------------------

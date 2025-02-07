@@ -1,8 +1,8 @@
 #####
 GVNO3 - Run 1
-2025-01-16 00:15:19
+2025-02-06 14:44:34
 #####
-2025-01-15T23:14:13+00:00
+2025-02-06T13:43:28+00:00
 Running ./bench_ondemand
 Run on (24 X 2600 MHz CPU s)
 CPU Caches:
@@ -10,7 +10,7 @@ CPU Caches:
   L1 Instruction 32 KiB (x12)
   L2 Unified 256 KiB (x12)
   L3 Unified 15360 KiB (x2)
-Load Average: 1.06, 2.77, 2.15
+Load Average: 0.75, 0.88, 0.94
 ***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
 simdjson::dom implementation:      westmere
 simdjson::ondemand implementation (stage 1): westmere
@@ -19,13 +19,13 @@ Creating a source file spanning 44921 KB
 ------------------------------------------------------------------------------------------------------
 Benchmark                                            Time             CPU   Iterations UserCounters...
 ------------------------------------------------------------------------------------------------------
-large_random<simdjson_ondemand>/manual_time  100794840 ns    115018605 ns          416 best_branch_miss=947.491k best_bytes_per_sec=463.454M best_cache_miss=101.136k best_cache_ref=189.748k best_cycles=256.629M best_cycles_per_byte=5.57904 best_docs_per_sec=10.0754 best_frequency=2.58563G best_instructions=677.095M best_instructions_per_byte=14.7198 best_instructions_per_cycle=2.63842 best_items_per_sec=10.0754M branch_miss=947.311k bytes=45.9988M bytes_per_second=435.219M/s cache_miss=102.268k cache_ref=190.242k cycles=256.968M cycles_per_byte=5.58641 docs_per_sec=9.92114/s frequency=2.54942G/s instructions=677.095M instructions_per_byte=14.7198 instructions_per_cycle=2.63494 items=1000k items_per_second=9.92114M/s [BEST: throughput=  0.46 GB/s doc_throughput=    10 docs/s instructions=   677094709 cycles=   256628943 branch_miss=  947491 cache_miss=  101136 cache_ref=    189748 items=   1000000 avg_time= 100794839 ns]
+large_random<simdjson_ondemand>/manual_time   99249870 ns    113479787 ns          423 best_branch_miss=955.787k best_bytes_per_sec=464.431M best_cache_miss=101.767k best_cache_ref=188.173k best_cycles=257.027M best_cycles_per_byte=5.58769 best_docs_per_sec=10.0966 best_frequency=2.59509G best_instructions=677.095M best_instructions_per_byte=14.7198 best_instructions_per_cycle=2.63434 best_items_per_sec=10.0966M branch_miss=956.329k bytes=45.9988M bytes_per_second=441.994M/s cache_miss=102.921k cache_ref=189.065k cycles=257.17M cycles_per_byte=5.59079 docs_per_sec=10.0756/s frequency=2.59113G/s instructions=677.095M instructions_per_byte=14.7198 instructions_per_cycle=2.63287 items=1000k items_per_second=10.0756M/s [BEST: throughput=  0.46 GB/s doc_throughput=    10 docs/s instructions=   677094671 cycles=   257026695 branch_miss=  955787 cache_miss=  101767 cache_ref=    188173 items=   1000000 avg_time=  99249870 ns]
 
 #####
 GVNO3 - Run 2
-2025-01-16 00:16:27
+2025-02-06 14:45:42
 #####
-2025-01-15T23:15:21+00:00
+2025-02-06T13:44:36+00:00
 Running ./bench_ondemand
 Run on (24 X 2600 MHz CPU s)
 CPU Caches:
@@ -33,7 +33,7 @@ CPU Caches:
   L1 Instruction 32 KiB (x12)
   L2 Unified 256 KiB (x12)
   L3 Unified 15360 KiB (x2)
-Load Average: 0.99, 2.41, 2.07
+Load Average: 0.84, 0.89, 0.95
 ***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
 simdjson::dom implementation:      westmere
 simdjson::ondemand implementation (stage 1): westmere
@@ -42,13 +42,13 @@ Creating a source file spanning 44921 KB
 ------------------------------------------------------------------------------------------------------
 Benchmark                                            Time             CPU   Iterations UserCounters...
 ------------------------------------------------------------------------------------------------------
-large_random<simdjson_ondemand>/manual_time  101101855 ns    115341910 ns          415 best_branch_miss=947.584k best_bytes_per_sec=462.806M best_cache_miss=101.248k best_cache_ref=189.466k best_cycles=256.989M best_cycles_per_byte=5.58686 best_docs_per_sec=10.0613 best_frequency=2.58564G best_instructions=677.095M best_instructions_per_byte=14.7198 best_instructions_per_cycle=2.63472 best_items_per_sec=10.0613M branch_miss=947.438k bytes=45.9988M bytes_per_second=433.898M/s cache_miss=102.738k cache_ref=189.943k cycles=257.37M cycles_per_byte=5.59515 docs_per_sec=9.89102/s frequency=2.54565G/s instructions=677.095M instructions_per_byte=14.7198 instructions_per_cycle=2.63082 items=1000k items_per_second=9.89102M/s [BEST: throughput=  0.46 GB/s doc_throughput=    10 docs/s instructions=   677094705 cycles=   256988766 branch_miss=  947584 cache_miss=  101248 cache_ref=    189466 items=   1000000 avg_time= 101101855 ns]
+large_random<simdjson_ondemand>/manual_time   99140045 ns    113364015 ns          424 best_branch_miss=949.221k best_bytes_per_sec=464.764M best_cache_miss=100.473k best_cache_ref=187.132k best_cycles=256.887M best_cycles_per_byte=5.58465 best_docs_per_sec=10.1038 best_frequency=2.59555G best_instructions=677.095M best_instructions_per_byte=14.7198 best_instructions_per_cycle=2.63577 best_items_per_sec=10.1038M branch_miss=948.906k bytes=45.9988M bytes_per_second=442.484M/s cache_miss=101.358k cache_ref=187.872k cycles=256.967M cycles_per_byte=5.58639 docs_per_sec=10.0867/s frequency=2.59196G/s instructions=677.095M instructions_per_byte=14.7198 instructions_per_cycle=2.63495 items=1000k items_per_second=10.0867M/s [BEST: throughput=  0.46 GB/s doc_throughput=    10 docs/s instructions=   677094671 cycles=   256887197 branch_miss=  949221 cache_miss=  100473 cache_ref=    187132 items=   1000000 avg_time=  99140045 ns]
 
 #####
 GVNO3 - Run 3
-2025-01-16 00:17:34
+2025-02-06 14:46:48
 #####
-2025-01-15T23:16:29+00:00
+2025-02-06T13:45:44+00:00
 Running ./bench_ondemand
 Run on (24 X 2600 MHz CPU s)
 CPU Caches:
@@ -56,7 +56,7 @@ CPU Caches:
   L1 Instruction 32 KiB (x12)
   L2 Unified 256 KiB (x12)
   L3 Unified 15360 KiB (x2)
-Load Average: 0.92, 2.09, 1.98
+Load Average: 0.87, 0.90, 0.95
 ***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
 simdjson::dom implementation:      westmere
 simdjson::ondemand implementation (stage 1): westmere
@@ -65,5 +65,5 @@ Creating a source file spanning 44921 KB
 ------------------------------------------------------------------------------------------------------
 Benchmark                                            Time             CPU   Iterations UserCounters...
 ------------------------------------------------------------------------------------------------------
-large_random<simdjson_ondemand>/manual_time  101131849 ns    115345476 ns          415 best_branch_miss=986.199k best_bytes_per_sec=461.587M best_cache_miss=101.213k best_cache_ref=190.447k best_cycles=257.56M best_cycles_per_byte=5.59927 best_docs_per_sec=10.0348 best_frequency=2.58455G best_instructions=677.095M best_instructions_per_byte=14.7198 best_instructions_per_cycle=2.62889 best_items_per_sec=10.0348M branch_miss=985.692k bytes=45.9988M bytes_per_second=433.769M/s cache_miss=102.658k cache_ref=190.85k cycles=257.966M cycles_per_byte=5.6081 docs_per_sec=9.88808/s frequency=2.55079G/s instructions=677.095M instructions_per_byte=14.7198 instructions_per_cycle=2.62475 items=1000k items_per_second=9.88808M/s [BEST: throughput=  0.46 GB/s doc_throughput=    10 docs/s instructions=   677094706 cycles=   257559561 branch_miss=  986199 cache_miss=  101213 cache_ref=    190447 items=   1000000 avg_time= 101131848 ns]
+large_random<simdjson_ondemand>/manual_time   99233949 ns    113457432 ns          423 best_branch_miss=956.162k best_bytes_per_sec=464.357M best_cache_miss=101.782k best_cache_ref=187.736k best_cycles=257.08M best_cycles_per_byte=5.58883 best_docs_per_sec=10.095 best_frequency=2.59521G best_instructions=677.095M best_instructions_per_byte=14.7198 best_instructions_per_cycle=2.63379 best_items_per_sec=10.095M branch_miss=956.558k bytes=45.9988M bytes_per_second=442.065M/s cache_miss=102.874k cache_ref=188.873k cycles=257.208M cycles_per_byte=5.59162 docs_per_sec=10.0772/s frequency=2.59193G/s instructions=677.095M instructions_per_byte=14.7198 instructions_per_cycle=2.63248 items=1000k items_per_second=10.0772M/s [BEST: throughput=  0.46 GB/s doc_throughput=    10 docs/s instructions=   677094671 cycles=   257079534 branch_miss=  956162 cache_miss=  101782 cache_ref=    187736 items=   1000000 avg_time=  99233949 ns]
 

@@ -1,50 +1,50 @@
 #####
 GVNO3 - Run 1
-2025-01-16 01:34:07
+2025-02-06 15:48:43
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-AES-256 encrypt buffer size 1024 bytes: 1257.844 MiB/sec 1.50 cycles/byte (18867.66 MiB in 15000.00 ms)
-AES-256 decrypt buffer size 1024 bytes: 1274.568 MiB/sec 1.48 cycles/byte (19118.52 MiB in 15000.00 ms)
+AES-256 encrypt buffer size 1024 bytes: 1264.586 MiB/sec 1.50 cycles/byte (18968.79 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1280.842 MiB/sec 1.48 cycles/byte (19212.63 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-AES-256                            decrypt               1336481.54
-AES-256                            encrypt               1318944.77
+AES-256                            decrypt               1343060.01
+AES-256                            encrypt               1326014.74
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 GVNO3 - Run 2
-2025-01-16 01:34:42
+2025-02-06 15:49:19
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-AES-256 encrypt buffer size 1024 bytes: 1266.149 MiB/sec 1.49 cycles/byte (18992.24 MiB in 15000.00 ms)
-AES-256 decrypt buffer size 1024 bytes: 1262.457 MiB/sec 1.50 cycles/byte (18936.86 MiB in 15000.00 ms)
+AES-256 encrypt buffer size 1024 bytes: 1275.645 MiB/sec 1.48 cycles/byte (19134.67 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1279.640 MiB/sec 1.48 cycles/byte (19194.60 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-AES-256                            decrypt               1323782.33
-AES-256                            encrypt               1327653.74
+AES-256                            decrypt               1341800.01
+AES-256                            encrypt               1337610.33
 
 [results are the number of 1000s bytes processed per second]
 
 
 #####
 GVNO3 - Run 3
-2025-01-16 01:35:16
+2025-02-06 15:49:52
 #####
 Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
 CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
 
-AES-256 encrypt buffer size 1024 bytes: 1260.326 MiB/sec 1.50 cycles/byte (18904.90 MiB in 15000.00 ms)
-AES-256 decrypt buffer size 1024 bytes: 1263.463 MiB/sec 1.50 cycles/byte (18951.95 MiB in 15000.00 ms)
+AES-256 encrypt buffer size 1024 bytes: 1289.657 MiB/sec 1.47 cycles/byte (19344.85 MiB in 15000.00 ms)
+AES-256 decrypt buffer size 1024 bytes: 1294.014 MiB/sec 1.46 cycles/byte (19410.21 MiB in 15000.00 ms)
 
 algo                               operation             1024 bytes
-AES-256                            decrypt               1324837.27
-AES-256                            encrypt               1321547.98
+AES-256                            decrypt               1356872.04
+AES-256                            encrypt               1352303.02
 
 [results are the number of 1000s bytes processed per second]
 

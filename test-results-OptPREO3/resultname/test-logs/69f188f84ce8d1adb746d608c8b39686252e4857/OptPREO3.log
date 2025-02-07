@@ -1,0 +1,51 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 11:52:40
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+Blowfish encrypt buffer size 1024 bytes: 191.580 MiB/sec 10.41 cycles/byte (2873.71 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 192.400 MiB/sec 10.36 cycles/byte (2886.00 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Blowfish                           decrypt                201746.08
+Blowfish                           encrypt                200886.62
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+OptPREO3 - Run 2
+2025-02-05 11:53:14
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+Blowfish encrypt buffer size 1024 bytes: 191.039 MiB/sec 10.44 cycles/byte (2865.58 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 192.420 MiB/sec 10.36 cycles/byte (2886.30 MiB in 15000.01 ms)
+
+algo                               operation             1024 bytes
+Blowfish                           decrypt                201766.71
+Blowfish                           encrypt                200318.54
+
+[results are the number of 1000s bytes processed per second]
+
+
+#####
+OptPREO3 - Run 3
+2025-02-05 11:53:46
+#####
+Botan 2.17.3 (release, dated 20201221, revision git:bcda19704da482c57eb0bce786cebb97f378f146, distribution unspecified)
+CPUID: sse2 ssse3 sse41 sse42 rdtsc aes_ni clmul rdrand
+
+Blowfish encrypt buffer size 1024 bytes: 190.408 MiB/sec 10.47 cycles/byte (2856.12 MiB in 15000.00 ms)
+Blowfish decrypt buffer size 1024 bytes: 192.938 MiB/sec 10.33 cycles/byte (2894.07 MiB in 15000.00 ms)
+
+algo                               operation             1024 bytes
+Blowfish                           decrypt                202310.06
+Blowfish                           encrypt                199657.36
+
+[results are the number of 1000s bytes processed per second]
+
+

@@ -1,0 +1,186 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 14:32:02
+#####
+
+No compatibility mode selected!
+
+
+Circuit: * iscas85 benchmark circuit spice netlist
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using transient initial conditions
+
+No. of Data Rows : 123
+Total CPU time (seconds) = 175.994 
+Total DRAM available = 31831.258 MB.
+DRAM currently available = 3987.938 MB.
+Maximum ngspice program size =  201.578 MB.
+Current ngspice program size =  185.484 MB.
+
+Shared ngspice pages =   10.500 MB.
+Text (code) pages =    4.816 MB.
+Stack = 0 bytes.
+Library pages =  179.453 MB.
+0 page faults, 36 vol + 140 invol = 176 context switches.
+
+Number of lines in the deck = 111651
+Netlist loading time = 2.87141
+Subckt and Param expansion time = 0.907623
+Netlist parsing time = 0.656351
+
+Nominal temperature = 27
+Operating temperature = 27
+Total iterations = 491
+Transient iterations = 491
+Circuit Equations = 101564
+Circuit original non-zeroes = 536231
+Circuit fill-in non-zeroes = 129502
+Circuit total non-zeroes = 665733
+Transient timepoints = 125
+Accepted timepoints = 124
+Rejected timepoints = 1
+Total analysis time (seconds) = 172.06
+Matrix load time = 48.1481
+Matrix synchronize time = 0
+Matrix reorder time = 63.5331
+Matrix factor time = 24.7887
+Matrix solve time = 13.5812
+Transient analysis time = 154.252
+Transient load time = 48.0695
+Transient sync time = 0
+Transient factor time = 24.7887
+Transient solve time = 13.5812
+Transient trunc time = 1.90969
+Transient iterations for the last time point = 0
+AC analysis time = 0
+AC load time = 0
+AC sync time = 0
+AC factor time = 0
+AC solve time = 0
+
+#####
+OptPREO3 - Run 2
+2025-02-05 14:35:02
+#####
+
+No compatibility mode selected!
+
+
+Circuit: * iscas85 benchmark circuit spice netlist
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using transient initial conditions
+
+No. of Data Rows : 123
+Total CPU time (seconds) = 176.178 
+Total DRAM available = 31831.258 MB.
+DRAM currently available = 4000.469 MB.
+Maximum ngspice program size =  201.578 MB.
+Current ngspice program size =  185.559 MB.
+
+Shared ngspice pages =   10.500 MB.
+Text (code) pages =    4.816 MB.
+Stack = 0 bytes.
+Library pages =  179.453 MB.
+0 page faults, 208 vol + 146 invol = 354 context switches.
+
+Number of lines in the deck = 111651
+Netlist loading time = 2.91591
+Subckt and Param expansion time = 0.926242
+Netlist parsing time = 0.687165
+
+Nominal temperature = 27
+Operating temperature = 27
+Total iterations = 491
+Transient iterations = 491
+Circuit Equations = 101564
+Circuit original non-zeroes = 536231
+Circuit fill-in non-zeroes = 129502
+Circuit total non-zeroes = 665733
+Transient timepoints = 125
+Accepted timepoints = 124
+Rejected timepoints = 1
+Total analysis time (seconds) = 172.198
+Matrix load time = 47.947
+Matrix synchronize time = 0
+Matrix reorder time = 63.5002
+Matrix factor time = 24.9327
+Matrix solve time = 13.6842
+Transient analysis time = 154.281
+Transient load time = 47.8706
+Transient sync time = 0
+Transient factor time = 24.9327
+Transient solve time = 13.6842
+Transient trunc time = 1.91781
+Transient iterations for the last time point = 0
+AC analysis time = 0
+AC load time = 0
+AC sync time = 0
+AC factor time = 0
+AC solve time = 0
+
+#####
+OptPREO3 - Run 3
+2025-02-05 14:38:02
+#####
+
+No compatibility mode selected!
+
+
+Circuit: * iscas85 benchmark circuit spice netlist
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using transient initial conditions
+
+No. of Data Rows : 123
+Total CPU time (seconds) = 176.748 
+Total DRAM available = 31831.258 MB.
+DRAM currently available = 4030.031 MB.
+Maximum ngspice program size =  201.578 MB.
+Current ngspice program size =  185.637 MB.
+
+Shared ngspice pages =   10.500 MB.
+Text (code) pages =    4.816 MB.
+Stack = 0 bytes.
+Library pages =  179.453 MB.
+0 page faults, 128 vol + 149 invol = 277 context switches.
+
+Number of lines in the deck = 111651
+Netlist loading time = 3.50749
+Subckt and Param expansion time = 0.901036
+Netlist parsing time = 0.645886
+
+Nominal temperature = 27
+Operating temperature = 27
+Total iterations = 491
+Transient iterations = 491
+Circuit Equations = 101564
+Circuit original non-zeroes = 536231
+Circuit fill-in non-zeroes = 129502
+Circuit total non-zeroes = 665733
+Transient timepoints = 125
+Accepted timepoints = 124
+Rejected timepoints = 1
+Total analysis time (seconds) = 172.181
+Matrix load time = 48.2447
+Matrix synchronize time = 0
+Matrix reorder time = 63.5568
+Matrix factor time = 24.7498
+Matrix solve time = 13.633
+Transient analysis time = 154.393
+Transient load time = 48.1628
+Transient sync time = 0
+Transient factor time = 24.7498
+Transient solve time = 13.633
+Transient trunc time = 1.91561
+Transient iterations for the last time point = 0
+AC analysis time = 0
+AC load time = 0
+AC sync time = 0
+AC factor time = 0
+AC solve time = 0
+

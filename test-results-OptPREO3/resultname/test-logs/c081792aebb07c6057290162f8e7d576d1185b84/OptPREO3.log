@@ -1,0 +1,57 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 11:32:46
+#####
+Doing ChaCha20 for 30s on 16 size blocks: 434536909 ChaCha20's in 29.95s
+Doing ChaCha20 for 30s on 64 size blocks: 200679905 ChaCha20's in 29.96s
+Doing ChaCha20 for 30s on 256 size blocks: 114512421 ChaCha20's in 29.96s
+Doing ChaCha20 for 30s on 1024 size blocks: 30303201 ChaCha20's in 29.95s
+Doing ChaCha20 for 30s on 8192 size blocks: 3882135 ChaCha20's in 29.95s
+Doing ChaCha20 for 30s on 16384 size blocks: 1940459 ChaCha20's in 29.96s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+ChaCha20        232139.92k   428688.72k   978477.30k  1036076.05k  1061851.42k  1061164.23k
+
+#####
+OptPREO3 - Run 2
+2025-02-05 11:35:50
+#####
+Doing ChaCha20 for 30s on 16 size blocks: 435253911 ChaCha20's in 29.95s
+Doing ChaCha20 for 30s on 64 size blocks: 200960398 ChaCha20's in 29.96s
+Doing ChaCha20 for 30s on 256 size blocks: 114570601 ChaCha20's in 29.96s
+Doing ChaCha20 for 30s on 1024 size blocks: 30435676 ChaCha20's in 29.95s
+Doing ChaCha20 for 30s on 8192 size blocks: 3892326 ChaCha20's in 29.96s
+Doing ChaCha20 for 30s on 16384 size blocks: 1944732 ChaCha20's in 29.96s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+ChaCha20        232522.96k   429287.90k   978974.43k  1040605.42k  1064283.53k  1063500.97k
+
+#####
+OptPREO3 - Run 3
+2025-02-05 11:38:52
+#####
+Doing ChaCha20 for 30s on 16 size blocks: 438097205 ChaCha20's in 29.96s
+Doing ChaCha20 for 30s on 64 size blocks: 198875229 ChaCha20's in 29.95s
+Doing ChaCha20 for 30s on 256 size blocks: 113576647 ChaCha20's in 29.96s
+Doing ChaCha20 for 30s on 1024 size blocks: 30505824 ChaCha20's in 29.96s
+Doing ChaCha20 for 30s on 8192 size blocks: 3892256 ChaCha20's in 29.95s
+Doing ChaCha20 for 30s on 16384 size blocks: 1952122 ChaCha20's in 29.96s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+ChaCha20        233963.79k   424975.45k   970481.36k  1042655.67k  1064619.74k  1067542.28k
+

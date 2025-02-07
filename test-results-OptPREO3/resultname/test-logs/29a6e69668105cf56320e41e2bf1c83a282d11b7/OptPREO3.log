@@ -1,0 +1,42 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 10:50:14
+#####
+Doing 4096 bits private rsa's for 30s: 3065 4096 bits private RSA's in 29.95s
+Doing 4096 bits public rsa's for 30s: 200378 4096 bits public RSA's in 29.95s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+                  sign    verify    sign/s verify/s
+rsa 4096 bits 0.009772s 0.000149s    102.3   6690.4
+
+#####
+OptPREO3 - Run 2
+2025-02-05 10:51:18
+#####
+Doing 4096 bits private rsa's for 30s: 3070 4096 bits private RSA's in 29.96s
+Doing 4096 bits public rsa's for 30s: 201410 4096 bits public RSA's in 29.94s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+                  sign    verify    sign/s verify/s
+rsa 4096 bits 0.009759s 0.000149s    102.5   6727.1
+
+#####
+OptPREO3 - Run 3
+2025-02-05 10:52:20
+#####
+Doing 4096 bits private rsa's for 30s: 3074 4096 bits private RSA's in 29.95s
+Doing 4096 bits public rsa's for 30s: 201417 4096 bits public RSA's in 29.95s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+                  sign    verify    sign/s verify/s
+rsa 4096 bits 0.009743s 0.000149s    102.6   6725.1
+

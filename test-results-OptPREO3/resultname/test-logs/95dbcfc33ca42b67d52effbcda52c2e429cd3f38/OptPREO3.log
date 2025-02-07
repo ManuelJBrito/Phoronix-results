@@ -1,0 +1,18 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 10:00:14
+#####
+Problem: ibc2048, setup: 3.01 s, time: 7.38 us, ``mflops'': 15272
+
+#####
+OptPREO3 - Run 2
+2025-02-05 10:00:24
+#####
+Problem: ibc2048, setup: 2.99 s, time: 7.29 us, ``mflops'': 15450
+
+#####
+OptPREO3 - Run 3
+2025-02-05 10:00:32
+#####
+Problem: ibc2048, setup: 2.99 s, time: 7.26 us, ``mflops'': 15510
+

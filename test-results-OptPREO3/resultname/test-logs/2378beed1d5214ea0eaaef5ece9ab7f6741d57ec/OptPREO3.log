@@ -1,0 +1,57 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 11:42:04
+#####
+Doing ChaCha20-Poly1305 for 30s on 16 size blocks: 316416013 ChaCha20-Poly1305's in 29.96s
+Doing ChaCha20-Poly1305 for 30s on 64 size blocks: 152491646 ChaCha20-Poly1305's in 29.95s
+Doing ChaCha20-Poly1305 for 30s on 256 size blocks: 73338089 ChaCha20-Poly1305's in 29.96s
+Doing ChaCha20-Poly1305 for 30s on 1024 size blocks: 19503018 ChaCha20-Poly1305's in 29.95s
+Doing ChaCha20-Poly1305 for 30s on 8192 size blocks: 2511141 ChaCha20-Poly1305's in 29.96s
+Doing ChaCha20-Poly1305 for 30s on 16384 size blocks: 1262663 ChaCha20-Poly1305's in 29.95s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+ChaCha20-Poly1305   168980.51k   325858.61k   626653.90k   666814.37k   686624.40k   690733.58k
+
+#####
+OptPREO3 - Run 2
+2025-02-05 11:45:08
+#####
+Doing ChaCha20-Poly1305 for 30s on 16 size blocks: 310321596 ChaCha20-Poly1305's in 29.95s
+Doing ChaCha20-Poly1305 for 30s on 64 size blocks: 152722836 ChaCha20-Poly1305's in 29.96s
+Doing ChaCha20-Poly1305 for 30s on 256 size blocks: 73630235 ChaCha20-Poly1305's in 29.96s
+Doing ChaCha20-Poly1305 for 30s on 1024 size blocks: 19572659 ChaCha20-Poly1305's in 29.95s
+Doing ChaCha20-Poly1305 for 30s on 8192 size blocks: 2510975 ChaCha20-Poly1305's in 29.95s
+Doing ChaCha20-Poly1305 for 30s on 16384 size blocks: 1262344 ChaCha20-Poly1305's in 29.96s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+ChaCha20-Poly1305   165781.15k   326243.71k   629150.21k   669195.42k   686808.25k   690328.57k
+
+#####
+OptPREO3 - Run 3
+2025-02-05 11:48:10
+#####
+Doing ChaCha20-Poly1305 for 30s on 16 size blocks: 317089573 ChaCha20-Poly1305's in 29.95s
+Doing ChaCha20-Poly1305 for 30s on 64 size blocks: 152768091 ChaCha20-Poly1305's in 29.95s
+Doing ChaCha20-Poly1305 for 30s on 256 size blocks: 73511873 ChaCha20-Poly1305's in 29.96s
+Doing ChaCha20-Poly1305 for 30s on 1024 size blocks: 19618529 ChaCha20-Poly1305's in 29.95s
+Doing ChaCha20-Poly1305 for 30s on 8192 size blocks: 2509647 ChaCha20-Poly1305's in 29.96s
+Doing ChaCha20-Poly1305 for 30s on 16384 size blocks: 1262889 ChaCha20-Poly1305's in 29.95s
+version: 3.1.0
+built on: Wed Feb  5 09:48:01 2025 UTC
+options: bn(64,64)
+compiler: /bitbucket/manuel/benchmarks/workdir/bench-infra/toolchain/clang -fPIC -pthread -m64 -Wa,--noexecstack -Qunused-arguments -O3 -mllvm -enable-newgvn -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_ia32cap=0x7fbee3ffffebffff:0x281
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+ChaCha20-Poly1305   169396.77k   326449.34k   628138.83k   670763.73k   686215.90k   690857.21k
+

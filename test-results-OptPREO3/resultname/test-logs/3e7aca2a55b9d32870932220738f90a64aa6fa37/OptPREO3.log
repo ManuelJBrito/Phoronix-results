@@ -1,0 +1,78 @@
+#####
+OptPREO3 - Run 1
+2025-02-05 09:56:43
+#####
+Problem: ibc64, setup: 120.03 ms, time: 206.01 ns, ``mflops'': 9320
+
+#####
+OptPREO3 - Run 2
+2025-02-05 09:56:49
+#####
+Problem: ibc64, setup: 118.53 ms, time: 181.70 ns, ``mflops'': 10567
+
+#####
+OptPREO3 - Run 3
+2025-02-05 09:56:56
+#####
+Problem: ibc64, setup: 120.39 ms, time: 184.52 ns, ``mflops'': 10405
+
+#####
+OptPREO3 - Run 4
+2025-02-05 09:57:02
+#####
+Problem: ibc64, setup: 120.28 ms, time: 183.79 ns, ``mflops'': 10447
+
+#####
+OptPREO3 - Run 5
+2025-02-05 09:57:09
+#####
+Problem: ibc64, setup: 119.17 ms, time: 185.32 ns, ``mflops'': 10361
+
+#####
+OptPREO3 - Run 6
+2025-02-05 09:57:16
+#####
+Problem: ibc64, setup: 120.24 ms, time: 189.12 ns, ``mflops'': 10152
+
+#####
+OptPREO3 - Run 7
+2025-02-05 09:57:22
+#####
+Problem: ibc64, setup: 120.56 ms, time: 183.15 ns, ``mflops'': 10483
+
+#####
+OptPREO3 - Run 8
+2025-02-05 09:57:29
+#####
+Problem: ibc64, setup: 120.03 ms, time: 184.31 ns, ``mflops'': 10417
+
+#####
+OptPREO3 - Run 9
+2025-02-05 09:57:35
+#####
+Problem: ibc64, setup: 120.31 ms, time: 183.24 ns, ``mflops'': 10478
+
+#####
+OptPREO3 - Run 10
+2025-02-05 09:57:42
+#####
+Problem: ibc64, setup: 120.24 ms, time: 180.66 ns, ``mflops'': 10627
+
+#####
+OptPREO3 - Run 11
+2025-02-05 09:57:48
+#####
+Problem: ibc64, setup: 118.58 ms, time: 180.79 ns, ``mflops'': 10620
+
+#####
+OptPREO3 - Run 12
+2025-02-05 09:57:55
+#####
+Problem: ibc64, setup: 120.06 ms, time: 184.94 ns, ``mflops'': 10382
+
+#####
+OptPREO3 - Run 13
+2025-02-05 09:58:00
+#####
+Problem: ibc64, setup: 119.64 ms, time: 183.18 ns, ``mflops'': 10481
+

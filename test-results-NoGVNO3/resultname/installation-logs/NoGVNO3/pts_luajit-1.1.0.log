@@ -2,8 +2,8 @@
 make -C src
 make[1]: Entering directory '/bitbucket/manuel/benchmarks/workdir/installed-tests-NoGVNO3/pts/luajit-1.1.0/LuaJIT-Git/src'
 HOSTCC    host/minilua.o
-HOSTCC    host/buildvm_peobj.o
 HOSTCC    host/buildvm_asm.o
+HOSTCC    host/buildvm_peobj.o
 HOSTCC    host/buildvm_lib.o
 HOSTCC    host/buildvm_fold.o
 CC        lj_gc.o
@@ -59,8 +59,8 @@ HOSTLINK  host/minilua
 DYNASM    host/buildvm_arch.h
 HOSTCC    host/buildvm.o
 HOSTLINK  host/buildvm
-BUILDVM   lj_ffdef.h
 BUILDVM   lj_vm.S
+BUILDVM   lj_ffdef.h
 BUILDVM   lj_bcdef.h
 BUILDVM   lj_folddef.h
 BUILDVM   lj_recdef.h
