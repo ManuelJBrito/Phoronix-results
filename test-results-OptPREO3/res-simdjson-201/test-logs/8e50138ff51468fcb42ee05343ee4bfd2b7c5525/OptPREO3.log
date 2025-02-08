@@ -1,0 +1,69 @@
+#####
+OptPREO3 - Run 1
+2025-02-08 18:14:12
+#####
+2025-02-08T17:12:51+00:00
+Running ./bench_ondemand
+Run on (24 X 2600 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x12)
+  L1 Instruction 32 KiB (x12)
+  L2 Unified 256 KiB (x12)
+  L3 Unified 15360 KiB (x2)
+Load Average: 0.82, 0.89, 0.91
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+simdjson::dom implementation:      westmere
+simdjson::ondemand implementation (stage 1): westmere
+simdjson::ondemand implementation (stage 2): fallback
+Creating a source file spanning 134087 KB 
+------------------------------------------------------------------------------------------------
+Benchmark                                      Time             CPU   Iterations UserCounters...
+------------------------------------------------------------------------------------------------
+kostya<simdjson_ondemand>/manual_time  127115017 ns    169220261 ns          330 best_branch_miss=488.967k best_bytes_per_sec=1083.19M best_cache_miss=182.109k best_cache_ref=472.774k best_cycles=328.916M best_cycles_per_byte=2.39551 best_docs_per_sec=7.88896 best_frequency=2.5948G best_instructions=906.355M best_instructions_per_byte=6.60104 best_instructions_per_cycle=2.75558 best_items_per_sec=4.13609M branch_miss=488.576k bytes=137.305M bytes_per_second=1030.12M/s cache_miss=183.579k cache_ref=472.872k cycles=329.13M cycles_per_byte=2.39708 docs_per_sec=7.86689/s frequency=2.58923G/s instructions=906.355M instructions_per_byte=6.60104 instructions_per_cycle=2.75379 items=524.288k items_per_second=4.12452M/s [BEST: throughput=  1.08 GB/s doc_throughput=     7 docs/s instructions=   906355154 cycles=   328915806 branch_miss=  488967 cache_miss=  182109 cache_ref=    472774 items=    524288 avg_time= 127115016 ns]
+
+#####
+OptPREO3 - Run 2
+2025-02-08 18:15:35
+#####
+2025-02-08T17:14:14+00:00
+Running ./bench_ondemand
+Run on (24 X 2600 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x12)
+  L1 Instruction 32 KiB (x12)
+  L2 Unified 256 KiB (x12)
+  L3 Unified 15360 KiB (x2)
+Load Average: 0.87, 0.90, 0.91
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+simdjson::dom implementation:      westmere
+simdjson::ondemand implementation (stage 1): westmere
+simdjson::ondemand implementation (stage 2): fallback
+Creating a source file spanning 134087 KB 
+------------------------------------------------------------------------------------------------
+Benchmark                                      Time             CPU   Iterations UserCounters...
+------------------------------------------------------------------------------------------------
+kostya<simdjson_ondemand>/manual_time  127102347 ns    169225063 ns          331 best_branch_miss=485.046k best_bytes_per_sec=1083.2M best_cache_miss=183.23k best_cache_ref=475.466k best_cycles=328.988M best_cycles_per_byte=2.39604 best_docs_per_sec=7.88902 best_frequency=2.5954G best_instructions=906.355M best_instructions_per_byte=6.60104 best_instructions_per_cycle=2.75498 best_items_per_sec=4.13612M branch_miss=484.553k bytes=137.305M bytes_per_second=1030.23M/s cache_miss=183.81k cache_ref=474.757k cycles=329.123M cycles_per_byte=2.39702 docs_per_sec=7.86768/s frequency=2.58943G/s instructions=906.355M instructions_per_byte=6.60104 instructions_per_cycle=2.75385 items=524.288k items_per_second=4.12493M/s [BEST: throughput=  1.08 GB/s doc_throughput=     7 docs/s instructions=   906355153 cycles=   328988445 branch_miss=  485046 cache_miss=  183230 cache_ref=    475466 items=    524288 avg_time= 127102346 ns]
+
+#####
+OptPREO3 - Run 3
+2025-02-08 18:16:56
+#####
+2025-02-08T17:15:37+00:00
+Running ./bench_ondemand
+Run on (24 X 2600 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x12)
+  L1 Instruction 32 KiB (x12)
+  L2 Unified 256 KiB (x12)
+  L3 Unified 15360 KiB (x2)
+Load Average: 0.94, 0.94, 0.92
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+simdjson::dom implementation:      westmere
+simdjson::ondemand implementation (stage 1): westmere
+simdjson::ondemand implementation (stage 2): fallback
+Creating a source file spanning 134087 KB 
+------------------------------------------------------------------------------------------------
+Benchmark                                      Time             CPU   Iterations UserCounters...
+------------------------------------------------------------------------------------------------
+kostya<simdjson_ondemand>/manual_time  126957816 ns    169069501 ns          331 best_branch_miss=485.205k best_bytes_per_sec=1084.04M best_cache_miss=183.67k best_cache_ref=478.115k best_cycles=328.746M best_cycles_per_byte=2.39428 best_docs_per_sec=7.89511 best_frequency=2.59548G best_instructions=906.355M best_instructions_per_byte=6.60104 best_instructions_per_cycle=2.75701 best_items_per_sec=4.13931M branch_miss=485.105k bytes=137.305M bytes_per_second=1031.4M/s cache_miss=183.328k cache_ref=476.935k cycles=328.809M cycles_per_byte=2.39473 docs_per_sec=7.87663/s frequency=2.5899G/s instructions=906.355M instructions_per_byte=6.60104 instructions_per_cycle=2.75648 items=524.288k items_per_second=4.12962M/s [BEST: throughput=  1.08 GB/s doc_throughput=     7 docs/s instructions=   906355153 cycles=   328746012 branch_miss=  485205 cache_miss=  183670 cache_ref=    478115 items=    524288 avg_time= 126957816 ns]
+

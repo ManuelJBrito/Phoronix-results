@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>res-simdjson-2.0.1</Title>
+    <LastModified>2025-02-08 18:23:03</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.4</TestClient>
+    <Description>2 x Intel Xeon E5-2620 v2 testing with a ASUS Z9PE-D8 WS (5503 BIOS) and ASPEED on CentOS Stream 9 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>OptPREO3</Identifier>
+    <Hardware>Processor: 2 x Intel Xeon E5-2620 v2 @ 2.60GHz (12 Cores / 24 Threads), Motherboard: ASUS Z9PE-D8 WS (5503 BIOS), Chipset: Intel Xeon E7 v2/Xeon, Memory: 32GB, Disk: 2000GB Western Digital WD20EARX-00P + 256GB Samsung SSD 850, Graphics: ASPEED, Audio: Realtek ALC898, Network: 2 x Intel 82574L</Hardware>
+    <Software>OS: CentOS Stream 9, Kernel: 5.14.0-559.el9.x86_64 (x86_64), Display Server: X Server, Compiler: GCC 11.5.0 20240719 + PGI Compiler 16.10-0 + LLVM 3.1 + CUDA 11.2, File-System: ext4, Screen Resolution: 1024x768</Software>
+    <User></User>
+    <TimeStamp>2025-02-08 18:06:09</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_cpufreq schedutil","cpu-microcode":"0x42e","kernel-extra-details":"Transparent Huge Pages: always","environment-variables":"FLAGS=\"-O3 -mllvm -enable-newgvn\" CXXFLAGS=\"-O3 -mllvm -enable-newgvn\" CFLAGS=\"-O3 -mllvm -enable-newgvn\"","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of Split huge pages + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT vulnerable + mds: Mitigation of Clear buffers; SMT vulnerable + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; STIBP: conditional; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>partial_tweets</Arguments>
+    <Description>Throughput Test: PartialTweets</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>1.38</Value>
+        <RawString>1.38:1.38:1.38</RawString>
+        <JSON>{"test-run-times":"56.10:54.55:54.62"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>148</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>168952</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>large_random</Arguments>
+    <Description>Throughput Test: LargeRandom</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>0.43</Value>
+        <RawString>0.43:0.43:0.43</RawString>
+        <JSON>{"test-run-times":"64.68:64.64:64.66"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>kostya</Arguments>
+    <Description>Throughput Test: Kostya</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>1.08</Value>
+        <RawString>1.08:1.08:1.08</RawString>
+        <JSON>{"test-run-times":"79.16:79.22:79.21"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>distinct_user_id</Arguments>
+    <Description>Throughput Test: DistinctUserID</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>1.53</Value>
+        <RawString>1.52:1.54:1.54</RawString>
+        <JSON>{"test-run-times":"55.13:55.01:54.89"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/simdjson-2.0.1</Identifier>
+    <Title>simdjson</Title>
+    <AppVersion>2.0</AppVersion>
+    <Arguments>top_tweet</Arguments>
+    <Description>Throughput Test: TopTweet</Description>
+    <Scale>GB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>1.53</Value>
+        <RawString>1.53:1.53:1.54</RawString>
+        <JSON>{"test-run-times":"54.74:54.66:54.69"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

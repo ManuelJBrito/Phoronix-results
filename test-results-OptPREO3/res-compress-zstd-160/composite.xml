@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.4-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>res-compress-zstd-1.6.0</Title>
+    <LastModified>2025-02-08 17:28:44</LastModified>
+    <TestClient>Phoronix Test Suite v10.8.4</TestClient>
+    <Description>2 x Intel Xeon E5-2620 v2 testing with a ASUS Z9PE-D8 WS (5503 BIOS) and ASPEED on CentOS Stream 9 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>OptPREO3</Identifier>
+    <Hardware>Processor: 2 x Intel Xeon E5-2620 v2 @ 2.60GHz (12 Cores / 24 Threads), Motherboard: ASUS Z9PE-D8 WS (5503 BIOS), Chipset: Intel Xeon E7 v2/Xeon, Memory: 32GB, Disk: 2000GB Western Digital WD20EARX-00P + 256GB Samsung SSD 850, Graphics: ASPEED, Audio: Realtek ALC898, Network: 2 x Intel 82574L</Hardware>
+    <Software>OS: CentOS Stream 9, Kernel: 5.14.0-559.el9.x86_64 (x86_64), Display Server: X Server, Compiler: GCC 11.5.0 20240719 + PGI Compiler 16.10-0 + LLVM 3.1 + CUDA 11.2, File-System: ext4, Screen Resolution: 1024x768</Software>
+    <User></User>
+    <TimeStamp>2025-02-08 16:56:43</TimeStamp>
+    <TestClientVersion>10.8.4</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"cpu-scaling-governor":"intel_cpufreq schedutil","cpu-microcode":"0x42e","kernel-extra-details":"Transparent Huge Pages: always","environment-variables":"FLAGS=\"-O3 -mllvm -enable-newgvn\" CXXFLAGS=\"-O3 -mllvm -enable-newgvn\" CFLAGS=\"-O3 -mllvm -enable-newgvn\"","security":"gather_data_sampling: Not affected + itlb_multihit: KVM: Mitigation of Split huge pages + l1tf: Mitigation of PTE Inversion; VMX: conditional cache flushes SMT vulnerable + mds: Mitigation of Clear buffers; SMT vulnerable + meltdown: Mitigation of PTI + mmio_stale_data: Unknown: No mitigations + reg_file_data_sampling: Not affected + retbleed: Not affected + spec_rstack_overflow: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Retpolines; IBPB: conditional; IBRS_FW; STIBP: conditional; RSB filling; PBRSB-eIBRS: Not affected; BHI: Not affected + srbds: Not affected + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3</Arguments>
+    <Description>Compression Level: 3 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>136.3</Value>
+        <RawString>136.3:136.3:136.4</RawString>
+        <JSON>{"test-run-times":"69.28:64.80:64.68"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3</Arguments>
+    <Description>Compression Level: 3 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>505.2</Value>
+        <RawString>505.4:504.6:505.7</RawString>
+        <JSON>{"test-run-times":"69.28:64.80:64.68"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>test install time </Arguments>
+    <Description>Test Install Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>20</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier></Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>test install size </Arguments>
+    <Description>Test Install Size</Description>
+    <Scale>Bytes</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>229084</Value>
+        <RawString></RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3 --long</Arguments>
+    <Description>Compression Level: 3, Long Mode - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>112.5</Value>
+        <RawString>112.5:112.5:112.4</RawString>
+        <JSON>{"test-run-times":"63.19:63.18:63.14"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b3 --long</Arguments>
+    <Description>Compression Level: 3, Long Mode - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>513.0</Value>
+        <RawString>513.1:512.9:513</RawString>
+        <JSON>{"test-run-times":"63.19:63.18:63.14"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8</Arguments>
+    <Description>Compression Level: 8 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>41.1</Value>
+        <RawString>40.5:41.4:41.5</RawString>
+        <JSON>{"test-run-times":"64.61:63.87:63.83"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8</Arguments>
+    <Description>Compression Level: 8 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>524.6</Value>
+        <RawString>524.4:524.5:524.9</RawString>
+        <JSON>{"test-run-times":"64.61:63.87:63.83"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8 --long</Arguments>
+    <Description>Compression Level: 8, Long Mode - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>40.0</Value>
+        <RawString>40:39.9:40</RawString>
+        <JSON>{"test-run-times":"65.09:65.11:65.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b8 --long</Arguments>
+    <Description>Compression Level: 8, Long Mode - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>523.0</Value>
+        <RawString>523:523.1:523</RawString>
+        <JSON>{"test-run-times":"65.09:65.11:65.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b12</Arguments>
+    <Description>Compression Level: 12 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>17.7</Value>
+        <RawString>17.7:17.7:17.7</RawString>
+        <JSON>{"test-run-times":"68.80:68.84:68.84"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b12</Arguments>
+    <Description>Compression Level: 12 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>505.1</Value>
+        <RawString>505:505.1:505.3</RawString>
+        <JSON>{"test-run-times":"68.80:68.84:68.84"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19</Arguments>
+    <Description>Compression Level: 19 - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>2.11</Value>
+        <RawString>2.11:2.11:2.11</RawString>
+        <JSON>{"test-run-times":"133.05:133.02:133.19"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19</Arguments>
+    <Description>Compression Level: 19 - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>464.2</Value>
+        <RawString>464.3:464.2:464.2</RawString>
+        <JSON>{"test-run-times":"133.05:133.02:133.19"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19 --long</Arguments>
+    <Description>Compression Level: 19, Long Mode - Compression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>2.00</Value>
+        <RawString>2:2.01:2</RawString>
+        <JSON>{"test-run-times":"138.87:138.60:138.78"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-zstd-1.6.0</Identifier>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.4</AppVersion>
+    <Arguments>-b19 --long</Arguments>
+    <Description>Compression Level: 19, Long Mode - Decompression Speed</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>OptPREO3</Identifier>
+        <Value>459.0</Value>
+        <RawString>458.8:459.1:459.1</RawString>
+        <JSON>{"test-run-times":"138.87:138.60:138.78"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

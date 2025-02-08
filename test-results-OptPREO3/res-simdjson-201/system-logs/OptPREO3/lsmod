@@ -1,0 +1,92 @@
+Module                  Size  Used by
+rpcsec_gss_krb5        40960  0
+nfsv4                1298432  1
+dns_resolver           20480  1 nfsv4
+nfs                   634880  2 nfsv4
+fscache               409600  1 nfs
+netfs                  65536  2 fscache,nfs
+tls                   159744  0
+nouveau              3076096  0
+drm_gpuvm              49152  1 nouveau
+drm_exec               16384  2 drm_gpuvm,nouveau
+gpu_sched              69632  1 nouveau
+video                  77824  1 nouveau
+drm_display_helper    299008  1 nouveau
+cec                    69632  1 drm_display_helper
+drm_ttm_helper         16384  1 nouveau
+ttm                   114688  2 drm_ttm_helper,nouveau
+rpcrdma               442368  2
+rdma_cm               163840  1 rpcrdma
+iw_cm                  69632  1 rdma_cm
+ib_cm                 155648  1 rdma_cm
+ib_core               565248  4 rdma_cm,rpcrdma,iw_cm,ib_cm
+rfkill                 40960  1
+ext4                 1191936  1
+mbcache                16384  1 ext4
+jbd2                  221184  1 ext4
+intel_rapl_msr         20480  0
+intel_rapl_common      57344  1 intel_rapl_msr
+sb_edac                61440  0
+x86_pkg_temp_thermal    16384  0
+intel_powerclamp       24576  0
+coretemp               16384  0
+kvm_intel             446464  0
+snd_hda_codec_realtek   212992  1
+snd_hda_codec_generic   114688  1 snd_hda_codec_realtek
+snd_hda_scodec_component    20480  1 snd_hda_codec_realtek
+snd_hda_intel          61440  0
+snd_intel_dspcfg       40960  1 snd_hda_intel
+kvm                  1404928  1 kvm_intel
+snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
+snd_hda_codec         225280  3 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec_realtek
+snd_hda_core          155648  4 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek
+snd_hwdep              20480  1 snd_hda_codec
+snd_seq               131072  0
+iTCO_wdt               12288  0
+snd_seq_device         16384  1 snd_seq
+iTCO_vendor_support    12288  1 iTCO_wdt
+rapl                   24576  0
+snd_pcm               192512  3 snd_hda_intel,snd_hda_codec,snd_hda_core
+intel_cstate           24576  0
+ipmi_si                94208  0
+ipmi_devintf           20480  0
+mei_me                 57344  0
+pcspkr                 12288  0
+intel_uncore          270336  0
+snd_timer              53248  2 snd_seq,snd_pcm
+i2c_i801               36864  0
+ipmi_msghandler        98304  2 ipmi_devintf,ipmi_si
+i2c_smbus              16384  1 i2c_i801
+snd                   155648  9 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_pcm
+mei                   188416  1 mei_me
+lpc_ich                24576  0
+soundcore              16384  1 snd
+nfsd                  983040  5
+auth_rpcgss           196608  2 nfsd,rpcsec_gss_krb5
+nfs_acl                12288  1 nfsd
+lockd                 196608  2 nfsd,nfs
+grace                  12288  2 nfsd,lockd
+sunrpc                888832  26 nfsd,rpcrdma,nfsv4,auth_rpcgss,lockd,rpcsec_gss_krb5,nfs_acl,nfs
+dm_mod                245760  0
+xfs                  2686976  1
+libcrc32c              12288  1 xfs
+sr_mod                 28672  0
+sd_mod                 90112  6
+cdrom                  90112  1 sr_mod
+sg                     53248  0
+ast                    94208  0
+drm_shmem_helper       36864  2 ast
+i2c_algo_bit           16384  2 ast,nouveau
+drm_kms_helper        266240  5 ast,drm_shmem_helper,drm_display_helper,drm_ttm_helper,nouveau
+ahci                   49152  6
+libahci                61440  1 ahci
+crct10dif_pclmul       12288  1
+crc32_pclmul           12288  0
+drm                   806912  11 gpu_sched,drm_kms_helper,drm_exec,drm_gpuvm,ast,drm_shmem_helper,drm_display_helper,drm_ttm_helper,ttm,nouveau
+mxm_wmi                12288  1 nouveau
+crc32c_intel           24576  3
+libata                520192  2 libahci,ahci
+e1000e                376832  0
+ghash_clmulni_intel    16384  0
+wmi                    45056  3 video,mxm_wmi,nouveau
+fuse                  212992  1
